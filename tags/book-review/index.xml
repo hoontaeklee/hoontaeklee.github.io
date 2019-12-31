@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Book Review on Cupper</title>
+    <title>Book Review on HoonTaek Lee</title>
     <link>https://hoontaeklee.github.io/tags/book-review/</link>
-    <description>Recent content in Book Review on Cupper</description>
+    <description>Recent content in Book Review on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hoontaeklee.github.io/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>마스터 알고리즘</title>
-      <link>https://hoontaeklee.github.io/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
-      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://hoontaeklee.github.io/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
-      <description>머신러닝에 대해 알고 싶은 마음이 생겼다.
-내가 이를 어떻게 활용할 수 있을 지와는 별개로, 그저 개괄만이라도 알아두면 좋겠다 싶었다.
-유명한 무료 인터넷 강의도 있고, 누군가 그리 길지 않은 글로 정리한 것도 있겠지만 나는 책을 읽어보기로 했다.
-지하철에서 읽을 책도 정할 필요가 있으니.
-머신러닝을 소개하는 책은 수학 기본서와 같은 느낌을 주는 것이 많았다.
-배경 이론을 설명한 후 박스 하나가 나오는데 그 안에는 Theorem 1. 블라블라~~ 다음 문단에 추가설명&amp;hellip;
-이 책도 결국은 이론을 쭉 설명해주는 책에 불과하지만 특별한 점은 이야기를 풀어놓듯이 설명했다는 것이다.</description>
-    </item>
     
     <item>
       <title>숨결이 바람 될 때</title>
@@ -95,6 +80,21 @@
       <guid>https://hoontaeklee.github.io/20170328_%EC%9A%B0%EB%A6%AC%EB%8A%94-%EC%82%AC%EB%9E%91%EC%9D%BC%EA%B9%8C/</guid>
       <description>소통하는 사랑 &amp;lt;책은 도끼다&amp;gt;를 읽은 후 서점에서 산 세 권의 책 중 첫 번째다. 알랭 드 보통의 책을 몇 권 소개했는데, &amp;lt;왜 나는 너를 사랑하는가&amp;gt;와 함께 사랑을 해부해 보여주는 시리즈라고 한다. 한 권은 남자의 입장에서, 그리고 내가 읽은 &amp;lt;우리는 사랑일까&amp;gt;는 여자의 입장을 보여준다. &amp;lt;냉정과 열정 사이&amp;gt;처럼 같은 커플의 스토리를 화자를 달리해서 보여주는 것도 나쁘지 않을 거라 생각하지만, 이 두 책은 서로 다른 커플에서 남, 여의 입장을 보여준다.
   “연애의 시나리오에서 필요한 장치는 모두 갖추어졌다.</description>
+    </item>
+    
+    <item>
+      <title>마스터 알고리즘</title>
+      <link>https://hoontaeklee.github.io/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+      <pubDate>Sat, 28 Jan 2017 23:37:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
+      <description>머신러닝에 대해 알고 싶은 마음이 생겼다.
+내가 이를 어떻게 활용할 수 있을 지와는 별개로, 그저 개괄만이라도 알아두면 좋겠다 싶었다.
+유명한 무료 인터넷 강의도 있고, 누군가 그리 길지 않은 글로 정리한 것도 있겠지만 나는 책을 읽어보기로 했다.
+지하철에서 읽을 책도 정할 필요가 있으니.
+머신러닝을 소개하는 책은 수학 기본서와 같은 느낌을 주는 것이 많았다.
+배경 이론을 설명한 후 박스 하나가 나오는데 그 안에는 Theorem 1. 블라블라~~ 다음 문단에 추가설명&amp;hellip;
+이 책도 결국은 이론을 쭉 설명해주는 책에 불과하지만 특별한 점은 이야기를 풀어놓듯이 설명했다는 것이다.</description>
     </item>
     
     <item>
