@@ -1,93 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Cupper</title>
+    <title>Hugo on HoonTaek Lee</title>
     <link>https://hoontaeklee.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on Cupper</description>
+    <description>Recent content in Hugo on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 13:19:00 +0900</lastBuildDate>
     
 	<atom:link href="https://hoontaeklee.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Katex Math Typesetting</title>
-      <link>https://hoontaeklee.github.io/katex-math-typesetting/</link>
-      <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Hugo 테마 커스터마이징 - 게시 날짜 및 시간</title>
+      <link>https://hoontaeklee.github.io/20200101_cupper_setting_datetime_for_posts/</link>
+      <pubDate>Wed, 01 Jan 2020 13:19:00 +0900</pubDate>
       
-      <guid>https://hoontaeklee.github.io/katex-math-typesetting/</guid>
-      <description>Enable Katex in the config file by setting the katex param to true. This will import the necessary Katex CSS/JS.
-Note: Use the online reference of supported TeX functions.
-Some math:
-$$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$ $$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$
-More math:
-$$\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$ $$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$</description>
+      <guid>https://hoontaeklee.github.io/20200101_cupper_setting_datetime_for_posts/</guid>
+      <description>목차  문의 사항 1. Dark/Light 버튼 위치 변경 2. 포스팅 날짜 및 시간 정보 추가 3. .md 파일 내 게시 날짜와 실제 날짜가 같으면 게시글이 사라지는 문제 4. 시간 내림차순 정렬 후기  블로그 테마로 Cupper를 선택했다. 기본 세팅에서 네 가지 고치고 싶은 사항이 있어 Hugo Forum에 문의했다.
+문의 사항  Four issues about the cupper theme (dark button, posting time, and an error) I am building a static website using the Cupper theme (https://github.</description>
     </item>
     
     <item>
-      <title>Cupper Typography</title>
-      <link>https://hoontaeklee.github.io/cupper-typography/</link>
-      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
+      <title>Hugo를 이용해 Github 저장소에서 블로그용 정적 웹페이지 만들기</title>
+      <link>https://hoontaeklee.github.io/20191229_blogging_with_hugo/</link>
+      <pubDate>Sun, 29 Dec 2019 04:17:00 +0900</pubDate>
       
-      <guid>https://hoontaeklee.github.io/cupper-typography/</guid>
-      <description>Headings # Heading 1## Heading 2### Heading 3#### Heading 4##### Heading 5###### Heading 6 Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Text *This text will be italic*_This will also be italic_**This text will be bold**__This will also be bold___You **can** combine them_ This text will be italic
-This will also be italic
-This text will be bold</description>
-    </item>
-    
-    <item>
-      <title>Cupper Shortcodes</title>
-      <link>https://hoontaeklee.github.io/cupper-shortcodes/</link>
-      <pubDate>Tue, 12 Feb 2019 23:39:06 -0600</pubDate>
-      
-      <guid>https://hoontaeklee.github.io/cupper-shortcodes/</guid>
-      <description>blockquote {{&amp;lt; blockquote author=&amp;quot;Carl Jung&amp;quot; &amp;gt;}}Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.{{&amp;lt; /blockquote &amp;gt;}} Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness.</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://hoontaeklee.github.io/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hoontaeklee.github.io/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&#39;t cover using CSS to style your theme.
-We&#39;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://hoontaeklee.github.io/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hoontaeklee.github.io/goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://hoontaeklee.github.io/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hoontaeklee.github.io/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://hoontaeklee.github.io/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hoontaeklee.github.io/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/▾ images/logo.png should become
-▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.png Additionally, you&#39;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://hoontaeklee.github.io/20191229_blogging_with_hugo/</guid>
+      <description>목차  설치 웹사이트 생성 테마 적용 원격 저장소 세팅 포스팅 &amp;amp; 호스팅 Trouble Shooting Reference  설치 Git 설치  Git 홈페이지 오른쪽 아래 초록 링크 cmd에서 버전 잘 나오나 확인  $ git --version Hugo 설치 Hugo 웹페이지 참고
+ C드라이브에 Hugo 폴더 생성(블로그 관련 파일 저장용) Hugo 폴더 안에 bin 폴더 생성(Hugo 관련 파일 저장) Hugo 깃허브 저장소에서 최신 릴리즈 압축파일 다운로드 C:/Hugo/bin에 압축 해제 환경변수에 C:/Hugo/bin추가   윈도우 10: 여기를 참고  윈도우키 - &amp;ldquo;환경&amp;rdquo; 검색 - &amp;ldquo;계정의 환경 변수 편집&amp;rdquo; - 유저 변수에서 Path 더블클릭 - 새로만들기 - C:/Hugo/bin입력 - 확인   환경변수를 추가하면 C:/Hugo/bin 외의 경로에서도 C:/Hugo/bin의 hugo.</description>
     </item>
     
   </channel>

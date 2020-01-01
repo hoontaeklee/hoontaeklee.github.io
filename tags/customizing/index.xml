@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customizing on HoonTaek Lee</title>
+    <link>https://hoontaeklee.github.io/tags/customizing/</link>
+    <description>Recent content in Customizing on HoonTaek Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 13:19:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://hoontaeklee.github.io/tags/customizing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo 테마 커스터마이징 - 게시 날짜 및 시간</title>
+      <link>https://hoontaeklee.github.io/20200101_cupper_setting_datetime_for_posts/</link>
+      <pubDate>Wed, 01 Jan 2020 13:19:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/20200101_cupper_setting_datetime_for_posts/</guid>
+      <description>목차  문의 사항 1. Dark/Light 버튼 위치 변경 2. 포스팅 날짜 및 시간 정보 추가 3. .md 파일 내 게시 날짜와 실제 날짜가 같으면 게시글이 사라지는 문제 4. 시간 내림차순 정렬 후기  블로그 테마로 Cupper를 선택했다. 기본 세팅에서 네 가지 고치고 싶은 사항이 있어 Hugo Forum에 문의했다.
+문의 사항  Four issues about the cupper theme (dark button, posting time, and an error) I am building a static website using the Cupper theme (https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

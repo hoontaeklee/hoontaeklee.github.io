@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.62.0" />
-  <link rel="canonical" href="https://hoontaeklee.github.io/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/">
+  <link rel="canonical" href="https://hoontaeklee.github.io/20191229_blogging_with_hugo/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>마스터 알고리즘 | HoonTaek Lee</title>
+  <title>Hugo를 이용해 Github 저장소에서 블로그용 정적 웹페이지 만들기 | HoonTaek Lee</title>
 </head>
 
   <body>
@@ -237,17 +237,17 @@
       <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
         <use xlink:href="#bookmark"></use>
       </svg>
-      마스터 알고리즘
+      Hugo를 이용해 Github 저장소에서 블로그용 정적 웹페이지 만들기
     </h1>
 
     <div class="date">
       
       
       
-      <strong aria-hidden="true"> Author: </strong>HoonTaek Lee <br>
-      <strong aria-hidden="true"> Created date: </strong>Sat, 28 Jan 2017 23:37 KST
+      <strong aria-hidden="true"> Author: </strong>Hoontaek Lee <br>
+      <strong aria-hidden="true"> Created date: </strong>Sun, 29 Dec 2019 04:17 KST
       <br>
-      <strong aria-hidden="true">Publish date: </strong>Wed, 01 Jan 2020 13:49 KST
+      <strong aria-hidden="true">Publish date: </strong>Wed, 01 Jan 2020 13:37 KST
       
         
       
@@ -263,7 +263,23 @@
                 <use xlink:href="#tag"></use>
               </svg>
               
-              <a href="https://hoontaeklee.github.io/tags/book-review/">Book Review</a>
+              <a href="https://hoontaeklee.github.io/tags/hugo/">Hugo</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://hoontaeklee.github.io/tags/github/">GitHub</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://hoontaeklee.github.io/tags/blog/">Blog</a>
             </li>
           
             <li>
@@ -281,54 +297,357 @@
     
       
 
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#heading">
+            목차
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#heading-1">
+            설치
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#-">
+            웹사이트 생성
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#--1">
+            테마 적용
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#--">
+            원격 저장소 세팅
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#---1">
+            포스팅 &amp; 호스팅
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#trouble-shooting">
+            Trouble Shooting
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#reference">
+            Reference
+          </a>
+        </li>
+      
+    </ol>
+  </nav>
+
 
     
 
-    <p><img src="http://image.yes24.com/momo/TopCate1232/MidCate002/123118223.jpg" alt="&hellip;"></p>
-<p>머신러닝에 대해 알고 싶은 마음이 생겼다.<br>
-내가 이를 어떻게 활용할 수 있을 지와는 별개로, 그저 개괄만이라도 알아두면 좋겠다 싶었다.<br>
-유명한 무료 인터넷 강의도 있고, 누군가 그리 길지 않은 글로 정리한 것도 있겠지만 나는 책을 읽어보기로 했다.<br>
-지하철에서 읽을 책도 정할 필요가 있으니.</p>
-<p>머신러닝을 소개하는 책은 수학 기본서와 같은 느낌을 주는 것이 많았다.<br>
-배경 이론을 설명한 후 박스 하나가 나오는데 그 안에는 Theorem 1. 블라블라~~ 다음 문단에 추가설명&hellip;<br>
-이 책도 결국은 이론을 쭉 설명해주는 책에 불과하지만 특별한 점은 이야기를 풀어놓듯이 설명했다는 것이다.<br>
-이 책에 대한 찬사가 많기는 하지만, 그와 별개로 이해가 잘 안 된다는 의견도 많아서 볼까 말까 고민을 좀 했다.<br>
-하지만 머신러닝 자체가 원래 배경지식이 많이 필요한 난해한 분야이기 때문에<br>
-구입하면서는 이것 한 권 읽는다고 이해는 되지 않겠지만 첫걸음을 떼보자는 생각을 하였다.</p>
-<p>이 생각은 무섭도록 잘 맞아떨어졌다.<br>
-분명히 설명을 구절구절 보면 전문용어가 마구 나오는 것도 아니다.<br>
-또한 친숙한 언어로 비유를 들어 이해하기 쉽게&hellip; 쉬울 것 같이 쓰여 있다.<br>
-그런데도 읽다 보면 당최 무슨 말인지는 잘 모르겠다.<br>
-어느새 작가는 &lsquo;이제 설명은 됐다. 한 번 활용 예시를 살펴봅시다.&rsquo; 하고 있는데, 나는 아직도 무념 무상한 상태였다.<br>
-다섯 개의 종족이 각각 어떤 생각을 하고 있는지 대략 살펴본 정도.<br>
-유전알고리즘, 퍼센트론 등 머신러닝과 관련된 용어를 들어보게 된 것. 이 정도다. 딱 내가 목적한 정도이다. 기뻐해야 할까.</p>
-<p>이 책은 머신러닝 알고리즘을 어느 정도 공부 한 사람이 이해를 탄탄하게 하기 위한 목적으로 읽기에 좋다는 생각이 들었다.<br>
-그래야 저자가 쉬운 말로 풀어 놓은 비유가 빛을 볼 것 같았다.<br>
-이런 이유로 쉽게 설명했다는 찬사와 읽어도 잘 이해가 되지 않는다는 의견을 동시에 받았을 것이다.<br>
-그래도 머신러닝이라는 분야가 많은 배경지식을 필요로 하기 때문에<br>
-책 한 권으로 이렇게까지 설명한 것은 분명히 잘 썼다고 할 수 있겠다. (그래도 난 이해 못 하겠다)</p>
-<table>
-<thead>
-<tr>
-<th>제목</th>
-<th>저자</th>
-<th>출판사</th>
-<th>판</th>
-<th>출간</th>
-<th>완독</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>마스터 알고리즘</td>
-<td>페드로 도밍고스</td>
-<td>비즈니스북스</td>
-<td>1</td>
-<td>2016. 07.</td>
-<td>2016. 07.</td>
-</tr>
-</tbody>
-</table>
+    <h2 id="heading">목차</h2>
+<!-- TOC -->
+<ul>
+<li><a href="#%EC%84%A4%EC%B9%98">설치</a></li>
+<li><a href="#%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%83%9D%EC%84%B1">웹사이트 생성</a></li>
+<li><a href="#%ED%85%8C%EB%A7%88-%EC%A0%81%EC%9A%A9">테마 적용</a></li>
+<li><a href="#%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%84%B8%ED%8C%85">원격 저장소 세팅</a></li>
+<li><a href="#%ED%8F%AC%EC%8A%A4%ED%8C%85--%ED%98%B8%EC%8A%A4%ED%8C%85">포스팅 &amp; 호스팅</a></li>
+<li><a href="#trouble-shooting">Trouble Shooting</a></li>
+<li><a href="#reference">Reference</a></li>
+</ul>
+<!-- /TOC -->
+<h2 id="heading-1">설치</h2>
+<h4 id="git-">Git 설치</h4>
+<ol>
+<li><a href="https://git-scm.com/">Git 홈페이지</a> 오른쪽 아래 초록 링크</li>
+<li>cmd에서 버전 잘 나오나 확인</li>
+</ol>
+<pre><code>$ git --version
+</code></pre>
+<h4 id="hugo-">Hugo 설치</h4>
+<p><a href="https://gohugo.io/getting-started/installing/#windows">Hugo 웹페이지</a> 참고</p>
+<ol>
+<li>C드라이브에 Hugo 폴더 생성(블로그 관련 파일 저장용)</li>
+<li>Hugo 폴더 안에 bin 폴더 생성(Hugo 관련 파일 저장)</li>
+<li><a href="https://github.com/gohugoio/hugo/releases">Hugo 깃허브 저장소</a>에서 최신 릴리즈 압축파일 다운로드</li>
+<li><code>C:/Hugo/bin</code>에 압축 해제</li>
+<li>환경변수에 <code>C:/Hugo/bin</code>추가</li>
+</ol>
+<ul>
+<li>윈도우 10: <a href="https://gohugo.io/getting-started/installing/#for-windows-10-users">여기</a>를 참고
+<ul>
+<li>윈도우키 - &ldquo;환경&rdquo; 검색 - &ldquo;계정의 환경 변수 편집&rdquo; - 유저 변수에서 <code>Path</code> 더블클릭 - 새로만들기 - <code>C:/Hugo/bin</code>입력 - 확인</li>
+</ul>
+</li>
+<li>환경변수를 추가하면 <code>C:/Hugo/bin</code> 외의 경로에서도 <code>C:/Hugo/bin</code>의 <code>hugo.exe</code> 사용 가능(= Hugo 사용 가능)</li>
+</ul>
+<ol start="6">
+<li>설치 확인</li>
+</ol>
+<ul>
+<li><code>cmd</code>에서 버전 정보 나오는지 확인</li>
+</ul>
+<pre><code>Hugo version
+</code></pre>
+<h2 id="-">웹사이트 생성</h2>
+<ul>
+<li>블로그 담을 폴더 생성(<code>\C:\Users\Owner\Dropbox\bloght</code>)
+<ul>
+<li>아무 경로 가능, 한글은 피하는 게 좋을 듯</li>
+</ul>
+</li>
+<li><code>cmd</code>에서 해당 경로로 이동 후
+<pre><code>hugo new site bloght
+</code></pre>
+<p><code>bloght</code> 폴더에 Hugo 웹사이트로서 기능하기 위한 정보가 추가된다.</p>
+</li>
+</ul>
+<h2 id="--1">테마 적용</h2>
+<h4 id="1---git--">1. 블로그 폴더를 git 저장소로 변경</h4>
+<ul>
+<li>생성한 블로그 폴더에서 아래 명령 실행:
+<pre><code>git init
+</code></pre>
+</li>
+</ul>
+<p><code>git init</code>을 실행하면 <code>git</code> 저장소를 위한 기본 정보를 담고 있는 <code>.git</code> 디렉토리가 만들어진다. 즉, <code>git init</code>는 일반 저장소를 git 저장소化하는 셈이다.</p>
+<h4 id="2----">2. 테마 선택 및 사용</h4>
+<ul>
+<li><code>https://themes.gohugo.io/</code>에서 테마 선택</li>
+<li>내가 고려한 것
+<ul>
+<li>메인페이지로 시작, blog/about/tag(or category) 페이지로 넘어갈 수 있는</li>
+<li>포스팅 작성 날짜 및 시간을 볼 수 있는 (yyyy-mm-dd hh:mm:ss)</li>
+<li>한글 지원이 잘 되는(+폰트)</li>
+<li>dark/light 전환 가능한</li>
+<li>모바일에서도 잘 보이는
+-<code>cupper-hugo-theme</code>, <code>kiss</code>, <code>vanilla-bootstrap-hugo-theme</code>, <code>hugo-theme-yuki</code></li>
+</ul>
+</li>
+<li>테마 사용: <code>cmd</code>에서 블로그 폴더(<code>bloght</code>)로 이동 후 아래 명령 실행:
+<pre><code>git submodule add https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme
+</code></pre>
+<ul>
+<li><code>git submoduel add</code>: 테마를 submodule 형태로 git 저장소에 추가</li>
+<li><code>https://github.com/zwbetz-gh/cupper-hugo-theme.git</code>: 선택한 테마의 git 저장소 주소</li>
+<li><code>themes/cupper-hugo-theme</code>: 블로그 폴더(<code>bloght</code>)의 <code>theme</code>폴더에 선택한 테마의 이름으로 폴더를 만들어 관련 정보를 저장</li>
+</ul>
+</li>
+<li>config 파일 설정
+<ul>
+<li>아까 <code>hugo new site bloght</code> 명령을 통해 <code>bloght</code>를 블로그 저장소로 만들었는데, 이 때 블로그 세팅 정보가 담겨 있는 <code>config.toml</code> 파일이 생성됐었다.</li>
+<li><code>theme</code>의 <code>exampleSite</code> 폴더에 있는 <code>config.toml</code> (or <code>config.yaml</code>) 파일과 <code>content</code> 폴더를 <code>bloght</code>로 복사한다.</li>
+<li>내가 선택한 테마가 <code>config.yaml</code>를 사용할 경우 기존 <code>bloght</code>의 <code>config.toml</code>은 없애준다(에러나더라. 충돌하는 듯?)</li>
+</ul>
+</li>
+<li>config.toml의 <code>theme</code> 변수를 선택한 테마 이름으로 변경해준다(직접 해도 되고, 명령어로도 가능:
+<pre><code> echo `theme = &quot;cupper-hugo-theme&quot;` &gt;&gt; config.yaml
+ ```
+</code></pre>
+</li>
+<li>baseURL (&ndash;&gt; &ldquo;<a href="https://username.github.io%22),">https://username.github.io&quot;),</a> 블로거 이름 등 바꿔준다.</li>
+<li>기타 커스터마이징하고 싶으면 exampleSite의 config파일 구조를 분석하거나 구글링.</li>
+</ul>
+<h2 id="--">원격 저장소 세팅</h2>
+<h4 id="1-2-">1.저장소 2개 생성</h4>
+<ul>
+<li>한 개: 블로그 컨텐츠 담는 용도. <strong>anyblogname</strong>: <code>bloght</code></li>
+<li>한 개: 렌더링 된 웹사이트 담는 용도(<code>public</code> 폴더의 내용). <strong>username.github.io</strong> 형식: <code>bloght.github.io</code></li>
+<li>Initialize with README 체크 - 하든 말든 상관 없다.</li>
+</ul>
+<h4 id="2---">2. 로컬 저장소와 연동</h4>
+<ul>
+<li>로컬 저장소와 원격 저장소를 연동한다:
+<pre><code>git remote add origin https://github.com/hoontaeklee/bloght.git
+</code></pre>
+</li>
+<li>현재 원격 저장소는 빈 상태이므로 로컬 저장소의 내용을 복사해준다:
+<pre><code>git push origin master
+</code></pre>
+</li>
+</ul>
+<h4 id="3-submodule-">3. Submodule 추가</h4>
+<ul>
+<li>기존에 생성했던 public 폴더는 지운다:
+<pre><code>rm -rf public
+</code></pre>
+</li>
+<li><code>hoontaeklee.github.io</code> 저장소를 <code>bloght</code> 저장소의 submodule로 추가 한다:
+<pre><code>git submodule add -b master https://github.com/hoontaeklee/hoontaeklee.github.io.git public
+</code></pre>
+<ul>
+<li><code>bloght</code>의 public 폴더가 <code>hoontaeklee.github.io</code> 저장소로 분리, 독립된다.</li>
+<li>가끔 <a href="#2-unable-to-checkout-submodule-public">에러</a>가 난다.</li>
+</ul>
+</li>
+</ul>
+<h2 id="---1">포스팅 &amp; 호스팅</h2>
+<h4 id="1--">1. 컨텐츠 생성</h4>
+<ul>
+<li>로컬에서 웹사이트를 미리 볼 수 있다(http://localhost:1313):
+<pre><code>hugo server
+</code></pre>
+<ul>
+<li>컨텐츠 내용을 바꿀 때마다 자동으로 감지 및 반영해주기 때문에 유용하다.</li>
+</ul>
+</li>
+</ul>
+<h4 id="2--">2. 컨텐츠 업로드</h4>
+<ul>
+<li>로컬에서 웹사이트 빌드 &ndash;&gt; 저장소 두 개 업데이트 순서로 진행된다.
+아래 명령어를 사용한다:</li>
+</ul>
+<pre><code># site build
+hugo -t cupper-hugo-theme
+
+# username.github.io 업데이트
+cd public
+git add .
+git commit -m &quot;commit message&quot;
+git push origin master
+
+# anyblogname 업데이트
+git ..
+git add .
+git commit -m &quot;commit message&quot;
+git push origin master
+</code></pre>
+<ul>
+<li>빌드 명령어에 테마 이름이 들어간다: themes 폴더에 여러 테마 받아 놓고 <strong>원하는 테마 선택해서 빌딩 가능</strong>.</li>
+<li>매번 위 명령어를 통해 업데이트할 수도 있지만, 아래처럼 쉘스크립트로 한 번에 할 수도 있다.
+<ul>
+<li>deploy.sh 파일을 <code>bloght</code> 폴더에 생성한 후 아래 내용을 붙여 넣는다:</li>
+</ul>
+</li>
+</ul>
+<pre><code>#!/bin/sh
+
+# If a command fails then the deploy stops
+set -e
+
+printf &quot;\033[0;32mDeploying updates to GitHub...\033[0m\n&quot;
+
+# Build the project.
+hugo # if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg=&quot;rebuilding site $(date)&quot;
+if [ -n &quot;$*&quot; ]; then
+	msg=&quot;$*&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+
+# anyblogname 업데이트
+git add .
+
+msg=&quot;rebuilding site `date`&quot;
+if [ $# -eq 1 ]
+  then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+git push origin master
+</code></pre>
+<ul>
+<li>이제 명령어 한 줄만으로 build &amp; push할 수 있다:</li>
+</ul>
+<pre><code>./deploy.sh &quot;commit message&quot;
+</code></pre>
+<pre><code>- 가끔 잘 안 된다: 내가 변경한 파일이 untracked file이어서 Github로 push가 안 된다. 이럴 때는 수동으로 해주면 된다.
+</code></pre>
+<h2 id="trouble-shooting">Trouble Shooting</h2>
+<h4 id="1-push---permission-denied-publickey">1. push - Permission denied (publickey)</h4>
+<pre><code>$ git push -u origin master
+Warning: Permanently added the RSA host key for IP address '15.164.81.167' to th     e list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+</code></pre>
+<h5 id="heading-2">정황</h5>
+<ul>
+<li>로컬 블로그 저장소를 생성한 깃허브 저장소에 푸쉬할 때 위의 에러가 발생했다.</li>
+<li>깃허브 주소는 두 가지 방법(<code>SSH</code> vs <code>HTTPS</code>)으로 표현할 수 있다. <code>git remote -v</code>를 통해 현재 로컬 저장소를 원격 저장소에 연결할 때(remote) SSH 방식의 주소를 사용하고 있음을 확인했다.</li>
+</ul>
+<h5 id="heading-3">해결</h5>
+<ul>
+<li><a href="https://help.github.com/en/github/using-git/changing-a-remotes-url">여기</a>를 참고해서 <code>remote</code>의 url을 <code>SSH</code>에서 <code>HTTPS</code>방식으로 변경하니 푸쉬 성공(해결 원리는 잘 모르겠다)</li>
+</ul>
+<h4 id="2-unable-to-checkout-submodule-public">2. Unable to checkout submodule &lsquo;public&rsquo;</h4>
+<pre><code>$ git submodule add -b master https://github.com/hoontaeklee/hoontaeklee.github.io.git public
+warning: You appear to have cloned an empty repository.
+fatal: 'origin/master' is not a commit and a branch 'master' cannot be created from it
+Unable to checkout submodule 'public'
+</code></pre>
+<h5 id="heading-4">정황</h5>
+<ul>
+<li>웹사이트 저장소를 컨텐츠 저장소의 submodule로 추가할 때 에러 발생</li>
+</ul>
+<h5 id="heading-5">해결</h5>
+<ul>
+<li><code>https</code> 주소를 <code>ssh</code> 주소로 바꿔서 해결했다(원리는 모르겠다. <code>remote</code> 연결은 <code>https</code>로 했었는데.)</li>
+</ul>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://gohugo.io/getting-started/quick-start/">Hugo: Quick Start</a></li>
+<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo: Host on Github</a></li>
+<li><a href="https://github.com/Integerous/Integerous.github.io/blob/master/README.md">Hugo로 Github.io 블로그 만들기</a></li>
+<li><a href="https://ialy1595.github.io/post/blog-construct-1/">블로그 구축기 1 (Hugo + github.io)</a></li>
+<li><a href="https://dev.to/dgavlock/creating-a-hugo-site-on-github-pages-3cjo">Creating a Hugo Site on Github Pages</a></li>
+</ul>
 
   </main>
   <div id="disqus-container">
