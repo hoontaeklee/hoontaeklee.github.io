@@ -22,6 +22,31 @@
     </item>
     
     <item>
+      <title>Dropbox - RStudio- Github 연동 : 더 편해졌을까?</title>
+      <link>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
+      <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
+      <description>2019. 12. 08. 하루 하나씩 Dropbox에 저장된 서평(.docx)을 블로그에 옮기고 있다. 옮기는 방식은 다음과 같다 :
+ Git의 블로그 저장소에 .md 파일 생성 옮기려는 워드 파일을 열어서 내용 복붙 오타, 문장 수정 &amp;amp; Preview를 보며 문장, 문단 배치 수정 표(저자, 제목, 출판일, 읽은 날짜 등)와 책 그림 추가 Medium Story로 Publish  조만간 논문 리뷰(.Rmd)도 Medium에 옮기려 한다. 논문 리뷰는 RStudio에서 작업하고 Rmd 파일로 저장한다. 이전에 blogdown 라이브러리 사용할 때 RStudio와 Github 저장소를 연동했던 것이 떠올랐다.</description>
+    </item>
+    
+    <item>
+      <title>블로그 시작과 플랫폼 선택</title>
+      <link>https://hoontaeklee.github.io/20191208_blogstart_platform/</link>
+      <pubDate>Sun, 08 Dec 2019 15:49:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/20191208_blogstart_platform/</guid>
+      <description>블로그를 시작한다. 서평, 논문 리뷰, 생각 등 남겨두고 싶은 것들을 그냥 흘려보내지 않기 위함이 첫째다.
+그리고 기록을 함으로써 생각을 구체적으로 정리할 수 있을 것 같고,
+글쓰는 취미를 가지는 것은 직업에도 도움이 될 것 같다.
+이렇게 남겨둔 글 하나하나가 모여서 하나의 완전한 창작물이 될 수 있다면 좋겠다.
+플랫폼 - 고려사항 어떤 플랫폼으로 블로그를 할지 고민을 (or 고민만) 오래 했다.
+염두에 둔 후보는
+ R의 Blogdown 라이브러리 Medium Gitgub Pages or Netlify + Hugo 이렇게 세 가지다.</description>
+    </item>
+    
+    <item>
       <title>마스터 알고리즘</title>
       <link>https://hoontaeklee.github.io/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
       <pubDate>Sat, 28 Jan 2017 23:37:00 +0900</pubDate>

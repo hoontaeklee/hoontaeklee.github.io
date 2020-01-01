@@ -313,21 +313,8 @@
     <div id="disqus-comments">
       
       
-      
-        <div id="disqus_thread">
-        </div>
         <script type="application/javascript">
           function showComments() {
-            // Config
-var disqus_config = function () {
-};
-// Build and append comments 
-var d = document;
-var s = d.createElement('script');
-s.async = true;
-s.src = '//' + "htlee" + '.disqus.com/embed.js';
-s.setAttribute('data-timestamp', + new Date());
-(d.head || d.body).appendChild(s);
             // Remove button
 var disqusButton = document.getElementById('disqus-button');
 disqusButton.parentNode.removeChild(disqusButton); 
@@ -336,11 +323,20 @@ var disqusComments = document.getElementById('disqus-comments');
 disqusComments.style.display = 'block'; 
           }
         </script>
-      
+        <script src="https://utteranc.es/client.js"
+              repo="hoontaeklee/bloght-comments"
+              issue-term="title"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+        </script>
       <noscript>Enable JavaScript to view Disqus comments.</noscript>
     </div>
   
 </div>
+
+
+
 
 
           <footer role="contentinfo">

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitHub on HoonTaek Lee</title>
+    <title>Github on HoonTaek Lee</title>
     <link>https://hoontaeklee.github.io/tags/github/</link>
-    <description>Recent content in GitHub on HoonTaek Lee</description>
+    <description>Recent content in Github on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Dec 2019 04:17:00 +0900</lastBuildDate>
@@ -19,6 +19,16 @@
       <guid>https://hoontaeklee.github.io/20191229_blogging_with_hugo/</guid>
       <description>목차  설치 웹사이트 생성 테마 적용 원격 저장소 세팅 포스팅 &amp;amp; 호스팅 Trouble Shooting Reference  설치 Git 설치  Git 홈페이지 오른쪽 아래 초록 링크 cmd에서 버전 잘 나오나 확인  $ git --version Hugo 설치 Hugo 웹페이지 참고
  C드라이브에 Hugo 폴더 생성(블로그 관련 파일 저장용) Hugo 폴더 안에 bin 폴더 생성(Hugo 관련 파일 저장) Hugo 깃허브 저장소에서 최신 릴리즈 압축파일 다운로드 C:/Hugo/bin에 압축 해제 환경변수에 C:/Hugo/bin추가   윈도우 10: 여기를 참고  윈도우키 - &amp;ldquo;환경&amp;rdquo; 검색 - &amp;ldquo;계정의 환경 변수 편집&amp;rdquo; - 유저 변수에서 Path 더블클릭 - 새로만들기 - C:/Hugo/bin입력 - 확인   환경변수를 추가하면 C:/Hugo/bin 외의 경로에서도 C:/Hugo/bin의 hugo.</description>
+    </item>
+    
+    <item>
+      <title>Dropbox - RStudio- Github 연동 : 더 편해졌을까?</title>
+      <link>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
+      <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
+      <description>2019. 12. 08. 하루 하나씩 Dropbox에 저장된 서평(.docx)을 블로그에 옮기고 있다. 옮기는 방식은 다음과 같다 :
+ Git의 블로그 저장소에 .md 파일 생성 옮기려는 워드 파일을 열어서 내용 복붙 오타, 문장 수정 &amp;amp; Preview를 보며 문장, 문단 배치 수정 표(저자, 제목, 출판일, 읽은 날짜 등)와 책 그림 추가 Medium Story로 Publish  조만간 논문 리뷰(.Rmd)도 Medium에 옮기려 한다. 논문 리뷰는 RStudio에서 작업하고 Rmd 파일로 저장한다. 이전에 blogdown 라이브러리 사용할 때 RStudio와 Github 저장소를 연동했던 것이 떠올랐다.</description>
     </item>
     
   </channel>

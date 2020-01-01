@@ -57,11 +57,20 @@
     </item>
     
     <item>
-      <title>GitHub</title>
+      <title>Github</title>
       <link>https://hoontaeklee.github.io/tags/github/</link>
       <pubDate>Sun, 29 Dec 2019 04:17:00 +0900</pubDate>
       
       <guid>https://hoontaeklee.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio</title>
+      <link>https://hoontaeklee.github.io/tags/rstudio/</link>
+      <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/tags/rstudio/</guid>
       <description></description>
     </item>
     
