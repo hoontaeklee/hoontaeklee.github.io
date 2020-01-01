@@ -12,6 +12,21 @@
     
     
     <item>
+      <title>Hugo 블로그 댓글 기능 추가: utterances</title>
+      <link>https://hoontaeklee.github.io/20200101_add_utterances/</link>
+      <pubDate>Wed, 01 Jan 2020 15:35:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/20200101_add_utterances/</guid>
+      <description>서론 댓글 기능이 꼭 필요할 것 같지는 않지만, 좋은 레퍼런스를 찾았기 때문에 일단 시도했다.
+이 글에는 utterrances 소개는 관두고&amp;hellip; 설치 관련 내용만 적었다.
+utterances 설치 1. utterances 사이트 접속 여기로 이동해서 configuration 부분을 따라한다.
+2. Public 저장소 생성 나는 bloght-comments 라고 만들었다.
+3. Blog Post ↔️ Issue Mapping, Theme 선택 Blog Post ↔️ Issue Mapping은 세 번째 옵션을(Title 기준 매칭),
+Theme은 내 블로그가 밝으니 Github Light를 선택했다.
+4. Enable Utterances Enable Utterances 부분에 있는 코드를 내 블로그 템플릿 중 원하는 부분에 붙여넣으라고 한다.</description>
+    </item>
+    
+    <item>
       <title>Hugo 테마 커스터마이징 - 게시 날짜 및 시간</title>
       <link>https://hoontaeklee.github.io/20200101_cupper_setting_datetime_for_posts/</link>
       <pubDate>Wed, 01 Jan 2020 13:19:00 +0900</pubDate>
