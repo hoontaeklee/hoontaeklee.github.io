@@ -41,7 +41,7 @@ Theme은 내 블로그가 밝으니 Github Light를 선택했다.
       <pubDate>Sun, 29 Dec 2019 04:17:00 +0900</pubDate>
       
       <guid>https://hoontaeklee.github.io/20191229_blogging_with_hugo/</guid>
-      <description>목차  설치 웹사이트 생성 테마 적용 원격 저장소 세팅 포스팅 &amp;amp; 호스팅 Trouble Shooting Reference  설치 Git 설치  Git 홈페이지 오른쪽 아래 초록 링크 cmd에서 버전 잘 나오나 확인  $ git --version Hugo 설치 Hugo 웹페이지 참고
+      <description>설치 Git 설치  Git 홈페이지 오른쪽 아래 초록 링크 cmd에서 버전 잘 나오나 확인  $ git --version Hugo 설치 Hugo 웹페이지 참고
  C드라이브에 Hugo 폴더 생성(블로그 관련 파일 저장용) Hugo 폴더 안에 bin 폴더 생성(Hugo 관련 파일 저장) Hugo 깃허브 저장소에서 최신 릴리즈 압축파일 다운로드 C:/Hugo/bin에 압축 해제 환경변수에 C:/Hugo/bin추가   윈도우 10: 여기를 참고  윈도우키 - &amp;ldquo;환경&amp;rdquo; 검색 - &amp;ldquo;계정의 환경 변수 편집&amp;rdquo; - 유저 변수에서 Path 더블클릭 - 새로만들기 - C:/Hugo/bin입력 - 확인   환경변수를 추가하면 C:/Hugo/bin 외의 경로에서도 C:/Hugo/bin의 hugo.</description>
     </item>
     
