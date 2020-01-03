@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://hoontaeklee.github.io/about/</link>
+      <pubDate>Fri, 03 Jan 2020 20:39:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/about/</guid>
+      <description>작성 중</description>
+    </item>
+    
+    <item>
       <title>Hugo 블로그에 Google analytics 추가하기</title>
       <link>https://hoontaeklee.github.io/20200103_google_analytics_on_hugo/</link>
       <pubDate>Fri, 03 Jan 2020 20:33:00 +0900</pubDate>
@@ -200,17 +209,6 @@ Theme은 내 블로그가 밝으니 Github Light를 선택했다.
 그렇게 4권 정도 읽다 보니 결국 비슷한 이야기를 하고 있는 게 보인다.
  목적을 가지고 읽기 질문을 던지며 읽기 중간중간 메모도 하고 귀퉁이도 접어 놓는 등 필요하다면 책을 아끼지 말기 읽은 후에는 다시 한 번 써 보는 것으로 정리하기  모두가 알고 있듯이 실천이 중요한 것이다.
 나는 오늘 한 걸음 내디뎠다.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://hoontaeklee.github.io/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hoontaeklee.github.io/about/</guid>
-      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
- https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
     </item>
     
   </channel>
