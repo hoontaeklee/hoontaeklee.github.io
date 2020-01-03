@@ -6,10 +6,21 @@
     <description>Recent content in 2020 on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 15:35:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 20:33:00 +0900</lastBuildDate>
     
 	<atom:link href="https://hoontaeklee.github.io/tags/2020/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo 블로그에 Google analytics 추가하기</title>
+      <link>https://hoontaeklee.github.io/20200103_google_analytics_on_hugo/</link>
+      <pubDate>Fri, 03 Jan 2020 20:33:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/20200103_google_analytics_on_hugo/</guid>
+      <description>서론 블로그는 사막에서 혼자 지낸다는 마음가짐으로 하는 것이지만, 그래도 누가누가 내 블로그에 오는지는 알고 싶은 법이다. 이를 위해 Google Analytics (GA)를 설치한다. 이 글의 내용을 따라했다. 웹사이트에 GA를 추가하려면 두 가지가 필요하다:
+ Google Analytics 계정 Google Analytics를 추가할 Hugo 웹사이트  Google Analytics 계정 및 추적 ID 생성 여기에서 Google Analytics 계정을 생성한다.
+GA는 웹사이트나 어플리케이션 등에 대한 데이터를 수집해주는 도구이다. 웹사이트의 경우 수집하는 데이터 종류는 방문한 사람 수, 방문한 사람의 유형, 유입 경로, 취한 행동(회원가입, 다운로드 등)에 따른 방문자 유형 등이다.</description>
+    </item>
     
     <item>
       <title>Hugo 블로그 댓글 기능 추가: utterances</title>
