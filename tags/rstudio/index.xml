@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RStudio on HoonTaek Lee</title>
-    <link>https://hoontaeklee.github.io/tags/rstudio/</link>
+    <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/tags/rstudio/</link>
     <description>Recent content in RStudio on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Dec 2019 16:42:00 +0900</lastBuildDate>
     
-	<atom:link href="https://hoontaeklee.github.io/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/hoontaeklee/bloght-hugo/tree/master/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dropbox - RStudio- Github 연동 : 더 편해졌을까?</title>
-      <link>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
+      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
       <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
       
-      <guid>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
+      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
       <description>2019. 12. 08. 하루 하나씩 Dropbox에 저장된 서평(.docx)을 블로그에 옮기고 있다. 옮기는 방식은 다음과 같다 :
  Git의 블로그 저장소에 .md 파일 생성 옮기려는 워드 파일을 열어서 내용 복붙 오타, 문장 수정 &amp;amp; Preview를 보며 문장, 문단 배치 수정 표(저자, 제목, 출판일, 읽은 날짜 등)와 책 그림 추가 Medium Story로 Publish  조만간 논문 리뷰(.Rmd)도 Medium에 옮기려 한다. 논문 리뷰는 RStudio에서 작업하고 Rmd 파일로 저장한다. 이전에 blogdown 라이브러리 사용할 때 RStudio와 Github 저장소를 연동했던 것이 떠올랐다.</description>
     </item>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on HoonTaek Lee</title>
-    <link>https://hoontaeklee.github.io/tags/blog/</link>
+    <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/tags/blog/</link>
     <description>Recent content in Blog on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2020 20:39:00 +0900</lastBuildDate>
     
-	<atom:link href="https://hoontaeklee.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/hoontaeklee/bloght-hugo/tree/master/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://hoontaeklee.github.io/about/</link>
+      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/about/</link>
       <pubDate>Fri, 03 Jan 2020 20:39:00 +0900</pubDate>
       
-      <guid>https://hoontaeklee.github.io/about/</guid>
+      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/about/</guid>
       <description> Short CV  </description>
     </item>
     
     <item>
       <title>Hugo 블로그 댓글 기능 추가: utterances</title>
-      <link>https://hoontaeklee.github.io/20200101_add_utterances/</link>
+      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_add_utterances/</link>
       <pubDate>Wed, 01 Jan 2020 15:35:00 +0900</pubDate>
       
-      <guid>https://hoontaeklee.github.io/20200101_add_utterances/</guid>
+      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_add_utterances/</guid>
       <description>서론 댓글 기능이 꼭 필요할 것 같지는 않지만, 좋은 레퍼런스를 찾았기 때문에 일단 시도했다.
 이 글에는 utterrances 소개는 관두고&amp;hellip; 설치 관련 내용만 적었다.
 utterances 설치 1. utterances 사이트 접속 여기로 이동해서 configuration 부분을 따라한다.
@@ -37,30 +37,30 @@ Theme은 내 블로그가 밝으니 Github Light를 선택했다.
     
     <item>
       <title>Hugo를 이용해 Github 저장소에서 블로그용 정적 웹페이지 만들기</title>
-      <link>https://hoontaeklee.github.io/20191229_blogging_with_hugo/</link>
+      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191229_blogging_with_hugo/</link>
       <pubDate>Sun, 29 Dec 2019 04:17:00 +0900</pubDate>
       
-      <guid>https://hoontaeklee.github.io/20191229_blogging_with_hugo/</guid>
+      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191229_blogging_with_hugo/</guid>
       <description>설치 Git 설치  Git 홈페이지 오른쪽 아래 초록 링크 cmd에서 버전 잘 나오나 확인  $ git --version Hugo 설치 Hugo 웹페이지 참고
  C드라이브에 Hugo 폴더 생성(블로그 관련 파일 저장용) Hugo 폴더 안에 bin 폴더 생성(Hugo 관련 파일 저장) Hugo 깃허브 저장소에서 최신 릴리즈 압축파일 다운로드 C:/Hugo/bin에 압축 해제 환경변수에 C:/Hugo/bin추가   윈도우 10: 여기를 참고  윈도우키 - &amp;ldquo;환경&amp;rdquo; 검색 - &amp;ldquo;계정의 환경 변수 편집&amp;rdquo; - 유저 변수에서 Path 더블클릭 - 새로만들기 - C:/Hugo/bin입력 - 확인   환경변수를 추가하면 C:/Hugo/bin 외의 경로에서도 C:/Hugo/bin의 hugo.</description>
     </item>
     
     <item>
       <title>Dropbox - RStudio- Github 연동 : 더 편해졌을까?</title>
-      <link>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
+      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
       <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
       
-      <guid>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
+      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
       <description>2019. 12. 08. 하루 하나씩 Dropbox에 저장된 서평(.docx)을 블로그에 옮기고 있다. 옮기는 방식은 다음과 같다 :
  Git의 블로그 저장소에 .md 파일 생성 옮기려는 워드 파일을 열어서 내용 복붙 오타, 문장 수정 &amp;amp; Preview를 보며 문장, 문단 배치 수정 표(저자, 제목, 출판일, 읽은 날짜 등)와 책 그림 추가 Medium Story로 Publish  조만간 논문 리뷰(.Rmd)도 Medium에 옮기려 한다. 논문 리뷰는 RStudio에서 작업하고 Rmd 파일로 저장한다. 이전에 blogdown 라이브러리 사용할 때 RStudio와 Github 저장소를 연동했던 것이 떠올랐다.</description>
     </item>
     
     <item>
       <title>블로그 시작과 플랫폼 선택</title>
-      <link>https://hoontaeklee.github.io/20191208_blogstart_platform/</link>
+      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_blogstart_platform/</link>
       <pubDate>Sun, 08 Dec 2019 15:49:00 +0900</pubDate>
       
-      <guid>https://hoontaeklee.github.io/20191208_blogstart_platform/</guid>
+      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_blogstart_platform/</guid>
       <description>블로그를 시작한다. 서평, 논문 리뷰, 생각 등 남겨두고 싶은 것들을 그냥 흘려보내지 않기 위함이 첫째다.
 그리고 기록을 함으로써 생각을 구체적으로 정리할 수 있을 것 같고,
 글쓰는 취미를 가지는 것은 직업에도 도움이 될 것 같다.
