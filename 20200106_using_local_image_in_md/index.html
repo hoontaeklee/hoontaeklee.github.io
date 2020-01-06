@@ -264,7 +264,7 @@ if (!doNotTrack) {
       
         
           <br>
-          <strong aria-hidden="true">Last updated: </strong>Mon, 06 Jan 2020 21:08 KST
+          <strong aria-hidden="true">Last updated: </strong>Mon, 06 Jan 2020 21:10 KST
         
       
     </div>
@@ -320,6 +320,10 @@ if (!doNotTrack) {
 <p><code>blogRoot</code>에 있는 이미지를 참조하는 경우는 거의 없을 것 같으니 생략한다.</p>
 <p>이미지뿐만 아니라, <code>pdf</code> 등 다른 형식의 로컬 파일을 참조할 때도 마찬가지 규칙을 적용하면 된다.</p>
 <p>하지만 왜 이렇게 하면 작동하는지는 잘 모르겠다.</p>
+<h3 id="-hugo--httpsdiscoursegohugoiotimage-is-not-shown-or-broken-on-webpage2258412-">누군가 Hugo 게시글에 <a href="https://discourse.gohugo.io/t/image-is-not-shown-or-broken-on-webpage/22584/12">답변</a>을 올려줬다</h3>
+<h4 id="root-public--">Root가 <code>public</code>으로 바뀌기 때문!</h4>
+<p>Hugo가 웹페이지를 만들면서 <code>content</code>와 <code>static</code>의 하위 내용이 <code>public</code>에 저장된다. 그리고 <code>public</code>은 새로운 <code>root</code>가 된다. 즉, 내가 언급한 <code>blogRoot</code>의 바로 하위폴더 레벨의 폴더들이 <code>public</code>으로 옮겨지게 되는 셈이고 때문에 <code>/</code>로 시작하면 <code>public</code> 내 파일에 접근할수 있는 것이다.</p>
+<p>위의 <code>A.jpg</code> 예를 보면, 원래 주소가 <code>blogRoot/static/images/A.jpg</code>였는데, 웹페이지를 만들면 <code>static</code>의 하위 폴더인 <code>images</code>는 <code>public</code>으로 복사되어 <code>/public/images/A.jpg</code>의 주소로 바뀌게 된다. 때문에 <code>/images/A.jpg</code>와 같이 접근하는 것이다. 참고로 내가 실패했을 때는 <code>A.jpg</code>, <code>static/images/A.jpg</code> 등을 사용했었다.</p>
 
   </main>
   <div id="disqus-container">
