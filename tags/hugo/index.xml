@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on HoonTaek Lee</title>
-    <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/tags/hugo/</link>
+    <link>https://hoontaeklee.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2020 20:33:00 +0900</lastBuildDate>
     
-	<atom:link href="https://github.com/hoontaeklee/bloght-hugo/tree/master/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hoontaeklee.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo 블로그에 Google analytics 추가하기</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200103_google_analytics_on_hugo/</link>
+      <link>https://hoontaeklee.github.io/20200103_google_analytics_on_hugo/</link>
       <pubDate>Fri, 03 Jan 2020 20:33:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200103_google_analytics_on_hugo/</guid>
+      <guid>https://hoontaeklee.github.io/20200103_google_analytics_on_hugo/</guid>
       <description>서론 블로그는 사막에서 혼자 지낸다는 마음가짐으로 하는 것이지만, 그래도 누가누가 내 블로그에 오는지는 알고 싶은 법이다. 이를 위해 Google Analytics (GA)를 설치한다. 이 글의 내용을 따라했다. 웹사이트에 GA를 추가하려면 두 가지가 필요하다:
  Google Analytics 계정 Google Analytics를 추가할 Hugo 웹사이트  Google Analytics 계정 및 추적 ID 생성 여기에서 Google Analytics 계정을 생성한다.
 GA는 웹사이트나 어플리케이션 등에 대한 데이터를 수집해주는 도구이다. 웹사이트의 경우 수집하는 데이터 종류는 방문한 사람 수, 방문한 사람의 유형, 유입 경로, 취한 행동(회원가입, 다운로드 등)에 따른 방문자 유형 등이다.</description>
@@ -24,10 +24,10 @@ GA는 웹사이트나 어플리케이션 등에 대한 데이터를 수집해주
     
     <item>
       <title>Hugo 블로그 댓글 기능 추가: utterances</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_add_utterances/</link>
+      <link>https://hoontaeklee.github.io/20200101_add_utterances/</link>
       <pubDate>Wed, 01 Jan 2020 15:35:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_add_utterances/</guid>
+      <guid>https://hoontaeklee.github.io/20200101_add_utterances/</guid>
       <description>서론 댓글 기능이 꼭 필요할 것 같지는 않지만, 좋은 레퍼런스를 찾았기 때문에 일단 시도했다.
 이 글에는 utterrances 소개는 관두고&amp;hellip; 설치 관련 내용만 적었다.
 utterances 설치 1. utterances 사이트 접속 여기로 이동해서 configuration 부분을 따라한다.
@@ -39,40 +39,40 @@ Theme은 내 블로그가 밝으니 Github Light를 선택했다.
     
     <item>
       <title>Hugo 테마 커스터마이징 - 게시 날짜 및 시간</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_cupper_setting_datetime_for_posts/</link>
+      <link>https://hoontaeklee.github.io/20200101_cupper_setting_datetime_for_posts/</link>
       <pubDate>Wed, 01 Jan 2020 13:19:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_cupper_setting_datetime_for_posts/</guid>
+      <guid>https://hoontaeklee.github.io/20200101_cupper_setting_datetime_for_posts/</guid>
       <description>목차  문의 사항 1. Dark/Light 버튼 위치 변경 2. 포스팅 날짜 및 시간 정보 추가 3. .md 파일 내 게시 날짜와 실제 날짜가 같으면 게시글이 사라지는 문제 4. 시간 내림차순 정렬 후기  블로그 테마로 Cupper를 선택했다. 기본 세팅에서 네 가지 고치고 싶은 사항이 있어 Hugo Forum에 문의했다.
 문의 사항  Four issues about the cupper theme (dark button, posting time, and an error) I am building a static website using the Cupper theme (https://github.</description>
     </item>
     
     <item>
       <title>Hugo를 이용해 Github 저장소에서 블로그용 정적 웹페이지 만들기</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191229_blogging_with_hugo/</link>
+      <link>https://hoontaeklee.github.io/20191229_blogging_with_hugo/</link>
       <pubDate>Sun, 29 Dec 2019 04:17:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191229_blogging_with_hugo/</guid>
+      <guid>https://hoontaeklee.github.io/20191229_blogging_with_hugo/</guid>
       <description>설치 Git 설치  Git 홈페이지 오른쪽 아래 초록 링크 cmd에서 버전 잘 나오나 확인  $ git --version Hugo 설치 Hugo 웹페이지 참고
  C드라이브에 Hugo 폴더 생성(블로그 관련 파일 저장용) Hugo 폴더 안에 bin 폴더 생성(Hugo 관련 파일 저장) Hugo 깃허브 저장소에서 최신 릴리즈 압축파일 다운로드 C:/Hugo/bin에 압축 해제 환경변수에 C:/Hugo/bin추가   윈도우 10: 여기를 참고  윈도우키 - &amp;ldquo;환경&amp;rdquo; 검색 - &amp;ldquo;계정의 환경 변수 편집&amp;rdquo; - 유저 변수에서 Path 더블클릭 - 새로만들기 - C:/Hugo/bin입력 - 확인   환경변수를 추가하면 C:/Hugo/bin 외의 경로에서도 C:/Hugo/bin의 hugo.</description>
     </item>
     
     <item>
       <title>Dropbox - RStudio- Github 연동 : 더 편해졌을까?</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
+      <link>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
       <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
+      <guid>https://hoontaeklee.github.io/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
       <description>2019. 12. 08. 하루 하나씩 Dropbox에 저장된 서평(.docx)을 블로그에 옮기고 있다. 옮기는 방식은 다음과 같다 :
  Git의 블로그 저장소에 .md 파일 생성 옮기려는 워드 파일을 열어서 내용 복붙 오타, 문장 수정 &amp;amp; Preview를 보며 문장, 문단 배치 수정 표(저자, 제목, 출판일, 읽은 날짜 등)와 책 그림 추가 Medium Story로 Publish  조만간 논문 리뷰(.Rmd)도 Medium에 옮기려 한다. 논문 리뷰는 RStudio에서 작업하고 Rmd 파일로 저장한다. 이전에 blogdown 라이브러리 사용할 때 RStudio와 Github 저장소를 연동했던 것이 떠올랐다.</description>
     </item>
     
     <item>
       <title>블로그 시작과 플랫폼 선택</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_blogstart_platform/</link>
+      <link>https://hoontaeklee.github.io/20191208_blogstart_platform/</link>
       <pubDate>Sun, 08 Dec 2019 15:49:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20191208_blogstart_platform/</guid>
+      <guid>https://hoontaeklee.github.io/20191208_blogstart_platform/</guid>
       <description>블로그를 시작한다. 서평, 논문 리뷰, 생각 등 남겨두고 싶은 것들을 그냥 흘려보내지 않기 위함이 첫째다.
 그리고 기록을 함으로써 생각을 구체적으로 정리할 수 있을 것 같고,
 글쓰는 취미를 가지는 것은 직업에도 도움이 될 것 같다.

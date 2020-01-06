@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2020 on HoonTaek Lee</title>
-    <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/tags/2020/</link>
+    <link>https://hoontaeklee.github.io/tags/2020/</link>
     <description>Recent content in 2020 on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2020 20:39:00 +0900</lastBuildDate>
     
-	<atom:link href="https://github.com/hoontaeklee/bloght-hugo/tree/master/tags/2020/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hoontaeklee.github.io/tags/2020/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/about/</link>
+      <link>https://hoontaeklee.github.io/about/</link>
       <pubDate>Fri, 03 Jan 2020 20:39:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/about/</guid>
+      <guid>https://hoontaeklee.github.io/about/</guid>
       <description> Short CV  </description>
     </item>
     
     <item>
       <title>Hugo 블로그에 Google analytics 추가하기</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200103_google_analytics_on_hugo/</link>
+      <link>https://hoontaeklee.github.io/20200103_google_analytics_on_hugo/</link>
       <pubDate>Fri, 03 Jan 2020 20:33:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200103_google_analytics_on_hugo/</guid>
+      <guid>https://hoontaeklee.github.io/20200103_google_analytics_on_hugo/</guid>
       <description>서론 블로그는 사막에서 혼자 지낸다는 마음가짐으로 하는 것이지만, 그래도 누가누가 내 블로그에 오는지는 알고 싶은 법이다. 이를 위해 Google Analytics (GA)를 설치한다. 이 글의 내용을 따라했다. 웹사이트에 GA를 추가하려면 두 가지가 필요하다:
  Google Analytics 계정 Google Analytics를 추가할 Hugo 웹사이트  Google Analytics 계정 및 추적 ID 생성 여기에서 Google Analytics 계정을 생성한다.
 GA는 웹사이트나 어플리케이션 등에 대한 데이터를 수집해주는 도구이다. 웹사이트의 경우 수집하는 데이터 종류는 방문한 사람 수, 방문한 사람의 유형, 유입 경로, 취한 행동(회원가입, 다운로드 등)에 따른 방문자 유형 등이다.</description>
@@ -33,10 +33,10 @@ GA는 웹사이트나 어플리케이션 등에 대한 데이터를 수집해주
     
     <item>
       <title>Hugo 블로그 댓글 기능 추가: utterances</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_add_utterances/</link>
+      <link>https://hoontaeklee.github.io/20200101_add_utterances/</link>
       <pubDate>Wed, 01 Jan 2020 15:35:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_add_utterances/</guid>
+      <guid>https://hoontaeklee.github.io/20200101_add_utterances/</guid>
       <description>서론 댓글 기능이 꼭 필요할 것 같지는 않지만, 좋은 레퍼런스를 찾았기 때문에 일단 시도했다.
 이 글에는 utterrances 소개는 관두고&amp;hellip; 설치 관련 내용만 적었다.
 utterances 설치 1. utterances 사이트 접속 여기로 이동해서 configuration 부분을 따라한다.
@@ -48,10 +48,10 @@ Theme은 내 블로그가 밝으니 Github Light를 선택했다.
     
     <item>
       <title>Hugo 테마 커스터마이징 - 게시 날짜 및 시간</title>
-      <link>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_cupper_setting_datetime_for_posts/</link>
+      <link>https://hoontaeklee.github.io/20200101_cupper_setting_datetime_for_posts/</link>
       <pubDate>Wed, 01 Jan 2020 13:19:00 +0900</pubDate>
       
-      <guid>https://github.com/hoontaeklee/bloght-hugo/tree/master/20200101_cupper_setting_datetime_for_posts/</guid>
+      <guid>https://hoontaeklee.github.io/20200101_cupper_setting_datetime_for_posts/</guid>
       <description>목차  문의 사항 1. Dark/Light 버튼 위치 변경 2. 포스팅 날짜 및 시간 정보 추가 3. .md 파일 내 게시 날짜와 실제 날짜가 같으면 게시글이 사라지는 문제 4. 시간 내림차순 정렬 후기  블로그 테마로 Cupper를 선택했다. 기본 세팅에서 네 가지 고치고 싶은 사항이 있어 Hugo Forum에 문의했다.
 문의 사항  Four issues about the cupper theme (dark button, posting time, and an error) I am building a static website using the Cupper theme (https://github.</description>
     </item>
