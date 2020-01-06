@@ -11,6 +11,19 @@
     
     
     <item>
+      <title>Hugo 블로그 게시글에 로컬 이미지가 안 보일 때</title>
+      <link>https://hoontaeklee.github.io/20200106_using_local_image_in_md/</link>
+      <pubDate>Mon, 06 Jan 2020 11:11:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/20200106_using_local_image_in_md/</guid>
+      <description>해답은 이미지 주소를 올바르게 참조하는 것  Hugo 게시판에 올린 질문
+ 블로그에 게시글 올릴 때, 게시글에 이미지를 자주 사용하게 된다.
+마크다운으로 글을 작성할 때 해당 이미지의 인터넷 주소 를 참조하거나, 혹은 이미지를 폴더에 저장한 후 저장한 폴더의 주소 를 참조한다.
+처음에 이런 방법으로 이미지를 첨부했는데, 마크다운 에디터 미리보기에서는 그 이미지가 보이지만 정작 웹페이지에서는 안 보이는 문제가 있었다.
+답변을 참조하면서 이리저리 해보다가 working solution을 찾았다. 바로 1) 블로그 root directory와 그 하위 폴더는 주소에서 제외하는 것, 그리고 2) / 로 시작하는 것이다.</description>
+    </item>
+    
+    <item>
       <title>Hugo 블로그에 Google analytics 추가하기</title>
       <link>https://hoontaeklee.github.io/20200103_google_analytics_on_hugo/</link>
       <pubDate>Fri, 03 Jan 2020 20:33:00 +0900</pubDate>
