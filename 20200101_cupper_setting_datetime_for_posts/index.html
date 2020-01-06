@@ -484,7 +484,7 @@ Thank you
 &lt;/nav&gt;
 </code></pre>
 <p>결과</p>
-<p><img src="20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q1-1.jpg" alt=""></p>
+<p><img src="/post/20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q1-1.jpg" alt=""></p>
 <p>왼쪽에도 dark/light 버튼이 생겼다.
 원래 맨 아래에 만들고 싶었으나 html은 잘 모르므로 이정도로 만족.
 기존 footer.html에 있던 버튼을 지워주면 끝.</p>
@@ -495,7 +495,7 @@ Thank you
 <p><strong>Hugo 문서</strong> 를 보면,
 Front matter에서 사용하는 <code>.PublishDate</code>, <code>.Date</code>, <code>.Lastmod</code>의 표현 형식은 <code>.Format</code>으로 정할 수 있다고 한다.</p>
 <p>현재 Blog 페이지는 아래처럼 생겼고</p>
-<p><img src="20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-1.jpg" alt=""></p>
+<p><img src="/post/20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-1.jpg" alt=""></p>
 <p>list.html은 아래처럼 생겼다.</p>
 <pre><code>{{ define &quot;main&quot; }}
   &lt;main id=&quot;main&quot;&gt;
@@ -522,13 +522,13 @@ Front matter에서 사용하는 <code>.PublishDate</code>, <code>.Date</code>, <
 그리고 <code>&lt;/a&gt;</code> 바로 위에 <code>{{ .Title }}</code>이 있는데, 이게 게시글 제목인 듯하다. 아마 여기에 날짜 정보를 추가해주면 될 것 같다.</p>
 <p>작성 날짜(<code>Date</code>), 게시 날짜(<code>PublishDate</code>), 최종 수정 날짜(<code>Lastmod</code>) 중 무엇을 기준으로 할까. 블로그 활동 입장에서 날짜를 정렬하는 게 좋을 듯하다. 하지만 지금과 같이 과거에 작성해놓은 글을 옮기는 와중에는 며칠간 포스팅 날짜가 집중될 것이다. 이 날짜보다는 내가 언제 그 글을 쓰는 활동을 했는지 조망하는 게 내 과거 활동 이력에 대해 더 의미있는 정보인 듯하다. 작성 날짜(<code>Date</code>)를 기준으로 하겠다.</p>
 <p><code>&lt;/a&gt;</code> 위에 <code>{{ .Date }}</code>를 추가해보자.</p>
-<p><img src="20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-2.jpg" alt=""></p>
+<p><img src="/post/20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-2.jpg" alt=""></p>
 <p>얼추 됐다. 형식을 이쁘게 바꿔보자. 아까 문서에서 <code>.Format</code>을 사용하라고 했었다. <a href="https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference">여기</a> 아래부터 쭉 템플릿이 나온다. 게시글 목록에서는 날짜까지만 표시하고, 각 게시글 안에서는 시간단위까지 기록해주자.</p>
 <p><code>{{ .Date }}</code>를 <code>{{ .Date.Format &quot;2006-01-02&quot; }}</code>로 바꿔주자. 그리고 위치를 <code>{{ .Title }}</code> 위로 옮겨서 날짜 먼저 표시되도록 한다. 결과는 아래와 같다.</p>
-<p><img src="20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-3.jpg" alt=""></p>
+<p><img src="/post/20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-3.jpg" alt=""></p>
 <h3 id="----">게시 날짜, 작성 날짜 추가</h3>
 <p>이제 각 게시글 내부 정보를 바꿔보자.</p>
-<p><img src="20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-4.jpg" alt=""></p>
+<p><img src="/post/20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-4.jpg" alt=""></p>
 <p>현재 각 게시글은 위와 같이 나온다.<br>
 내가 하려는 것은 Publish date뿐만 아니라 작성일(Date), 최종 수정일(Lastmod)을 추가하고 표현 형식을 yyyy-mm-dd hh:mm으로 바꾸는 것이다.</p>
 <p>single.html은 아래처럼 생겼다. 어디를 바꿔야 할까.</p>
@@ -610,7 +610,7 @@ Front matter에서 사용하는 <code>.PublishDate</code>, <code>.Date</code>, <
 <pre><code>  dateFormat: Mon, 02 Jan 2006 15:04 MST
 </code></pre>
 <p>위와 같이 설정한 상태에서 front matter에서 <code>date: 2017-01-28 23:37:00+09:00</code>(큰따옴표로 묶어도 상관 없다) 형식으로 입력하면 아래와 같은 결과가 나온다:</p>
-<p><img src="20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-5.jpg" alt=""></p>
+<p><img src="/post/20200101_cupper_setting_datetime_for_posts/20200101_cupper_setting_datetime_for_posts_q2-5.jpg" alt=""></p>
 <p><code>+09:00</code>은 KST라고 잘 표현되고, <code>+06:00</code>, <code>-02:00</code> 등 다른 시간도 해당 로컬 시간 이름은 아니지만 입력한대로 잘 표현된다.</p>
 <h3 id="author-">Author 추가</h3>
 <p><code>author</code> 항목도 추가했다. <code>&lt;div class=&quot;date&quot;&gt;</code>부분에 아래 코드를 추가했다.</p>
