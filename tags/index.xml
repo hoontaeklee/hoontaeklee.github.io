@@ -6,7 +6,7 @@
     <description>Recent content in Tags on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2020 16:51:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 22:11:00 +0900</lastBuildDate>
     
 	<atom:link href="https://hoontaeklee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>2020</title>
       <link>https://hoontaeklee.github.io/tags/2020/</link>
-      <pubDate>Sun, 12 Jan 2020 16:51:00 +0900</pubDate>
+      <pubDate>Sun, 12 Jan 2020 22:11:00 +0900</pubDate>
       
       <guid>https://hoontaeklee.github.io/tags/2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movie Review</title>
+      <link>https://hoontaeklee.github.io/tags/movie-review/</link>
+      <pubDate>Sun, 12 Jan 2020 22:11:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/tags/movie-review/</guid>
       <description></description>
     </item>
     
@@ -98,15 +107,6 @@
       <pubDate>Sat, 02 Dec 2017 16:43:00 +0900</pubDate>
       
       <guid>https://hoontaeklee.github.io/tags/2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Movie Review</title>
-      <link>https://hoontaeklee.github.io/tags/movie-review/</link>
-      <pubDate>Sun, 29 Jan 2017 19:16:00 +0900</pubDate>
-      
-      <guid>https://hoontaeklee.github.io/tags/movie-review/</guid>
       <description></description>
     </item>
     
