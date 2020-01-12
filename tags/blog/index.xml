@@ -6,10 +6,23 @@
     <description>Recent content in Blog on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2020 11:11:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 11:11:00 +0900</lastBuildDate>
     
 	<atom:link href="https://hoontaeklee.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>검색 엔진에 블로그 노출시키기</title>
+      <link>https://hoontaeklee.github.io/20200112_%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EB%85%B8%EC%B6%9C/</link>
+      <pubDate>Sun, 12 Jan 2020 11:11:00 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/20200112_%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EB%85%B8%EC%B6%9C/</guid>
+      <description>Let&#39;s coming out 블로그를 검색 엔진에 노출 시켜보자. 아주 간단하다.
+게다가 참고할만한 좋은 글도 발견했다.
+현재는 내 utterance 게시글을 구글에서 찾아볼 수 없다.
+앞으로 어떻게 바뀔지 지켜보자.
+Google  Google Search Console에 접속해서 시작하기 를 누른다. url(https://username.github.io)을 입력하고 계속 버튼을 누른다. 다운받으라는 html 파일을 블로그경로/public 파일에 저장하고 GitHub에 push한다. 곧바로 소유권이 확인된다. 속성으로 이동 을 클릭하여 해당 페이지로 이동한다. sitemap.xml 제출  먼저, public 폴더에 sitemap.xml 파일이 있는지 확인하자. 없다면 여기를 참고해서 만든다.</description>
+    </item>
     
     <item>
       <title>Hugo 블로그 게시글에 첨부한 로컬 이미지가 안 보일 때</title>
