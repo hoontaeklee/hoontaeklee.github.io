@@ -246,9 +246,9 @@
       
       
       <strong aria-hidden="true"> Author: </strong>Hoontaek Lee <br>
-      <strong aria-hidden="true"> Created date: </strong>Sun, 12 Jan 2020 11:11 KST
+      <strong aria-hidden="true"> Created date: </strong>Sun, 12 Jan 2020 16:51 KST
       <br>
-      <strong aria-hidden="true">Publish date: </strong>Sun, 12 Jan 2020 11:11 KST
+      <strong aria-hidden="true">Publish date: </strong>Sun, 12 Jan 2020 16:52 KST
       
         
       
@@ -358,7 +358,7 @@
 <ul>
 <li>먼저, <code>public</code> 폴더에 <code>sitemap.xml</code> 파일이 있는지 확인하자. 없다면 <a href="https://tinnia.github.io/blog/post4/">여기</a>를 참고해서 만든다.</li>
 <li>Google Search Console의 속성 페이지 왼쪽 메뉴에 <strong>Sitemaps</strong> 라는 게 있다. 이걸 클릭하면 <code>sitemap.xml</code> 파일을 등록할 수 있다. 등록할 때 해당 파일의 경로를 입력해야 한다. <strong>이 때</strong> <U>주소 입력란에 &ldquo;sitemap.xml&quot;이라고 입력한다.</U> 물론, 실제로 <code>public</code> 폴더에서 주소는 다르겠지만, 그 주소 입력하면 에러가 날 것이다. 성공하면 아래와 같이 보인다.<br>
-<img src="/post/20200112_%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EB%85%B8%EC%B6%9C/20200112_%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EB%85%B8%EC%B6%9C_fig1.jpg" alt=""></li>
+<img src="/post/20200112_%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EB%85%B8%EC%B6%9C/20200112_%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EB%85%B8%EC%B6%9C_fig3.jpg" alt=""></li>
 </ul>
 </li>
 <li>변경 사항이 적용되려면 며칠 걸리는 듯하다.</li>
@@ -366,7 +366,23 @@
 <h2 id="naver">Naver</h2>
 <ul>
 <li><a href="https://searchadvisor.naver.com/console/wmt/board">네이버 웹마스터</a>에 접속한다.</li>
-<li><code>url</code>을 등록하고 소유권을 확인한다(<code>html</code> 파일 <code>public</code>에 저장, <code>push</code>, 확인).</li>
+<li><code>url</code>을 등록하고 소유권을 확인한다(<code>html</code> 파일 <code>public</code>에 저장, <code>push</code>, 확인). 업로드 후 보안문자를 입력하면 소유권 확인 메세지가 뜬다.</li>
+<li>로봇룰 검증을 실시한다
+<ul>
+<li>연동 사이트 목록에서 등록한 블로그 주소를 클릭한다.</li>
+<li>왼쪽 메뉴에 검증을 클릭한다.</li>
+<li><code>robots.txt</code> 파일이 없다면 스크롤을 내려서 <strong>robots.txt 간단 생성</strong> 기능을 사용한다(<code>html</code> 때와 마찬가지로 <code>public</code>에 저장, <code>push</code>, 확인).</li>
+<li><code>robots.txt</code>를 업로드해도 &ldquo;robots.txt 파일이 확인되지 않는다&quot;는 문구가 보이겠지만, <strong>수집요청</strong> 버튼을 클릭하면 업로드한 <code>robots.txt</code>이 정상 작동된다.</li>
+<li><a href="https://gmlwjd9405.github.io/2017/10/20/include-blog-in-a-GoogleSearchEngine.html">여기</a>를 참고하여 <code>robots.txt</code>에 <code>sitemap.xml</code> 위치를 등록했다.</li>
+</ul>
+</li>
+<li>sitemap, RSS xml 제출
+<ul>
+<li><code>웹마스터 페이지 - 왼쪽에 **요청** 메뉴 - 사이트맵 제출(or RSS 제출)</code>에서 <code>sitemap.xml</code>(or <code>feed.xml</code>)을 입력한다.</li>
+<li>나는 <code>cupper-hugo-theme</code>을 사용 중인데, 기본으로 만들어져 있는 RSS 버튼을 클릭하면 <code>public/index.xml</code> 파일로 이동한다. 따라서 <code>feed.xml</code> 대신 <code>index.xml</code>을 입력했다(RSS 내용이 담겨 있는 xml 파일만 지정하면 되니까).</li>
+<li>sitemap 제출할 때는 <code>sitemap.xml</code>만 입력하지만, RSS 제출할 때는 <code>http</code>부터 <code>xml</code> 파일명까지 통째로 입력해야 한다.</li>
+</ul>
+</li>
 </ul>
 <h2 id="daum">Daum</h2>
 <ul>
@@ -379,6 +395,8 @@
 <h2 id="references">References</h2>
 <ul>
 <li><a href="https://tinnia.github.io/blog/post4/">Github와 Hugo로 블로그 만들기 04 : Search</a></li>
+<li><a href="https://gmlwjd9405.github.io/2017/10/20/include-blog-in-a-GoogleSearchEngine.html">[Jekyll] 검색엔진에 블로그 등록하기 _Google편</a></li>
+<li><a href="https://gmlwjd9405.github.io/2017/10/21/include-blog-in-a-NaverSearchEngine.html">[Jekyll] 검색엔진에 블로그 등록하기 _Naver편</a></li>
 </ul>
 
   </main>
