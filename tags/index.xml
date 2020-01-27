@@ -6,7 +6,7 @@
     <description>Recent content in Tags on HoonTaek Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jan 2020 21:32:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2020 14:11:17 +0900</lastBuildDate>
     
 	<atom:link href="https://hoontaeklee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>2020</title>
       <link>https://hoontaeklee.github.io/tags/2020/</link>
-      <pubDate>Sun, 19 Jan 2020 21:32:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jan 2020 14:11:17 +0900</pubDate>
       
       <guid>https://hoontaeklee.github.io/tags/2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daily Life</title>
+      <link>https://hoontaeklee.github.io/tags/daily-life/</link>
+      <pubDate>Mon, 27 Jan 2020 14:11:17 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/tags/daily-life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhD Application</title>
+      <link>https://hoontaeklee.github.io/tags/phd-application/</link>
+      <pubDate>Mon, 27 Jan 2020 14:11:17 +0900</pubDate>
+      
+      <guid>https://hoontaeklee.github.io/tags/phd-application/</guid>
       <description></description>
     </item>
     
@@ -44,15 +62,6 @@
       <pubDate>Sun, 12 Jan 2020 11:11:00 +0900</pubDate>
       
       <guid>https://hoontaeklee.github.io/tags/book-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Daily Life</title>
-      <link>https://hoontaeklee.github.io/tags/daily-life/</link>
-      <pubDate>Wed, 08 Jan 2020 23:11:00 +0900</pubDate>
-      
-      <guid>https://hoontaeklee.github.io/tags/daily-life/</guid>
       <description></description>
     </item>
     
