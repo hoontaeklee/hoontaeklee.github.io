@@ -252,7 +252,7 @@
       
         
           <br>
-          <strong aria-hidden="true">Last updated: </strong>Tue, 11 Feb 2020 13:42 KST
+          <strong aria-hidden="true">Last updated: </strong>Tue, 11 Feb 2020 20:00 KST
         
       
     </div>
@@ -334,8 +334,8 @@
           
           
           
-          <a href="#11-february-2020-lee-forests-nfi">
-            11 February, 2020 (Lee, Forests, NFI)
+          <a href="#15-february-2020-ogle-chance-sam">
+            15 February, 2020 (Ogle, CHANCE, SAM)
           </a>
         </li>
       
@@ -527,62 +527,68 @@
 </ul>
 </li>
 </ul>
-<h2 id="11-february-2020-lee-forests-nfi">11 February, 2020 (Lee, Forests, NFI)</h2>
-<p>Lee B, Park J, Lee H, et al. Changes of Tree Species Composition and Distribution Patterns in Mts. Jiri and Baegun, Republic of Korea over 15 Years. <em><strong>Forests</strong></em>. 2020; 11(2):186. <a href="https://doi.org/10.3390/f11020186">https://doi.org/10.3390/f11020186</a></p>
+<h2 id="15-february-2020-ogle-chance-sam">15 February, 2020 (Ogle, CHANCE, SAM)</h2>
+<p>Kiona Ogle &amp; Jarrett J. Barber (2016) Plant and Ecosystem Memory, CHANCE, 29:2, 16-22, DOI: 10.1080/09332480.2016.1181961</p>
+<ul>
+<li><strong>Why did I read this paper?</strong></li>
+</ul>
+<p><strong>It is often easier to get a knowledge</strong> (i.e., model, concept, equation, and so forth) not from the original descriptive paper, <strong>but from other papers using the knowledge</strong> because they introduce the knowledge after masticating it, not as it is.</p>
+<p>This paper masticates <strong>the stochastic antecedent modelling (SAM) framework</strong> for beginners. This study describes what SAM does and how SAM does it, and why SAM does it with a simple example and without complicated equations. Whereas, the original paper (Ogle et al., 2015<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>) provides in-depth explanation about the SAM, but the mathematical expressions cover here and there, making readers terrified even though the two studies exemplified the same case.</p>
+<ul>
+<li><strong>Antecedent (or memory) effect</strong></li>
+</ul>
+<p>Antecedent effect (<strong>the effect of the past on current and future plant and ecosystem functioning</strong>) is the key concept gives birth to the SAM. We can see many cases of antecedent effect. For example, in the NBA, a ball handler can break the defender's ankle because the offender's cross-over a few moment ago affects the defender's movement later. By the same token, in a soccer game, the goal keeper can dive into the opposite direction when the ball is refracted because the time when the shooting was made affected the goal keeper, but the time when the ball is refracted has not done yet. In the nature, there are also many processes influenced by conditions in the past (such as photosynthesis, transpiration, leaf flushing, growth, and so forth), but the leverage differs by the timing and variables. Therefore, it is the key to estimate the leverages for each time in the past and variables.</p>
+<ul>
+<li><strong>SAM framework</strong></li>
+</ul>
+<p><strong>SAM estimates the leverage</strong> (the authors used the term &ldquo;<strong>weights</strong>&quot;) <strong>by the Bayesian approach</strong>. The theoretical details and ways to implement this approach are not described in this paper.</p>
+<ul>
+<li><strong>Figure 1. Importance of accounting the memory (or weights)</strong></li>
+</ul>
+<p><img src="/post/Paper_Review_2020/2017_Ogle_fig1.jpg" alt=""></p>
+<p>The authors provides a toy data set which consists of X and Y (<strong>simulated from the X</strong>). When applying the classical regression approach (D.i), it seems that there is only trivial relationships between X and Y (R<sup>2</sup> = 0.07). However, when the memory effect is considered, stronger relationships appear (D.ii ~ D.iv), and the score differs by how the weights for each time assigned (B.i ~ B.iii).</p>
+<ul>
+<li><strong>Figure 4. Interpreting the nature&rsquo; memory effect from weight estimates</strong></li>
+</ul>
+<p><img src="/post/Paper_Review_2020/2017_Ogle_fig4.jpg" alt=""></p>
+<p>The authors exemplifies a tree-ring growth (G) analysis explained by temperature (T) and precipitation (P) data sets. Monthly weights of T and P were estimated by the SAM and annual weights were given as the sum of 12 month weights of the year. Accorting to the results, P during the winther prior to the growth (probably implies the importance of the snowmelt) and T during summer-autumn transition period of the year before the growth. This shows that G has a longer-term memory for T than for P. As the instance shows, a researcher can verify the existing assumption or draw unexpected implication by weight estimates of SAM.</p>
 <ul>
 <li>
-<p><strong>Question</strong>:</p>
+<p><strong>What's next?</strong></p>
+<ul>
+<li>
+<p><strong>How to implement</strong> the SAM framework?: Professor Ogle usually uses R packages.</p>
+</li>
+<li>
+<p><strong>How does Bayesian determine the weights</strong>?</p>
+</li>
+<li>
+<p><strong>For what do I apply the SAM for my research?</strong></p>
+<ul>
+<li>
+<p>Possibly, I can apply the SAM for two studies for quantifying the lagged response (or memory effect):</p>
 <ol>
-<li><strong>How</strong> have species density, richness, diversity, and evenness <strong>changed over 15 years</strong>?</li>
-<li>What are the <strong>drivers</strong> of shifts in tree species composition at the species and community levels?</li>
-<li>What are the patterns of species diversity <strong>along topographical and climatic environment gradients</strong>?</li>
+<li>
+<p>lagged response of fuel moisture content after the end of precipitation</p>
+</li>
+<li>
+<p>mismatched responses between transpiration (Granier sensor) and net ecosystem exchange (Eddy)</p>
+</li>
 </ol>
 </li>
-<li>
-<p><strong>Context</strong>:</p>
-<ul>
-<li>There are <strong>less studies that explore mountain forests with long-term census</strong> across the East Asia Pacific region.</li>
-<li>Previous studies are <strong>lack in the amount of data</strong>, thus providing little information (i.e., environmental or topographical drivers) to understand the underlying processes behind the compositional change in both species and community-levels.</li>
 </ul>
 </li>
-<li>
-<p><strong>Answer</strong></p>
+</ul>
+</li>
+</ul>
+<section class="footnotes" role="doc-endnotes">
+<hr>
 <ol>
-<li>Mts. Jiri and Baegun could be characterized as producing <strong>a denser and more diverse</strong>, but relatively dominant-species-occupied (i.e., <strong>higher-evenness</strong>) forest structure over 15 years.</li>
-<li>
-<ul>
-<li>Topography factors (<strong>elevation</strong>, longitude, latitude, and etc.) explained more portion (<strong>50.4%</strong>) of the variation of species diversity,</li>
-<li>compared to environmental factors (<strong>mean minimum and maximum temperatures</strong>, temperature seasonality, annual rainfall, and etc.) did (<strong>18.3%</strong>).</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>Species diversity showed a humped-back distribution along with species diversity (high density at intermediate elevations).</li>
-<li>Species diversity showed a humped-back distribution along with annual mean minimum temperature, exhibiting the highest diversity at approximately 6 degC.</li>
-</ul>
+<li id="fn:1" role="doc-endnote">
+<p>Ogle, K., Barber, J.J., Barron-Gafford, G.A., Bentley, L.P., Young, J.M., Huxman, T.E., <em>et al.</em> (2015). Quantifying ecological memory in plant and ecosystem processes. <em><strong>Ecology Letters</strong></em>, 18, 221–235. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</li>
-<li>
-<p><strong>Implication</strong>:</p>
-<ul>
-<li>The <strong>local scale topography drivers are more significantly associated</strong> with the distribution of species diversity.</li>
-<li>The <strong>taxonomic information (e.g., species composition) provides insights into a mechanistic understanding</strong> of the processes changing and shaping the temperate tree community assembly over time.</li>
-</ul>
-</li>
-<li>
-<p><strong>Unanswered</strong>:</p>
-<ul>
-<li>What is ecological meaning of each driver? What does the high contribution of elevation stand for?</li>
-</ul>
-</li>
-<li>
-<p><strong>Comment</strong>:</p>
-<ul>
-<li>This study shows how a long-term forest inventory data set can be utilized to explore the change in structure of a forest with an application of statistical modeling (e.g., generalized additive model).</li>
-</ul>
-</li>
-</ul>
+</section>
 
   </main>
   <div id="disqus-container">
