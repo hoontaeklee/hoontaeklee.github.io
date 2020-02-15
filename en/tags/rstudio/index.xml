@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RStudio on Hugo Zzo Theme</title>
+    <link>https://hoontaeklee.github.io/en/tags/rstudio/</link>
+    <description>Recent content in RStudio on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Dec 2019 16:42:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Dropbox - RStudio- Github 연동 : 더 편해졌을까?</title>
+        <link>https://hoontaeklee.github.io/en/posts/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
+        <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hoontaeklee.github.io/en/posts/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
+        <description>2019. 12. 08. 하루 하나씩 Dropbox에 저장된 서평(.docx)을 블로그에 옮기고 있다. 옮기는 방식은 다음과 같다 : Git의 블로그 저장소에 .md 파일 생성 옮기려</description>
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2016 on Hugo Zzo Theme</title>
+    <link>https://hoontaeklee.github.io/en/tags/2016/</link>
+    <description>Recent content in 2016 on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 27 Dec 2016 01:47:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/tags/2016/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>철학자와 늑대</title>
+        <link>https://hoontaeklee.github.io/en/posts/20161200_%EC%B2%A0%ED%95%99%EC%9E%90%EC%99%80-%EB%8A%91%EB%8C%80/</link>
+        <pubDate>Tue, 27 Dec 2016 01:47:00 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hoontaeklee.github.io/en/posts/20161200_%EC%B2%A0%ED%95%99%EC%9E%90%EC%99%80-%EB%8A%91%EB%8C%80/</guid>
+        <description>대체로 나는 책에 &amp;lsquo;이끌려&amp;rsquo; 읽게 된다. 이 책은 네이버 포스트에서 눈에 띄어 기억에 두었다. 시험이 끝나 방학이 되어 이제 지하철에서 수업</description>
+      </item>
+      
+      <item>
+        <title>서민적 글쓰기</title>
+        <link>https://hoontaeklee.github.io/en/posts/20160628_%EC%84%9C%EB%AF%BC%EC%A0%81-%EA%B8%80%EC%93%B0%EA%B8%B0/</link>
+        <pubDate>Wed, 29 Jun 2016 20:24:00 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hoontaeklee.github.io/en/posts/20160628_%EC%84%9C%EB%AF%BC%EC%A0%81-%EA%B8%80%EC%93%B0%EA%B8%B0/</guid>
+        <description>책을 그저 마구 읽기만 하는 활자 중독이라는 느낌이 들어서 조금 더 잘 읽어보고자 독서법에 관한 책을 여럿 읽고 있다. 그렇게 4권 정도 읽다 보니 결국 비슷한 이야기를 하고</description>
+      </item>
+      
+
+    
+  </channel>
+</rss>

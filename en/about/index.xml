@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Hugo Zzo Theme</title>
+    <link>https://hoontaeklee.github.io/en/about/</link>
+    <description>Recent content in Abouts on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 03 Jan 2020 20:39:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>About</title>
+        <link>https://hoontaeklee.github.io/en/about/about/</link>
+        <pubDate>Fri, 03 Jan 2020 20:39:00 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hoontaeklee.github.io/en/about/about/</guid>
+        <description> Short CV  </description>
+      </item>
+      
+
+    
+  </channel>
+</rss>
