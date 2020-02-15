@@ -252,7 +252,7 @@
       
         
           <br>
-          <strong aria-hidden="true">Last updated: </strong>Sat, 15 Feb 2020 14:43 KST
+          <strong aria-hidden="true">Last updated: </strong>Sat, 15 Feb 2020 14:49 KST
         
       
     </div>
@@ -534,42 +534,36 @@
 </ul>
 <p><strong>It is often easier to get a knowledge</strong> (i.e., model, concept, equation, and so forth) not from the original descriptive paper, <strong>but from other papers using the knowledge</strong> because they introduce the knowledge after masticating it, not as it is.</p>
 <p>This paper masticates <strong>the stochastic antecedent modelling (SAM) framework</strong> for beginners. This study describes what SAM does and how SAM does it, and why SAM does it with a simple example and without complicated equations. Whereas, the original paper (Ogle et al., 2015<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>) provides in-depth explanation about the SAM, but the mathematical expressions cover here and there, making readers terrified even though the two studies exemplified the same case.</p>
-<ul>
+<ol>
 <li><strong>Antecedent (or memory) effect</strong></li>
-</ul>
+</ol>
 <p>Antecedent effect (<strong>the effect of the past on current and future plant and ecosystem functioning</strong>) is the key concept gives birth to the SAM. We can see many cases of antecedent effect. For example, in the NBA, a ball handler can break the defender's ankle because the offender's cross-over a few moment ago affects the defender's movement later. By the same token, in a soccer game, the goal keeper can dive into the opposite direction when the ball is refracted because the time when the shooting was made affected the goal keeper, but the time when the ball is refracted has not done yet. In the nature, there are also many processes influenced by conditions in the past (such as photosynthesis, transpiration, leaf flushing, growth, and so forth), but the leverage differs by the timing and variables. Therefore, it is the key to estimate the leverages for each time in the past and variables.</p>
-<ul>
+<ol start="2">
 <li><strong>SAM framework</strong></li>
-</ul>
+</ol>
 <p><strong>SAM estimates the leverage</strong> (the authors used the term &ldquo;<strong>weights</strong>&quot;) <strong>by the Bayesian approach</strong>. The theoretical details and ways to implement this approach are not described in this paper.</p>
-<ul>
-<li>
-<p><strong>Figure 1. Importance of accounting the memory (or weights)</strong></p>
+<ol start="3">
+<li><strong>Figure 1. Importance of accounting the memory (or weights)</strong></li>
+</ol>
 <p><img src="/post/Paper_Review_2020/2017_Ogle_fig1.jpg" alt=""></p>
-</li>
-</ul>
 <p>The authors provides a toy data set which consists of X and Y (<strong>simulated from the X</strong>). When applying the classical regression approach (D.i), it seems that there is only trivial relationships between X and Y (R<sup>2</sup> = 0.07). However, when the memory effect is considered, stronger relationships appear (D.ii ~ D.iv), and the score differs by how the weights for each time assigned (B.i ~ B.iii).</p>
-<ul>
-<li>
-<p><strong>Figure 4. Interpreting the nature&rsquo; memory effect from weight estimates</strong></p>
+<ol start="4">
+<li><strong>Figure 4. Interpreting the nature&rsquo; memory effect from weight estimates</strong></li>
+</ol>
 <p><img src="/post/Paper_Review_2020/2017_Ogle_fig4.jpg" alt=""></p>
-</li>
-</ul>
 <p>The authors exemplifies a tree-ring growth (G) analysis explained by temperature (T) and precipitation (P) data sets. Monthly weights of T and P were estimated by the SAM and annual weights were given as the sum of 12 month weights of the year. Accorting to the results, P during the winther prior to the growth (probably implies the importance of the snowmelt) and T during summer-autumn transition period of the year before the growth. This shows that G has a longer-term memory for T than for P. As the instance shows, a researcher can verify the existing assumption or draw unexpected implication by weight estimates of SAM.</p>
+<ol start="5">
+<li><strong>What's next?</strong></li>
+</ol>
 <ul>
 <li>
-<p><strong>What's next?</strong></p>
-<ul>
-<li>
-<p><strong>How to implement</strong> the SAM framework?: Professor Ogle usually uses R packages.</p>
+<p>How to implement** the SAM framework?: Professor Ogle usually uses R packages.</p>
 </li>
 <li>
 <p><strong>How does Bayesian determine the weights</strong>?</p>
 </li>
 <li>
 <p><strong>For what do I apply the SAM for my research?</strong></p>
-<ul>
-<li>
 <p>Possibly, I can apply the SAM for two studies for quantifying the lagged response (or memory effect):</p>
 <ol>
 <li>
@@ -579,10 +573,6 @@
 <p>mismatched responses between transpiration (Granier sensor) and net ecosystem exchange (Eddy)</p>
 </li>
 </ol>
-</li>
-</ul>
-</li>
-</ul>
 </li>
 </ul>
 <section class="footnotes" role="doc-endnotes">
