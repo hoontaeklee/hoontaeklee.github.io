@@ -4,7 +4,72 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-02-15T15:09:56+09:00</lastmod>
+    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/</loc>
+    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/categories/</loc>
+    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/categories/r/</loc>
+    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/r/</loc>
+    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200217_using_api_in_r/</loc>
+    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/series/</loc>
+    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/</loc>
+    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/tags/"
+                />
   </url>
   
   <url>
@@ -13,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/posts/</loc>
+    <loc>https://hoontaeklee.github.io/en/categories/blog-maintenance/</loc>
     <lastmod>2020-02-15T15:09:56+09:00</lastmod>
   </url>
   
@@ -28,22 +93,12 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-02-15T15:09:56+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/tags/"
-                />
+    <loc>https://hoontaeklee.github.io/en/posts/20200204_lalaland/</loc>
+    <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/posts/20200204_lalaland/</loc>
+    <loc>https://hoontaeklee.github.io/en/categories/movie-review/</loc>
     <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   
@@ -128,6 +183,11 @@
   </url>
   
   <url>
+    <loc>https://hoontaeklee.github.io/en/categories/book-review/</loc>
+    <lastmod>2020-02-09T15:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200112_%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B0%95%EC%9D%98/</loc>
     <lastmod>2020-02-09T15:00:00+09:00</lastmod>
   </url>
@@ -135,6 +195,11 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/paper_review_2020/</loc>
     <lastmod>2020-02-15T14:43:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/categories/daily-life/</loc>
+    <lastmod>2020-01-08T23:11:00+09:00</lastmod>
   </url>
   
   <url>
@@ -199,11 +264,6 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</loc>
-    <lastmod>2020-01-01T14:14:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/rstudio/</loc>
     <lastmod>2020-01-01T14:14:00+09:00</lastmod>
   </url>
   
@@ -320,34 +380,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20160628_%EC%84%9C%EB%AF%BC%EC%A0%81-%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
     <lastmod>2016-06-29T20:24:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/series/"
-                />
   </url>
   
 </urlset>

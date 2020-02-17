@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book Review on Hugo Zzo Theme</title>
+    <link>https://hoontaeklee.github.io/en/categories/book-review/</link>
+    <description>Recent content in Book Review on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 12 Jan 2020 11:11:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/categories/book-review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>최무영 교수의 물리학 강의</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200112_%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B0%95%EC%9D%98/</link>
+        <pubDate>Sun, 12 Jan 2020 11:11:00 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hoontaeklee.github.io/en/posts/20200112_%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B0%95%EC%9D%98/</guid>
+        <description>가벼우면서 탄탄한 물리학 입문서 생태계 모델링을 실제로 공부하기 전에는 숲과 나무에 관한 지식이 주로 필요할 줄 알았지만 착각이었다. 생태계 모델은 자연의 생태계를</description>
+      </item>
+      
+
+    
+  </channel>
+</rss>

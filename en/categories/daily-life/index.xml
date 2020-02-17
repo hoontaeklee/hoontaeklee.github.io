@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily Life on Hugo Zzo Theme</title>
+    <link>https://hoontaeklee.github.io/en/categories/daily-life/</link>
+    <description>Recent content in Daily Life on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 08 Jan 2020 23:11:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/categories/daily-life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>You&#39;re a New User of the Month!</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200108_new_user_of_the_month/</link>
+        <pubDate>Wed, 08 Jan 2020 23:11:00 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hoontaeklee.github.io/en/posts/20200108_new_user_of_the_month/</guid>
+        <description>[Hugo] [PM] You&amp;rsquo;re a New User of the Month! Congratulations, you’ve earned the New User of the Month award for January 2020. This award is only granted to two new users per month, and it will be permanently visible on the badges page. You’ve quickly become a valuable member of our community. Thanks for joining, and keep up the great</description>
+      </item>
+      
+
+    
+  </channel>
+</rss>
