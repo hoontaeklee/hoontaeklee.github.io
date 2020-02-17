@@ -6,8 +6,8 @@
     <description>Recent content in R on Hugo Zzo Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
-    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
+    <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 17 Feb 2020 19:46:25 +0900</lastBuildDate>
     
@@ -21,7 +21,7 @@
         <title>R에서 Open API 사용하기 - 카카오 지도</title>
         <link>https://hoontaeklee.github.io/en/posts/20200217_using_api_in_r/</link>
         <pubDate>Mon, 17 Feb 2020 19:46:25 +0900</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <guid>https://hoontaeklee.github.io/en/posts/20200217_using_api_in_r/</guid>
         <description>Intro 연구실에서 여러 장소의 주소 &amp;ndash;&amp;gt; 경위도 좌표 변환을 할 일이 있다. 하나하나 웹페이지에서 하기는 많으므로 코딩을 하기로 했다. API를 사용하면 되는 듯하다. API? Application</description>
       </item>

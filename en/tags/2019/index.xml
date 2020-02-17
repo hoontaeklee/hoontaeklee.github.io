@@ -6,8 +6,8 @@
     <description>Recent content in 2019 on Hugo Zzo Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
-    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
+    <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 29 Dec 2019 04:17:00 +0900</lastBuildDate>
     
@@ -21,7 +21,7 @@
         <title>Hugo를 이용해 Github 저장소에서 블로그용 정적 웹페이지 만들기</title>
         <link>https://hoontaeklee.github.io/en/posts/20191229_blogging_with_hugo/</link>
         <pubDate>Sun, 29 Dec 2019 04:17:00 +0900</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <guid>https://hoontaeklee.github.io/en/posts/20191229_blogging_with_hugo/</guid>
         <description>설치 Git 설치 Git 홈페이지 오른쪽 아래 초록 링크 cmd에서 버전 잘 나오나 확인 $ git --version Hugo 설치 Hugo 웹페이지 참고 C드라이브에 Hugo 폴더 생성(블로그 관련 파일 저장용) Hugo 폴</description>
       </item>
@@ -30,7 +30,7 @@
         <title>Dropbox - RStudio- Github 연동 : 더 편해졌을까?</title>
         <link>https://hoontaeklee.github.io/en/posts/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
         <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <guid>https://hoontaeklee.github.io/en/posts/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
         <description>2019. 12. 08. 하루 하나씩 Dropbox에 저장된 서평(.docx)을 블로그에 옮기고 있다. 옮기는 방식은 다음과 같다 : Git의 블로그 저장소에 .md 파일 생성 옮기려</description>
       </item>
@@ -39,7 +39,7 @@
         <title>블로그 시작과 플랫폼 선택</title>
         <link>https://hoontaeklee.github.io/en/posts/20191208_blogstart_platform/</link>
         <pubDate>Sun, 08 Dec 2019 15:49:00 +0900</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <guid>https://hoontaeklee.github.io/en/posts/20191208_blogstart_platform/</guid>
         <description>블로그를 시작한다. 서평, 논문 리뷰, 생각 등 남겨두고 싶은 것들을 그냥 흘려보내지 않기 위함이 첫째다. 그리고 기록을 함으로써 생각을 구체적으로 정리할 수 있을 것</description>
       </item>
@@ -48,7 +48,7 @@
         <title>Paper Review: 2019</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_review_2019/</link>
         <pubDate>Sat, 13 Apr 2019 15:00:00 +0900</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <guid>https://hoontaeklee.github.io/en/posts/paper_review_2019/</guid>
         <description>13 April, 2019 (Bonan, ANN, Climate) Bonan, G. B. (2016). Forests, climate, and public policy: A 500-year interdisciplinary odyssey. Annual Review of Ecology, Evolution, and Systematics, 47, 97–121.
 I anticipated that this paper explains how the results from forest-climate research have been deployed to public policy. However, this paper had its focus to forest-climate relationships, and &amp;ldquo;these relationships should be understood well to be properly applied to policy&amp;rdquo; was all about the public policy.</description>
@@ -58,7 +58,7 @@ I anticipated that this paper explains how the results from forest-climate resea
         <title>Writing Science</title>
         <link>https://hoontaeklee.github.io/en/posts/20190329_writing_science/</link>
         <pubDate>Fri, 29 Mar 2019 23:42:00 +0900</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <guid>https://hoontaeklee.github.io/en/posts/20190329_writing_science/</guid>
         <description>글쓰기 필독서 석사학위논문 쓰는 데 참고하려고 구입한 책 중 하나. 같이 산 다른 책들이 “논문 작성법”에 관한 실용적 팁 위주의 내용을 담고 있다면, 이 책은 “논문이라</description>
       </item>
@@ -67,7 +67,7 @@ I anticipated that this paper explains how the results from forest-climate resea
         <title>이공계 연구자를 위한 영문과학논문 작성매뉴얼</title>
         <link>https://hoontaeklee.github.io/en/posts/20180400_%EC%98%81%EB%AC%B8%EA%B3%BC%ED%95%99%EB%85%BC%EB%AC%B8%EC%9E%91%EC%84%B1%EB%A7%A4%EB%89%B4%EC%96%BC/</link>
         <pubDate>Fri, 29 Mar 2019 11:11:00 +0900</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <guid>https://hoontaeklee.github.io/en/posts/20180400_%EC%98%81%EB%AC%B8%EA%B3%BC%ED%95%99%EB%85%BC%EB%AC%B8%EC%9E%91%EC%84%B1%EB%A7%A4%EB%89%B4%EC%96%BC/</guid>
         <description>석사학위논문을 쓰는 데 참고하려고 산 책. 구입 전에 들여다 본 논문 작성법 관련 한글 책 중에서는 가장 내용이 충실한 것 같다. 게다가 찰랑찰랑한 속지로 잘 만들어졌다.</description>
       </item>
@@ -76,7 +76,7 @@ I anticipated that this paper explains how the results from forest-climate resea
         <title>마스터 알고리즘</title>
         <link>https://hoontaeklee.github.io/en/posts/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
         <pubDate>Sat, 28 Jan 2017 23:37:00 +0900</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <guid>https://hoontaeklee.github.io/en/posts/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
         <description>머신러닝에 대해 알고 싶은 마음이 생겼다. 내가 이를 어떻게 활용할 수 있을 지와는 별개로, 그저 개괄만이라도 알아두면 좋겠다 싶었다. 유명한 무료 인터넷 강의도 있고</description>
       </item>
