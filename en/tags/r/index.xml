@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>R on bloght</title>
     <link>https://hoontaeklee.github.io/en/tags/r/</link>
@@ -22,8 +27,37 @@
         <link>https://hoontaeklee.github.io/en/posts/20200217_using_api_in_r/</link>
         <pubDate>Mon, 17 Feb 2020 19:46:25 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Mon, 17 Feb 2020 19:46:25 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200217_using_api_in_r/</guid>
         <description>Intro 연구실에서 여러 장소의 주소 &amp;ndash;&amp;gt; 경위도 좌표 변환을 할 일이 있다. 하나하나 웹페이지에서 하기는 많으므로 코딩을 하기로 했다. API를 사용하면 되는 듯하다. API? Application</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>R</category>
+            
+          
+        
+        
+          
+            
+              <category>R</category>
+            
+          
+        
+        
+          
+            
+          
+        
       </item>
       
 

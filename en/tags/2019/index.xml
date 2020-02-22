@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>2019 on bloght</title>
     <link>https://hoontaeklee.github.io/en/tags/2019/</link>
@@ -22,8 +27,41 @@
         <link>https://hoontaeklee.github.io/en/posts/20191229_blogging_with_hugo/</link>
         <pubDate>Sun, 29 Dec 2019 04:17:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 01 Jan 2020 17:00:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20191229_blogging_with_hugo/</guid>
         <description>설치 Git 설치 Git 홈페이지 오른쪽 아래 초록 링크 cmd에서 버전 잘 나오나 확인 $ git --version Hugo 설치 Hugo 웹페이지 참고 C드라이브에 Hugo 폴더 생성(블로그 관련 파일 저장용) Hugo 폴</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>GitHub</category>
+            
+          
+            
+              <category>Blog</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+          
+            
+              <category>Blog Maintenance</category>
+            
+          
+        
+        
       </item>
       
       <item>
@@ -31,8 +69,41 @@
         <link>https://hoontaeklee.github.io/en/posts/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
         <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 01 Jan 2020 14:14:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</guid>
         <description>2019. 12. 08. 하루 하나씩 Dropbox에 저장된 서평(.docx)을 블로그에 옮기고 있다. 옮기는 방식은 다음과 같다 : Git의 블로그 저장소에 .md 파일 생성 옮기려</description>
+        
+        <dc:creator>HoonTaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>Blog</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+          
+            
+              <category>Blog Maintenance</category>
+            
+          
+        
+        
+          
+            
+          
+        
       </item>
       
       <item>
@@ -40,8 +111,31 @@
         <link>https://hoontaeklee.github.io/en/posts/20191208_blogstart_platform/</link>
         <pubDate>Sun, 08 Dec 2019 15:49:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 01 Jan 2020 14:12:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20191208_blogstart_platform/</guid>
         <description>블로그를 시작한다. 서평, 논문 리뷰, 생각 등 남겨두고 싶은 것들을 그냥 흘려보내지 않기 위함이 첫째다. 그리고 기록을 함으로써 생각을 구체적으로 정리할 수 있을 것</description>
+        
+        <dc:creator>HoonTaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>Blog</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
       </item>
       
       <item>
@@ -49,9 +143,28 @@
         <link>https://hoontaeklee.github.io/en/posts/paper_review_2019/</link>
         <pubDate>Sat, 13 Apr 2019 15:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 05 Feb 2020 11:22:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/paper_review_2019/</guid>
         <description>13 April, 2019 (Bonan, ANN, Climate) Bonan, G. B. (2016). Forests, climate, and public policy: A 500-year interdisciplinary odyssey. Annual Review of Ecology, Evolution, and Systematics, 47, 97–121.
 I anticipated that this paper explains how the results from forest-climate research have been deployed to public policy. However, this paper had its focus to forest-climate relationships, and &amp;ldquo;these relationships should be understood well to be properly applied to policy&amp;rdquo; was all about the public policy.</description>
+        
+        <dc:creator>HoonTaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
       </item>
       
       <item>
@@ -59,8 +172,27 @@ I anticipated that this paper explains how the results from forest-climate resea
         <link>https://hoontaeklee.github.io/en/posts/20190329_writing_science/</link>
         <pubDate>Fri, 29 Mar 2019 23:42:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 12 Jan 2020 11:11:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20190329_writing_science/</guid>
         <description>글쓰기 필독서 석사학위논문 쓰는 데 참고하려고 구입한 책 중 하나. 같이 산 다른 책들이 “논문 작성법”에 관한 실용적 팁 위주의 내용을 담고 있다면, 이 책은 “논문이라</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
       </item>
       
       <item>
@@ -68,8 +200,27 @@ I anticipated that this paper explains how the results from forest-climate resea
         <link>https://hoontaeklee.github.io/en/posts/20180400_%EC%98%81%EB%AC%B8%EA%B3%BC%ED%95%99%EB%85%BC%EB%AC%B8%EC%9E%91%EC%84%B1%EB%A7%A4%EB%89%B4%EC%96%BC/</link>
         <pubDate>Fri, 29 Mar 2019 11:11:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 19 Jan 2020 11:20:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20180400_%EC%98%81%EB%AC%B8%EA%B3%BC%ED%95%99%EB%85%BC%EB%AC%B8%EC%9E%91%EC%84%B1%EB%A7%A4%EB%89%B4%EC%96%BC/</guid>
         <description>석사학위논문을 쓰는 데 참고하려고 산 책. 구입 전에 들여다 본 논문 작성법 관련 한글 책 중에서는 가장 내용이 충실한 것 같다. 게다가 찰랑찰랑한 속지로 잘 만들어졌다.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
       </item>
       
       <item>
@@ -77,8 +228,27 @@ I anticipated that this paper explains how the results from forest-climate resea
         <link>https://hoontaeklee.github.io/en/posts/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
         <pubDate>Sat, 28 Jan 2017 23:37:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 01 Jan 2020 13:49:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20160700_%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
         <description>머신러닝에 대해 알고 싶은 마음이 생겼다. 내가 이를 어떻게 활용할 수 있을 지와는 별개로, 그저 개괄만이라도 알아두면 좋겠다 싶었다. 유명한 무료 인터넷 강의도 있고</description>
+        
+        <dc:creator>HoonTaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
       </item>
       
 

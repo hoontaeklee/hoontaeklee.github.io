@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>2016 on bloght</title>
     <link>https://hoontaeklee.github.io/en/tags/2016/</link>
@@ -22,8 +27,27 @@
         <link>https://hoontaeklee.github.io/en/posts/20161200_%EC%B2%A0%ED%95%99%EC%9E%90%EC%99%80-%EB%8A%91%EB%8C%80/</link>
         <pubDate>Tue, 27 Dec 2016 01:47:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 01 Jan 2020 13:47:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20161200_%EC%B2%A0%ED%95%99%EC%9E%90%EC%99%80-%EB%8A%91%EB%8C%80/</guid>
         <description>대체로 나는 책에 &amp;lsquo;이끌려&amp;rsquo; 읽게 된다. 이 책은 네이버 포스트에서 눈에 띄어 기억에 두었다. 시험이 끝나 방학이 되어 이제 지하철에서 수업</description>
+        
+        <dc:creator>HoonTaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2016</category>
+            
+          
+        
+        
+        
       </item>
       
       <item>
@@ -31,8 +55,27 @@
         <link>https://hoontaeklee.github.io/en/posts/20160628_%EC%84%9C%EB%AF%BC%EC%A0%81-%EA%B8%80%EC%93%B0%EA%B8%B0/</link>
         <pubDate>Wed, 29 Jun 2016 20:24:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 29 Jun 2016 20:24:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20160628_%EC%84%9C%EB%AF%BC%EC%A0%81-%EA%B8%80%EC%93%B0%EA%B8%B0/</guid>
         <description>책을 그저 마구 읽기만 하는 활자 중독이라는 느낌이 들어서 조금 더 잘 읽어보고자 독서법에 관한 책을 여럿 읽고 있다. 그렇게 4권 정도 읽다 보니 결국 비슷한 이야기를 하고</description>
+        
+        <dc:creator>HoonTaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2016</category>
+            
+          
+        
+        
+        
       </item>
       
 

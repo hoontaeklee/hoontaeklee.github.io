@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>PhD on bloght</title>
     <link>https://hoontaeklee.github.io/en/tags/phd/</link>
@@ -22,8 +27,31 @@
         <link>https://hoontaeklee.github.io/en/posts/20200122_whyphd/</link>
         <pubDate>Wed, 22 Jan 2020 13:45:55 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 22 Jan 2020 13:45:55 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200122_whyphd/</guid>
         <description>Why do a PhD? I like to do the PhD-related activities. Studying Working in nature Analyzing and computing Writing Presenting Educating I want to learn the ecosystem modeling at a deep level. I like the liberal atmosphere of academic community. Open discussion Less strict working time I like jobs with a PhD than ones with a bachelor&amp;rsquo;s or Master&amp;rsquo;s degree. Why do a PhD abroad? There are potential advisors whose</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>PhD</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
       </item>
       
 

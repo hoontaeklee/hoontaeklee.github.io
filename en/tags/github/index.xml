@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>GitHub on bloght</title>
     <link>https://hoontaeklee.github.io/en/tags/github/</link>
@@ -22,8 +27,45 @@
         <link>https://hoontaeklee.github.io/en/posts/20200101_add_utterances/</link>
         <pubDate>Wed, 01 Jan 2020 15:35:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 01 Jan 2020 15:54:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200101_add_utterances/</guid>
         <description>서론 댓글 기능이 꼭 필요할 것 같지는 않지만, 좋은 레퍼런스를 찾았기 때문에 일단 시도했다. 이 글에는 utterrances 소개는 관두고&amp;hellip; 설치 관련 내용만 적었다. utterances</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>GitHub</category>
+            
+          
+            
+              <category>Blog</category>
+            
+          
+            
+              <category>Customizing</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+          
+            
+              <category>Blog Maintenance</category>
+            
+          
+        
+        
       </item>
       
       <item>
@@ -31,8 +73,41 @@
         <link>https://hoontaeklee.github.io/en/posts/20191229_blogging_with_hugo/</link>
         <pubDate>Sun, 29 Dec 2019 04:17:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 01 Jan 2020 17:00:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20191229_blogging_with_hugo/</guid>
         <description>설치 Git 설치 Git 홈페이지 오른쪽 아래 초록 링크 cmd에서 버전 잘 나오나 확인 $ git --version Hugo 설치 Hugo 웹페이지 참고 C드라이브에 Hugo 폴더 생성(블로그 관련 파일 저장용) Hugo 폴</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>GitHub</category>
+            
+          
+            
+              <category>Blog</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+          
+            
+              <category>Blog Maintenance</category>
+            
+          
+        
+        
       </item>
       
 

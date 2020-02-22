@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on bloght</title>
     <link>https://hoontaeklee.github.io/en/tags/</link>
@@ -22,8 +27,17 @@
         <link>https://hoontaeklee.github.io/en/tags/2020/</link>
         <pubDate>Mon, 17 Feb 2020 19:46:25 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/2020/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -31,8 +45,17 @@
         <link>https://hoontaeklee.github.io/en/tags/r/</link>
         <pubDate>Mon, 17 Feb 2020 19:46:25 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/r/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -40,8 +63,17 @@
         <link>https://hoontaeklee.github.io/en/tags/blog/</link>
         <pubDate>Sat, 15 Feb 2020 15:09:56 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/blog/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -49,8 +81,17 @@
         <link>https://hoontaeklee.github.io/en/tags/hugo/</link>
         <pubDate>Sat, 15 Feb 2020 15:09:56 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/hugo/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -58,8 +99,17 @@
         <link>https://hoontaeklee.github.io/en/tags/movie-review/</link>
         <pubDate>Tue, 04 Feb 2020 23:17:07 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/movie-review/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -67,8 +117,17 @@
         <link>https://hoontaeklee.github.io/en/tags/daily-life/</link>
         <pubDate>Mon, 27 Jan 2020 14:11:17 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/daily-life/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -76,8 +135,17 @@
         <link>https://hoontaeklee.github.io/en/tags/phd-application/</link>
         <pubDate>Mon, 27 Jan 2020 14:11:17 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/phd-application/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -85,8 +153,17 @@
         <link>https://hoontaeklee.github.io/en/tags/phd/</link>
         <pubDate>Wed, 22 Jan 2020 13:45:55 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/phd/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -94,8 +171,17 @@
         <link>https://hoontaeklee.github.io/en/tags/research/</link>
         <pubDate>Wed, 22 Jan 2020 13:45:55 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/research/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -103,8 +189,17 @@
         <link>https://hoontaeklee.github.io/en/tags/book-review/</link>
         <pubDate>Sun, 12 Jan 2020 11:11:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/book-review/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -112,8 +207,17 @@
         <link>https://hoontaeklee.github.io/en/tags/customizing/</link>
         <pubDate>Fri, 03 Jan 2020 20:33:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/customizing/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -121,8 +225,17 @@
         <link>https://hoontaeklee.github.io/en/tags/github/</link>
         <pubDate>Wed, 01 Jan 2020 15:35:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/github/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -130,8 +243,17 @@
         <link>https://hoontaeklee.github.io/en/tags/2019/</link>
         <pubDate>Sun, 29 Dec 2019 04:17:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/2019/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -139,8 +261,17 @@
         <link>https://hoontaeklee.github.io/en/tags/2017/</link>
         <pubDate>Sat, 02 Dec 2017 16:43:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/2017/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -148,8 +279,17 @@
         <link>https://hoontaeklee.github.io/en/tags/2016/</link>
         <pubDate>Tue, 27 Dec 2016 01:47:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
         <guid>https://hoontaeklee.github.io/en/tags/2016/</guid>
         <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
 

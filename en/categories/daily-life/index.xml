@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Daily Life on bloght</title>
     <link>https://hoontaeklee.github.io/en/categories/daily-life/</link>
@@ -22,8 +27,37 @@
         <link>https://hoontaeklee.github.io/en/posts/20200108_new_user_of_the_month/</link>
         <pubDate>Wed, 08 Jan 2020 23:11:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 08 Jan 2020 23:11:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200108_new_user_of_the_month/</guid>
         <description>[Hugo] [PM] You&amp;rsquo;re a New User of the Month! Congratulations, you’ve earned the New User of the Month award for January 2020. This award is only granted to two new users per month, and it will be permanently visible on the badges page. You’ve quickly become a valuable member of our community. Thanks for joining, and keep up the great</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+        
+        
+          
+            
+              <category>Daily Life</category>
+            
+          
+        
+        
       </item>
       
 

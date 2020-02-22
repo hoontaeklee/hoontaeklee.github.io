@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Research on bloght</title>
     <link>https://hoontaeklee.github.io/en/tags/research/</link>
@@ -22,8 +27,31 @@
         <link>https://hoontaeklee.github.io/en/posts/20200122_whyphd/</link>
         <pubDate>Wed, 22 Jan 2020 13:45:55 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 22 Jan 2020 13:45:55 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200122_whyphd/</guid>
         <description>Why do a PhD? I like to do the PhD-related activities. Studying Working in nature Analyzing and computing Writing Presenting Educating I want to learn the ecosystem modeling at a deep level. I like the liberal atmosphere of academic community. Open discussion Less strict working time I like jobs with a PhD than ones with a bachelor&amp;rsquo;s or Master&amp;rsquo;s degree. Why do a PhD abroad? There are potential advisors whose</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>PhD</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
       </item>
       
       <item>
@@ -31,9 +59,28 @@
         <link>https://hoontaeklee.github.io/en/posts/paper_review_2020/</link>
         <pubDate>Sat, 11 Jan 2020 15:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 22 Feb 2020 17:24:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/paper_review_2020/</guid>
         <description>11 January, 2020 (Piao, GCB, Phenology) Piao S, Liu Q, Chen A, et al. Plant phenology and global climate change: Current progresses and challenges. Global Change Biology, 2019;00:1–19. https://doi.org/10.1111/gcb.14619
 Piao et al. (2019) reviewed the current understanding of leaf phenological processes. They suggested that four key factors are driving the phenological processes: 1) temperature, 2) photoperiod, 3) nutrient and water availability, and 4) interseasonal phenological correlations (i.e. the positive spring and autumn phenological intercorrelation).</description>
+        
+        <dc:creator>HoonTaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
       </item>
       
       <item>
@@ -41,9 +88,28 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
         <link>https://hoontaeklee.github.io/en/posts/paper_review_2019/</link>
         <pubDate>Sat, 13 Apr 2019 15:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 05 Feb 2020 11:22:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/paper_review_2019/</guid>
         <description>13 April, 2019 (Bonan, ANN, Climate) Bonan, G. B. (2016). Forests, climate, and public policy: A 500-year interdisciplinary odyssey. Annual Review of Ecology, Evolution, and Systematics, 47, 97–121.
 I anticipated that this paper explains how the results from forest-climate research have been deployed to public policy. However, this paper had its focus to forest-climate relationships, and &amp;ldquo;these relationships should be understood well to be properly applied to policy&amp;rdquo; was all about the public policy.</description>
+        
+        <dc:creator>HoonTaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
       </item>
       
 

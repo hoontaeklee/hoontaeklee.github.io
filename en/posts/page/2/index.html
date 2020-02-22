@@ -3,7 +3,7 @@
 
 <head prefix="og: http://ogp.me/ns#">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Blog – bloght</title>
     
@@ -78,7 +78,30 @@
   }
   
 
+
   document.addEventListener('DOMContentLoaded', function () {
+    
+    var navCollapseBtn = document.querySelector('.navbar__burger');
+    navCollapseBtn ? navCollapseBtn.addEventListener('click', function (e) {
+      var navCollapse = document.querySelector('.navbarm__collapse');
+
+      if (navCollapse) {
+        var dataOpen = navCollapse.getAttribute('data-open');
+
+        if (dataOpen === 'true') {
+          navCollapse.setAttribute('data-open', 'false');
+          navCollapse.style.maxHeight = 0;
+          navCollapseBtn.classList.remove('is-active');
+        } else {
+          navCollapse.setAttribute('data-open', 'true');
+          navCollapse.style.maxHeight = navCollapse.scrollHeight + "px";
+          navCollapseBtn.classList.add('is-active');
+        }
+      }
+    }) : null;
+    
+
+
     
     var summaryContainer = document.querySelector('.summary__container');
     var searchResult = document.querySelector('.search-result');
@@ -417,26 +440,44 @@
 
 
   
-    var navbarBurgerElem = document.querySelector('.navbar__burger');
-    var navbarMenuElem = document.querySelector('.navbar__menu');
-    navbarBurgerElem ?
-    navbarBurgerElem.addEventListener('click', function () {
-      if (navbarBurgerElem.classList.contains('is-active')) {
-        navbarBurgerElem.classList.remove('is-active');
-        navbarMenuElem.classList.remove('is-active');
-      } else {
-        navbarBurgerElem.classList.add('is-active');
-        navbarMenuElem.classList.add('is-active');
-      }
-    }) : null;
-  
-
-
-  
     var localTheme = localStorage.getItem('theme');
     var rootEleme = document.getElementById('root');
     var selectThemeElem = document.querySelectorAll('.select-theme');
     var selectThemeItemElem = document.querySelectorAll('.select-theme__item');
+
+    var setMetaColor = function(themeColor) {
+      var metaMsapplicationTileColor = document.getElementsByName('msapplication-TileColor')[0];
+      var metaThemeColor = document.getElementsByName('theme-color')[0];
+      var metaMsapplicationNavbuttonColor = document.getElementsByName('msapplication-navbutton-color')[0];
+      var metaAppleMobileWebAappStatusBarStyle = document.getElementsByName('apple-mobile-web-app-status-bar-style')[0];
+
+      if (themeColor.includes('dark')) {
+        metaMsapplicationTileColor.setAttribute('content', '#fcfcfa');
+        metaThemeColor.setAttribute('content', '#403E41');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#403E41');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#403E41');
+      } else if (themeColor.includes('light')) {
+        metaMsapplicationTileColor.setAttribute('content', '#555');
+        metaThemeColor.setAttribute('content', '#eee');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#eee');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#eee');
+      } else if (themeColor.includes('hacker')) {
+        metaMsapplicationTileColor.setAttribute('content', '#e3cd26');
+        metaThemeColor.setAttribute('content', '#252526');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#252526');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#252526');
+      } else if (themeColor.includes('solarized')) {
+        metaMsapplicationTileColor.setAttribute('content', '#d3af86');
+        metaThemeColor.setAttribute('content', '#51412c');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#51412c');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#51412c');
+      } else if (themeColor.includes('kimbie')) {
+        metaMsapplicationTileColor.setAttribute('content', '#586e75');
+        metaThemeColor.setAttribute('content', '#eee8d5');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#eee8d5');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#eee8d5');
+      } 
+    }
     
     if (localTheme) {
       selectThemeItemElem ? 
@@ -447,6 +488,10 @@
           elem.classList.remove('is-active');
         }
       }) : null;
+
+      setMetaColor(localTheme);
+    } else {
+      setMetaColor(rootEleme.className);
     }
 
     selectThemeItemElem ? 
@@ -454,6 +499,7 @@
       v.addEventListener('click', function (e) {
         var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
+        setMetaColor(selectedThemeVariant);
 
         rootEleme.removeAttribute('class');
         rootEleme.classList.add('theme__' + selectedThemeVariant);
@@ -518,7 +564,7 @@
       xhr.onload = function () {
         if (xhr.status === 200) {
           fuse = new Fuse(JSON.parse(xhr.response.toString('utf-8')), {
-            keys: sectionType.includes('publication') ? ['title', 'description', 'content'] : ['title', 'abstract'],
+            keys: sectionType.includes('publication') ? ['title', 'abstract'] : ['title', 'description', 'content'],
             includeMatches: enableSearchHighlight,
             shouldSort: true,
             threshold: 0.4,
@@ -1167,15 +1213,21 @@
 <meta property="og:description" content="The Zzo theme for Hugo example site.">
 
 <meta name="generator" content="Hugo 0.64.1" />
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#fff">
+
+<meta name="theme-color" content="#fff">
+
+<meta name="msapplication-navbutton-color" content="#fff">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 <link rel="canonical" href="https://hoontaeklee.github.io/en/posts/">
 <link rel="manifest" href="/manifest.json">
 
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+  
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/logo.svg" sizes="any" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.png" sizes="any" type="image/png" />
+  
+
 
     <script type="application/ld+json">
   {
@@ -1214,9 +1266,8 @@
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
             document.getElementById('root').className = 'theme__' + localTheme;
-        }        
+        }
     </script>
-    
     <div id="container">
         
         <div class="wrapper" data-type="posts" data-kind="section">
@@ -1233,11 +1284,11 @@
       </a>
     
   </div>
+
   
-  
-<div class="theme-mobile">
+<div class="theme theme-mobile" data-ani="true">
   <div class="dropdown">
-    <button class="dropdown-trigger navbar__slide-down" aria-label="Select Theme Button" style="">
+    <button class="dropdown-trigger navbar__slide-down" aria-label="Select Theme Button" style="" data-ani="true">
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M24 0H0v24h24V0z"/><path fill="currentColor" d="M6.34 7.93c-3.12 3.12-3.12 8.19 0 11.31C7.9 20.8 9.95 21.58 12 21.58s4.1-.78 5.66-2.34c3.12-3.12 3.12-8.19 0-11.31l-4.95-4.95c-.39-.39-1.02-.39-1.41 0L6.34 7.93zM12 19.59c-1.6 0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z"/></svg>      
     </button>
     <div class="dropdown-content select-theme">
@@ -1268,8 +1319,8 @@
   </div>
 </div>
 
-  
-<div id="mobileSearchBtn" class="mobile-search__btn">
+
+<div id="mobileSearchBtn" class="mobile-search__btn" data-ani="true">
   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
 </div>
 
@@ -1285,18 +1336,42 @@
   </div>
 </div>
 
-  
-  <a role="button" class="navbar__burger" aria-label="menu" aria-expanded="false">
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-  </a>  
 
-  <div class="navbar__menu">
+<a role="button" class="navbar__burger" aria-label="menu" aria-expanded="false"
+  data-ani="true">
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+</a>
+<div class="navbarm__collapse" data-open="false">
+  <ul>
     
-<div class="theme">
+    
+      
+      
+      
+      
+      <li class="navbarm__menu--item ">
+        <a href="/en/about">About</a>
+      </li>
+    
+      
+      
+      
+      
+      <li class="navbarm__menu--item ">
+        <a href="/en/tags">Tags</a>
+      </li>
+    
+
+    
+  </ul>
+</div>
+  <div class="navbar__menu">
+  
+<div class="theme" data-ani="true">
   <div class="dropdown">
-    <button class="dropdown-trigger navbar__slide-down" aria-label="Select Theme Button">
+    <button class="dropdown-trigger navbar__slide-down" aria-label="Select Theme Button" data-ani="true">
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M24 0H0v24h24V0z"/><path fill="currentColor" d="M6.34 7.93c-3.12 3.12-3.12 8.19 0 11.31C7.9 20.8 9.95 21.58 12 21.58s4.1-.78 5.66-2.34c3.12-3.12 3.12-8.19 0-11.31l-4.95-4.95c-.39-.39-1.02-.39-1.41 0L6.34 7.93zM12 19.59c-1.6 0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z"/></svg>      
     </button>
     <div class="dropdown-content select-theme">
@@ -1327,25 +1402,25 @@
   </div>
 </div>
 
-    
-    
-      
-      
-      
-      
-      
-        <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr">About</a>
-      
-    
-      
-      
-      
-      
-      
-        <a href="/en/tags" class="navbar__menu-item navbar__slide-down " dir="ltr">Tags</a>
-      
-    
-  </div>
+  
+  
+  
+  
+  
+  
+  
+  <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">About</a>
+  
+  
+  
+  
+  
+  
+  
+  <a href="/en/tags" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Tags</a>
+  
+  
+</div>
 </nav>
             
             
@@ -1387,7 +1462,7 @@
             
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1414,7 +1489,7 @@
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1442,7 +1517,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1469,7 +1544,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1496,7 +1571,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1518,7 +1593,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
     
     <div class="summary-classic__image-wrapper">
       <a href="https://hoontaeklee.github.io/en/posts/20200105_abouttime/">
-        <img data-src="/images/posts/meta/20200105_abouttime.jpg" alt="images/posts/meta/20200105_abouttime.jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" />
+        <img data-src="/images/posts/meta/20200105_abouttime.jpg" alt="images/posts/meta/20200105_abouttime.jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true"/>
       </a>
     </div>
     
@@ -1529,7 +1604,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1556,7 +1631,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1583,7 +1658,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1610,7 +1685,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1637,7 +1712,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1664,7 +1739,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1691,7 +1766,7 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1719,7 +1794,7 @@ I anticipated that this paper explains how the results from forest-climate resea
 
             
                 
-  <article class="summary-classic">
+  <article class="summary-classic" data-ani="true">
   <div class="summary-classic__flex-box" data-position="left">
 
     
@@ -1829,6 +1904,8 @@ I anticipated that this paper explains how the results from forest-climate resea
 </div>
 
 
+    
+    
     
     
         
@@ -2065,6 +2142,7 @@ I anticipated that this paper explains how the results from forest-climate resea
 
 
 
+
 </div>
 
 
@@ -2124,7 +2202,13 @@ I anticipated that this paper explains how the results from forest-climate resea
                 }
             }
 
-            document.getElementsByClassName('navbar__burger')[0].classList.remove('is-active');
+            var navCollapseBtn = document.querySelector('.navbar__burger');
+            var navCollapse = document.getElementsByClassName('navbarm__collapse')[0];
+            if (navCollapse) {
+                navCollapse.setAttribute('data-open', false);
+                navCollapse.style.maxHeight = 0;
+                navCollapseBtn.classList.remove('is-active');
+            }
             document.getElementsByClassName('navbar__menu')[0].classList.remove('is-active');
             document.getElementsByClassName('mobile-search')[0].classList.add('hide');
         },
@@ -2283,7 +2367,7 @@ I anticipated that this paper explains how the results from forest-climate resea
         
 
         
-            <p class="caption">Powered by <a href="https://gohugo.io/" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zzo" rel="noreferrer">Zzo theme</a></p>
+            <p class="caption">Powered by <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zzo" target="_blank" rel="noreferrer">Zzo theme</a></p>
         
         
     </div> 

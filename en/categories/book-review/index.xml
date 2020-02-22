@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Book Review on bloght</title>
     <link>https://hoontaeklee.github.io/en/categories/book-review/</link>
@@ -22,8 +27,33 @@
         <link>https://hoontaeklee.github.io/en/posts/20200112_%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B0%95%EC%9D%98/</link>
         <pubDate>Sun, 12 Jan 2020 11:11:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 09 Feb 2020 15:00:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200112_%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B0%95%EC%9D%98/</guid>
         <description>가벼우면서 탄탄한 물리학 입문서 생태계 모델링을 실제로 공부하기 전에는 숲과 나무에 관한 지식이 주로 필요할 줄 알았지만 착각이었다. 생태계 모델은 자연의 생태계를</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+        
+        
       </item>
       
 
