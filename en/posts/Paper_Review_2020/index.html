@@ -1152,7 +1152,7 @@
 <meta name="description" content="The Zzo theme for Hugo example site." />
 <meta name="keywords" content="">
 <meta name="created" content="2020-01-11T15:00:00&#43;0900">
-<meta name="modified" content="2020-02-15T14:43:00&#43;0900">
+<meta name="modified" content="2020-02-22T17:24:00&#43;0900">
 <meta property="article:published_time" content="2020-01-11T15:00:00&#43;0900">
 
 <meta name="author" content="HoonTaek Lee">
@@ -1194,7 +1194,7 @@
     "@type": "WebPage",
     "headline": "Paper Review: 2020",
     "datePublished": "2020-01-11T15:00:00+09:00",
-    "dateModified": "2020-02-15T14:43:00+09:00",
+    "dateModified": "2020-02-22T17:24:00+09:00",
     "url" : "https://hoontaeklee.github.io/en/posts/paper_review_2020/",
     "description": "11 January, 2020 (Piao, GCB, Phenology) Piao S, Liu Q, Chen A, et al. Plant phenology and global climate change: Current progresses and challenges. Global Change Biology, …",
     "keywords": ["Research","2020"],
@@ -1412,7 +1412,7 @@
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Jan 11, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 11 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;HoonTaek Lee</span>
+  <time class="single__info" title="Written At">📅&nbsp;Jan 11, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 13 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;HoonTaek Lee</span>
   <span class="single__info">
     
   </span>
@@ -1666,6 +1666,23 @@
 </ol>
 </li>
 </ul>
+<h2 id="22-february-2020-eller-nph-jules-sox">22 February, 2020 (Eller, NPH, JULES-SOX)</h2>
+<p>Eller, C.B., Rowland, L., Mencuccini, M., Rosas, T., Williams, K., Harper, A., Medlyn, B.E., Wagner, Y., Klein, T., Teodoro, G.S., Oliveira, R.S., Matos, I.S., Rosado, B.H.P., Fuchs, K., Wohlfahrt, G., Montagnani, L., Meir, P., Sitch, S. and Cox, P.M. (2020), Stomatal optimization based on xylem hydraulics (SOX) improves land surface model simulation of vegetation responses to climate. New Phytol. doi:<a href="https://doi.org/10.1111/nph.16419">10.1111/nph.16419</a></p>
+<h3 id="summary">Summary</h3>
+<p>Many researchers, including me, who use ecosystem models have recognized that the beta function approach for representing the change in plant photosynthesis to soil moisture stress needs improvement. In my case, I saw that the ET simulation by JULES was too sensitive to drought, resulting in underestimation. Eller et al. (2020) did a great work for developing an improved alternative method, especially considering xylem hydraulics. By a global evaluation for many biomes, the authors showed that the JULES-SOX outperformed the default JULES for most of evaluations. This improvement spreads out to more accurate estimates of global GPP and ET, predicting plant-physiological response mechanism under the drought condition, the demographic consequences resulted from the more competitive soil moisture use, and possibly replacing the PFT approach in LSMs and DGVMs to represent the large diversity of ecological strategies.</p>
+<h3 id="sox">SOX</h3>
+<p><strong>The main hypothesis of SOX</strong> is &ldquo;stomatal conductance is such as to maximize the product of leaf photosynthesis and xylem hydraulic conductance&rdquo;: maximize{A[ci(gs)] x K[psi(gs)]}</p>
+<p>This approach successfully depicts stomatal responses to short- and long-term changes in environmental conditions (i.e., eCO2, soil moisture deficit, and so forth).</p>
+<p>SOX estimates of gs is connected to the Collatz model to compute the leaf photosynthesis.</p>
+<p>Whereas, <strong>JULES-default</strong> computes ci using the Jacobs model, and then use the result to compute the leaf photosynthesis using the Collatz model.</p>
+<p>Notably, the authors provided <strong>the analytic solution</strong> of the SOX, facilitating easier incorporation to other models and reducing the computing time.</p>
+<h3 id="other-comments">Other comments</h3>
+<p>The introduction greatly summarized the history of modelling stomatal conductance.</p>
+<p>CF (Cowan and Farquhar, 1977) - SPA (Williams et al., 1996) - Sperry (Sperry et al., 2017) - SOX (Eller et al., 2018)</p>
+<p>CF: maximized A minus the carbon cost of water loss. But the cost of water loss is not linked to measurable variables.</p>
+<p>SPA: incorporated plant hydraulics to constrain stomatal optimization, but still relied on a WUE optimization similar to CF.</p>
+<p>Sperry: proposed a model that assumes that as xylem hydraulic conductance declines, <strong>the increased risk of hydraulic failure is the main fitness cost</strong> associated with low psi.</p>
+<p>SOX: has a different optimization target from that of Sperry: stomata optimize plant dry matter production. In addition, SOX can be solved analytically.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr />
 <ol>
@@ -2274,6 +2291,13 @@ document.addEventListener('DOMContentLoaded', function () {
     <li><a href="#4-february-2020-jung-nature-compensatory">4 February, 2020 (Jung, Nature, Compensatory)</a></li>
     <li><a href="#7-february-2020-reichstein-nature-deep-learning">7 February, 2020 (Reichstein, Nature, Deep learning)</a></li>
     <li><a href="#15-february-2020-ogle-chance-sam">15 February, 2020 (Ogle, CHANCE, SAM)</a></li>
+    <li><a href="#22-february-2020-eller-nph-jules-sox">22 February, 2020 (Eller, NPH, JULES-SOX)</a>
+      <ul>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#sox">SOX</a></li>
+        <li><a href="#other-comments">Other comments</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
