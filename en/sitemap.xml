@@ -4,17 +4,17 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-02-22T17:24:00+09:00</lastmod>
+    <lastmod>2020-02-23T16:55:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-02-22T17:24:00+09:00</lastmod>
+    <lastmod>2020-02-23T16:55:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/categories/</loc>
-    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
+    <lastmod>2020-02-23T16:55:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -59,7 +59,7 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-02-22T17:24:00+09:00</lastmod>
+    <lastmod>2020-02-23T16:55:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -154,7 +154,7 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
-    <lastmod>2020-02-22T17:24:00+09:00</lastmod>
+    <lastmod>2020-02-23T16:53:00+09:00</lastmod>
   </url>
   
   <url>
@@ -178,18 +178,18 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/book-review/</loc>
-    <lastmod>2020-02-09T15:00:00+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/categories/book-review/</loc>
+    <lastmod>2020-02-23T16:55:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/categories/book-review/</loc>
-    <lastmod>2020-02-09T15:00:00+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/tags/book-review/</loc>
+    <lastmod>2020-02-23T16:55:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200112_%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B0%95%EC%9D%98/</loc>
-    <lastmod>2020-02-09T15:00:00+09:00</lastmod>
+    <lastmod>2020-02-23T16:55:00+09:00</lastmod>
   </url>
   
   <url>
@@ -249,12 +249,22 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2019/</loc>
-    <lastmod>2020-02-05T11:22:00+09:00</lastmod>
+    <lastmod>2020-02-23T16:51:56+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20191229_blogging_with_hugo/</loc>
     <lastmod>2020-01-01T17:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20191219_how_to_develop_a_research_question/</loc>
+    <lastmod>2020-02-23T16:53:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20191217_how_to_outline_a_paper/</loc>
+    <lastmod>2020-02-23T16:51:56+09:00</lastmod>
   </url>
   
   <url>
@@ -280,6 +290,41 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20180400_%EC%98%81%EB%AC%B8%EA%B3%BC%ED%95%99%EB%85%BC%EB%AC%B8%EC%9E%91%EC%84%B1%EB%A7%A4%EB%89%B4%EC%96%BC/</loc>
     <lastmod>2020-01-19T11:20:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20190319_mastering_rstudio/</loc>
+    <lastmod>2019-03-19T17:15:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20190310_%ED%86%B5%EA%B3%84%ED%95%99%EC%9E%85%EB%AC%B8/</loc>
+    <lastmod>2019-03-10T00:06:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20190215_machine_learning_with_r/</loc>
+    <lastmod>2019-02-15T00:04:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20190100_science_research_writing/</loc>
+    <lastmod>2019-01-15T00:02:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/2018/</loc>
+    <lastmod>2018-12-29T23:57:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20181200_%EA%B8%B0%EC%9E%90%EC%9D%98%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
+    <lastmod>2018-12-29T23:57:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20181100_%EC%B1%85%EB%B2%8C%EB%A0%88%EC%9D%98%EA%B3%B5%EB%B6%80/</loc>
+    <lastmod>2018-11-15T23:52:25+09:00</lastmod>
   </url>
   
   <url>

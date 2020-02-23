@@ -65,6 +65,34 @@
       </item>
       
       <item>
+        <title>How to outline a paper</title>
+        <link>https://hoontaeklee.github.io/en/posts/20191217_how_to_outline_a_paper/</link>
+        <pubDate>Tue, 17 Dec 2019 19:46:25 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 23 Feb 2020 16:51:56 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20191217_how_to_outline_a_paper/</guid>
+        <description>Which information do I have to mine from a paper for developing a research question? Every day, I receive email alerts from journals or paper-searching websites. I skim through the title list in the alerts and select ones including keywords that I am interested in. In turn, I read the abstract to grasp what the paper is about and add it to my read-later folder if I feel it is interesting.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2019</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Dropbox - RStudio- Github 연동 : 더 편해졌을까?</title>
         <link>https://hoontaeklee.github.io/en/posts/20191208_dropbox-rstudio-github%EC%97%B0%EB%8F%99/</link>
         <pubDate>Sun, 08 Dec 2019 16:42:00 +0900</pubDate>
@@ -203,6 +231,118 @@ I anticipated that this paper explains how the results from forest-climate resea
         <atom:modified>Sun, 19 Jan 2020 11:20:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20180400_%EC%98%81%EB%AC%B8%EA%B3%BC%ED%95%99%EB%85%BC%EB%AC%B8%EC%9E%91%EC%84%B1%EB%A7%A4%EB%89%B4%EC%96%BC/</guid>
         <description>석사학위논문을 쓰는 데 참고하려고 산 책. 구입 전에 들여다 본 논문 작성법 관련 한글 책 중에서는 가장 내용이 충실한 것 같다. 게다가 찰랑찰랑한 속지로 잘 만들어졌다.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>초보자를 위한 RStudio 마스터</title>
+        <link>https://hoontaeklee.github.io/en/posts/20190319_mastering_rstudio/</link>
+        <pubDate>Tue, 19 Mar 2019 17:15:06 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Tue, 19 Mar 2019 17:15:06 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20190319_mastering_rstudio/</guid>
+        <description>RStudio로 할 수 있는 다양한 컨텐츠를 소개한다. Git과 연동, Shiny 앱, R 마크다운, RStudio 서버, 패키지 개발과 같은 주제를 모두 다루고 있는 책이기에 기대를 가</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>세상에서 가장 쉬운 통계학 입문</title>
+        <link>https://hoontaeklee.github.io/en/posts/20190310_%ED%86%B5%EA%B3%84%ED%95%99%EC%9E%85%EB%AC%B8/</link>
+        <pubDate>Sun, 10 Mar 2019 00:06:32 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 10 Mar 2019 00:06:32 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20190310_%ED%86%B5%EA%B3%84%ED%95%99%EC%9E%85%EB%AC%B8/</guid>
+        <description>t검정을 이해하는 데 필요한 직관을 효율적으로 심어주는 책. 대체로 모든 설명이 친절해서 중학생도 이해할 수 있을 것 같다. 특히 표준편차가 가지는 의미를 더 잘 이해할</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Machine Learning with R</title>
+        <link>https://hoontaeklee.github.io/en/posts/20190215_machine_learning_with_r/</link>
+        <pubDate>Fri, 15 Feb 2019 00:04:09 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Fri, 15 Feb 2019 00:04:09 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20190215_machine_learning_with_r/</guid>
+        <description>R로 다양한 머신 러닝 기법을 직접 체험해보기 좋은 책. 각 기법이 어떤 유형의 문제에 활용될 수 있는지를 정리한 표가 있어서 좋다. 각 기법이 동작하는 기본 원리도 잘 설명</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Science Research Writing</title>
+        <link>https://hoontaeklee.github.io/en/posts/20190100_science_research_writing/</link>
+        <pubDate>Tue, 15 Jan 2019 00:02:07 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Tue, 15 Jan 2019 00:02:07 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20190100_science_research_writing/</guid>
+        <description>석사학위논문 쓸 때 참고자료로 구입한 책 중 하나. 본격적으로 읽은 건 2019년 과학원에서 첫 논문 쓸 때였다. 이 책은 실제 논문의 섹션별로 유닛이 나눠져 있고, 각 유</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
         
