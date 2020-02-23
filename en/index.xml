@@ -683,44 +683,6 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
       </item>
       
       <item>
-        <title>Hugo 블로그에 Google analytics 추가하기</title>
-        <link>https://hoontaeklee.github.io/en/posts/20200103_google_analytics_on_hugo/</link>
-        <pubDate>Fri, 03 Jan 2020 20:33:00 +0900</pubDate>
-        <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        <atom:modified>Fri, 03 Jan 2020 20:33:00 +0900</atom:modified>
-        <guid>https://hoontaeklee.github.io/en/posts/20200103_google_analytics_on_hugo/</guid>
-        <description>서론 블로그는 사막에서 혼자 지낸다는 마음가짐으로 하는 것이지만, 그래도 누가누가 내 블로그에 오는지는 알고 싶은 법이다. 이를 위해 Google Analytics (GA)를 설치한다. 이</description>
-        
-        <dc:creator>Hoontaek Lee</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>Hugo</category>
-            
-          
-            
-              <category>Customizing</category>
-            
-          
-            
-              <category>2020</category>
-            
-          
-        
-        
-          
-            
-              <category>Blog Maintenance</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
         <title>Hugo 블로그 댓글 기능 추가: utterances</title>
         <link>https://hoontaeklee.github.io/en/posts/20200101_add_utterances/</link>
         <pubDate>Wed, 01 Jan 2020 15:35:00 +0900</pubDate>
