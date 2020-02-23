@@ -178,12 +178,12 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/book-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/categories/book-review/</loc>
     <lastmod>2020-02-23T16:55:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/categories/book-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/tags/book-review/</loc>
     <lastmod>2020-02-23T16:55:00+09:00</lastmod>
   </url>
   
@@ -224,7 +224,12 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/customizing/</loc>
-    <lastmod>2020-01-01T15:54:00+09:00</lastmod>
+    <lastmod>2020-01-03T20:33:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200103_google_analytics_on_hugo/</loc>
+    <lastmod>2020-01-03T20:33:00+09:00</lastmod>
   </url>
   
   <url>
