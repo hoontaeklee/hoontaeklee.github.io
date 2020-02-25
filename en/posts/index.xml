@@ -662,6 +662,44 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
       </item>
       
       <item>
+        <title>Hugo 블로그에 Google analytics 추가하기</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200103_add_google_analytics/</link>
+        <pubDate>Fri, 03 Jan 2020 20:33:22 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Fri, 03 Jan 2020 20:33:22 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200103_add_google_analytics/</guid>
+        <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>Customizing</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+          
+            
+              <category>Blog Maintenance</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>Hugo 블로그 댓글 기능 추가: utterances</title>
         <link>https://hoontaeklee.github.io/en/posts/20200101_add_utterances/</link>
         <pubDate>Wed, 01 Jan 2020 15:35:00 +0900</pubDate>
