@@ -1198,7 +1198,7 @@
 <meta name="description" content="" />
 <meta name="keywords" content="">
 <meta name="created" content="2020-01-11T15:00:06&#43;0900">
-<meta name="modified" content="2020-01-11T15:00:06&#43;0900">
+<meta name="modified" content="2020-02-27T23:50:06&#43;0900">
 <meta property="article:published_time" content="2020-01-11T15:00:06&#43;0900">
 
 <meta name="author" content="HoonTaek Lee">
@@ -1234,7 +1234,7 @@
     "@type": "WebPage",
     "headline": "Paper Review: 2020",
     "datePublished": "2020-01-11T15:00:06+09:00",
-    "dateModified": "2020-01-11T15:00:06+09:00",
+    "dateModified": "2020-02-27T23:50:06+09:00",
     "url" : "https://hoontaeklee.github.io/en/posts/2020_pr/",
     "description": "11 January, 2020 (Piao, GCB, Phenology) Piao S, Liu Q, Chen A, et al. Plant phenology and global climate change: Current progresses and challenges. Global Change Biology, …",
     "keywords": ["Research","2020"],
@@ -1475,7 +1475,7 @@
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Jan 11, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 13 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;HoonTaek Lee</span>
+  <time class="single__info" title="Written At">📅&nbsp;Jan 11, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 14 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;HoonTaek Lee</span>
   <span class="single__info">
     
   </span>
@@ -1746,6 +1746,21 @@
 <p>SPA: incorporated plant hydraulics to constrain stomatal optimization, but still relied on a WUE optimization similar to CF.</p>
 <p>Sperry: proposed a model that assumes that as xylem hydraulic conductance declines, <strong>the increased risk of hydraulic failure is the main fitness cost</strong> associated with low psi.</p>
 <p>SOX: has a different optimization target from that of Sperry: stomata optimize plant dry matter production. In addition, SOX can be solved analytically.</p>
+<h2 id="27-february-2020-holgate-rse-smc">27 February, 2020 (Holgate, RSE, SMC)</h2>
+<p>Holgate, C.M., De Jeu, R.A., van Dijk, A.I.J.M., Liu, Y.Y., Renzullo, L.J., Dharssi, I., Parinussa, R.M., Van Der Schalie, R., Gevaert, A., Walker, J., 2016. Comparison of remotely sensed and modelled soil moisture data sets across Australia. Remote Sensing of Environment 186, 479–500.</p>
+<h3 id="summary-1">Summary</h3>
+<p>This paper compared time series pattern and temporal anomaly of diverse soil moisture content (SMC) products with in-situ measurements. The methodologies included the Pearson correlation coefficient, an anomaly index and the cluster analysis. By comparing in a common frame, this study could provide a glimpse of the performances of the SMC products. <strong>I would probably refer to this paper</strong>, as I would like to compare many ET and SMC products.</p>
+<h3 id="controversy-about-kbdi">Controversy about KBDI</h3>
+<p><img src="/en/posts/paper_2020/2016_Holgate_table3.jpg" alt="" /></p>
+<p><img src="/en/posts/paper_2020/2016_Holgate_fig8.jpg" alt="" /></p>
+<p>&ndash;&gt; The authors pointed out that the KBDI dried down too slowly after days of wet condition, which might be the cause of low correlation value. <strong>However</strong>, in my case, KBDI shows a good agreement with in-situ SMC observations without any slow responses after wet conditions.</p>
+<h3 id="other-comments-1">Other comments</h3>
+<ul>
+<li>I think it is <strong>a nice way of starting the section</strong> 4.3.: &ldquo;<strong>The purpose of this section is to</strong> summurise the main features of interest within the time series&rdquo;</li>
+<li>I am interested in <strong>the two modelled indices</strong>: API (antecedent precipitation index) and MSDI (Mount&rsquo;s Soil Dryness Index). <strong>API</strong> showed a great performance although it has a very simplified structure and calculation (temperature and precipitation). <strong>MSDI</strong> seems as an upgraded version of KBDI as it additionally accounts for vegetative factors of each PFT.</li>
+<li>Model-based products showed better performances than satellite-based ones. <strong>How could this be possible?</strong> The authors in the discussion only stated about spatial scale and the number of points.</li>
+<li>In the first section of the discussion, results of other studies about inter-comparing a variety SMC products were summarized. <strong>How those papers including this one could be published even all these were about comparing SMC products?</strong> Were there different implications among the studies?</li>
+</ul>
 <div class="footnotes" role="doc-endnotes">
 <hr />
 <ol>
@@ -2359,6 +2374,13 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#summary">Summary</a></li>
         <li><a href="#sox">SOX</a></li>
         <li><a href="#other-comments">Other comments</a></li>
+      </ul>
+    </li>
+    <li><a href="#27-february-2020-holgate-rse-smc">27 February, 2020 (Holgate, RSE, SMC)</a>
+      <ul>
+        <li><a href="#summary-1">Summary</a></li>
+        <li><a href="#controversy-about-kbdi">Controversy about KBDI</a></li>
+        <li><a href="#other-comments-1">Other comments</a></li>
       </ul>
     </li>
   </ul>
