@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Paper Review on bloght</title>
+    <link>https://hoontaeklee.github.io/en/tags/paper-review/</link>
+    <description>Recent content in Paper Review on bloght</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
+    <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 28 Feb 2020 19:48:52 +0900</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/tags/paper-review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>How to write your first research paper</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200228_how_to_write_the_first_paper/</link>
+        <pubDate>Fri, 28 Feb 2020 19:48:52 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Fri, 28 Feb 2020 19:48:52 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200228_how_to_write_the_first_paper/</guid>
+        <description>Intro Kallestinova E. D. (2011). How to write your first research paper. The Yale journal of biology and medicine, 84(3), 181–190.
+Confused by now with encountering the start of a new research, I read this paper to seek for avenues. The author, Elena D. Kallestinova, provided some pragmatic rules with the relevant explanation. Rather than procastinating, I might be more helpful for my writing to dive directly into my data, models, and codes.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
