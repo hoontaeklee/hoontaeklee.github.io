@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hoontaeklee.github.io/en/archive/</loc>
+    <lastmod>2020-03-01T00:56:01+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
     <lastmod>2020-02-28T19:48:52+09:00</lastmod>
   </url>
@@ -123,12 +128,12 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/categories/movie-review/</loc>
     <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/categories/movie-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
     <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   
