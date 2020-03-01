@@ -56,6 +56,176 @@ Confused by now with encountering the start of a new research, I read this paper
       </item>
       
       <item>
+        <title>Paper Review: Holgate (2016): SMC. RSE</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_holgate_2016_rse_smc/</link>
+        <pubDate>Thu, 27 Feb 2020 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Thu, 27 Feb 2020 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_holgate_2016_rse_smc/</guid>
+        <description>27 February, 2020 (Holgate, RSE, SMC) Holgate, C.M., De Jeu, R.A., van Dijk, A.I.J.M., Liu, Y.Y., Renzullo, L.J., Dharssi, I., Parinussa, R.M., Van Der Schalie, R., Gevaert, A., Walker, J., 2016. Comparison of remotely sensed and modelled soil moisture data sets across Australia. Remote Sensing of Environment 186, 479–500.
+Summary This paper compared time series pattern and temporal anomaly of diverse soil moisture content (SMC) products with in-situ measurements. The methodologies included the Pearson correlation coefficient, an anomaly index and the cluster analysis.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Eller (2020): JULES-SOX. NPH</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_eller_2020_nph_jules-sox/</link>
+        <pubDate>Sat, 22 Feb 2020 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 22 Feb 2020 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_eller_2020_nph_jules-sox/</guid>
+        <description>22 February, 2020 (Eller, NPH, JULES-SOX) Eller, C.B., Rowland, L., Mencuccini, M., Rosas, T., Williams, K., Harper, A., Medlyn, B.E., Wagner, Y., Klein, T., Teodoro, G.S., Oliveira, R.S., Matos, I.S., Rosado, B.H.P., Fuchs, K., Wohlfahrt, G., Montagnani, L., Meir, P., Sitch, S. and Cox, P.M. (2020), Stomatal optimization based on xylem hydraulics (SOX) improves land surface model simulation of vegetation responses to climate. New Phytol. doi:10.1111/nph.16419
+Summary Many researchers, including me, who use ecosystem models have recognized that the beta function approach for representing the change in plant photosynthesis to soil moisture stress needs improvement.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Ogle (2019): Deep learningSAM. CHANCE</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_ogle_2016_chance_sam/</link>
+        <pubDate>Sat, 15 Feb 2020 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 15 Feb 2020 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_ogle_2016_chance_sam/</guid>
+        <description>15 February, 2020 (Ogle, CHANCE, SAM) Kiona Ogle &amp;amp; Jarrett J. Barber (2016) Plant and Ecosystem Memory, CHANCE, 29:2, 16-22, DOI: 10.1080/09332480.2016.1181961
+ Why did I read this paper?  It is often easier to get knowledge (i.e., model, concept, equation, and so forth) not from the original descriptive paper, but from other papers using the knowledge because they introduce the knowledge after masticating it, not as it is.
+This paper masticates the stochastic antecedent modelling (SAM) framework for beginners.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Reichstein (2019): Deep learning. Nature</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_reichstein_2019_nature_deep-learning/</link>
+        <pubDate>Fri, 07 Feb 2020 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Fri, 07 Feb 2020 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_reichstein_2019_nature_deep-learning/</guid>
+        <description>7 February, 2020 (Reichstein, Nature, Deep learning) Reichstein, M., Camps-Valls, G., Stevens, B. et al. Deep learning and process understanding for data-driven Earth system science. Nature 566, 195–204 (2019). https://doi.org/10.1038/s41586-019-0912-1
+  Question:
+ How have machine learning algorithms, especially deep learning, been applied to Earth system science and what is the future direction of the application?    Context:
+ Our ability to produce a deluge of data outpaces our ability to assimilate the information.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Jung (2017): Compensatory. Nature</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_jung_2017_nature_compensatory/</link>
+        <pubDate>Tue, 04 Feb 2020 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Tue, 04 Feb 2020 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_jung_2017_nature_compensatory/</guid>
+        <description>4 February, 2020 (Jung, Nature, Compensatory) Jung, M., Reichstein, M., Schwalm, C. et al. Compensatory water effects link yearly global land CO2 sink changes to temperature. Nature 541, 516-520 (2017). https://doi.org/10.1038/nature20780
+  Question:
+ How do changes in temperature and water availability effect on gross primary productivity (GPP), terrestrial ecosystem respiration (TER), and net ecosystem exchange (NEE) at local and global scales?    Context:
+ Despite temperature is known to contribute to the inter annual variation (IAV) of the terrestrial carbon cycle, several studies propose that water availability play an important role in the carbon cycle relates such as the carbon balance of semi-tropics and the sensitivity to IAV.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Why do a PhD abroad? - 박사 (유학)하는 이유</title>
         <link>https://hoontaeklee.github.io/en/posts/20200122_whyphd/</link>
         <pubDate>Wed, 22 Jan 2020 13:45:55 +0900</pubDate>
@@ -88,16 +258,17 @@ Confused by now with encountering the start of a new research, I read this paper
       </item>
       
       <item>
-        <title>Paper Review: 2020</title>
-        <link>https://hoontaeklee.github.io/en/posts/2020_pr/</link>
-        <pubDate>Sat, 11 Jan 2020 15:00:06 +0900</pubDate>
+        <title>Paper Review: di Porcia e Brugnera (2019): Liana. GCB</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_brugnera_2019_gcb_liana/</link>
+        <pubDate>Tue, 21 Jan 2020 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        <atom:modified>Thu, 27 Feb 2020 23:50:06 +0900</atom:modified>
-        <guid>https://hoontaeklee.github.io/en/posts/2020_pr/</guid>
-        <description>11 January, 2020 (Piao, GCB, Phenology) Piao S, Liu Q, Chen A, et al. Plant phenology and global climate change: Current progresses and challenges. Global Change Biology, 2019;00:1–19. https://doi.org/10.1111/gcb.14619
-Piao et al. (2019) reviewed the current understanding of leaf phenological processes. They suggested that four key factors are driving the phenological processes: 1) temperature, 2) photoperiod, 3) nutrient and water availability, and 4) interseasonal phenological correlations (i.e. the positive spring and autumn phenological intercorrelation).</description>
+        <atom:modified>Tue, 21 Jan 2020 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_brugnera_2019_gcb_liana/</guid>
+        <description>21 January, 2020 (Brugnera, GCB, Liana) di Porcia e Brugnera, M, Meunier, F, Longo, M, et al. Modeling the impact of liana infestation on the demography and carbon cycle of tropical forests. Global Change Biology, 2019; 25: 3767– 3780. https://doi.org/10.1111/gcb.14769
+  Question:
+ How much does integrating lianas into the ED2 influence the estimates of forest carbon cycle?   The authors hypothesized that the impact of lianas on carbon uptake by forest would be larger in the secondary forests than in the old-growth forests since lianas showed high density in young forests.</description>
         
-        <dc:creator>HoonTaek Lee</dc:creator>
+        <dc:creator>Hoontaek Lee</dc:creator>
         
         
         
@@ -108,11 +279,78 @@ Piao et al. (2019) reviewed the current understanding of leaf phenological proce
             
           
             
-              <category>Paper_Review</category>
+              <category>Paper Review</category>
             
           
             
               <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Piao (2019): Phenology. GCB</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_piao_2019_gcb_phenology/</link>
+        <pubDate>Sat, 11 Jan 2020 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 11 Jan 2020 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_piao_2019_gcb_phenology/</guid>
+        <description>11 January, 2020 (Piao, GCB, Phenology) Piao S, Liu Q, Chen A, et al. Plant phenology and global climate change: Current progresses and challenges. Global Change Biology, 2019;00:1–19. https://doi.org/10.1111/gcb.14619
+Piao et al. (2019) reviewed the current understanding of leaf phenological processes. They suggested that four key factors are driving the phenological processes: 1) temperature, 2) photoperiod, 3) nutrient and water availability, and 4) interseasonal phenological correlations (i.e. the positive spring and autumn phenological intercorrelation).</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Fisher (2010): JULES-ED. NPH</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_fisher_2010_nph_jules-ed/</link>
+        <pubDate>Wed, 18 Dec 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 18 Dec 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_fisher_2010_nph_jules-ed/</guid>
+        <description>18 December, 2019 (Fisher, NPH, JULES-ED) Fisher, R., McDowell, N., Purves, D., Moorcroft, P., Sitch, S., Cox, P., Huntingford, C., Meir, P. and Ian Woodward, F. (2010), Assessing uncertainties in a second‐generation dynamic vegetation model caused by ecological scale limitations. New Phytologist, 187: 666-681. doi:10.1111/j.1469-8137.2010.03340.x
+  Question:
+ How demographic processes of two-dimensional spatial scales influence simulations of community structure, and responses of ecosystems to climate change?    Context:</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
             
           
         
@@ -150,6 +388,40 @@ Useful Links  Asking good questions: A well-structured and -explained essay Deve
       </item>
       
       <item>
+        <title>Paper Review: Smith-Martin (2019): Liana. NPH</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_smith-martin_2019_nph_liana/</link>
+        <pubDate>Tue, 17 Dec 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Tue, 17 Dec 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_smith-martin_2019_nph_liana/</guid>
+        <description>17 December, 2019 (Smith-Martin, NPH, Liana) Smith‐Martin, C.M., Xu, X., Medvigy, D., Schnitzer, S.A. and Powers, J.S. (2019), Allometric scaling laws linking biomass and rooting depth vary across ontogeny and functional groups in tropical dry forest lianas and trees. New Phytologist. doi:10.1111/nph.16275
+  Question:
+ Do mature lianas invest less biomass in stems compared to trees? The authors tried to compare the investment strategy between lianas and trees. Do juveniles follow the same allocation patterns as mature individuals?</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>How to outline a paper</title>
         <link>https://hoontaeklee.github.io/en/posts/20191217_how_to_outline_a_paper/</link>
         <pubDate>Tue, 17 Dec 2019 19:46:25 +0900</pubDate>
@@ -178,16 +450,16 @@ Useful Links  Asking good questions: A well-structured and -explained essay Deve
       </item>
       
       <item>
-        <title>Paper Review: 2019</title>
-        <link>https://hoontaeklee.github.io/en/posts/paper_review_2019/</link>
-        <pubDate>Sat, 13 Apr 2019 15:00:00 +0900</pubDate>
+        <title>Paper Review: Bar (2019): Fire. NPH</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_bar_2019_nph_fire/</link>
+        <pubDate>Sat, 07 Dec 2019 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        <atom:modified>Wed, 05 Feb 2020 11:22:00 +0900</atom:modified>
-        <guid>https://hoontaeklee.github.io/en/posts/paper_review_2019/</guid>
-        <description>13 April, 2019 (Bonan, ANN, Climate) Bonan, G. B. (2016). Forests, climate, and public policy: A 500-year interdisciplinary odyssey. Annual Review of Ecology, Evolution, and Systematics, 47, 97–121.
-I anticipated that this paper explains how the results from forest-climate research have been deployed to public policy. However, this paper had its focus to forest-climate relationships, and &amp;ldquo;these relationships should be understood well to be properly applied to policy&amp;rdquo; was all about the public policy.</description>
+        <atom:modified>Sat, 07 Dec 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_bar_2019_nph_fire/</guid>
+        <description>7 December, 2019 (Bar, NPH, Fire) Bär, A., Michaletz, S.T. and Mayr, S. (2019), Fire effects on tree physiology. New Phytologist, 223: 1728-1741. doi:10.1111/nph.15871
+My research group at NIFOS was invited to write a research paper for a special issue of a journal. We decided to write a paper about the lagged browning after the forest fire at April 2019. I wrote about how forest fire affects an individual tree&amp;rsquo;s physiology, referring majorly to this paper.</description>
         
-        <dc:creator>HoonTaek Lee</dc:creator>
+        <dc:creator>Hoontaek Lee</dc:creator>
         
         
         
@@ -195,6 +467,373 @@ I anticipated that this paper explains how the results from forest-climate resea
           
             
               <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Resco de Dios (2019): FMC. AFM</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_rescodedios_2015_afm_fmc/</link>
+        <pubDate>Mon, 12 Aug 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Mon, 12 Aug 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_rescodedios_2015_afm_fmc/</guid>
+        <description>12 August, 2019 (Resco de Dios, AFM, FMC) Resco de Dios, V., Fellows, A.W., Nolan, R.H., Boer, M.M., Bradstock, R.A., Domingo, F. and Goulden, M.L. (2015). A semi-mechanistic model for predicting the moisture content of fine litter. Agricultural and Forest Meteorology, 203, 64-73.
+I read this paper to get some hints for my fuel moisture research at NIFOS. This paper developed a semi-mechanistic model in which fuel moisture content (FMC) and vapor pressure deficit (VPD) were exponentially related.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Vinodkumar (2019): SMC. AFM</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_vinodkumar_2019_afm_smc/</link>
+        <pubDate>Sat, 22 Jun 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 22 Jun 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_vinodkumar_2019_afm_smc/</guid>
+        <description>22 June, 2019 (Vinodkumar, AFM, SMC) Vinodkumar and Dharssi (2019). Evaluation and calibration of a high-resolution soil moisture product for wildfire prediction and management. Agricultural and Forest Meteorology, 264, 27-39.
+This paper can be a good guide for both of my researches at SNU and NIFOS. This paper used the JULES to predict soil moisture deficit (SMD), which is similar to the object of the study at SNU. On the other hand, the purpose of SMD prediction was to imporve a fire danger index, which is the same as my research at NIFOS.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Berry (2019): FWU. PCE</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_berry_2019_pce_fwu/</link>
+        <pubDate>Sat, 15 Jun 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 15 Jun 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_berry_2019_pce_fwu/</guid>
+        <description>15 June, 2019 (Berry, pce, FWU) Berry, Z.C., Emery, N.C., Gotsch, S.G., Goldsmith, G.R. (2019). Foliar water uptake: Processes, pathways, and integration into plant water budgets. Plant, Cell and Environment, 42, 410-423.
+As I saw foliar water uptake (FWU) in alert lists sometimes, I became curious about the process. So I read this paper. FWU was observed about 400 years ago (1727), but it seems like relatively new and immatured field.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Hartmann (2018): Mortality. NPH</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_hartmann_2018_nph_mortality/</link>
+        <pubDate>Sat, 08 Jun 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 08 Jun 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_hartmann_2018_nph_mortality/</guid>
+        <description>8 June, 2019 (Hartmann, NPH, Mortality) Hartmann, H., Moura, C.F., Anderegg, W.R.L., Ruehr, N.K., Salmon, Y., Allen, C.D., Arndt, S.K., Breshears, D.D., Davi, H. and Galbraith, D. (2018). Research frontiers for improving our understanding of drought-induced tree and forest mortality. New Phytologist, 218(1), 15-28.
+This paper suggests some research frontiers (questions) about plant responses to drought. But, rather than the suggestions, I was interested in the topic of Box 1: definition of death for plants.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Li (2018): SIF. GCB</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_li_2018_gcb_sif/</link>
+        <pubDate>Sun, 26 May 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 26 May 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_li_2018_gcb_sif/</guid>
+        <description>26 May, 2019 (Li, GCB, SIF) Li, X., Xiao, J., He, B., Altaf Arain, M., Beringer, J., Desai, A.R., Emmel, C., Hollinger, D.Y., Krasnova, A., Mammarella, I., Noe, S.M., Ortiz, P.S., Rey-Sanchez, A.C., Rocha, A.V. and Varlagin, A. (2018). Solar-induced chlorophyll fluorescence is strongly correlated with terrestrial photosynthesis for a wide variety of biomes: First global analysis based on OCO-2 and flux tower observations. Global Change Biology, 24(9), 3990-4008.
+This paper demonstrates that SIF is a strong proxy of terrestrial GPP using different point of view.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Fisher (2014): TBM. ANN</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_fisher_2014_ann_tbm/</link>
+        <pubDate>Sat, 18 May 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 18 May 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_fisher_2014_ann_tbm/</guid>
+        <description>18 May, 2019 (Fisher, ANN, TBM) Fisher, J.B., Huntzinger, D.N., Schwalm, C.R. and Sitch, S. (2014). Modeling the terrestrial biosphere. Annual Review of Environment and Resources, 39, 91-123.
+This paper synthesized in what context the terrestrial biosphere model (TBM) appeared, which processes TBMs included, and what&amp;rsquo;s next. It was interesting that actually many part of the TBM was studied and developed separately around the world, and the development was accelerated after the parts were incorporated into a type of model.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Zhang (2019): CLM4.5. JGRBG</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_zhang_2019_jgrbg_clm45/</link>
+        <pubDate>Sat, 11 May 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 11 May 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_zhang_2019_jgrbg_clm45/</guid>
+        <description>11 May, 2019 (Zhang, JGRBG, CLM4.5) Zhang, L., Lei, H., Shen, H., Cong, Z., Yang, D. and Liu, T. (2019). Evaluating the representation of vegetation phenology in the Community Land model 4.5 in a temperate grassland. Journal of Geophysical Research: Biogeosciences 124.
+This was a key paper for the first revision of my paper. This paper had its focus on improving phenology module in CLM 4.5 by comparing MODIS LAI. Two problem were issued and resolved.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Xu (2016): ED-Hydro. NPH</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_xu_2016_nph_ed-hydro/</link>
+        <pubDate>Sun, 05 May 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 05 May 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_xu_2016_nph_ed-hydro/</guid>
+        <description>5 May, 2019 (Xu, NPH, ED-Hydro) Xu, X., Medvigy, D., Powers, J.S., Becknell, J.M. and Guan, K. (2016). Diversity in plant hydraulic traits explains seasonal and inter‐annual variations of vegetation dynamics in seasonally dry tropical forests. New Phytologist 212(1), 80-95.
+This paper incoporated hydraulic module into the ED2. This module accounted for hydraulic traits such as tugor loss point (TLP), saturated xylem conductivity, 50% xylem conductivity loss water potential, and area-based A~net~ under sufficient water supply.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Van den Hoof (2016): JULES. JGRBG</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_vandenhoof_2016_jgrbg_jules/</link>
+        <pubDate>Sat, 27 Apr 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 27 Apr 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_vandenhoof_2016_jgrbg_jules/</guid>
+        <description>27 April, 2019 (Van den Hoof, JGRBG, JULES) Van den Hoof, C. and Lambert, F. (2016). Mitigation of drought negative effect of ecosystem productivity by vegetation mixing. Journal of Geophysical Research: Biogeosciences, 121, 2667–2683.
+This paper conducted an interesting numerical experiment to investigate changes in SMC and Carbon &amp;amp; Water fluxes by vegetation mixing. This vegetation mixing was represented by adjusting PFT cover ratios of grid in the JULES model. Results show that NPP and LE flux were increased and SMC was decreased, especially during drought period.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Dietze (2014): NSC. ANN</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_dietze_2014_ann_nsc/</link>
+        <pubDate>Sat, 20 Apr 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 20 Apr 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_dietze_2014_ann_nsc/</guid>
+        <description>20 April, 2019 (Dietze, ANN, NSC) Dietze, M. C. (2014). Nonstructural Carbon in Woody Plants. Annual Review of Plant Biology, 65, 667–687.
+NSC is important for tree plants because it acts as an physiological insurance budget for them. I expected that this paper would be organized as a chapter about NSC in a textbook and I can get basic knowledge about NSC. Although this paper is not organized as I expected, it provides well-summarized review about NSC related research results which contain interesting knowledge about NSC.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2019</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Bonan (2016): Climate. ANN</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_bonan_2016_ann_climate/</link>
+        <pubDate>Sat, 13 Apr 2019 20:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 13 Apr 2019 20:00:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_bonan_2016_ann_climate/</guid>
+        <description>13 April, 2019 (Bonan, ANN, Climate) Bonan, G. B. (2016). Forests, climate, and public policy: A 500-year interdisciplinary odyssey. Annual Review of Ecology, Evolution, and Systematics, 47, 97–121.
+I anticipated that this paper explains how the results from forest-climate research have been deployed to public policy. However, this paper had its focus to forest-climate relationships, and &amp;ldquo;these relationships should be understood well to be properly applied to policy&amp;rdquo; was all about the public policy.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
             
           
             
