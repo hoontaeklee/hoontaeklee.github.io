@@ -3,18 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/archive/</loc>
-    <lastmod>2020-03-01T00:56:01+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-03-01T15:28:00+09:00</lastmod>
+    <lastmod>2020-03-01T22:32:09+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-03-01T16:12:00+09:00</lastmod>
+    <lastmod>2020-03-01T22:32:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
+    <lastmod>2020-03-01T22:32:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/</loc>
+    <lastmod>2020-03-01T22:32:09+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200229_%EC%97%84%EB%A7%88%ED%91%9C%EC%97%90%EC%BD%94%EB%B0%B1/</loc>
+    <lastmod>2020-03-01T22:32:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200219_%EC%B6%98%EC%B2%9C%EC%B6%9C%EC%9E%A5/</loc>
+    <lastmod>2020-03-01T22:18:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/archive/</loc>
+    <lastmod>2020-03-01T00:56:01+09:00</lastmod>
   </url>
   
   <url>
@@ -30,21 +60,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
     <lastmod>2020-02-28T19:48:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-03-01T16:12:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/tags/"
-                />
   </url>
   
   <url>
@@ -165,11 +180,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200202_toe/</loc>
     <lastmod>2020-02-03T19:59:31+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
-    <lastmod>2020-01-29T09:39:03+09:00</lastmod>
   </url>
   
   <url>
