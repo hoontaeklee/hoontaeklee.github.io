@@ -14,7 +14,7 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 11 Mar 2020 20:35:43 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2020 20:03:01 +0900</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,15 +23,43 @@
 
       
       <item>
+        <title>향수 구입</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200314_%ED%96%A5%EC%88%98/</link>
+        <pubDate>Sun, 15 Mar 2020 20:03:01 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 15 Mar 2020 20:03:01 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200314_%ED%96%A5%EC%88%98/</guid>
+        <description>향수 올해 초 내 체취에 대한 제보를 들은 후, 이전에 누나가 줬던 러쉬 Twilight를 사용하고 있었다. 그러던 중 누나가 러쉬 할인을 받을 기회가 생겨서 구입하게 됐</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/20200314_%ed%96%a5%ec%88%98_fig2.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Ecological Forecasting</title>
         <link>https://hoontaeklee.github.io/en/posts/20200311_ecological_forecasting/</link>
         <pubDate>Wed, 11 Mar 2020 20:35:43 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Wed, 11 Mar 2020 21:39:43 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200311_ecological_forecasting/</guid>
-        <description>Intro Near-term Ecological Forecasting Initiative (NEFI) Summer Course 2020. 책 저자이자 보스턴 대학교(Boston University)에 재직중인 Dietze 교수가는 매년 summer course를 진행하고 있다. NEFI 2019</description>
+        <description>Intro Near-term Ecological Forecasting Initiative (NEFI) Summer Course 2020. 책 저자이자 보스턴 대학교(Boston University)에 재직중인 Dietze 교수는 매년 Bayesian application to ecological forecasting을 가르치는 summer</description>
         
-        <dc:creator>HoonTaek Lee</dc:creator>
+        <dc:creator>Hoontaek Lee</dc:creator>
         
         
         
@@ -39,6 +67,10 @@
           
             
               <category>Book Review</category>
+            
+          
+            
+              <category>Research</category>
             
           
             
@@ -814,7 +846,7 @@ This paper masticates the stochastic antecedent modelling (SAM) framework for be
         <link>https://hoontaeklee.github.io/en/posts/20200112_%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B0%95%EC%9D%98/</link>
         <pubDate>Sun, 12 Jan 2020 11:11:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        <atom:modified>Sun, 08 Mar 2020 14:12:00 +0900</atom:modified>
+        <atom:modified>Sun, 15 Mar 2020 19:58:00 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200112_%EB%AC%BC%EB%A6%AC%ED%95%99%EA%B0%95%EC%9D%98/</guid>
         <description>가벼우면서 탄탄한 물리학 입문서 생태계 모델링을 실제로 공부하기 전에는 숲과 나무에 관한 지식이 주로 필요할 줄 알았지만 착각이었다. 생태계 모델은 자연의 생태계를</description>
         
