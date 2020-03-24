@@ -238,7 +238,7 @@
     
     var tocFolding = JSON.parse("true");
     
-    var tocLevels = JSON.parse("[\"h2\",\"h3\",\"h4\"]");
+    var tocLevels = JSON.parse("[\"h1\",\"h2\",\"h3\"]");
     
     if (tocLevels) {
       tocLevels = tocLevels.toString();
@@ -1503,7 +1503,7 @@
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Mar 11, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 7 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;Hoontaek Lee</span>
+  <time class="single__info" title="Written At">📅&nbsp;Mar 11, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 8 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;Hoontaek Lee</span>
   <span class="single__info">
     
   </span>
@@ -1854,6 +1854,86 @@
 </ul>
 </li>
 </ul>
+<h1 id="3-data-large-and-small">3. Data. Large and Small</h1>
+<h2 id="31-the-data-cycle-and-best-practices">3.1. The data cycle and best practices</h2>
+<blockquote>
+<p>미래의 나를 위해서 + 코웤 증가하는 시대에 맞춰</p>
+<p>데이터를 <strong>잘</strong> 관리해야 한다 - 일정 형식 + 메타데이터</p>
+</blockquote>
+<br>
+<ul>
+<li>Data Life Cycle: two scales
+<ol>
+<li>data generation: plan - collect - assure - describe - preserve</li>
+<li>synthesis and forecasting: discover, integrate, and analyze</li>
+</ol>
+</li>
+<li>Best practices
+<ol>
+<li>automated</li>
+<li>documented</li>
+<li>recoverable</li>
+</ol>
+</li>
+</ul>
+<h3 id="311-plan">3.1.1. Plan</h3>
+<blockquote>
+<p>계획을 잘 짜야 후환이 적다</p>
+<p>어차피 grant proposal에도 써야 한다</p>
+</blockquote>
+<h3 id="312-collect">3.1.2. Collect</h3>
+<blockquote>
+<p>미리 열제목 등 틀을 만들어 놓자.</p>
+<p>그날 모은 건 그날 확인하자.</p>
+</blockquote>
+<h3 id="313-assure">3.1.3. Assure</h3>
+<blockquote>
+<p>QA/QC 잘 하자.</p>
+<p>원 값을 바꾸기보다는 QA/QC 플래그를 추가하는 게 좋다.</p>
+</blockquote>
+<h3 id="314-describe">3.1.4. Describe</h3>
+<blockquote>
+<p>메타데이터 만들자.</p>
+</blockquote>
+<h3 id="315-preserve">3.1.5. Preserve</h3>
+<blockquote>
+<p>변경 기록 잘 하자.</p>
+<p>공개 무료 저장소를 사용하자.</p>
+</blockquote>
+<h3 id="316-discover-integrate-analyze">3.1.6. Discover, integrate, analyze</h3>
+<blockquote>
+<p>데이터 다루는 스킬 갖추자.</p>
+</blockquote>
+<h2 id="32-data-standards-and-metadata">3.2. Data standards and metadata</h2>
+<h3 id="321-metadata">3.2.1. Metadata</h3>
+<blockquote>
+<p>Data&rsquo;s provenance: 메타데이터 잘 쓰자.</p>
+</blockquote>
+<h3 id="322-data-standards">3.2.2. Data standards</h3>
+<blockquote>
+<p>정답이 있는 건 아니지만, 그래도 서로 합의 하에 <strong>일정한 형식</strong>으로 데이터를 작성하자.</p>
+</blockquote>
+<h2 id="33-handling-big-data">3.3. Handling big data</h2>
+<blockquote>
+<p>Big-data: size, RAM size, handling tool &hellip;</p>
+</blockquote>
+<div class="box"><p>Box 3.1. Self-documenting Data</p>
+<p>The key to the self-documenting data is that the data and the metadata are stored together.</p>
+<p>The two most common self-documenting file formats:</p>
+<ul>
+<li>the network common data format (<strong>netCDF</strong>)</li>
+<li>the hierarchical data format (<strong>HDF</strong>)</li>
+</ul>
+</div>
+<h1 id="scientific-workflows-and-the-informatics-of-model-data-fusion">Scientific Workflows and the Informatics of Model-Data fusion</h1>
+<h2 id="41-transparency-accountability-and-repeatability">4.1. Transparency, accountability, and repeatability</h2>
+<blockquote>
+<p>재현가능해야 한다 &ndash;&gt; 데이터, 방법, 소프트웨어 투명하게 공개</p>
+<p>오픈소스 소프트웨어 적극 활용합시다.</p>
+</blockquote>
+<h2 id="42-workflows-and-automation">4.2. Workflows and automation</h2>
+<blockquote>
+</blockquote>
 
     </article>
     <script>
@@ -2059,7 +2139,7 @@
         </li>
         
         <li>
-          <a href="/en/posts/paper_ogle_2016_chance_sam/" class="related__link">Paper Review: Ogle (2019): Deep learningSAM. CHANCE</a>
+          <a href="/en/posts/paper_ogle_2016_chance_sam/" class="related__link">Paper Review: Ogle (2019): SAM. CHANCE</a>
         </li>
         
         <li>
@@ -2449,36 +2529,69 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#erratum">Erratum</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#11-why-forecast">1.1. Why forecast?</a></li>
-    <li><a href="#12-the-informatics-challenge-in-forecasting">1.2. The informatics challenge in forecasting</a></li>
-    <li><a href="#13-the-model-data-loop">1.3. The model-data loop</a></li>
-    <li><a href="#14-why-bayes">1.4. Why Bayes?</a></li>
-    <li><a href="#15-models-as-scaffolds">1.5. Models as scaffolds</a></li>
-    <li><a href="#16-case-studies-and-decision-support">1.6. Case studies and decision support</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#21-the-traditional-modellers-toolbox">2.1. The traditional modeller&rsquo;s toolbox</a></li>
-    <li><a href="#22-example-the-logistic-growth-model">2.2. Example: The logistic growth model</a></li>
-    <li><a href="#23-adding-sources-of-uncertainty">2.3. Adding sources of uncertainty</a>
+    <li><a href="#intro">Intro</a>
       <ul>
-        <li><a href="#231--observation-error">2.3.1.  Observation error</a></li>
-        <li><a href="#232-parameter-uncertainty">2.3.2. Parameter uncertainty</a></li>
-        <li><a href="#233-initial-conditions">2.3.3. Initial conditions</a></li>
-        <li><a href="#234-process-error">2.3.4. Process error</a></li>
-        <li><a href="#235-other-sources-of-uncertainty">2.3.5. Other sources of uncertainty</a></li>
+        <li><a href="#erratum">Erratum</a></li>
       </ul>
     </li>
-    <li><a href="#24-thinking-probabilistically">2.4. Thinking probabilistically</a></li>
-    <li><a href="#25-predictability">2.5. Predictability</a>
+    <li><a href="#1-introduction">1. Introduction</a>
       <ul>
-        <li><a href="#251-barriers-to-forecasting">2.5.1. Barriers to forecasting</a></li>
-        <li><a href="#252-weather-forecasting">2.5.2. Weather forecasting</a></li>
-        <li><a href="#253-the-ecological-forecasting-problem">2.5.3. The ecological forecasting problem</a></li>
+        <li><a href="#11-why-forecast">1.1. Why forecast?</a></li>
+        <li><a href="#12-the-informatics-challenge-in-forecasting">1.2. The informatics challenge in forecasting</a></li>
+        <li><a href="#13-the-model-data-loop">1.3. The model-data loop</a></li>
+        <li><a href="#14-why-bayes">1.4. Why Bayes?</a></li>
+        <li><a href="#15-models-as-scaffolds">1.5. Models as scaffolds</a></li>
+        <li><a href="#16-case-studies-and-decision-support">1.6. Case studies and decision support</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-from-models-to-forecasts">2. From models to forecasts</a>
+      <ul>
+        <li><a href="#21-the-traditional-modellers-toolbox">2.1. The traditional modeller&rsquo;s toolbox</a></li>
+        <li><a href="#22-example-the-logistic-growth-model">2.2. Example: The logistic growth model</a></li>
+        <li><a href="#23-adding-sources-of-uncertainty">2.3. Adding sources of uncertainty</a>
+          <ul>
+            <li><a href="#231--observation-error">2.3.1.  Observation error</a></li>
+            <li><a href="#232-parameter-uncertainty">2.3.2. Parameter uncertainty</a></li>
+            <li><a href="#233-initial-conditions">2.3.3. Initial conditions</a></li>
+            <li><a href="#234-process-error">2.3.4. Process error</a></li>
+            <li><a href="#235-other-sources-of-uncertainty">2.3.5. Other sources of uncertainty</a></li>
+          </ul>
+        </li>
+        <li><a href="#24-thinking-probabilistically">2.4. Thinking probabilistically</a></li>
+        <li><a href="#25-predictability">2.5. Predictability</a>
+          <ul>
+            <li><a href="#251-barriers-to-forecasting">2.5.1. Barriers to forecasting</a></li>
+            <li><a href="#252-weather-forecasting">2.5.2. Weather forecasting</a></li>
+            <li><a href="#253-the-ecological-forecasting-problem">2.5.3. The ecological forecasting problem</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#3-data-large-and-small">3. Data. Large and Small</a>
+      <ul>
+        <li><a href="#31-the-data-cycle-and-best-practices">3.1. The data cycle and best practices</a>
+          <ul>
+            <li><a href="#311-plan">3.1.1. Plan</a></li>
+            <li><a href="#312-collect">3.1.2. Collect</a></li>
+            <li><a href="#313-assure">3.1.3. Assure</a></li>
+            <li><a href="#314-describe">3.1.4. Describe</a></li>
+            <li><a href="#315-preserve">3.1.5. Preserve</a></li>
+            <li><a href="#316-discover-integrate-analyze">3.1.6. Discover, integrate, analyze</a></li>
+          </ul>
+        </li>
+        <li><a href="#32-data-standards-and-metadata">3.2. Data standards and metadata</a>
+          <ul>
+            <li><a href="#321-metadata">3.2.1. Metadata</a></li>
+            <li><a href="#322-data-standards">3.2.2. Data standards</a></li>
+          </ul>
+        </li>
+        <li><a href="#33-handling-big-data">3.3. Handling big data</a></li>
+      </ul>
+    </li>
+    <li><a href="#scientific-workflows-and-the-informatics-of-model-data-fusion">Scientific Workflows and the Informatics of Model-Data fusion</a>
+      <ul>
+        <li><a href="#41-transparency-accountability-and-repeatability">4.1. Transparency, accountability, and repeatability</a></li>
+        <li><a href="#42-workflows-and-automation">4.2. Workflows and automation</a></li>
       </ul>
     </li>
   </ul>
