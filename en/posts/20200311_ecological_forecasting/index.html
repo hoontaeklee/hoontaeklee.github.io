@@ -1503,7 +1503,7 @@
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Mar 11, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 8 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;Hoontaek Lee</span>
+  <time class="single__info" title="Written At">📅&nbsp;Mar 11, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 9 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;Hoontaek Lee</span>
   <span class="single__info">
     
   </span>
@@ -1925,7 +1925,7 @@
 <li>the hierarchical data format (<strong>HDF</strong>)</li>
 </ul>
 </div>
-<h1 id="scientific-workflows-and-the-informatics-of-model-data-fusion">Scientific Workflows and the Informatics of Model-Data fusion</h1>
+<h1 id="4-scientific-workflows-and-the-informatics-of-model-data-fusion">4. Scientific Workflows and the Informatics of Model-Data fusion</h1>
 <h2 id="41-transparency-accountability-and-repeatability">4.1. Transparency, accountability, and repeatability</h2>
 <blockquote>
 <p>재현가능해야 한다 &ndash;&gt; 데이터, 방법, 소프트웨어 투명하게 공개</p>
@@ -1933,7 +1933,79 @@
 </blockquote>
 <h2 id="42-workflows-and-automation">4.2. Workflows and automation</h2>
 <blockquote>
+<p>재현가능해야 한다 &ndash;&gt; 각 과정이 정확히 기록돼야 한다 &ndash;&gt; version control (e.g. Git)</p>
 </blockquote>
+<ul>
+<li>Workflow: A sequence of steps performed in an analysis</li>
+</ul>
+<div class="box"><p>Box 4.1. Software Development Tools</p>
+<p>An example of software development pattern</p>
+<ol>
+<li><strong>세팅</strong>: <em>pull</em> the latest code from the mainline repository to your local repository</li>
+<li><strong>할 일 체크</strong>: issue tracking system에 있는 건의사항이나 다음 milestone을 위해 필요한 일 확인</li>
+<li><strong>Ctrl+S</strong>: 작업용 복사본(branch) 생성. 작업 하나 완료할 때마다 <em>commit</em>하기</li>
+<li><strong>테스트</strong>: 완료되면 <em>push</em>.</li>
+<li><strong>반영 요청</strong> (<em>pull request</em>)
+<ul>
+<li>Collaborators가 작업 내용 검토</li>
+<li>이상 없으면 <em>mainline</em>에 병합(pulled into the <em>mainline</em>)</li>
+<li>작업 로그 및 comment들도 같이 저장됨</li>
+</ul>
+</li>
+<li><strong>셔터 내리기</strong>: 완료한 issue close하기.</li>
+<li><strong>배포</strong>: 모든 버그, 건의 등 반영됐으면 배포하기</li>
+</ol>
+<ul>
+<li><em>pull</em>: 다른 branch (=version)의 코드를 가져오는 것</li>
+<li><em>commit</em>: 현재 작업중인 branch의 변경사항을 local repository에 저장</li>
+<li><em>push</em>: 현재 branch를 remote repository에 저장</li>
+<li><em>mainline</em>: main branch (= <em>trunk</em> or <em>master</em>). Stable branch와 development branch로 나누기도 함.</li>
+</ul>
+</div>
+<h2 id="43-best-practices-for-scientific-computing">4.3. Best practices for scientific computing</h2>
+<blockquote>
+<p>재현가능해야 한다 &ndash;&gt; 올바른 습관을 기르기!</p>
+</blockquote>
+<p>My top recommendations</p>
+<ul>
+<li>
+<p>계획 세우기: psuedo-coding</p>
+</li>
+<li>
+<p>유지보수 용이하게: Modular</p>
+<ul>
+<li>하나의 기능 - 하나의 함수</li>
+</ul>
+</li>
+<li>
+<p>Version control system 사용하기</p>
+</li>
+<li>
+<p>하나 만들때마다 테스트로 검증</p>
+</li>
+<li>
+<p>주석은 해당 위치에</p>
+</li>
+<li>
+<p>변수 이름 공들여서</p>
+</li>
+<li>
+<p>코딩에 너무 공들이지 말기: 일단 무사히 실행하는 게 목적!</p>
+</li>
+</ul>
+<h1 id="5-introduction-to-bayes">5. Introduction to Bayes</h1>
+<h2 id="51-confronting-models-with-data">5.1. Confronting models with data</h2>
+<blockquote>
+<p>재현가능해야 한다 &ndash;&gt; 데이터, 방법, 소프트웨어 투명하게 공개</p>
+<p>오픈소스 소프트웨어 적극 활용합시다.</p>
+</blockquote>
+<h2 id="51-confronting-models-with-data-1">5.1. Confronting models with data</h2>
+<h2 id="52-probability-101">5.2. Probability 101</h2>
+<h2 id="53-the-likelihood">5.3. The likelihood</h2>
+<h2 id="54-bayes-theorem">5.4. Bayes&rsquo; theorem</h2>
+<h2 id="55-prior-information">5.5. Prior information</h2>
+<h2 id="56-numerical-methods-for-bayes">5.6. Numerical methods for Bayes</h2>
+<h2 id="57-evaluating-mcmc-output">5.7. Evaluating MCMC output</h2>
 
     </article>
     <script>
@@ -2588,10 +2660,23 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#33-handling-big-data">3.3. Handling big data</a></li>
       </ul>
     </li>
-    <li><a href="#scientific-workflows-and-the-informatics-of-model-data-fusion">Scientific Workflows and the Informatics of Model-Data fusion</a>
+    <li><a href="#4-scientific-workflows-and-the-informatics-of-model-data-fusion">4. Scientific Workflows and the Informatics of Model-Data fusion</a>
       <ul>
         <li><a href="#41-transparency-accountability-and-repeatability">4.1. Transparency, accountability, and repeatability</a></li>
         <li><a href="#42-workflows-and-automation">4.2. Workflows and automation</a></li>
+        <li><a href="#43-best-practices-for-scientific-computing">4.3. Best practices for scientific computing</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-introduction-to-bayes">5. Introduction to Bayes</a>
+      <ul>
+        <li><a href="#51-confronting-models-with-data">5.1. Confronting models with data</a></li>
+        <li><a href="#51-confronting-models-with-data-1">5.1. Confronting models with data</a></li>
+        <li><a href="#52-probability-101">5.2. Probability 101</a></li>
+        <li><a href="#53-the-likelihood">5.3. The likelihood</a></li>
+        <li><a href="#54-bayes-theorem">5.4. Bayes&rsquo; theorem</a></li>
+        <li><a href="#55-prior-information">5.5. Prior information</a></li>
+        <li><a href="#56-numerical-methods-for-bayes">5.6. Numerical methods for Bayes</a></li>
+        <li><a href="#57-evaluating-mcmc-output">5.7. Evaluating MCMC output</a></li>
       </ul>
     </li>
   </ul>

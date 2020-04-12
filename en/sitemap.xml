@@ -4,27 +4,37 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-04-05T14:29:27+09:00</lastmod>
+    <lastmod>2020-04-12T17:19:53+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/posts/20200405_%EA%B0%95%EC%9B%90%EB%8F%84%EC%B6%9C%EC%9E%A5/</loc>
-    <lastmod>2020-04-05T14:29:27+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/posts/20200412_advr/</loc>
+    <lastmod>2020-04-12T17:19:53+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-04-05T14:29:27+09:00</lastmod>
+    <lastmod>2020-04-12T17:19:53+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
-    <lastmod>2020-04-05T14:29:27+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/tags/book-review/</loc>
+    <lastmod>2020-04-12T17:19:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/r/</loc>
+    <lastmod>2020-04-12T17:19:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
+    <lastmod>2020-04-12T17:19:53+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-04-05T14:29:27+09:00</lastmod>
+    <lastmod>2020-04-12T17:19:53+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -38,6 +48,16 @@
   </url>
   
   <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200405_%EA%B0%95%EC%9B%90%EB%8F%84%EC%B6%9C%EC%9E%A5/</loc>
+    <lastmod>2020-04-05T14:29:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
+    <lastmod>2020-04-05T14:29:27+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200329_%EA%B0%80%EB%B0%A9%EC%95%88%EB%85%95%EC%8A%A4%ED%83%A0%EB%93%9C%EC%95%88%EB%85%95/</loc>
     <lastmod>2020-03-29T22:41:47+09:00</lastmod>
   </url>
@@ -48,17 +68,7 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/book-review/</loc>
-    <lastmod>2020-03-15T19:58:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200311_ecological_forecasting/</loc>
-    <lastmod>2020-03-11T21:39:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
     <lastmod>2020-03-11T21:39:43+09:00</lastmod>
   </url>
   
@@ -115,11 +125,6 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/r/</loc>
-    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
   </url>
   
   <url>
@@ -183,12 +188,12 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/categories/movie-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
     <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/categories/movie-review/</loc>
     <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   

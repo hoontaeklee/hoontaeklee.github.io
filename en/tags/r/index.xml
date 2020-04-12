@@ -14,13 +14,49 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 17 Feb 2020 19:46:25 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 17:19:53 +0900</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Advanced R (2nd ed.)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200412_advr/</link>
+        <pubDate>Sun, 12 Apr 2020 17:19:53 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 12 Apr 2020 17:19:53 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200412_advr/</guid>
+        <description>Log 2020-04-12: 23, 24.6 과학원에서 기상자료 QC하는 R 코드를 짰는데, 꽤 애먹었다. 컴퓨터 메모리는 8GB. 인풋으로 사용하는 csv 파일이 최대 2GB 정도로 크긴 했지만 메모리에는 문제가</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>R</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>R에서 Open API 사용하기 - 카카오 지도</title>
