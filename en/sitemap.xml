@@ -4,22 +4,22 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-04-18T16:56:03+09:00</lastmod>
+    <lastmod>2020-04-26T15:00:25+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-04-18T16:56:03+09:00</lastmod>
+    <lastmod>2020-04-26T15:00:25+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/book-review/</loc>
-    <lastmod>2020-04-18T16:56:03+09:00</lastmod>
+    <lastmod>2020-04-26T15:00:25+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-04-18T16:56:03+09:00</lastmod>
+    <lastmod>2020-04-26T15:00:25+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -30,6 +30,11 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200426_languagestudy/</loc>
+    <lastmod>2020-04-26T15:00:25+09:00</lastmod>
   </url>
   
   <url>
@@ -198,12 +203,12 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/categories/movie-review/</loc>
     <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/categories/movie-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
     <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   
