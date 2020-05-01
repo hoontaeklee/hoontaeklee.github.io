@@ -14,13 +14,46 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 15:46:35 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 13:43:04 +0900</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2020/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Liu (2019). SAM-&gt;NEE. ELE</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_liu_2019_ele_sam_nee/</link>
+        <pubDate>Fri, 01 May 2020 13:43:04 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Fri, 01 May 2020 13:43:04 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_liu_2019_ele_sam_nee/</guid>
+        <description>1 May, 2020 (Liu, ELE, SAM-&amp;gt;NEE) Liu, Y., Schwalm, C.R., Samuels‐Crow, K.E. and Ogle, K. (2019), Ecological memory of daily carbon exchange across the globe and its importance in drylands. Ecol Lett, 22: 1806-1816. doi:10.1111/ele.13363
+Why did I read this paper? To apply the SAM framework for my paper, I needed a reference. Professor Ogle recommended this paper for me as I and Liu et al. have the same type of data.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>A Study Plan for German</title>
@@ -376,7 +409,7 @@ Confused by now with encountering the start of a new research, I read this paper
       </item>
       
       <item>
-        <title>Paper Review: Holgate (2016): SMC. RSE</title>
+        <title>Paper Review: Holgate (2016). SMC. RSE</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_holgate_2016_rse_smc/</link>
         <pubDate>Thu, 27 Feb 2020 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -437,7 +470,7 @@ Summary This paper compared time series pattern and temporal anomaly of diverse 
       </item>
       
       <item>
-        <title>Paper Review: Eller (2020): JULES-SOX. NPH</title>
+        <title>Paper Review: Eller (2020). JULES-SOX. NPH</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_eller_2020_nph_jules-sox/</link>
         <pubDate>Sat, 22 Feb 2020 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -508,7 +541,7 @@ Summary Many researchers, including me, who use ecosystem models have recognized
       </item>
       
       <item>
-        <title>Paper Review: Ogle (2019): SAM. CHANCE</title>
+        <title>Paper Review: Ogle (2019). SAM. CHANCE</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_ogle_2016_chance_sam/</link>
         <pubDate>Sat, 15 Feb 2020 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -580,7 +613,7 @@ This paper masticates the stochastic antecedent modelling (SAM) framework for be
       </item>
       
       <item>
-        <title>Paper Review: Reichstein (2019): Deep learning. Nature</title>
+        <title>Paper Review: Reichstein (2019). Deep learning. Nature</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_reichstein_2019_nature_deep-learning/</link>
         <pubDate>Fri, 07 Feb 2020 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -649,7 +682,7 @@ This paper masticates the stochastic antecedent modelling (SAM) framework for be
       </item>
       
       <item>
-        <title>Paper Review: Jung (2017): Compensatory. Nature</title>
+        <title>Paper Review: Jung (2017). Compensatory. Nature</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_jung_2017_nature_compensatory/</link>
         <pubDate>Tue, 04 Feb 2020 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -910,7 +943,7 @@ This paper masticates the stochastic antecedent modelling (SAM) framework for be
       </item>
       
       <item>
-        <title>Paper Review: di Porcia e Brugnera (2019): Liana. GCB</title>
+        <title>Paper Review: di Porcia e Brugnera (2019). Liana. GCB</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_brugnera_2019_gcb_liana/</link>
         <pubDate>Tue, 21 Jan 2020 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -1080,7 +1113,7 @@ This paper masticates the stochastic antecedent modelling (SAM) framework for be
       </item>
       
       <item>
-        <title>Paper Review: Piao (2019): Phenology. GCB</title>
+        <title>Paper Review: Piao (2019). Phenology. GCB</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_piao_2019_gcb_phenology/</link>
         <pubDate>Sat, 11 Jan 2020 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>

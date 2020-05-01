@@ -4,27 +4,32 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-04-30T15:46:35+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/posts/20200430_german_plan/</loc>
-    <lastmod>2020-04-30T15:46:35+09:00</lastmod>
+    <lastmod>2020-05-01T13:43:04+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-04-30T15:46:35+09:00</lastmod>
+    <lastmod>2020-05-01T13:43:04+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/german/</loc>
-    <lastmod>2020-04-30T15:46:35+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
+    <lastmod>2020-05-01T13:43:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/paper_liu_2019_ele_sam_nee/</loc>
+    <lastmod>2020-05-01T13:43:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
+    <lastmod>2020-05-01T13:43:04+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-04-30T15:46:35+09:00</lastmod>
+    <lastmod>2020-05-01T13:43:04+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -35,6 +40,16 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200430_german_plan/</loc>
+    <lastmod>2020-04-30T15:46:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/german/</loc>
+    <lastmod>2020-04-30T15:46:35+09:00</lastmod>
   </url>
   
   <url>
@@ -69,11 +84,6 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/r/</loc>
-    <lastmod>2020-04-12T17:19:53+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
     <lastmod>2020-04-12T17:19:53+09:00</lastmod>
   </url>
   
@@ -114,11 +124,6 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200228_how_to_write_the_first_paper/</loc>
-    <lastmod>2020-03-08T16:55:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
     <lastmod>2020-03-08T16:55:52+09:00</lastmod>
   </url>
   
@@ -213,12 +218,12 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/categories/movie-review/</loc>
     <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/categories/movie-review/</loc>
+    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
     <lastmod>2020-02-07T00:18:07+09:00</lastmod>
   </url>
   
