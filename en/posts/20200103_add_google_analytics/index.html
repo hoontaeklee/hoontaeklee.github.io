@@ -1454,7 +1454,7 @@
             
             
 
-<main class="single__main main-main">
+<main class="single__main main">
   
     <nav class="breadcrumb hide" aria-label="breadcrumbs">
   <script>document.querySelector('.breadcrumb').classList.remove('hide')</script>
@@ -2214,48 +2214,6 @@ document.addEventListener('DOMContentLoaded', function () {
 </main>
 
 
-<aside class="single__side main-side">
-  
-
-
-<section class="sidebar hide">
-  <script>document.querySelector('.sidebar').classList.remove('hide')</script>
-  <div class="toc__flexbox" data-position="fixed">
-    <h6 class="toc__title" data-ani="true">What&#39;s on this Page</h6>
-    
-      <label class="switch" data-ani="true">
-        <input id="toggle-toc" aria-label="Toggle TOC" type="checkbox" checked>
-        <span class="slider round"></span>
-      </label>
-    
-  </div>
-  <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#서론">서론</a></li>
-        <li><a href="#google-analytics-계정-및-추적-id-생성">Google Analytics 계정 및 추적 ID 생성</a></li>
-        <li><a href="#hugo-웹사이트에-google-analytics-추가">Hugo 웹사이트에 Google Analytics 추가</a></li>
-        <li><a href="#작동-확인">작동 확인</a></li>
-        <li><a href="#hugo-internal-template-for-google-analytics-활성화">Hugo Internal Template for Google Analytics 활성화</a>
-          <ul>
-            <li><a href="#local-서버-접속은-제외하기">local 서버 접속은 제외하기</a></li>
-          </ul>
-        </li>
-        <li><a href="#후기">후기</a></li>
-        <li><a href="#references">References</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</section>
-
-
-
-</aside>
-
 <script>
   
   
@@ -2263,7 +2221,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var enableToc = JSON.parse("true");
   var toc = JSON.parse("null");
-  var tocPosition = JSON.parse("\"inner\"");
+  var tocPosition = JSON.parse("\"outer\"");
   
   var singleMainElem = document.querySelector('.single__main');
   var singleSideElem = document.querySelector('.single__side');
@@ -3048,6 +3006,41 @@ document.addEventListener('DOMContentLoaded', function () {
         
 <div class="wrapper__right hide" dir="ltr">
   <script>document.querySelector('.wrapper__right').classList.remove('hide')</script>
+  
+    
+      
+        <div class="toc__flexbox--outer" data-position="fixed" data-dir="ltr" data-ani="true">
+          <h6 class="toc__title toc__title--outer" data-ani="true">What&#39;s on this Page</h6>
+          
+          <label class="switch" data-ani="true">
+            <input id="visible-toc" aria-label="Visible TOC" type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          
+        </div>
+        <div class="toc toc__outer " data-dir="ltr" data-folding="true" data-ani="true">
+          <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#서론">서론</a></li>
+        <li><a href="#google-analytics-계정-및-추적-id-생성">Google Analytics 계정 및 추적 ID 생성</a></li>
+        <li><a href="#hugo-웹사이트에-google-analytics-추가">Hugo 웹사이트에 Google Analytics 추가</a></li>
+        <li><a href="#작동-확인">작동 확인</a></li>
+        <li><a href="#hugo-internal-template-for-google-analytics-활성화">Hugo Internal Template for Google Analytics 활성화</a>
+          <ul>
+            <li><a href="#local-서버-접속은-제외하기">local 서버 접속은 제외하기</a></li>
+          </ul>
+        </li>
+        <li><a href="#후기">후기</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+      
+    
   
 </div>
 

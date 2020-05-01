@@ -1459,7 +1459,7 @@
             
             
 
-<main class="single__main main-main">
+<main class="single__main main">
   
     <nav class="breadcrumb hide" aria-label="breadcrumbs">
   <script>document.querySelector('.breadcrumb').classList.remove('hide')</script>
@@ -2425,61 +2425,6 @@ document.addEventListener('DOMContentLoaded', function () {
 </main>
 
 
-<aside class="single__side main-side">
-  
-
-
-<section class="sidebar hide">
-  <script>document.querySelector('.sidebar').classList.remove('hide')</script>
-  <div class="toc__flexbox" data-position="fixed">
-    <h6 class="toc__title" data-ani="true">What&#39;s on this Page</h6>
-    
-      <label class="switch" data-ani="true">
-        <input id="toggle-toc" aria-label="Toggle TOC" type="checkbox" checked>
-        <span class="slider round"></span>
-      </label>
-    
-  </div>
-  <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#log">Log</a></li>
-    <li><a href="#5-techniques">5. Techniques</a>
-      <ul>
-        <li><a href="#23-measuring-performances">23. Measuring performances</a>
-          <ul>
-            <li><a href="#232-profiling">23.2 Profiling</a>
-              <ul>
-                <li><a href="#2321-visualising-profiles">23.2.1. Visualising profiles</a></li>
-                <li><a href="#2322-memory-profiling">23.2.2. Memory profiling</a></li>
-                <li><a href="#2324-exercises">23.2.4. Exercises</a></li>
-              </ul>
-            </li>
-            <li><a href="#233-microbenchmarking">23.3. Microbenchmarking</a>
-              <ul>
-                <li><a href="#2333-exercises">23.3.3. Exercises</a></li>
-              </ul>
-            </li>
-            <li><a href="#결론">결론</a></li>
-          </ul>
-        </li>
-        <li><a href="#24-improving-performance">24. Improving performance</a>
-          <ul>
-            <li><a href="#246-avoiding-copies">24.6 Avoiding copies</a></li>
-            <li><a href="#결론-1">결론</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</section>
-
-
-
-</aside>
-
 <script>
   
   
@@ -2487,7 +2432,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var enableToc = JSON.parse("true");
   var toc = JSON.parse("null");
-  var tocPosition = JSON.parse("\"inner\"");
+  var tocPosition = JSON.parse("\"outer\"");
   
   var singleMainElem = document.querySelector('.single__main');
   var singleSideElem = document.querySelector('.single__side');
@@ -3272,6 +3217,54 @@ document.addEventListener('DOMContentLoaded', function () {
         
 <div class="wrapper__right hide" dir="ltr">
   <script>document.querySelector('.wrapper__right').classList.remove('hide')</script>
+  
+    
+      
+        <div class="toc__flexbox--outer" data-position="fixed" data-dir="ltr" data-ani="true">
+          <h6 class="toc__title toc__title--outer" data-ani="true">What&#39;s on this Page</h6>
+          
+          <label class="switch" data-ani="true">
+            <input id="visible-toc" aria-label="Visible TOC" type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          
+        </div>
+        <div class="toc toc__outer " data-dir="ltr" data-folding="true" data-ani="true">
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#log">Log</a></li>
+    <li><a href="#5-techniques">5. Techniques</a>
+      <ul>
+        <li><a href="#23-measuring-performances">23. Measuring performances</a>
+          <ul>
+            <li><a href="#232-profiling">23.2 Profiling</a>
+              <ul>
+                <li><a href="#2321-visualising-profiles">23.2.1. Visualising profiles</a></li>
+                <li><a href="#2322-memory-profiling">23.2.2. Memory profiling</a></li>
+                <li><a href="#2324-exercises">23.2.4. Exercises</a></li>
+              </ul>
+            </li>
+            <li><a href="#233-microbenchmarking">23.3. Microbenchmarking</a>
+              <ul>
+                <li><a href="#2333-exercises">23.3.3. Exercises</a></li>
+              </ul>
+            </li>
+            <li><a href="#결론">결론</a></li>
+          </ul>
+        </li>
+        <li><a href="#24-improving-performance">24. Improving performance</a>
+          <ul>
+            <li><a href="#246-avoiding-copies">24.6 Avoiding copies</a></li>
+            <li><a href="#결론-1">결론</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+      
+    
   
 </div>
 
