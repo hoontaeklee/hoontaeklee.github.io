@@ -2516,6 +2516,70 @@ I anticipated that this paper explains how the results from forest-climate resea
       </item>
       
       <item>
+        <title>ISLR Note</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200516_islr/</link>
+        <pubDate>Thu, 05 Apr 2018 16:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 16 May 2020 19:02:31 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200516_islr/</guid>
+        <description>2. Statistical Learning 2.1. What Is Statistical Learning? Y = f(X) + e 여기서 함수 f는 X가 담고 있는 Y에 대한 systematic information이다. e는 f가 표현하지 못하는 random error term이다. e는 X에 독</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>R</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>ISLR Note</title>
+        <link>https://hoontaeklee.github.io/en/posts/islr/</link>
+        <pubDate>Thu, 05 Apr 2018 16:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 16 May 2020 19:02:31 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/islr/</guid>
+        <description>2. Statistical Learning 2.1. What Is Statistical Learning? Y = f(X) + e 여기서 함수 f는 X가 담고 있는 Y에 대한 systematic information이다. e는 f가 표현하지 못하는 random error term이다. e는 X에 독</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>R</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>어서와 머신러닝은 처음이지</title>
         <link>https://hoontaeklee.github.io/en/posts/20171200_%EC%96%B4%EC%84%9C%EC%99%80-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%80-%EC%B2%98%EC%9D%8C%EC%9D%B4%EC%A7%80/</link>
         <pubDate>Sat, 02 Dec 2017 16:43:00 +0900</pubDate>

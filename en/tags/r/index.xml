@@ -128,6 +128,70 @@
         
       </item>
       
+      <item>
+        <title>ISLR Note</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200516_islr/</link>
+        <pubDate>Thu, 05 Apr 2018 16:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 16 May 2020 19:02:31 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200516_islr/</guid>
+        <description>2. Statistical Learning 2.1. What Is Statistical Learning? Y = f(X) + e 여기서 함수 f는 X가 담고 있는 Y에 대한 systematic information이다. e는 f가 표현하지 못하는 random error term이다. e는 X에 독</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>R</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>ISLR Note</title>
+        <link>https://hoontaeklee.github.io/en/posts/islr/</link>
+        <pubDate>Thu, 05 Apr 2018 16:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 16 May 2020 19:02:31 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/islr/</guid>
+        <description>2. Statistical Learning 2.1. What Is Statistical Learning? Y = f(X) + e 여기서 함수 f는 X가 담고 있는 Y에 대한 systematic information이다. e는 f가 표현하지 못하는 random error term이다. e는 X에 독</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Book Review</category>
+            
+          
+            
+              <category>R</category>
+            
+          
+        
+        
+        
+      </item>
+      
 
     
   </channel>
