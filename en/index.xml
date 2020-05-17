@@ -44,6 +44,34 @@
 
       
       <item>
+        <title>Hello Apple World</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200517_helloapple/</link>
+        <pubDate>Sun, 17 May 2020 14:16:27 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 17 May 2020 14:16:27 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200517_helloapple/</guid>
+        <description>중고 아이폰 구입 배경 액정 하단이 고장나서 카톡 메세지를 보내려면 카톡을 팝업창으로 띄워야 했다. 전에 노트3 쓸 때 3년 동안 아무리 떨궈도 고장 한 번 없길래 핸드폰을</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/%ec%95%84%ec%9d%b4%ed%8f%b0_fig1.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>2020.05.06. ~ 05.08. 속초 출장</title>
         <link>https://hoontaeklee.github.io/en/posts/20200506_%EC%86%8D%EC%B4%88%EC%B6%9C%EC%9E%A5/</link>
         <pubDate>Sun, 17 May 2020 13:37:27 +0900</pubDate>
@@ -68,36 +96,6 @@
           
         
         
-        
-      </item>
-      
-      <item>
-        <title>20200517_애플</title>
-        <link>https://hoontaeklee.github.io/en/posts/20200517_%EC%95%A0%ED%94%8C/</link>
-        <pubDate>Sun, 17 May 2020 13:04:42 +0900</pubDate>
-        <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        <atom:modified>Sun, 17 May 2020 13:04:42 +0900</atom:modified>
-        <guid>https://hoontaeklee.github.io/en/posts/20200517_%EC%95%A0%ED%94%8C/</guid>
-        <description></description>
-        
-        <dc:creator>Hoontaek Lee</dc:creator>
-        
-        
-        
-        
-          
-            
-          
-        
-        
-          
-            
-          
-        
-        
-          
-            
-          
         
       </item>
       
