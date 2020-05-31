@@ -4,12 +4,37 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-05-31T13:12:27+09:00</lastmod>
+    <lastmod>2020-05-31T13:18:55+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-05-31T13:12:27+09:00</lastmod>
+    <lastmod>2020-05-31T13:18:55+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
+    <lastmod>2020-05-31T13:18:55+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/</loc>
+    <lastmod>2020-05-31T13:18:55+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200531_%ED%91%B8%ED%8C%9F%ED%90%81%EC%BD%A9%EA%B5%AD%EC%88%98/</loc>
+    <lastmod>2020-05-31T13:18:55+09:00</lastmod>
   </url>
   
   <url>
@@ -28,21 +53,6 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-05-31T13:12:27+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
     <lastmod>2020-05-25T20:21:00+09:00</lastmod>
   </url>
@@ -50,11 +60,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200519_notebook/</loc>
     <lastmod>2020-05-19T23:37:10+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
-    <lastmod>2020-05-31T13:12:27+09:00</lastmod>
   </url>
   
   <url>
