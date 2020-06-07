@@ -218,6 +218,34 @@ What they did? The hydrological model is relatively economic, or parsimonious, g
       </item>
       
       <item>
+        <title>Parallel processing in R</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200607_r%EB%B3%91%EB%A0%AC%EC%B2%98%EB%A6%AC%EB%A9%94%EB%AA%A8/</link>
+        <pubDate>Tue, 26 May 2020 10:00:00 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 07 Jun 2020 16:09:00 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200607_r%EB%B3%91%EB%A0%AC%EC%B2%98%EB%A6%AC%EB%A9%94%EB%AA%A8/</guid>
+        <description>들어가며 워크스테이션 성능은 괴물같은데 할 일 없이 놀고만 있다. 병렬처리로 빡세게 굴려보자. 이놈들. (하지만 내 코드가 멀티코어 사용으로는 해결되지 않을 종류</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>R</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Paper Review: Guo (2019). SAM-&gt;iso/anisohydry. NPH</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_guo_2019_nph_isohydry/</link>
         <pubDate>Wed, 20 May 2020 21:16:35 +0900</pubDate>
