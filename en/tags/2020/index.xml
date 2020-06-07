@@ -27,12 +27,12 @@
         <link>https://hoontaeklee.github.io/en/posts/20200531_liveacad/</link>
         <pubDate>Sun, 31 May 2020 17:04:13 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        <atom:modified>Sun, 31 May 2020 17:04:13 +0900</atom:modified>
+        <atom:modified>Sun, 07 Jun 2020 17:14:31 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200531_liveacad/</guid>
-        <description>이름을 잘 기억 못해요 It usually takes me a while to start to write the introduction. I am not very good at understanding what other people&amp;rsquo;s saying. I often got the students&amp;rsquo; names mixed up. 지금은 생각이 많이 달라졌어요 It really got me thinking about the perfume from a different perspective. I feel differently about using</description>
+        <description>1. 이름을 잘 기억 못해요 It usually takes me a while to start to write the introduction. I am not very good at understanding what other people&amp;rsquo;s saying. I often got the students&amp;rsquo; names mixed up. 2. 지금은 생각이 많이 달라졌어요 It really got me thinking about the perfume from a different perspective. I feel differently</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
-        
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Eng_liveAcad_%ed%8e%98%ec%9d%b4%ec%a7%80_01.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -55,12 +55,12 @@
         <link>https://hoontaeklee.github.io/en/posts/20200531_%EC%8B%9C%EC%9B%90%EC%8A%A4%EC%BF%A8%EC%99%95%EC%B4%88%EB%B3%B41/</link>
         <pubDate>Sun, 31 May 2020 14:46:13 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        <atom:modified>Sun, 31 May 2020 16:04:13 +0900</atom:modified>
+        <atom:modified>Sun, 07 Jun 2020 14:16:13 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200531_%EC%8B%9C%EC%9B%90%EC%8A%A4%EC%BF%A8%EC%99%95%EC%B4%88%EB%B3%B41/</guid>
         <description>왕초보 1-3: 의문문 영어랑 비슷하다. 동사 주어 나머지 Sind sie alt? 대답: Ja, ich bin alt. Nein, ich bin nicht alt. Nein, ich bin jung. Ja (= yes), Nein (= no). Nicht: 동사 부정. 동사 뒤에. 니히트. 왕초보 1-4: This is ~ .</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
-        
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/German_siwon_%ed%8e%98%ec%9d%b4%ec%a7%80_01.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -1730,38 +1730,6 @@ Useful Links  Asking good questions: A well-structured and -explained essay Deve
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sat, 16 May 2020 19:02:31 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200516_islr/</guid>
-        <description>2. Statistical Learning 2.1. What Is Statistical Learning? Y = f(X) + e 여기서 함수 f는 X가 담고 있는 Y에 대한 systematic information이다. e는 f가 표현하지 못하는 random error term이다. e는 X에 독</description>
-        
-        <dc:creator>Hoontaek Lee</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>2020</category>
-            
-          
-            
-              <category>Book Review</category>
-            
-          
-            
-              <category>R</category>
-            
-          
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>ISLR Note</title>
-        <link>https://hoontaeklee.github.io/en/posts/islr/</link>
-        <pubDate>Thu, 05 Apr 2018 16:00:00 +0900</pubDate>
-        <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        <atom:modified>Sat, 16 May 2020 19:02:31 +0900</atom:modified>
-        <guid>https://hoontaeklee.github.io/en/posts/islr/</guid>
         <description>2. Statistical Learning 2.1. What Is Statistical Learning? Y = f(X) + e 여기서 함수 f는 X가 담고 있는 Y에 대한 systematic information이다. e는 f가 표현하지 못하는 random error term이다. e는 X에 독</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
