@@ -1248,7 +1248,7 @@
     "datePublished": "2020-06-07T16:40:00+09:00",
     "dateModified": "2020-06-07T16:40:00+09:00",
     "url" : "https://hoontaeklee.github.io/en/posts/paper_trautmann_2018_hess_tws/",
-    "description": "6 June, 2020 (Trautmann, HESS, TWS variation across scales) Liu, Y., Schwalm, C.R., Samuels‐Crow, K.E. and Ogle, K. (2019), Ecological memory of daily carbon exchange …",
+    "description": "6 June, 2020 (Trautmann, HESS, TWS variation across scales) Trautmann, T., Koirala, S., Carvalhais, N., Eicker, A., Fink, M., Niemann, C., et al. (2018). Understanding …",
     "keywords": ["Research","Paper Review","2020"],
     "author": {
       "@type": "Person",
@@ -1503,7 +1503,7 @@
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Jun 7, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 3 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;Hoontaek Lee</span>
+  <time class="single__info" title="Written At">📅&nbsp;Jun 7, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 2 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;Hoontaek Lee</span>
   <span class="single__info">
     
   </span>
@@ -1532,68 +1532,22 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <ul>
-<li>
-<h2 id="6-june-2020-trautmann-hess-tws-variation-across-scales">6 June, 2020 (Trautmann, HESS, TWS variation across scales)</h2>
-<p>Liu, Y., Schwalm, C.R., Samuels‐Crow, K.E. and Ogle, K. (2019), Ecological memory of daily carbon exchange across the globe and its importance in drylands. Ecol Lett, 22: 1806-1816. doi:<a href="https://doi.org/10.1111/ele.13363">10.1111/ele.13363</a></p>
+      <h2 id="6-june-2020-trautmann-hess-tws-variation-across-scales">6 June, 2020 (Trautmann, HESS, TWS variation across scales)</h2>
+<p>Trautmann, T., Koirala, S., Carvalhais, N., Eicker, A., Fink, M., Niemann, C., <em>et al.</em> (2018). Understanding terrestrial water storage variations in northern latitudes across scales. <em>Hydrology and Earth System Sciences</em>, 22, 4061–4082.</p>
 <h2 id="why-did-i-read-this-paper">Why did I read this paper?</h2>
-<p>To apply the SAM framework for my paper, I needed a reference. <strong>Professor Ogle recommended this paper</strong> for me as I and Liu et al. have the same type of data.</p>
-<p><strong>This paper would be much more important than I expected</strong> because 1) it contains <strong>sample R code</strong> in which the SAM was implemented; I would directly refer to it given I will use the same kind of data (i.e. observation with a fixed timestep), and 2) <strong>it also proposes several critical questions related to my future PhD study at MPI-bgc</strong> (i.e. water-carbon interactions acorss scales).</p>
-<h2 id="what-did-they-do">What did they do?</h2>
-<p>The authors quantified the antecedent effect of some key factors on NEE. They used observations from <strong>42 FLUXNET sites</strong>, where met <strong>some criteria</strong> (e.g. data availability). The factors included 1) environmental factors (shortwave radiation, temperature, VPD, current SWC, antecedent SWC, PPT), and 2) biological factors (<strong>unexplained NEE residuals by the environment factors</strong>).</p>
+<p>This paper contains the description and use of a hydrological model that a group I will join deals with.</p>
+<h2 id="what-they-did">What they did?</h2>
+<p>The hydrological model is relatively economic, or parsimonious, given small number of internal water storages (soil moisture, snowpack, and land run off), input variables (air temperature, precipitation, and net radiation), and parameters (10 params.).</p>
+<p>After calibration, <strong>the authors examined contribution of each water storage to the variation of total water storage at multiple spatio-temporal scales.</strong></p>
+<p>The terrestrial water storage consisted of two classifications: 1) snowpack, and 2) liquid water storages (i.e. soil moisture + land run off).</p>
 <h2 id="key-findings">Key findings</h2>
-<ul>
-<li>
-<p><strong>Environmental memory is necessary to explain variation in daily NEE throughout the year</strong></p>
-<ul>
-<li>various time scales (shortest by shortwave radiatoin and SWC to longest by precipitation)</li>
-<li>different responses by biomes (dry shrub lands versus forests)</li>
-<li><strong>insensitive to the level of leaf growing</strong></li>
-</ul>
-</li>
-<li>
-<dl>
-<dt>Another evidence for the local compensatory effect of water availability on photosynthesis and respiration (Jung et al., 2017)</dt>
-<dd>
-<p>the insensitivity to the level of leaf growing might be due to this local compensatory effect.</p>
-</dd>
-</dl>
-</li>
-<li>
-<p><strong>Scaling relationship</strong> between environmental memory and water stress</p>
-<p><img src="/en/posts/paper_review/2019_Liu_fig1.jpg" alt="" /></p>
-</li>
-<li>
-<p><strong>Drylands may be more vulnerable to the future droughts</strong></p>
-<ul>
-<li>Drylands showed more conservative strategy against resource deficit (i.e. longer-term memory)</li>
-</ul>
-</li>
-</ul>
-<h2 id="possible-limitations">Possible limitations</h2>
-<ul>
-<li><strong>The biological memory effect should be directly quantified</strong>: The autohrs successfully considered the biological effects even without parameterizing them in the formula. The results however showed that the major contributor of the effect were <strong>forest practices by human and natural disturbances</strong> (i.e. insects). I could not fully agree that they are the biological factors the authors originally inteded to investigate and <strong>I think a method that can directly take the biological factors into account is required</strong> rather than dealing with the unexplained residual by environmental factos.</li>
-</ul>
-<h2 id="notes">Notes</h2>
-<ul>
-<li><strong>How does ecological memory at the daily scale propaget across other (and particularly, longer) time-scales to influence ecosystem carbon metabolism?</strong></li>
-<li><strong>How to assess ecological memory of component fluxes (e.g. photosynthesis and respiration)?</strong>
-<ul>
-<li>But, the overall carbon exchange could be understood without this assessment given those component fluxes are compensated out (the local compensatory effect).</li>
-</ul>
-</li>
-<li>The ability to predict land-carbon responses to future environmental changes rests upon an adequate mechanistic understanding of <strong>how multiple processes and their interactions give rise to memory effects.</strong></li>
-<li><strong>Environmental memory integrates multiple processes</strong>, therefore it could provides new insight into ecological responses at various time scales.</li>
-<li><strong>How does the scale relationship (i.e. memory vs. aridity) form across sites within multiple biomes?</strong>
-<ul>
-<li>Physical delays driven by the movement of water?</li>
-</ul>
-</li>
-</ul>
-<h2 id="next">Next</h2>
-<p>I may further explore papers in which refer to the project paper (Jung et al., 2017) to get some idea for my PhD study.</p>
-</li>
-</ul>
+<p><img src="C:\Users\Owner\Dropbox\bloght-hugo\content\en\posts\paper_review\2018_Trautmann_fig9.jpg" style="zoom:80%;" /></p>
+<p>The seasonal TWS variation was driven by the snowpack, while inter-annual variation was dominated by liquid water storages, especially by the soil moisture.</p>
+<h2 id="the-hydrological-model">The hydrological model</h2>
+<p><img src="C:\Users\Owner\Dropbox\bloght-hugo\content\en\posts\paper_review\2018_Trautmann_fig2.jpg" style="zoom:80%;" /></p>
+<p>This model is pretty simple and intuitive.</p>
+<p>The developers took parsimoniousness into account, resulting in the relatively small number of parameters.</p>
+<p>I am curious about the criterion they used to simplify the real hydrology. Why were the vegetation components and soil properties (particle size, &hellip;) omitted out?</p>
 
     </article>
     <script>
@@ -2975,11 +2929,9 @@ document.addEventListener('DOMContentLoaded', function () {
       <ul>
         <li><a href="#6-june-2020-trautmann-hess-tws-variation-across-scales">6 June, 2020 (Trautmann, HESS, TWS variation across scales)</a></li>
         <li><a href="#why-did-i-read-this-paper">Why did I read this paper?</a></li>
-        <li><a href="#what-did-they-do">What did they do?</a></li>
+        <li><a href="#what-they-did">What they did?</a></li>
         <li><a href="#key-findings">Key findings</a></li>
-        <li><a href="#possible-limitations">Possible limitations</a></li>
-        <li><a href="#notes">Notes</a></li>
-        <li><a href="#next">Next</a></li>
+        <li><a href="#the-hydrological-model">The hydrological model</a></li>
       </ul>
     </li>
   </ul>
