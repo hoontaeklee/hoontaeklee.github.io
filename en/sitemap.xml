@@ -3,18 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-06-07T17:14:31+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
     <lastmod>2020-06-07T17:14:31+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
-    <lastmod>2020-06-07T15:18:27+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/categories/</loc>
+    <lastmod>2020-06-07T15:24:36+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/paper_trautmann_2018_hess_tws/</loc>
+    <lastmod>2020-06-07T15:24:36+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/series/</loc>
+    <lastmod>2020-06-07T15:24:36+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/series/"
+                />
   </url>
   
   <url>
@@ -30,6 +55,16 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
+    <lastmod>2020-06-07T17:14:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
+    <lastmod>2020-06-07T15:18:27+09:00</lastmod>
   </url>
   
   <url>
@@ -213,21 +248,6 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/categories/</loc>
-    <lastmod>2020-05-25T20:21:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/categories/r/</loc>
     <lastmod>2020-02-17T19:46:25+09:00</lastmod>
   </url>
@@ -235,21 +255,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200217_using_api_in_r/</loc>
     <lastmod>2020-02-17T19:46:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/series/</loc>
-    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/series/"
-                />
   </url>
   
   <url>
