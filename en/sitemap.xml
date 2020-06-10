@@ -4,22 +4,17 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-06-07T21:37:01+09:00</lastmod>
+    <lastmod>2020-06-10T21:20:28+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-06-07T21:37:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
-    <lastmod>2020-06-07T21:37:01+09:00</lastmod>
+    <lastmod>2020-06-10T21:20:28+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-06-07T21:37:01+09:00</lastmod>
+    <lastmod>2020-06-10T21:20:28+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -30,6 +25,21 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/thought/</loc>
+    <lastmod>2020-06-10T21:20:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200610_fittinginyou/</loc>
+    <lastmod>2020-06-10T21:20:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/movie-review/</loc>
+    <lastmod>2020-06-07T21:37:01+09:00</lastmod>
   </url>
   
   <url>
