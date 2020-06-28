@@ -44,6 +44,34 @@
 
       
       <item>
+        <title>Begin again (비긴어게인)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200628_beginagain/</link>
+        <pubDate>Sun, 28 Jun 2020 21:38:43 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 28 Jun 2020 21:38:43 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200628_beginagain/</guid>
+        <description>일렉기타의 여운, 딸과 합주하는 모습이 좋았다. 힐링 장면 흘러가는 대로 음악 나오는 대로 긴장 풀고 봤다. 그레타와 데이브의 관계, 댄의 가족사, &amp;hellip; 딱히 깊이 생각하</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/20200628_%eb%b9%84%ea%b8%b4%ec%96%b4%ea%b2%8c%ec%9d%b8.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Movie Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>미안할 행동 하지 않기</title>
         <link>https://hoontaeklee.github.io/en/posts/20200610_fittinginyou/</link>
         <pubDate>Wed, 10 Jun 2020 21:20:28 +0900</pubDate>
@@ -3307,6 +3335,33 @@ I anticipated that this paper explains how the results from forest-climate resea
               <category>2016</category>
             
           
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://hoontaeklee.github.io/en/posts/research_topics/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
+        <guid>https://hoontaeklee.github.io/en/posts/research_topics/</guid>
+        <description>title: &amp;ldquo;Research Topics&amp;rdquo;
+author: &amp;ldquo;Hoontaek Lee&amp;rdquo;
+date: 2020-02-10 11:34:48+09:00
+publishdate: 2020-02-10 11:34:48+09:00
+lastmod: 2020-06-26 10:02:48+09:00
+tags:
+ 2020
+draft: true  Optimal temperature for photosynthesis   LI-6400으로 광합성 측정할 때 잎 온도를 25도로 설정한다. 광합성 최적 온도(optimal temperature for photosynthesis, OTP)가 일반적으로 25도라고 알려져있기 때문.
+  Kumarathunge et al. (2020, https://doi.org/10.1111/gcb.14975)은 OTP가 수분 상태에 따라 달라진다고 보고했다.
+ 수분 조건이 충분할 때 3도 높았다.    OTP에 영향을 미치는 다른 조건도 있을 수 있다.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
         
         
         
