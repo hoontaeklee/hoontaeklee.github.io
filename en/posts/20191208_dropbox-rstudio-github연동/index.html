@@ -1818,6 +1818,37 @@ Dropbox에 로컬 저장소(=탐색기에서 보이는 폴더)로 통째로 옮�
 </nav>
     
   
+    <div id="utterances"></div>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    try {
+      
+      var owner = JSON.parse("\"hoontaeklee\"");
+      
+      var repo = JSON.parse("\"bloght-hugo-comments\"");
+      var localTheme = localStorage.getItem('theme');
+      var utterTheme = localTheme === "dark" || localTheme === "hacker" ? 'photon-dark' : localTheme === 'kimbie' ? 'github-dark-orange' : 'github-light'
+
+      var myScript = document.createElement('script');
+      myScript.setAttribute('src', 'https://utteranc.es/client.js');
+      myScript.setAttribute('repo', `${owner}/${repo}`);
+      myScript.setAttribute('issue-term', 'pathname');
+      myScript.setAttribute('theme', utterTheme);
+      myScript.setAttribute('crossorigin', 'anonymous');
+      myScript.setAttribute('async', '');
+
+      myScript.onload = function() {
+      }
+
+      document.getElementById('utterances').appendChild(myScript);
+    } catch (err) {
+      console.log(err);
+    }
+  });
+</script>
+
+  
 
     <div class="modal micromodal-slide" id="modal" aria-hidden="true">
   <div class="modal__overlay" tabindex="-1" data-micromodal-close>
