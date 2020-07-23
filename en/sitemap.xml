@@ -4,27 +4,32 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-07-19T14:40:02+09:00</lastmod>
+    <lastmod>2020-07-23T19:23:36+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-07-19T14:40:02+09:00</lastmod>
+    <lastmod>2020-07-23T19:23:36+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/recipe/</loc>
-    <lastmod>2020-07-19T14:40:02+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
+    <lastmod>2020-07-23T19:23:36+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/posts/20200719_recipe_%EA%B0%88%EB%B9%84%EC%B0%9C/</loc>
-    <lastmod>2020-07-19T14:40:02+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/posts/paper_samuelscrow_2020_jgrbg_sam_nee_et/</loc>
+    <lastmod>2020-07-23T19:23:36+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
+    <lastmod>2020-07-23T19:23:36+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-07-19T14:40:02+09:00</lastmod>
+    <lastmod>2020-07-23T19:23:36+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -35,6 +40,16 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/recipe/</loc>
+    <lastmod>2020-07-19T14:40:02+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200719_recipe_%EA%B0%88%EB%B9%84%EC%B0%9C/</loc>
+    <lastmod>2020-07-19T14:40:02+09:00</lastmod>
   </url>
   
   <url>
@@ -173,17 +188,7 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
-    <lastmod>2020-06-07T16:27:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/posts/paper_trautmann_2018_hess_tws/</loc>
-    <lastmod>2020-06-07T16:27:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
     <lastmod>2020-06-07T16:27:00+09:00</lastmod>
   </url>
   
@@ -835,11 +840,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20160628_%EC%84%9C%EB%AF%BC%EC%A0%81-%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
     <lastmod>2016-06-29T20:24:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/posts/research_topics/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

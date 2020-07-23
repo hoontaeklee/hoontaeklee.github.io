@@ -14,13 +14,46 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 19 Jul 2020 14:40:02 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2020 19:23:36 +0900</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Samuels-Crow (2020). SAM-&gt;NEE and ET. JGRBG</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_samuelscrow_2020_jgrbg_sam_nee_et/</link>
+        <pubDate>Thu, 23 Jul 2020 19:23:36 +0900</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Thu, 23 Jul 2020 19:23:36 +0900</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_samuelscrow_2020_jgrbg_sam_nee_et/</guid>
+        <description>23 July, 2020 (Samuels-Crow, JGRBG, SAM-&amp;gt;NEE and ET) Samuels‐Crow, K. E., Ogle, K., &amp;amp; Litvak, M. E. (2020). Atmosphere‐Soil Interactions Govern Ecosystem Flux Sensitivity to Environmental Conditions in Semiarid Woody Ecosystems over Varying Timescales. Journal of Geophysical Research: Biogeosciences, 125, e2019JG005554. https://doi.org/10.1029/2019JG005554
+Summary Samuels-Crow et al., in this paper, quantified environmental antecedent (past) memory of water (ET) and carbon (NEE) fluxes over two semi-arid sites where two different conifer species dominate each.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>Recipe - 갈비찜</title>
@@ -141,7 +174,7 @@
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sun, 19 Jul 2020 14:33:34 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20200719_recipe_%EC%9E%94%EB%A9%B8%EC%B9%98%EB%B3%B6%EC%9D%8C/</guid>
-        <description>f호박볶음 잔멸치볶음 나는 잔멸치나 딱딱하게 요리한 멸치 외에는 입을 안 댄다. 물엿을 많이 넣고 굳혀서 딱딱하게 만들기.</description>
+        <description>잔멸치볶음 나는 잔멸치나 딱딱하게 요리한 멸치 외에는 입을 안 댄다. 물엿을 많이 넣고 굳혀서 딱딱하게 만들기.</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
         <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Recipe_%ec%9e%94%eb%a9%b8%ec%b9%98%eb%b3%b6%ec%9d%8c.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -1074,13 +1107,13 @@ A key reference for applying the SAM framework I have reviewed a paper in which 
       </item>
       
       <item>
-        <title>Paper Review: Liu (2019). SAM-&gt;NEE. ELE</title>
+        <title>Paper Review: Liu (2019). SAM-&gt;NEE across biomes. ELE</title>
         <link>https://hoontaeklee.github.io/en/posts/paper_liu_2019_ele_sam_nee/</link>
         <pubDate>Fri, 01 May 2020 13:43:04 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Fri, 01 May 2020 13:43:04 +0900</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/paper_liu_2019_ele_sam_nee/</guid>
-        <description>1 May, 2020 (Liu, ELE, SAM-&amp;gt;NEE) Liu, Y., Schwalm, C.R., Samuels‐Crow, K.E. and Ogle, K. (2019), Ecological memory of daily carbon exchange across the globe and its importance in drylands. Ecol Lett, 22: 1806-1816. doi:10.1111/ele.13363
+        <description>1 May, 2020 (Liu, ELE, SAM-&amp;gt;NEE across biomes) Liu, Y., Schwalm, C.R., Samuels‐Crow, K.E. and Ogle, K. (2019), Ecological memory of daily carbon exchange across the globe and its importance in drylands. Ecol Lett, 22: 1806-1816. doi:10.1111/ele.13363
 Why did I read this paper? To apply the SAM framework for my paper, I needed a reference. Professor Ogle recommended this paper for me as I and Liu et al. have the same type of data.</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
@@ -3874,33 +3907,6 @@ I anticipated that this paper explains how the results from forest-climate resea
               <category>2016</category>
             
           
-        
-        
-        
-      </item>
-      
-      <item>
-        <title></title>
-        <link>https://hoontaeklee.github.io/en/posts/research_topics/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        
-        <guid>https://hoontaeklee.github.io/en/posts/research_topics/</guid>
-        <description>title: &amp;ldquo;Research Topics&amp;rdquo;
-author: &amp;ldquo;Hoontaek Lee&amp;rdquo;
-date: 2020-02-10 11:34:48+09:00
-publishdate: 2020-02-10 11:34:48+09:00
-lastmod: 2020-06-26 10:02:48+09:00
-tags:
- 2020
-draft: true  Optimal temperature for photosynthesis   LI-6400으로 광합성 측정할 때 잎 온도를 25도로 설정한다. 광합성 최적 온도(optimal temperature for photosynthesis, OTP)가 일반적으로 25도라고 알려져있기 때문.
-  Kumarathunge et al. (2020, https://doi.org/10.1111/gcb.14975)은 OTP가 수분 상태에 따라 달라진다고 보고했다.
- 수분 조건이 충분할 때 3도 높았다.    OTP에 영향을 미치는 다른 조건도 있을 수 있다.</description>
-        
-        <dc:creator>Hoontaek Lee</dc:creator>
-        
-        
-        
         
         
         
