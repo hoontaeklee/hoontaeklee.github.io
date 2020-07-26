@@ -4,12 +4,52 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-07-23T19:23:36+09:00</lastmod>
+    <lastmod>2020-07-26T19:12:14+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-07-23T19:23:36+09:00</lastmod>
+    <lastmod>2020-07-26T19:12:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/recipe/</loc>
+    <lastmod>2020-07-26T19:12:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200726_recipe_%EB%8F%BC%EC%A7%80%EA%B3%A0%EA%B8%B0%EA%B9%80%EC%B9%98%EB%B3%B6%EC%9D%8C/</loc>
+    <lastmod>2020-07-26T19:12:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/</loc>
+    <lastmod>2020-07-26T19:12:14+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200726_recipe_%EB%96%A1%EB%B3%B6%EC%9D%B4/</loc>
+    <lastmod>2020-07-26T19:11:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200726_recipe_%EC%86%94%EB%B6%80%EC%B6%94%EB%B6%80%EC%B9%A8/</loc>
+    <lastmod>2020-07-26T19:08:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200726_recipe_%EA%B9%80%EC%B9%98%EC%B0%8C%EA%B0%9C/</loc>
+    <lastmod>2020-07-26T19:06:54+09:00</lastmod>
   </url>
   
   <url>
@@ -25,26 +65,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
     <lastmod>2020-07-23T19:23:36+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-07-23T19:23:36+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/recipe/</loc>
-    <lastmod>2020-07-19T14:40:02+09:00</lastmod>
   </url>
   
   <url>
@@ -74,12 +94,12 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/german/</loc>
-    <lastmod>2020-07-19T14:08:55+09:00</lastmod>
+    <lastmod>2020-07-26T14:18:02+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200712_%EC%8B%9C%EC%9B%90%EC%8A%A4%EC%BF%A8%EC%99%95%EC%B4%88%EB%B3%B42/</loc>
-    <lastmod>2020-07-19T14:08:55+09:00</lastmod>
+    <lastmod>2020-07-26T14:18:02+09:00</lastmod>
   </url>
   
   <url>
@@ -199,12 +219,12 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/english/</loc>
-    <lastmod>2020-07-19T14:18:31+09:00</lastmod>
+    <lastmod>2020-07-26T18:07:31+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200531_liveacad/</loc>
-    <lastmod>2020-07-19T14:18:31+09:00</lastmod>
+    <lastmod>2020-07-26T18:07:31+09:00</lastmod>
   </url>
   
   <url>
