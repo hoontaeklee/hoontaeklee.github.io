@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Jena on bloght</title>
+    <link>https://hoontaeklee.github.io/en/tags/jena/</link>
+    <description>Recent content in Jena on bloght</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
+    <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 06 Sep 2020 19:19:28 +0200</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>In Jena: Week 1</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200906_jena_wk1/</link>
+        <pubDate>Sun, 06 Sep 2020 19:19:28 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 06 Sep 2020 19:19:28 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200906_jena_wk1/</guid>
+        <description>이번 주는&amp;hellip; 한국에서 예나로 이동 각종 서류에 서명 - 게스트하우스 계약, 연구원 계약, 오피스&amp;amp;전화&amp;amp;메일 계정&amp;amp;노트</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk1%20%281%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

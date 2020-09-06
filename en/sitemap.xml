@@ -4,27 +4,32 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-08-16T16:27:31+09:00</lastmod>
+    <lastmod>2020-09-06T19:19:28+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-08-16T16:27:31+09:00</lastmod>
+    <lastmod>2020-09-06T19:19:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/recipe/</loc>
-    <lastmod>2020-08-09T18:39:38+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
+    <lastmod>2020-09-06T19:19:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/posts/20200809_recipe_%EB%82%99%EC%A7%80%EB%B3%B6%EC%9D%8C/</loc>
-    <lastmod>2020-08-09T18:39:38+09:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/posts/20200906_jena_wk1/</loc>
+    <lastmod>2020-09-06T19:19:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/jena/</loc>
+    <lastmod>2020-09-06T19:19:28+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-08-16T16:27:31+09:00</lastmod>
+    <lastmod>2020-09-06T19:19:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -35,6 +40,21 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200831_luggage/</loc>
+    <lastmod>2020-08-31T20:28:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/recipe/</loc>
+    <lastmod>2020-08-09T18:39:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20200809_recipe_%EB%82%99%EC%A7%80%EB%B3%B6%EC%9D%8C/</loc>
+    <lastmod>2020-08-09T18:39:38+09:00</lastmod>
   </url>
   
   <url>
@@ -165,11 +185,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200711_recipe_intro/</loc>
     <lastmod>2020-07-11T17:07:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
-    <lastmod>2020-07-11T16:31:26+09:00</lastmod>
   </url>
   
   <url>
