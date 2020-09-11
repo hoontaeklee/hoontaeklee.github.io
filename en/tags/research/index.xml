@@ -14,13 +14,46 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 23 Jul 2020 19:23:36 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2020 16:37:00 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Green (2019). SMC-NBP</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_green_2019_nature_smc-nbp/</link>
+        <pubDate>Fri, 11 Sep 2020 16:37:00 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Fri, 11 Sep 2020 16:37:00 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_green_2019_nature_smc-nbp/</guid>
+        <description>11 September, 2020 (Green, nature, SMC-&amp;gt;NBP) Green, J.K., Seneviratne, S.I., Berg, A.M. et al. Large influence of soil moisture on long-term terrestrial carbon uptake. Nature 565, 476–479 (2019). https://doi.org/10.1038/s41586-018-0848-x
+Overview The authors concluded that soil moisture has substantial effect on long-term net biosphere productivity (NBP, a.k.a. NEE?) using a global satellite product of SIF and TWS (GRACE) and multi-model ensemble from the GLACE-CMIP5 project. They explained that the SMC effect was attributable to non-linear response of NBP to SMC.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>Paper Review: Samuels-Crow (2020). SAM-&gt;NEE and ET. JGRBG</title>
