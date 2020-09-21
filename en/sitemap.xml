@@ -4,12 +4,32 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-09-21T10:56:53+02:00</lastmod>
+    <lastmod>2020-09-21T15:49:32+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-09-21T10:56:53+02:00</lastmod>
+    <lastmod>2020-09-21T15:49:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/paper_bloom_2020_bgd_legacy-iav/</loc>
+    <lastmod>2020-09-21T15:49:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/</loc>
+    <lastmod>2020-09-21T15:49:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/tags/"
+                />
   </url>
   
   <url>
@@ -25,21 +45,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/jena/</loc>
     <lastmod>2020-09-21T10:56:53+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-09-21T10:56:53+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/tags/"
-                />
   </url>
   
   <url>
@@ -738,12 +743,12 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/posts/paper_zhang_2019_jgrbg_clm45/</loc>
+    <loc>https://hoontaeklee.github.io/en/posts/paper_review/zhang_2019_jgrbg_clm45/</loc>
     <lastmod>2019-05-11T20:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/posts/paper_xu_2016_nph_ed-hydro/</loc>
+    <loc>https://hoontaeklee.github.io/en/posts/paper_review/xu_2016_nph_ed-hydro/</loc>
     <lastmod>2019-05-05T20:00:00+09:00</lastmod>
   </url>
   

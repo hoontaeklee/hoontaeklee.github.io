@@ -949,11 +949,11 @@ This paper synthesized in what context the terrestrial biosphere model (TBM) app
       
       <item>
         <title>Paper Review: Zhang (2019). CLM4.5. JGRBG</title>
-        <link>https://hoontaeklee.github.io/en/posts/paper_zhang_2019_jgrbg_clm45/</link>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/zhang_2019_jgrbg_clm45/</link>
         <pubDate>Sat, 11 May 2019 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sat, 11 May 2019 20:00:00 +0900</atom:modified>
-        <guid>https://hoontaeklee.github.io/en/posts/paper_zhang_2019_jgrbg_clm45/</guid>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/zhang_2019_jgrbg_clm45/</guid>
         <description>11 May, 2019 (Zhang, JGRBG, CLM4.5) Zhang, L., Lei, H., Shen, H., Cong, Z., Yang, D. and Liu, T. (2019). Evaluating the representation of vegetation phenology in the Community Land model 4.5 in a temperate grassland. Journal of Geophysical Research: Biogeosciences 124.
 This was a key paper for the first revision of my paper. This paper had its focus on improving phenology module in CLM 4.5 by comparing MODIS LAI. Two problem were issued and resolved.</description>
         
@@ -982,11 +982,11 @@ This was a key paper for the first revision of my paper. This paper had its focu
       
       <item>
         <title>Paper Review: Xu (2016). ED-Hydro. NPH</title>
-        <link>https://hoontaeklee.github.io/en/posts/paper_xu_2016_nph_ed-hydro/</link>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/xu_2016_nph_ed-hydro/</link>
         <pubDate>Sun, 05 May 2019 20:00:00 +0900</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sun, 05 May 2019 20:00:00 +0900</atom:modified>
-        <guid>https://hoontaeklee.github.io/en/posts/paper_xu_2016_nph_ed-hydro/</guid>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/xu_2016_nph_ed-hydro/</guid>
         <description>5 May, 2019 (Xu, NPH, ED-Hydro) Xu, X., Medvigy, D., Powers, J.S., Becknell, J.M. and Guan, K. (2016). Diversity in plant hydraulic traits explains seasonal and inter‐annual variations of vegetation dynamics in seasonally dry tropical forests. New Phytologist 212(1), 80-95.
 This paper incoporated hydraulic module into the ED2. This module accounted for hydraulic traits such as tugor loss point (TLP), saturated xylem conductivity, 50% xylem conductivity loss water potential, and area-based A~net~ under sufficient water supply.</description>
         
