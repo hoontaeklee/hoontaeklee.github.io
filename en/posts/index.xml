@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 21 Sep 2020 15:49:32 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2020 13:27:57 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 4</title>
+        <link>https://hoontaeklee.github.io/en/posts/20200927_jena_wk4/</link>
+        <pubDate>Sun, 27 Sep 2020 13:27:57 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 27 Sep 2020 13:27:57 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20200927_jena_wk4/</guid>
+        <description>이번 주는&amp;hellip; German course 시작 SINDBAD 개발 회의 with Sujan, Nuno, Simon, Shanning, and Tina Sujan과 개인 미팅 2020. 09. 22. 화요일 : German Course A.1.3 독일어 수업 시작. 매주 화요일, 목요일 저녁 5시~</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk4%20%286%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>Paper Review: Bloom (2020). Legacy-(NBE IAV). bgd</title>
@@ -32,7 +64,7 @@
         <description>21 September, 2020 (Bloom, bgd, Legacy-(NBE IAV)) Bloom, A. A., Bowman, K. W., Liu, J., Konings, A. G., Worden, J. R., Parazoo, N. C., Meyer, V., Reager, J. T., Worden, H. M., Jiang, Z., Quetin, G. R., Smallman, T. L., Exbrayat, J.-F., Yin, Y., Saatchi, S. S., Williams, M., and Schimel, D. S.: Lagged effects dominate the inter-annual variability of the 2010–2015 tropical carbon balance, Biogeosciences Discuss., https://doi.org/10.5194/bg-2019-459, in review, 2020.</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
-        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/cover_image.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
         
         
         
