@@ -14,7 +14,7 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 04 Oct 2020 12:10:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2020 16:46:17 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -24,12 +24,44 @@
       
       <item>
         <title>In Jena: Week 5</title>
+        <link>https://hoontaeklee.github.io/en/posts/20201011_jena_wk6/</link>
+        <pubDate>Sun, 11 Oct 2020 16:46:17 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 11 Oct 2020 16:46:17 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20201011_jena_wk6/</guid>
+        <description>이번 주는&amp;hellip; Eddy covariance 수업 일주일 내내 수업만 들은 기분이다. 2020. 09. 30. 수요일 Erfurt 북서쪽에 있는 Gebesee를 방문했다. FLUXNET 초창기부터 관측을 시작한 농</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk6%20%284%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 5</title>
         <link>https://hoontaeklee.github.io/en/posts/20201004_jena_wk5/</link>
         <pubDate>Sun, 04 Oct 2020 12:10:00 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sun, 04 Oct 2020 12:10:00 +0200</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20201004_jena_wk5/</guid>
-        <description>이번 주는&amp;hellip; 도서관 견학 택배 도착 room visit 2020. 09. 30. 수요일 도서관 투어 아침에 도서관 투어. 도서관은 옆 건물 MPI-CE (chemical ecology)에 있다. 저게 다다. 다</description>
+        <description>이번 주는&amp;hellip; 도서관 견학 택배 도착 room visit 2020. 09. 29. 화요일 Department seminar (부 세미나)에서 T-Talk을 했다. 부 세미나는 T-Talk과 S-Talk으로 이</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
         <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk5%20%284%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
