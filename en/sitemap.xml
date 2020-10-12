@@ -4,12 +4,42 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-10-11T16:46:17+02:00</lastmod>
+    <lastmod>2020-10-12T21:26:21+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-10-11T16:46:17+02:00</lastmod>
+    <lastmod>2020-10-12T21:26:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
+    <lastmod>2020-10-12T21:26:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/paper_review/p031_2017_green_ng_regional_feedback/</loc>
+    <lastmod>2020-10-12T21:26:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
+    <lastmod>2020-10-12T21:26:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/</loc>
+    <lastmod>2020-10-12T21:26:21+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/tags/"
+                />
   </url>
   
   <url>
@@ -28,21 +58,6 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-10-11T16:46:17+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/posts/20201004_jena_wk5/</loc>
     <lastmod>2020-10-04T12:10:00+02:00</lastmod>
   </url>
@@ -53,17 +68,7 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
-    <lastmod>2020-09-21T15:49:32+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/posts/paper_review/p030_2020_bloom_bgd_legacy-iav/</loc>
-    <lastmod>2020-09-21T15:49:32+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
     <lastmod>2020-09-21T15:49:32+02:00</lastmod>
   </url>
   

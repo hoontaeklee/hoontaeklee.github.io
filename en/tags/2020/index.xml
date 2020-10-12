@@ -14,13 +14,46 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 11 Oct 2020 16:46:17 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 21:26:21 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2020/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Green (2017). Regional land-atmosphere Feedbacks. ng</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p031_2017_green_ng_regional_feedback/</link>
+        <pubDate>Mon, 12 Oct 2020 21:26:21 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Mon, 12 Oct 2020 21:26:21 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p031_2017_green_ng_regional_feedback/</guid>
+        <description>12 October, 2020 (Green, ng, regional feedbacks) Green, J., Konings, A., Alemohammad, S. et al. Regionally strong feedbacks between the atmosphere and terrestrial biosphere. Nature Geosci 10, 410–414 (2017). https://doi.org/10.1038/ngeo2957
+Overview Here the authors confirm land-atmosphere feedbacks using satellite observations and a statistical method. The feedback from the biosphere to the atmosphere explains 30% of variations in precipitation and photosynthetically active radiation (PAR). They employed a multivariate conditional Granger Causality (MVGC) using vector autoregression models (VAR) to decompose two directions in the feedbacks (i.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 6</title>
