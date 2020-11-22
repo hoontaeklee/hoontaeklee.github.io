@@ -1199,9 +1199,9 @@
 
 <meta name="description" content="The Zzo theme for Hugo example site." />
 <meta name="keywords" content="">
-<meta name="created" content="2020-11-16T22:32:26&#43;0100">
-<meta name="modified" content="2020-11-16T22:32:26&#43;0100">
-<meta property="article:published_time" content="2020-11-16T22:32:26&#43;0100">
+<meta name="created" content="2020-11-22T20:53:43&#43;0100">
+<meta name="modified" content="2020-11-22T20:53:43&#43;0100">
+<meta property="article:published_time" content="2020-11-22T20:53:43&#43;0100">
 
 <meta name="author" content="Hoontaek Lee">
 
@@ -1488,6 +1488,67 @@
 
         <div class="summary__container" data-display="block">
             
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" data-position="left">
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/20201122_isolation_forest/'> Isolation Forest</a> </h5>
+        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Nov 22, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 3 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE)References:
+ solitude: https://github.com/talegari/solitude isofor: https://campus.datacamp.com/courses/anomaly-detection-in-r/isolation-forest  # install.packages(&quot;mvoutlier&quot;))# install.packages(&quot;remotes&quot;))# remotes::install_github(&quot;Zelazny7/isofor&quot;)#import librarieslibrary(ggplot2)library(ggpubr)library(solitude) # hereafter, &quot;sol&quot;library(isofor) # hereafter, &quot;iso&quot;library(viridis)packageVersion(&quot;solitude&quot;)#create sample datadata(&quot;humus&quot;, package = &quot;mvoutlier&quot;)# 2-dimensionalcolumns_required &lt;- c(&quot;Bi&quot;, &quot;Cd&quot;)humus2 &lt;- humus[ , columns_required]# multi-dimensionalcolumns_required_mul &lt;- setdiff(colnames(humus), c(&quot;Cond&quot;, &quot;ID&quot;, &quot;XCOO&quot;, &quot;YCOO&quot;, &quot;LOI&quot;))humus_mul &lt;- humus[ , columns_required_mul]str(humus2)str(humus_mul)#plot dataggplot(humus2, aes(x = Bi, y = Cd)) + geom_point(shape = 1, alpha = 0.
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" data-position="left">
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/20201122_jena_wk12/'> In Jena: Week 12</a> </h5>
+        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Nov 22, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 3 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            이번 주는&hellip; 통계학 수업 2020. 11. 16. ~ 20. 월~금요일 Advanced statistics and data analysis (ASDA) - advanced 통계학 수업. 수업 방식이 대학원 수업에 잘 맞던 것 같다. 학생들은 익숙하지 않은 통
+          
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="summary-classic__image-wrapper">
+      <a href="https://hoontaeklee.github.io/en/posts/20201122_jena_wk12/">
+        <img data-src="/images/posts/meta/Jena_wk12%20%285%29.jpg" alt="images/posts/meta/Jena_wk12 (5).jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true"/>
+      </a>
+    </div>
+    
+    
+  </div>
+  <hr />
+</article>
+
             
                 
   <article class="summary-classic" data-ani="true">
@@ -1838,66 +1899,6 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
 </article>
 
             
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
-
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/paper_review/p030_2020_bloom_bgd_legacy-iav/'> Paper Review: Bloom (2020). Legacy-(NBE IAV). bgd</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Sep 21, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 3 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            21 September, 2020 (Bloom, bgd, Legacy-(NBE IAV)) Bloom, A. A., Bowman, K. W., Liu, J., Konings, A. G., Worden, J. R., Parazoo, N. C., Meyer, V., Reager, J. T., Worden, H. M., Jiang, Z., Quetin, G. R., Smallman, T. L., Exbrayat, J.-F., Yin, Y., Saatchi, S. S., Williams, M., and Schimel, D. S.: Lagged effects dominate the inter-annual variability of the 2010–2015 tropical carbon balance, Biogeosciences Discuss., https://doi.org/10.5194/bg-2019-459, in review, 2020.
-          
-        </div>
-      </div>
-    </div>
-
-    
-    
-  </div>
-  <hr />
-</article>
-
-            
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
-
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/20200920_jena_wk3/'> In Jena: Week 3</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Sep 20, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 4 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            이번 주는&hellip; 수업: Advanced R &amp; Terrestrial Biosphere Part 2 German course 레벨 테스트 Panda Panda Asia Shop 구경 2020. 09. 14-16. 월-수요일 : Advanced R Advanced R course. Tidyverse, Package 만들기, Debuging, benchmarking &amp; profiling, ggplot2 등을 배웠다. map(), nest() functions m
-          
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="summary-classic__image-wrapper">
-      <a href="https://hoontaeklee.github.io/en/posts/20200920_jena_wk3/">
-        <img data-src="/images/posts/meta/Jena_wk3%20%283%29.jpg" alt="images/posts/meta/Jena_wk3 (3).jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true"/>
-      </a>
-    </div>
-    
-    
-  </div>
-  <hr />
-</article>
-
-            
             
 
 
@@ -2040,6 +2041,14 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
     
         
         <li class="sidebar-recent">
+            <a href="/en/posts/20201122_isolation_forest/" class="sidebar-recent__title p1">Isolation Forest</a>
+        </li>
+        
+        <li class="sidebar-recent">
+            <a href="/en/posts/20201122_jena_wk12/" class="sidebar-recent__title p1">In Jena: Week 12</a>
+        </li>
+        
+        <li class="sidebar-recent">
             <a href="/en/posts/paper_review/p033_2019_gentine_erl_cw_coupling/" class="sidebar-recent__title p1">Paper Review: Gentine (2019). Coupling between carbon and water cycles-a review. erl.</a>
         </li>
         
@@ -2049,14 +2058,6 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
         
         <li class="sidebar-recent">
             <a href="/en/posts/20201108_jena_wk10/" class="sidebar-recent__title p1">In Jena: Week 10</a>
-        </li>
-        
-        <li class="sidebar-recent">
-            <a href="/en/posts/20201101_jena_wk9/" class="sidebar-recent__title p1">In Jena: Week 9</a>
-        </li>
-        
-        <li class="sidebar-recent">
-            <a href="/en/posts/20201025_jena_wk8/" class="sidebar-recent__title p1">In Jena: Week 8</a>
         </li>
         
         <hr class="hr-fade sidebar-hr" />
@@ -2133,7 +2134,7 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
                         2020
                     </span>
                     <span class="taxo__num" dir="auto">
-                        109
+                        111
                     </span>
                 </a>
             </span>
@@ -2185,7 +2186,7 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
                         Daily Life
                     </span>
                     <span class="taxo__num" dir="auto">
-                        28
+                        29
                     </span>
                 </a>
             </span>
@@ -2250,7 +2251,7 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
                         Jena
                     </span>
                     <span class="taxo__num" dir="auto">
-                        11
+                        12
                     </span>
                 </a>
             </span>
@@ -2315,7 +2316,7 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
                         R
                     </span>
                     <span class="taxo__num" dir="auto">
-                        5
+                        6
                     </span>
                 </a>
             </span>
@@ -2341,7 +2342,7 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
                         Research
                     </span>
                     <span class="taxo__num" dir="auto">
-                        38
+                        39
                     </span>
                 </a>
             </span>

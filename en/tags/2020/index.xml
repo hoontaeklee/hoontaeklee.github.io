@@ -14,13 +14,78 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 16 Nov 2020 22:32:26 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2020 20:53:43 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2020/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Isolation Forest</title>
+        <link>https://hoontaeklee.github.io/en/posts/20201122_isolation_forest/</link>
+        <pubDate>Sun, 22 Nov 2020 20:53:43 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 22 Nov 2020 20:53:43 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20201122_isolation_forest/</guid>
+        <description>knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE)References:
+ solitude: https://github.com/talegari/solitude isofor: https://campus.datacamp.com/courses/anomaly-detection-in-r/isolation-forest  # install.packages(&amp;quot;mvoutlier&amp;quot;))# install.packages(&amp;quot;remotes&amp;quot;))# remotes::install_github(&amp;quot;Zelazny7/isofor&amp;quot;)#import librarieslibrary(ggplot2)library(ggpubr)library(solitude) # hereafter, &amp;quot;sol&amp;quot;library(isofor) # hereafter, &amp;quot;iso&amp;quot;library(viridis)packageVersion(&amp;quot;solitude&amp;quot;)#create sample datadata(&amp;quot;humus&amp;quot;, package = &amp;quot;mvoutlier&amp;quot;)# 2-dimensionalcolumns_required &amp;lt;- c(&amp;quot;Bi&amp;quot;, &amp;quot;Cd&amp;quot;)humus2 &amp;lt;- humus[ , columns_required]# multi-dimensionalcolumns_required_mul &amp;lt;- setdiff(colnames(humus), c(&amp;quot;Cond&amp;quot;, &amp;quot;ID&amp;quot;, &amp;quot;XCOO&amp;quot;, &amp;quot;YCOO&amp;quot;, &amp;quot;LOI&amp;quot;))humus_mul &amp;lt;- humus[ , columns_required_mul]str(humus2)str(humus_mul)#plot dataggplot(humus2, aes(x = Bi, y = Cd)) + geom_point(shape = 1, alpha = 0.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>R</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 12</title>
+        <link>https://hoontaeklee.github.io/en/posts/20201122_jena_wk12/</link>
+        <pubDate>Sun, 22 Nov 2020 20:37:53 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 22 Nov 2020 20:37:53 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20201122_jena_wk12/</guid>
+        <description>이번 주는&amp;hellip; 통계학 수업 2020. 11. 16. ~ 20. 월~금요일 Advanced statistics and data analysis (ASDA) - advanced 통계학 수업. 수업 방식이 대학원 수업에 잘 맞던 것 같다. 학생들은 익숙하지 않은 통</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk12%20%285%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>Paper Review: Gentine (2019). Coupling between carbon and water cycles-a review. erl.</title>
