@@ -50,7 +50,8 @@
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sun, 22 Nov 2020 20:53:43 +0100</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20201122_isolation_forest/</guid>
-        <description>knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE)References:
+        <description>HTML file
+knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE)References:
  solitude: https://github.com/talegari/solitude isofor: https://campus.datacamp.com/courses/anomaly-detection-in-r/isolation-forest  # install.packages(&amp;quot;mvoutlier&amp;quot;))# install.packages(&amp;quot;remotes&amp;quot;))# remotes::install_github(&amp;quot;Zelazny7/isofor&amp;quot;)#import librarieslibrary(ggplot2)library(ggpubr)library(solitude) # hereafter, &amp;quot;sol&amp;quot;library(isofor) # hereafter, &amp;quot;iso&amp;quot;library(viridis)packageVersion(&amp;quot;solitude&amp;quot;)#create sample datadata(&amp;quot;humus&amp;quot;, package = &amp;quot;mvoutlier&amp;quot;)# 2-dimensionalcolumns_required &amp;lt;- c(&amp;quot;Bi&amp;quot;, &amp;quot;Cd&amp;quot;)humus2 &amp;lt;- humus[ , columns_required]# multi-dimensionalcolumns_required_mul &amp;lt;- setdiff(colnames(humus), c(&amp;quot;Cond&amp;quot;, &amp;quot;ID&amp;quot;, &amp;quot;XCOO&amp;quot;, &amp;quot;YCOO&amp;quot;, &amp;quot;LOI&amp;quot;))humus_mul &amp;lt;- humus[ , columns_required_mul]str(humus2)str(humus_mul)#plot dataggplot(humus2, aes(x = Bi, y = Cd)) + geom_point(shape = 1, alpha = 0.</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
@@ -4855,6 +4856,24 @@ I anticipated that this paper explains how the results from forest-climate resea
               <category>2016</category>
             
           
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://hoontaeklee.github.io/en/posts/figures/asda2020_hlee_isolationforest/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
+        <guid>https://hoontaeklee.github.io/en/posts/figures/asda2020_hlee_isolationforest/</guid>
+        <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
         
         
         

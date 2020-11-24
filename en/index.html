@@ -1493,7 +1493,8 @@
       <div>
         <div class="summary-classic__text p2">
           
-            knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE)References:
+            HTML file
+knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE)References:
  solitude: https://github.com/talegari/solitude isofor: https://campus.datacamp.com/courses/anomaly-detection-in-r/isolation-forest  # install.packages(&quot;mvoutlier&quot;))# install.packages(&quot;remotes&quot;))# remotes::install_github(&quot;Zelazny7/isofor&quot;)#import librarieslibrary(ggplot2)library(ggpubr)library(solitude) # hereafter, &quot;sol&quot;library(isofor) # hereafter, &quot;iso&quot;library(viridis)packageVersion(&quot;solitude&quot;)#create sample datadata(&quot;humus&quot;, package = &quot;mvoutlier&quot;)# 2-dimensionalcolumns_required &lt;- c(&quot;Bi&quot;, &quot;Cd&quot;)humus2 &lt;- humus[ , columns_required]# multi-dimensionalcolumns_required_mul &lt;- setdiff(colnames(humus), c(&quot;Cond&quot;, &quot;ID&quot;, &quot;XCOO&quot;, &quot;YCOO&quot;, &quot;LOI&quot;))humus_mul &lt;- humus[ , columns_required_mul]str(humus2)str(humus_mul)#plot dataggplot(humus2, aes(x = Bi, y = Cd)) + geom_point(shape = 1, alpha = 0.
           
         </div>
