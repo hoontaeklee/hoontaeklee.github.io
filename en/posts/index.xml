@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 22 Nov 2020 20:53:43 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2020 20:46:04 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 13</title>
+        <link>https://hoontaeklee.github.io/en/posts/20201129_jena_wk13/</link>
+        <pubDate>Sun, 29 Nov 2020 20:46:04 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 29 Nov 2020 20:46:04 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20201129_jena_wk13/</guid>
+        <description>이번 주는&amp;hellip; TWS-NEE discussion with Sujan, Martin, Nuno, and Markus 밥 &amp;amp; 술 2020. 11. 26. 목요일 TWS-NEE discussion with Sujan, Martin, Nuno, and Markus 9월부터 11월까지 내 연구를 어떻게 진행해 왔고 어떻게 해나가면 좋을지 토의</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk13%20%287%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>Isolation Forest</title>
