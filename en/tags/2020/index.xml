@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 29 Nov 2020 20:46:04 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 06 Dec 2020 17:16:22 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2020/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 14</title>
+        <link>https://hoontaeklee.github.io/en/posts/20201206_jena_wk14/</link>
+        <pubDate>Sun, 06 Dec 2020 17:16:22 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 06 Dec 2020 17:16:22 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20201206_jena_wk14/</guid>
+        <description>이번 주는&amp;hellip; &amp;hellip; 뭐 했는지 모르겠네? R 코딩하고, 데이터 수집하려고 메일 주고 받고, 미팅 좀 하니까 한 주가 가버렸다. Tina, Basil에게 global TWS decomposiiton es</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk14%20%282%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2020</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 13</title>
