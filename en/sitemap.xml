@@ -4,12 +4,42 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2020/</loc>
-    <lastmod>2020-12-20T16:25:00+01:00</lastmod>
+    <lastmod>2020-12-26T22:45:07+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2020-12-20T16:25:00+01:00</lastmod>
+    <lastmod>2020-12-26T22:45:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
+    <lastmod>2020-12-26T22:45:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/paper_review/p034_2020_jung_bg_fluxcom_carbon/</loc>
+    <lastmod>2020-12-26T22:45:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
+    <lastmod>2020-12-26T22:45:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/</loc>
+    <lastmod>2020-12-26T22:45:07+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/tags/"
+                />
   </url>
   
   <url>
@@ -25,21 +55,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/jena/</loc>
     <lastmod>2020-12-20T16:25:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2020-12-20T16:25:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/tags/"
-                />
   </url>
   
   <url>
@@ -68,18 +83,8 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
-    <lastmod>2020-11-22T20:53:43+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/posts/20201122_jena_wk12/</loc>
     <lastmod>2020-11-22T20:37:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
-    <lastmod>2020-11-16T22:32:26+01:00</lastmod>
   </url>
   
   <url>

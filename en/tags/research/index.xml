@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 22 Nov 2020 20:53:43 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 26 Dec 2020 22:45:07 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Jung (2020). FLUXCOM evaluation: carbon. bg.</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p034_2020_jung_bg_fluxcom_carbon/</link>
+        <pubDate>Sat, 26 Dec 2020 22:45:07 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 26 Dec 2020 22:45:07 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p034_2020_jung_bg_fluxcom_carbon/</guid>
+        <description>27 December, 2020 (Jung, bg, FLUXCOM carbon) Jung, M., Schwalm, C., Migliavacca, M., Walther, S., Camps-Valls, G., Koirala, S., Anthoni, P., Besnard, S., Bodesheim, P., Carvalhais, N., Chevallier, F., Gans, F., Goll, D. S., Haverd, V., Köhler, P., Ichii, K., Jain, A. K., Liu, J., Lombardozzi, D., Nabel, J. E. M. S., Nelson, J. A., O&amp;rsquo;Sullivan, M., Pallandt, M., Papale, D., Peters, W., Pongratz, J., Rödenbeck, C., Sitch, S., Tramontana, G.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper Review</category>
+            
+          
+            
+              <category>2020</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>Isolation Forest</title>
