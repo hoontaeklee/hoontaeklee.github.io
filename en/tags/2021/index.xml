@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>2021 on bloght</title>
+    <link>https://hoontaeklee.github.io/en/tags/2021/</link>
+    <description>Recent content in 2021 on bloght</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
+    <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 10 Jan 2021 19:51:07 +0100</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/tags/2021/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>In Jena: Week 19</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210110_jena_wk19/</link>
+        <pubDate>Sun, 10 Jan 2021 19:51:07 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 10 Jan 2021 19:51:07 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210110_jena_wk19/</guid>
+        <description>이번 주는&amp;hellip; PAC meeting 준비 PAC meeting 준비 연속. 프로포절과 논문은 많이 다르다. 2020. 1. 9. 토요일 집에 와이파이를 설치했다. 3일 걸렸다. 인터넷 보면 최소 한 달</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk19%20%289%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 18</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210103_jena_wk18/</link>
+        <pubDate>Sun, 03 Jan 2021 20:27:54 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 03 Jan 2021 20:27:54 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210103_jena_wk18/</guid>
+        <description>이번 주는&amp;hellip; PAC meeting 준비 새해 첫 눈(다운 눈) 휴일 기간이다. 크리스마스 주부터 1월 1일 껴 있는 주까지 몽땅&amp;hellip; 덕분에 연구소가 한가해</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk18%20%2812%29.JPG" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

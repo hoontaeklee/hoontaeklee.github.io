@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 03 Jan 2021 20:27:54 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jan 2021 19:51:07 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 19</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210110_jena_wk19/</link>
+        <pubDate>Sun, 10 Jan 2021 19:51:07 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 10 Jan 2021 19:51:07 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210110_jena_wk19/</guid>
+        <description>이번 주는&amp;hellip; PAC meeting 준비 PAC meeting 준비 연속. 프로포절과 논문은 많이 다르다. 2020. 1. 9. 토요일 집에 와이파이를 설치했다. 3일 걸렸다. 인터넷 보면 최소 한 달</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk19%20%289%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 18</title>
@@ -38,7 +70,7 @@
         
           
             
-              <category>2020</category>
+              <category>2021</category>
             
           
             
