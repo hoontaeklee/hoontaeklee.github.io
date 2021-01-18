@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 10 Jan 2021 19:51:07 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 17 Jan 2021 21:40:51 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2021/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 20</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210117_jena_wk20/</link>
+        <pubDate>Sun, 17 Jan 2021 21:40:51 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 17 Jan 2021 21:40:51 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210117_jena_wk20/</guid>
+        <description>이번 주는&amp;hellip; BGI retreat PAC meeting 2020. 1. 11-12. 월-화요일 BGI retreat. 한해를 정리하는 행사다. 몇가지 세션이 있다. 연구 관련 짤막한 발표들 (PICO, ~5분) 좀 더 긴 발표들 (S-talk, ~1</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk20%20%2849%29.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 19</title>
