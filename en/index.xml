@@ -44,6 +44,101 @@
 
       
       <item>
+        <title>Paper Review: Pineiro (2008). OP vs. PO. ecolmodel.</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p035_2008_pineiro_ecolmodel_op_vs_po/</link>
+        <pubDate>Sun, 24 Jan 2021 16:42:12 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 24 Jan 2021 16:42:12 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p035_2008_pineiro_ecolmodel_op_vs_po/</guid>
+        <description>27 December, 2020 (Jung, bg, FLUXCOM carbon) Gervasio Piñeiro, Susana Perelman, Juan P. Guerschman, José M. Paruelo, How to evaluate models: Observed vs. predicted or predicted vs. observed?, Ecological Modelling, Volume 216, Issues 3–4, 2008, Pages 316-322, ISSN 0304-3800, https://doi.org/10.1016/j.ecolmodel.2008.05.006.
+Prediction (x-axis) vs. Observation (y-axis) Martin added a comment to my proposal. He said that I should put prediction on the x-axis, referring to a paper:
+I have just look over the conclusion of the paper.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper review</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Robust linear regression</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210124_rlm/</link>
+        <pubDate>Sun, 24 Jan 2021 16:42:03 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 24 Jan 2021 16:42:03 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210124_rlm/</guid>
+        <description>Robust linear regression Sujan recommended me to use the robust regression models (RLM) instead of the standard OLS (ordinary least squares). What are the differences?
+Robust: less affected by outliers A drawback of OLS is that the resulted regression line can be significantly altered by some outliers. As the OLS try to find a best line of the minimum SS, the optimum would likely to have more focus on outliers which have large SS.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 21</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210124_jena_wk21/</link>
+        <pubDate>Sun, 24 Jan 2021 15:52:37 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 24 Jan 2021 15:52:37 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210124_jena_wk21/</guid>
+        <description>이번 주는&amp;hellip; 수업: Atmosphere-Ocean-Land 세미나: Randy Koster from NASA Reading club 재개 - Jake&amp;rsquo;s talk 수업 듣는 주는 뭔가 바쁘다&amp;hellip; 2020. 1. 18-22. 월~금요일 Atmosphere-Ocean-Land 수업. 지구 시스템 중 내가</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk21%20%282%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>In Jena: Week 20</title>
         <link>https://hoontaeklee.github.io/en/posts/20210117_jena_wk20/</link>
         <pubDate>Sun, 17 Jan 2021 21:40:51 +0100</pubDate>
