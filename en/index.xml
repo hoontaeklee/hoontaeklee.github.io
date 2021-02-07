@@ -44,6 +44,38 @@
 
       
       <item>
+        <title>In Jena: Week 23</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210207_jena_wk23/</link>
+        <pubDate>Sun, 07 Feb 2021 14:45:22 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 07 Feb 2021 14:45:22 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210207_jena_wk23/</guid>
+        <description>이번 주는&amp;hellip; VS code 설치 실패 파운데이션 스노우 VS code에서 jupyter notebook을 실행해봤다. 리모트 서버 접근은 쉬운데, 서버 내에서 주피터 노</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk23%20%281%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>In Jena: Week 22</title>
         <link>https://hoontaeklee.github.io/en/posts/20210201_jena_wk22/</link>
         <pubDate>Mon, 01 Feb 2021 21:42:36 +0100</pubDate>
