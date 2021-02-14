@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 07 Feb 2021 14:45:22 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Feb 2021 14:49:45 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 24</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210214_jena_wk24/</link>
+        <pubDate>Sun, 14 Feb 2021 14:49:45 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 14 Feb 2021 14:49:45 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210214_jena_wk24/</guid>
+        <description>이번 주는&amp;hellip; 눈눈눈 설날 &amp;hellip; 눈이 겁나 많이 온 일주일. 설은 중국애들이랑 중국식으로 보냈다(=만두+음주). 연구는 Martin이 PAC 미팅 때 제안</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk24%20%2823%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 23</title>
