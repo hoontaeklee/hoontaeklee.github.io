@@ -4,22 +4,22 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2021/</loc>
-    <lastmod>2021-02-28T20:26:17+01:00</lastmod>
+    <lastmod>2021-02-28T20:43:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/blog/</loc>
-    <lastmod>2021-02-28T20:26:17+01:00</lastmod>
+    <lastmod>2021-02-28T20:43:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2021-02-28T20:26:17+01:00</lastmod>
+    <lastmod>2021-02-28T20:43:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2021-02-28T20:26:17+01:00</lastmod>
+    <lastmod>2021-02-28T20:43:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -30,6 +30,11 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_blog_git/</loc>
+    <lastmod>2021-02-28T20:43:17+01:00</lastmod>
   </url>
   
   <url>
@@ -1065,10 +1070,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20160628_%EC%84%9C%EB%AF%BC%EC%A0%81-%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
     <lastmod>2016-06-29T20:24:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_blog_git/</loc>
   </url>
   
   <url>
