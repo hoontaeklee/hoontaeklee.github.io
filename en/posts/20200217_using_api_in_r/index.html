@@ -1211,7 +1211,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="">
 
-<meta name="generator" content="Hugo 0.64.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1644,19 +1644,19 @@
 <span class="nf">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span>
 
 <span class="c1"># 검색할 주소 목록</span>
-<span class="n">address_list</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#39;</span><span class="s">서울특별시 송파구 잠실동 40-1&#39;</span><span class="p">,</span>
-                  <span class="s">&#34;</span><span class="s">서울특별시 종로구 사직로 161&#34;</span><span class="p">,</span>
-                  <span class="s">&#34;</span><span class="s">서울특별시 동대문구 청량리동 회기로 57&#34;</span>
+<span class="n">address_list</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#39;서울특별시 송파구 잠실동 40-1&#39;</span><span class="p">,</span>
+                  <span class="s">&#34;서울특별시 종로구 사직로 161&#34;</span><span class="p">,</span>
+                  <span class="s">&#34;서울특별시 동대문구 청량리동 회기로 57&#34;</span>
                   <span class="p">)</span>
 
 <span class="c1"># Web API key</span>
-<span class="n">KAKAO_MAP_API_KEY</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">My API Key&#34;</span>
+<span class="n">KAKAO_MAP_API_KEY</span> <span class="o">=</span> <span class="s">&#34;My API Key&#34;</span>
 
 <span class="c1"># 결과 저장용 데이터프레임</span>
-<span class="n">bowl</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="p">)</span>
+<span class="n">bowl</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">()</span>
 
 <span class="c1"># 주소별 반복</span>
-<span class="nf">for</span><span class="p">(</span><span class="n">i</span> <span class="n">in</span> <span class="m">1</span><span class="o">:</span><span class="nf">length</span><span class="p">(</span><span class="n">address_list</span><span class="p">)</span><span class="p">)</span><span class="p">{</span>
+<span class="nf">for</span><span class="p">(</span><span class="n">i</span> <span class="n">in</span> <span class="m">1</span><span class="o">:</span><span class="nf">length</span><span class="p">(</span><span class="n">address_list</span><span class="p">)){</span>
 
 <span class="c1">##</span>
 <span class="c1"># 2. API 사용</span>
@@ -1666,11 +1666,11 @@
   <span class="n">addr2coord_res</span> <span class="o">&lt;-</span> 
     <span class="nf">GET</span><span class="p">(</span>
       <span class="c1"># 카카오 주소검색API</span>
-      <span class="n">url</span> <span class="o">=</span> <span class="s">&#39;</span><span class="s">https://dapi.kakao.com/v2/local/search/address.json&#39;</span><span class="p">,</span> 
+      <span class="n">url</span> <span class="o">=</span> <span class="s">&#39;https://dapi.kakao.com/v2/local/search/address.json&#39;</span><span class="p">,</span> 
       <span class="c1"># 검색어</span>
-      <span class="n">query</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">query</span> <span class="o">=</span> <span class="n">address_list</span><span class="n">[i</span><span class="n">]</span><span class="p">)</span><span class="p">,</span>
+      <span class="n">query</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">query</span> <span class="o">=</span> <span class="n">address_list[i]</span><span class="p">),</span>
       <span class="c1"># 헤더(API마다 다를 수 있다)</span>
-      <span class="nf">add_headers</span><span class="p">(</span><span class="n">Authorization</span> <span class="o">=</span> <span class="nf">paste0</span><span class="p">(</span><span class="s">&#34;</span><span class="s">KakaoAK &#34;</span><span class="p">,</span> <span class="n">KAKAO_MAP_API_KEY</span><span class="p">)</span><span class="p">)</span><span class="p">)</span>
+      <span class="nf">add_headers</span><span class="p">(</span><span class="n">Authorization</span> <span class="o">=</span> <span class="nf">paste0</span><span class="p">(</span><span class="s">&#34;KakaoAK &#34;</span><span class="p">,</span> <span class="n">KAKAO_MAP_API_KEY</span><span class="p">)))</span>
   
 <span class="c1">##</span>
 <span class="c1"># 3. 결과 가공</span>
@@ -1678,19 +1678,19 @@
     
   <span class="c1"># KPMG 지리정보 데이터프레임</span>
   <span class="n">kpmg_list</span> <span class="o">&lt;-</span> <span class="n">addr2coord_res</span> <span class="o">%&gt;%</span> 
-    <span class="nf">content</span><span class="p">(</span><span class="n">as</span> <span class="o">=</span> <span class="s">&#39;</span><span class="s">text&#39;</span><span class="p">)</span> <span class="o">%&gt;%</span> 
-    <span class="nf">fromJSON</span><span class="p">(</span><span class="p">)</span>
+    <span class="nf">content</span><span class="p">(</span><span class="n">as</span> <span class="o">=</span> <span class="s">&#39;text&#39;</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+    <span class="nf">fromJSON</span><span class="p">()</span>
   
   <span class="c1"># 검색 결과 중 원하는 인자  추출</span>
   <span class="n">row_temp</span> <span class="o">=</span> 
     <span class="nf">cbind</span><span class="p">(</span>
       <span class="c1">## 지명주소</span>
       <span class="n">kpmg_list</span><span class="o">$</span><span class="n">documents</span><span class="o">$</span><span class="n">address</span> <span class="o">%&gt;%</span> 
-        <span class="nf">select</span><span class="p">(</span><span class="n">address_name</span><span class="p">)</span><span class="p">,</span>
+        <span class="nf">select</span><span class="p">(</span><span class="n">address_name</span><span class="p">),</span>
       
       <span class="c1">## 도로명주소</span>
       <span class="n">kpmg_list</span><span class="o">$</span><span class="n">documents</span><span class="o">$</span><span class="n">road_address</span> <span class="o">%&gt;%</span> 
-        <span class="nf">select</span><span class="p">(</span><span class="n">address_name</span><span class="p">,</span> <span class="n">building_name</span><span class="p">,</span> <span class="n">zone_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span><span class="p">)</span>
+        <span class="nf">select</span><span class="p">(</span><span class="n">address_name</span><span class="p">,</span> <span class="n">building_name</span><span class="p">,</span> <span class="n">zone_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span>
   
   <span class="c1"># 데이터프레임에 저장</span>
   <span class="n">bowl</span> <span class="o">=</span> <span class="nf">rbind</span><span class="p">(</span><span class="n">bowl</span><span class="p">,</span> <span class="n">row_temp</span><span class="p">)</span>

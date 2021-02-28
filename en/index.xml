@@ -44,6 +44,34 @@
 
       
       <item>
+        <title>Ubuntu에서 블로그 - 이미지 처리</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_image_process/</link>
+        <pubDate>Sun, 28 Feb 2021 20:26:17 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 28 Feb 2021 20:26:17 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_image_process/</guid>
+        <description>Ubuntu에서 블로그 - 이미지 처리 블로그에 글을 올리려면 이미지 관련 몇가지 작업을 해야 한다. 다운 받기, 이름 바꾸기, 크기 줄이기, 블로그 폴더에 옮기기&amp;</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Blog</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>In Jena: Week 25</title>
         <link>https://hoontaeklee.github.io/en/posts/20210221_jena_wk25/</link>
         <pubDate>Sun, 21 Feb 2021 20:03:17 +0100</pubDate>
@@ -5366,6 +5394,24 @@ I anticipated that this paper explains how the results from forest-climate resea
               <category>2016</category>
             
           
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_hugo_posting/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        
+        <guid>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_hugo_posting/</guid>
+        <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
         
         
         

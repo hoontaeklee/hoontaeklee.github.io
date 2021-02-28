@@ -14,13 +14,41 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 15 Feb 2020 15:09:56 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2021 20:26:17 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Ubuntu에서 블로그 - 이미지 처리</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_image_process/</link>
+        <pubDate>Sun, 28 Feb 2021 20:26:17 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 28 Feb 2021 20:26:17 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_image_process/</guid>
+        <description>Ubuntu에서 블로그 - 이미지 처리 블로그에 글을 올리려면 이미지 관련 몇가지 작업을 해야 한다. 다운 받기, 이름 바꾸기, 크기 줄이기, 블로그 폴더에 옮기기&amp;</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Blog</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>How to switch to another Hugo theme (Hugo 테마 변경하기)</title>

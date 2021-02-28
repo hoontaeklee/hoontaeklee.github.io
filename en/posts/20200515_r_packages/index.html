@@ -1211,7 +1211,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="">
 
-<meta name="generator" content="Hugo 0.64.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1547,7 +1547,7 @@
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">install.packages</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s">&#34;</span><span class="s">devtools&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">roxygen2&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">testthat&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">knitr&#34;</span><span class="p">)</span><span class="p">)</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">install.packages</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s">&#34;devtools&#34;</span><span class="p">,</span> <span class="s">&#34;roxygen2&#34;</span><span class="p">,</span> <span class="s">&#34;testthat&#34;</span><span class="p">,</span> <span class="s">&#34;knitr&#34;</span><span class="p">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>올바른 버전의 패키지를 설치했는지 확인한다(TRUE가 나와야 함).</p>
@@ -1557,8 +1557,8 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">install.packages</span><span class="p">(</span><span class="s">&#34;</span><span class="s">rstudioapi&#34;</span><span class="p">)</span>
-<span class="n">rstudioapi</span><span class="o">::</span><span class="nf">isAvailable</span><span class="p">(</span><span class="s">&#34;</span><span class="s">0.99.149&#34;</span><span class="p">)</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">install.packages</span><span class="p">(</span><span class="s">&#34;rstudioapi&#34;</span><span class="p">)</span>
+<span class="n">rstudioapi</span><span class="o">::</span><span class="nf">isAvailable</span><span class="p">(</span><span class="s">&#34;0.99.149&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
@@ -1566,7 +1566,7 @@
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="n">devtools</span><span class="o">::</span><span class="nf">install_github</span><span class="p">(</span><span class="s">&#34;</span><span class="s">r-lib/devtools&#34;</span><span class="p">)</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="n">devtools</span><span class="o">::</span><span class="nf">install_github</span><span class="p">(</span><span class="s">&#34;r-lib/devtools&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>필요한 것 모두 설치됐는지 확인한다.<br />
@@ -1578,7 +1578,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">library</span><span class="p">(</span><span class="n">devtools</span><span class="p">)</span>
-<span class="nf">has_devel</span><span class="p">(</span><span class="p">)</span>
+<span class="nf">has_devel</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="package-structure">Package structure</h2>
@@ -4266,7 +4266,7 @@ document.addEventListener('DOMContentLoaded', function () {
     </li>
     <li><a href="#package-components">Package components</a>
       <ul>
-        <li><a href="#r-code-r">R Code (R/)</a>
+        <li><a href="#r-code-r">R Code (<code>R/</code>)</a>
           <ul>
             <li><a href="#r-code-workflow">R code workflow</a></li>
             <li><a href="#organising-your-functions">Organising your functions</a></li>
@@ -4275,14 +4275,14 @@ document.addEventListener('DOMContentLoaded', function () {
               <ul>
                 <li><a href="#loading-code">Loading code</a></li>
                 <li><a href="#the-r-landscape">The R landscape</a></li>
-                <li><a href="#when-you-do-need-side-effects">When you do need side-effects</a></li>
+                <li><a href="#when-you-do-need-side-effects">When you <strong>do</strong> need side-effects</a></li>
                 <li><a href="#s4-classes-generics-and-methods">S4 classes, generics and methods</a></li>
               </ul>
             </li>
             <li><a href="#cran-notes">CRAN notes</a></li>
           </ul>
         </li>
-        <li><a href="#package-metadata-description">Package metadata (DESCRIPTION)</a>
+        <li><a href="#package-metadata-description">Package metadata (<code>DESCRIPTION</code>)</a>
           <ul>
             <li><a href="#dependencies-what-does-your-package-need">Dependencies: What does your package need?</a></li>
             <li><a href="#title-and-description-what-does-your-package-do">Title and description: What does your package do?</a></li>
@@ -4292,7 +4292,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <li><a href="#other-components">Other components</a></li>
           </ul>
         </li>
-        <li><a href="#object-documentation-man">Object documentation (man/)</a>
+        <li><a href="#object-documentation-man">Object documentation (<code>man/</code>)</a>
           <ul>
             <li><a href="#the-documentation-workflow">The documentation workflow</a></li>
             <li><a href="#alternative-documentation-workflow">Alternative documentation workflow</a></li>
@@ -4314,7 +4314,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </li>
           </ul>
         </li>
-        <li><a href="#vignettes-vignettes-long-form-documentation">Vignettes (vignettes/): long-form documentation</a>
+        <li><a href="#vignettes-vignettes-long-form-documentation">Vignettes (<code>vignettes/</code>): long-form documentation</a>
           <ul>
             <li><a href="#vignette-workflow">Vignette workflow</a></li>
             <li><a href="#metadata">Metadata</a></li>
@@ -4326,7 +4326,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <li><a href="#where-next">Where next</a></li>
           </ul>
         </li>
-        <li><a href="#testing-tests">Testing (Tests/)</a>
+        <li><a href="#testing-tests">Testing (<code>Tests/</code>)</a>
           <ul>
             <li><a href="#test-workflow">Test workflow</a></li>
             <li><a href="#test-structure">Test structure</a>
@@ -4345,17 +4345,17 @@ document.addEventListener('DOMContentLoaded', function () {
             <li><a href="#cran-notes-2">CRAN notes</a></li>
           </ul>
         </li>
-        <li><a href="#namespaces-namespace">Namespaces (NAMESPACE)</a>
+        <li><a href="#namespaces-namespace">Namespaces (<code>NAMESPACE</code>)</a>
           <ul>
             <li><a href="#motivation">Motivation</a></li>
             <li><a href="#search-path">Search path</a></li>
-            <li><a href="#the-namespace">The NAMESPACE</a></li>
+            <li><a href="#the-namespace">The <code>NAMESPACE</code></a></li>
             <li><a href="#workflow">Workflow</a></li>
             <li><a href="#exports">Exports</a></li>
             <li><a href="#imports">Imports</a></li>
           </ul>
         </li>
-        <li><a href="#data-data">Data (data/)</a>
+        <li><a href="#data-data">Data (<code>data/</code>)</a>
           <ul>
             <li><a href="#exported-data">Exported data</a></li>
             <li><a href="#internal-data">Internal data</a></li>
@@ -4364,8 +4364,8 @@ document.addEventListener('DOMContentLoaded', function () {
             <li><a href="#cran-notes-3">CRAN notes</a></li>
           </ul>
         </li>
-        <li><a href="#compiled-code-src">Compiled code (src/)</a></li>
-        <li><a href="#installed-files-inst">Installed files (inst/)</a>
+        <li><a href="#compiled-code-src">Compiled code (<code>src/</code>)</a></li>
+        <li><a href="#installed-files-inst">Installed files (<code>inst/</code>)</a>
           <ul>
             <li><a href="#package-citation">Package citation</a></li>
             <li><a href="#other-languages">Other languages</a></li>

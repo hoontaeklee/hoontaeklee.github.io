@@ -1211,7 +1211,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="">
 
-<meta name="generator" content="Hugo 0.64.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1557,7 +1557,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># 코어 숫자 설정</span>
-<span class="n">n.cores</span> <span class="o">&lt;-</span> <span class="n">parallel</span><span class="o">::</span><span class="nf">detectCores</span><span class="p">(</span><span class="p">)</span> <span class="o">-</span> <span class="m">1</span>
+<span class="n">n.cores</span> <span class="o">&lt;-</span> <span class="n">parallel</span><span class="o">::</span><span class="nf">detectCores</span><span class="p">()</span> <span class="o">-</span> <span class="m">1</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>몇 명 모집할 것인지 정한다. <code>parallel::detectCores()</code>는 가용 최대 코어 수를 알려준다.<br />
@@ -1590,7 +1590,7 @@
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># 클러스터에 전역 변수 추가</span>
 <span class="n">parallel</span><span class="o">::</span><span class="nf">clusterExport</span><span class="p">(</span><span class="n">slave.cluster</span><span class="p">,</span>
-                        <span class="n">varlist</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;</span><span class="s">add&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">variables&#34;</span><span class="p">,</span> <span class="kc">...</span><span class="p">)</span><span class="p">)</span>
+                        <span class="n">varlist</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;add&#34;</span><span class="p">,</span> <span class="s">&#34;variables&#34;</span><span class="p">,</span> <span class="kc">...</span><span class="p">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>필요한 라이브러리는 <code>foreach</code> 수행하면서 읽어들일 수 있다.</p>
@@ -1609,9 +1609,9 @@
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># 병렬처리 수행</span>
 <span class="n">foreach</span><span class="o">::</span><span class="nf">foreach</span><span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="m">1</span><span class="o">:</span><span class="m">18</span><span class="p">,</span>
                  <span class="n">.combine</span> <span class="o">=</span> <span class="n">rbind</span><span class="p">,</span>
-                 <span class="n">.packages</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;</span><span class="s">dplyr&#34;</span><span class="p">)</span><span class="p">,</span>
+                 <span class="n">.packages</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;dplyr&#34;</span><span class="p">),</span>
                  <span class="n">.inorder</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span> <span class="o">%dopar%</span> <span class="p">{</span>
-                   <span class="s">&#34;</span><span class="s">수행할 코드&#34;</span>
+                   <span class="s">&#34;수행할 코드&#34;</span>
                  <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
@@ -1679,7 +1679,7 @@
 <span class="nf">library</span><span class="p">(</span><span class="n">doParallel</span><span class="p">)</span>
 
 <span class="c1"># 코어 숫자 설정</span>
-<span class="n">n.cores</span> <span class="o">&lt;-</span> <span class="n">parallel</span><span class="o">::</span><span class="nf">detectCores</span><span class="p">(</span><span class="p">)</span> <span class="o">-</span> <span class="m">1</span>
+<span class="n">n.cores</span> <span class="o">&lt;-</span> <span class="n">parallel</span><span class="o">::</span><span class="nf">detectCores</span><span class="p">()</span> <span class="o">-</span> <span class="m">1</span>
 
 <span class="c1"># 클러스터 초기화</span>
 <span class="n">slave.cluster</span> <span class="o">&lt;-</span> <span class="n">parallel</span><span class="o">::</span><span class="nf">makeCluster</span><span class="p">(</span><span class="n">n.cores</span><span class="p">)</span>
@@ -1687,14 +1687,14 @@
 
 <span class="c1"># 클러스터에 전역 변수 추가</span>
 <span class="n">parallel</span><span class="o">::</span><span class="nf">clusterExport</span><span class="p">(</span><span class="n">slave.cluster</span><span class="p">,</span>
-                        <span class="n">varlist</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;</span><span class="s">add&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">variables&#34;</span><span class="p">,</span> <span class="kc">...</span><span class="p">)</span><span class="p">)</span>
+                        <span class="n">varlist</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;add&#34;</span><span class="p">,</span> <span class="s">&#34;variables&#34;</span><span class="p">,</span> <span class="kc">...</span><span class="p">))</span>
 
 <span class="c1"># 병렬처리 수행</span>
 <span class="n">foreach</span><span class="o">::</span><span class="nf">foreach</span><span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="m">1</span><span class="o">:</span><span class="m">18</span><span class="p">,</span>
                  <span class="n">.combine</span> <span class="o">=</span> <span class="n">rbind</span><span class="p">,</span>
-                 <span class="n">.packages</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;</span><span class="s">dplyr&#34;</span><span class="p">)</span><span class="p">,</span>
+                 <span class="n">.packages</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;dplyr&#34;</span><span class="p">),</span>
                  <span class="n">.inorder</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span> <span class="o">%dopar%</span> <span class="p">{</span>
-                   <span class="s">&#34;</span><span class="s">수행할 코드&#34;</span>
+                   <span class="s">&#34;수행할 코드&#34;</span>
                  <span class="p">}</span>
 
 <span class="c1"># 클러스터 해제</span>
@@ -1773,8 +1773,8 @@ for(i in 1:csv파일개수){
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">foreach</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="n">bvec</span><span class="p">,</span> <span class="n">.combine</span><span class="o">=</span><span class="s">&#39;</span><span class="s">cbind&#39;</span><span class="p">)</span> <span class="o">%:%</span>
-  <span class="nf">foreach</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="n">avec</span><span class="p">,</span> <span class="n">.combine</span><span class="o">=</span><span class="s">&#39;</span><span class="s">c&#39;</span><span class="p">)</span> <span class="o">%dopar%</span> <span class="p">{</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">foreach</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="n">bvec</span><span class="p">,</span> <span class="n">.combine</span><span class="o">=</span><span class="s">&#39;cbind&#39;</span><span class="p">)</span> <span class="o">%:%</span>
+  <span class="nf">foreach</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="n">avec</span><span class="p">,</span> <span class="n">.combine</span><span class="o">=</span><span class="s">&#39;c&#39;</span><span class="p">)</span> <span class="o">%dopar%</span> <span class="p">{</span>
     <span class="nf">sim</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
   <span class="p">}</span>
 </code></pre></td></tr></table>
@@ -3235,7 +3235,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#각-반복-작업은-서로-독립적이어야-한다">각 반복 작업은 서로 독립적이어야 한다?</a></li>
         <li><a href="#중첩-반복문-구조인-경우">중첩 반복문 구조인 경우?</a>
           <ul>
-            <li><a href="#왜-더-오래-걸렸을까-무작정-foreach로-감싸지-말기">왜 더 오래 걸렸을까?: 무작정 foreach()로 감싸지 말기!</a></li>
+            <li><a href="#왜-더-오래-걸렸을까-무작정-foreach로-감싸지-말기">왜 더 오래 걸렸을까?: 무작정 <code>foreach()</code>로 감싸지 말기!</a></li>
             <li><a href="#어떤-반복문을-병렬처리할지-선택해야-한다">어떤 반복문을 병렬처리할지 선택해야 한다.</a></li>
           </ul>
         </li>

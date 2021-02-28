@@ -4,12 +4,37 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2021/</loc>
-    <lastmod>2021-02-21T20:03:17+01:00</lastmod>
+    <lastmod>2021-02-28T20:26:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/blog/</loc>
+    <lastmod>2021-02-28T20:26:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2021-02-21T20:03:17+01:00</lastmod>
+    <lastmod>2021-02-28T20:26:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/</loc>
+    <lastmod>2021-02-28T20:26:17+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_image_process/</loc>
+    <lastmod>2021-02-28T20:26:17+01:00</lastmod>
   </url>
   
   <url>
@@ -25,21 +50,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/jena/</loc>
     <lastmod>2021-02-21T20:03:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2021-02-21T20:03:17+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/tags/"
-                />
   </url>
   
   <url>
@@ -64,6 +74,11 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/paper_review/p035_2008_pineiro_ecolmodel_op_vs_po/</loc>
+    <lastmod>2021-01-24T16:42:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/r/</loc>
     <lastmod>2021-01-24T16:42:12+01:00</lastmod>
   </url>
   
@@ -134,11 +149,6 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20201122_isolation_forest/</loc>
-    <lastmod>2020-11-22T20:53:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/r/</loc>
     <lastmod>2020-11-22T20:53:43+01:00</lastmod>
   </url>
   
@@ -498,6 +508,11 @@
   </url>
   
   <url>
+    <loc>https://hoontaeklee.github.io/en/tags/phd/</loc>
+    <lastmod>2020-05-05T18:19:28+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hoontaeklee.github.io/en/tags/phd-application/</loc>
     <lastmod>2020-05-05T18:19:28+09:00</lastmod>
   </url>
@@ -618,28 +633,8 @@
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/series/</loc>
-    <lastmod>2020-02-17T19:46:25+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/series/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hoontaeklee.github.io/en/posts/paper_review/p019_2016_ogle_chance_sam/</loc>
     <lastmod>2020-02-15T20:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/blog/</loc>
-    <lastmod>2020-02-15T15:09:56+09:00</lastmod>
   </url>
   
   <url>
@@ -705,11 +700,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20200126_und_visit_prep/</loc>
     <lastmod>2020-01-29T09:39:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/phd/</loc>
-    <lastmod>2020-01-22T13:45:55+09:00</lastmod>
   </url>
   
   <url>
@@ -1075,6 +1065,24 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20160628_%EC%84%9C%EB%AF%BC%EC%A0%81-%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
     <lastmod>2016-06-29T20:24:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_hugo_posting/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/series/"
+                />
   </url>
   
 </urlset>

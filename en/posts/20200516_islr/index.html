@@ -1211,7 +1211,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="">
 
-<meta name="generator" content="Hugo 0.64.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1734,7 +1734,7 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 <span class="c1"># fit a simple linear model</span>
 <span class="n">lm.fit</span> <span class="o">=</span> <span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="n">horsepower</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">subset</span> <span class="o">=</span> <span class="n">train</span><span class="p">)</span>
 <span class="nf">attach</span><span class="p">(</span><span class="n">Auto</span><span class="p">)</span>
-<span class="nf">mean</span><span class="p">(</span><span class="p">(</span><span class="n">mpg</span> <span class="o">-</span> <span class="nf">predict</span><span class="p">(</span><span class="n">lm.fit</span><span class="p">,</span> <span class="n">Auto</span><span class="p">)</span><span class="p">)</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="n">]</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># compute MSE</span>
+<span class="nf">mean</span><span class="p">((</span><span class="n">mpg</span> <span class="o">-</span> <span class="nf">predict</span><span class="p">(</span><span class="n">lm.fit</span><span class="p">,</span> <span class="n">Auto</span><span class="p">))</span><span class="n">[</span><span class="o">-</span><span class="n">train]</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># compute MSE</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 23.26601
@@ -1746,8 +1746,8 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># fit a quadratic linear model </span>
-<span class="n">lm.fit2</span> <span class="o">=</span> <span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="nf">poly</span><span class="p">(</span><span class="n">horsepower</span><span class="p">,</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">subset</span> <span class="o">=</span> <span class="n">train</span><span class="p">)</span>
-<span class="nf">mean</span><span class="p">(</span><span class="p">(</span><span class="n">mpg</span> <span class="o">-</span> <span class="nf">predict</span><span class="p">(</span><span class="n">lm.fit2</span><span class="p">,</span> <span class="n">Auto</span><span class="p">)</span><span class="p">)</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="n">]</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># compute MSE</span>
+<span class="n">lm.fit2</span> <span class="o">=</span> <span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="nf">poly</span><span class="p">(</span><span class="n">horsepower</span><span class="p">,</span> <span class="m">2</span><span class="p">),</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">subset</span> <span class="o">=</span> <span class="n">train</span><span class="p">)</span>
+<span class="nf">mean</span><span class="p">((</span><span class="n">mpg</span> <span class="o">-</span> <span class="nf">predict</span><span class="p">(</span><span class="n">lm.fit2</span><span class="p">,</span> <span class="n">Auto</span><span class="p">))</span><span class="n">[</span><span class="o">-</span><span class="n">train]</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># compute MSE</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 18.71646
@@ -1759,8 +1759,8 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># fit a cubic linear model </span>
-<span class="n">lm.fit3</span> <span class="o">=</span> <span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="nf">poly</span><span class="p">(</span><span class="n">horsepower</span><span class="p">,</span> <span class="m">3</span><span class="p">)</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">subset</span> <span class="o">=</span> <span class="n">train</span><span class="p">)</span>
-<span class="nf">mean</span><span class="p">(</span><span class="p">(</span><span class="n">mpg</span> <span class="o">-</span> <span class="nf">predict</span><span class="p">(</span><span class="n">lm.fit3</span><span class="p">,</span> <span class="n">Auto</span><span class="p">)</span><span class="p">)</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="n">]</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># compute MSE</span>
+<span class="n">lm.fit3</span> <span class="o">=</span> <span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="nf">poly</span><span class="p">(</span><span class="n">horsepower</span><span class="p">,</span> <span class="m">3</span><span class="p">),</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">subset</span> <span class="o">=</span> <span class="n">train</span><span class="p">)</span>
+<span class="nf">mean</span><span class="p">((</span><span class="n">mpg</span> <span class="o">-</span> <span class="nf">predict</span><span class="p">(</span><span class="n">lm.fit3</span><span class="p">,</span> <span class="n">Auto</span><span class="p">))</span><span class="n">[</span><span class="o">-</span><span class="n">train]</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># compute MSE</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 18.79401
@@ -1830,9 +1830,9 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1">## cv iteration for polynomial fit of order 1 to 5 </span>
 <span class="n">cv.error</span> <span class="o">=</span> <span class="nf">rep</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">5</span><span class="p">)</span>
-<span class="nf">for</span><span class="p">(</span><span class="n">i</span> <span class="n">in</span> <span class="m">1</span><span class="o">:</span><span class="m">5</span><span class="p">)</span><span class="p">{</span>
-  <span class="n">glm.fit</span> <span class="o">=</span> <span class="nf">glm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="nf">poly</span><span class="p">(</span><span class="n">horsepower</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">)</span>
-  <span class="n">cv.error</span><span class="n">[i</span><span class="n">]</span> <span class="o">=</span> <span class="nf">cv.glm</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">glmfit</span> <span class="o">=</span> <span class="n">glm.fit</span><span class="p">)</span><span class="o">$</span><span class="n">delta</span><span class="n">[1</span><span class="n">]</span>
+<span class="nf">for</span><span class="p">(</span><span class="n">i</span> <span class="n">in</span> <span class="m">1</span><span class="o">:</span><span class="m">5</span><span class="p">){</span>
+  <span class="n">glm.fit</span> <span class="o">=</span> <span class="nf">glm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="nf">poly</span><span class="p">(</span><span class="n">horsepower</span><span class="p">,</span> <span class="n">i</span><span class="p">),</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">)</span>
+  <span class="n">cv.error[i]</span> <span class="o">=</span> <span class="nf">cv.glm</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">glmfit</span> <span class="o">=</span> <span class="n">glm.fit</span><span class="p">)</span><span class="o">$</span><span class="n">delta[1]</span>
 <span class="p">}</span>
 <span class="n">cv.error</span>
 </code></pre></td></tr></table>
@@ -1855,14 +1855,14 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">set.seed</span><span class="p">(</span><span class="m">17</span><span class="p">)</span>
 <span class="n">cv.error.10</span> <span class="o">=</span> <span class="nf">rep</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">10</span><span class="p">)</span>
-<span class="nf">for</span><span class="p">(</span><span class="n">i</span> <span class="n">in</span> <span class="m">1</span><span class="o">:</span><span class="m">10</span><span class="p">)</span><span class="p">{</span>
-  <span class="n">glm.fit</span> <span class="o">=</span> <span class="nf">glm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="nf">poly</span><span class="p">(</span><span class="n">horsepower</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">)</span>
-  <span class="n">cv.error.10</span><span class="n">[i</span><span class="n">]</span> <span class="o">=</span> <span class="nf">cv.glm</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">glmfit</span> <span class="o">=</span> <span class="n">glm.fit</span><span class="p">,</span> <span class="n">K</span> <span class="o">=</span> <span class="m">10</span><span class="p">)</span><span class="o">$</span><span class="n">delta</span><span class="n">[1</span><span class="n">]</span>
+<span class="nf">for</span><span class="p">(</span><span class="n">i</span> <span class="n">in</span> <span class="m">1</span><span class="o">:</span><span class="m">10</span><span class="p">){</span>
+  <span class="n">glm.fit</span> <span class="o">=</span> <span class="nf">glm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="nf">poly</span><span class="p">(</span><span class="n">horsepower</span><span class="p">,</span> <span class="n">i</span><span class="p">),</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">)</span>
+  <span class="n">cv.error.10[i]</span> <span class="o">=</span> <span class="nf">cv.glm</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">glmfit</span> <span class="o">=</span> <span class="n">glm.fit</span><span class="p">,</span> <span class="n">K</span> <span class="o">=</span> <span class="m">10</span><span class="p">)</span><span class="o">$</span><span class="n">delta[1]</span>
   <span class="c1"># much shorter running time than that of LOOCV</span>
 <span class="p">}</span>
 
 <span class="c1"># still cubic or higher order terms don&#39;t seem superior</span>
-<span class="nf">plot</span><span class="p">(</span><span class="n">cv.error.10</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">b&#34;</span><span class="p">)</span>
+<span class="nf">plot</span><span class="p">(</span><span class="n">cv.error.10</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;b&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/5.3.3.-1.png" alt="" /><!-- --></p>
@@ -1895,10 +1895,10 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 <span class="nf">library</span><span class="p">(</span><span class="n">boot</span><span class="p">)</span>
 
 <span class="c1">## 1. create a function to compute statistics of interest</span>
-<span class="n">alpha.fn</span> <span class="o">=</span> <span class="nf">function</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">index</span><span class="p">)</span><span class="p">{</span>
-  <span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">$</span><span class="n">X</span><span class="n">[index</span><span class="n">]</span>
-  <span class="n">Y</span> <span class="o">=</span> <span class="n">data</span><span class="o">$</span><span class="n">Y</span><span class="n">[index</span><span class="n">]</span>
-  <span class="nf">return</span><span class="p">(</span><span class="p">(</span><span class="nf">var</span><span class="p">(</span><span class="n">Y</span><span class="p">)</span> <span class="o">-</span> <span class="nf">cov</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">)</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="nf">var</span><span class="p">(</span><span class="n">X</span><span class="p">)</span> <span class="o">+</span> <span class="nf">var</span><span class="p">(</span><span class="n">Y</span><span class="p">)</span> <span class="o">-</span> <span class="m">2</span> <span class="o">*</span> <span class="nf">cov</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">)</span><span class="p">)</span><span class="p">)</span>
+<span class="n">alpha.fn</span> <span class="o">=</span> <span class="nf">function</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">index</span><span class="p">){</span>
+  <span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">$</span><span class="n">X[index]</span>
+  <span class="n">Y</span> <span class="o">=</span> <span class="n">data</span><span class="o">$</span><span class="n">Y[index]</span>
+  <span class="nf">return</span><span class="p">((</span><span class="nf">var</span><span class="p">(</span><span class="n">Y</span><span class="p">)</span> <span class="o">-</span> <span class="nf">cov</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">))</span> <span class="o">/</span> <span class="p">(</span><span class="nf">var</span><span class="p">(</span><span class="n">X</span><span class="p">)</span> <span class="o">+</span> <span class="nf">var</span><span class="p">(</span><span class="n">Y</span><span class="p">)</span> <span class="o">-</span> <span class="m">2</span> <span class="o">*</span> <span class="nf">cov</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">)))</span>
 <span class="p">}</span>
 
 <span class="c1">## 2. boot()</span>
@@ -1906,7 +1906,7 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 
 <span class="c1">## compute an alpha value (a kind of statistics)</span>
 <span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
-<span class="nf">alpha.fn</span><span class="p">(</span><span class="n">Portfolio</span><span class="p">,</span> <span class="nf">sample</span><span class="p">(</span><span class="m">100</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="n">replace</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span><span class="p">)</span> 
+<span class="nf">alpha.fn</span><span class="p">(</span><span class="n">Portfolio</span><span class="p">,</span> <span class="nf">sample</span><span class="p">(</span><span class="m">100</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="n">replace</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">))</span> 
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 0.7368375
@@ -1948,8 +1948,8 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 
 
 <span class="c1">## linear regression coef. estimates</span>
-<span class="n">boot.fn</span> <span class="o">=</span> <span class="nf">function</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">index</span><span class="p">)</span><span class="p">{</span>
-  <span class="nf">return</span><span class="p">(</span><span class="nf">coef</span><span class="p">(</span><span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="n">horsepower</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">,</span> <span class="n">subset</span> <span class="o">=</span> <span class="n">index</span><span class="p">)</span><span class="p">)</span><span class="p">)</span>
+<span class="n">boot.fn</span> <span class="o">=</span> <span class="nf">function</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">index</span><span class="p">){</span>
+  <span class="nf">return</span><span class="p">(</span><span class="nf">coef</span><span class="p">(</span><span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="n">horsepower</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">,</span> <span class="n">subset</span> <span class="o">=</span> <span class="n">index</span><span class="p">)))</span>
 <span class="p">}</span>
 
 <span class="nf">boot.fn</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="m">1</span><span class="o">:</span><span class="m">392</span><span class="p">)</span>
@@ -1964,7 +1964,7 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
-<span class="nf">boot.fn</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="m">392</span><span class="p">,</span> <span class="m">392</span><span class="p">,</span> <span class="n">replace</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span><span class="p">)</span>
+<span class="nf">boot.fn</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="m">392</span><span class="p">,</span> <span class="m">392</span><span class="p">,</span> <span class="n">replace</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## (Intercept)  horsepower 
@@ -1974,7 +1974,7 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">boot.fn</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="m">392</span><span class="p">,</span> <span class="m">392</span><span class="p">,</span> <span class="n">replace</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span><span class="p">)</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">boot.fn</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="m">392</span><span class="p">,</span> <span class="m">392</span><span class="p">,</span> <span class="n">replace</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## (Intercept)  horsepower 
@@ -2010,7 +2010,7 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># compare to</span>
-<span class="nf">summary</span><span class="p">(</span><span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="n">horsepower</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">)</span><span class="p">)</span><span class="o">$</span><span class="n">coef</span>
+<span class="nf">summary</span><span class="p">(</span><span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="n">horsepower</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">))</span><span class="o">$</span><span class="n">coef</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>##               Estimate  Std. Error   t value      Pr(&gt;|t|)
@@ -2034,10 +2034,10 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># se estimates are more accurate in boot() than in lm() (see ISLR 196p)</span>
 
 <span class="c1">## better fit --&gt; more similar se between boot() and summary()</span>
-<span class="n">boot.fn</span> <span class="o">=</span> <span class="nf">function</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">index</span><span class="p">)</span><span class="p">{</span>
-  <span class="nf">coefficients</span><span class="p">(</span><span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="n">horsepower</span> <span class="o">+</span> <span class="nf">I</span><span class="p">(</span><span class="n">horsepower</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span> 
+<span class="n">boot.fn</span> <span class="o">=</span> <span class="nf">function</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">index</span><span class="p">){</span>
+  <span class="nf">coefficients</span><span class="p">(</span><span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="n">horsepower</span> <span class="o">+</span> <span class="nf">I</span><span class="p">(</span><span class="n">horsepower</span> <span class="n">^</span> <span class="m">2</span><span class="p">),</span> 
                   <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">,</span> 
-                  <span class="n">subset</span> <span class="o">=</span> <span class="n">index</span><span class="p">)</span><span class="p">)</span>
+                  <span class="n">subset</span> <span class="o">=</span> <span class="n">index</span><span class="p">))</span>
 <span class="p">}</span>
 
 <span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
@@ -2063,8 +2063,8 @@ alpha_hat을 참값 대신 사용하고, 각 alpha마다 bootstrap을 B번 실�
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">summary</span><span class="p">(</span><span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="n">horsepower</span> <span class="o">+</span> <span class="nf">I</span><span class="p">(</span><span class="n">horsepower</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span> 
-                  <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">)</span><span class="p">)</span><span class="o">$</span><span class="n">coef</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">summary</span><span class="p">(</span><span class="nf">lm</span><span class="p">(</span><span class="n">mpg</span> <span class="o">~</span> <span class="n">horsepower</span> <span class="o">+</span> <span class="nf">I</span><span class="p">(</span><span class="n">horsepower</span> <span class="n">^</span> <span class="m">2</span><span class="p">),</span> 
+                  <span class="n">data</span> <span class="o">=</span> <span class="n">Auto</span><span class="p">))</span><span class="o">$</span><span class="n">coef</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>##                     Estimate   Std. Error   t value      Pr(&gt;|t|)
@@ -2306,7 +2306,7 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <span class="nf">attach</span><span class="p">(</span><span class="n">Carseats</span><span class="p">)</span>
 
 <span class="c1">## create a &#34;High&#34; column</span>
-<span class="n">High</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">Sales</span> <span class="o">&lt;=</span> <span class="m">8</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">No&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">Yes&#34;</span><span class="p">)</span>
+<span class="n">High</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">Sales</span> <span class="o">&lt;=</span> <span class="m">8</span><span class="p">,</span> <span class="s">&#34;No&#34;</span><span class="p">,</span> <span class="s">&#34;Yes&#34;</span><span class="p">)</span>
 <span class="n">Carseats</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">Carseats</span><span class="p">,</span> <span class="n">High</span><span class="p">)</span>
 <span class="nf">str</span><span class="p">(</span><span class="n">Carseats</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -2382,16 +2382,16 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1">## test error rate</span>
 <span class="nf">set.seed</span><span class="p">(</span><span class="m">2</span><span class="p">)</span>
-<span class="n">train</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="nf">nrow</span><span class="p">(</span><span class="n">Carseats</span><span class="p">)</span><span class="p">,</span> <span class="m">200</span><span class="p">)</span>
-<span class="n">Carseats.test</span> <span class="o">=</span> <span class="n">Carseats</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span>
-<span class="n">High.test</span> <span class="o">=</span> <span class="n">High</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="n">]</span>
+<span class="n">train</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="nf">nrow</span><span class="p">(</span><span class="n">Carseats</span><span class="p">),</span> <span class="m">200</span><span class="p">)</span>
+<span class="n">Carseats.test</span> <span class="o">=</span> <span class="n">Carseats[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span>
+<span class="n">High.test</span> <span class="o">=</span> <span class="n">High[</span><span class="o">-</span><span class="n">train]</span>
 <span class="n">tree.carseats</span> <span class="o">=</span> <span class="nf">tree</span><span class="p">(</span><span class="n">High</span> <span class="o">~</span> <span class="n">. </span><span class="o">-</span><span class="n">Sales</span><span class="p">,</span> <span class="n">Carseats</span><span class="p">,</span> <span class="n">subset</span> <span class="o">=</span> <span class="n">train</span><span class="p">)</span>
 <span class="n">tree.pred</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">object</span> <span class="o">=</span> <span class="n">tree.carseats</span><span class="p">,</span> 
                     <span class="n">newdata</span> <span class="o">=</span> <span class="n">Carseats.test</span><span class="p">,</span>
-                    <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">class&#34;</span><span class="p">)</span> <span class="c1"># specifying the tree is for classification</span>
+                    <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;class&#34;</span><span class="p">)</span> <span class="c1"># specifying the tree is for classification</span>
 
 <span class="c1"># test error rate = diagonal / whole</span>
-<span class="nf">sum</span><span class="p">(</span><span class="nf">diag</span><span class="p">(</span><span class="nf">table</span><span class="p">(</span><span class="n">tree.pred</span><span class="p">,</span> <span class="n">High.test</span><span class="p">)</span><span class="p">)</span><span class="p">)</span> <span class="o">/</span> <span class="nf">sum</span><span class="p">(</span><span class="nf">table</span><span class="p">(</span><span class="n">tree.pred</span><span class="p">,</span> <span class="n">High.test</span><span class="p">)</span><span class="p">)</span>
+<span class="nf">sum</span><span class="p">(</span><span class="nf">diag</span><span class="p">(</span><span class="nf">table</span><span class="p">(</span><span class="n">tree.pred</span><span class="p">,</span> <span class="n">High.test</span><span class="p">)))</span> <span class="o">/</span> <span class="nf">sum</span><span class="p">(</span><span class="nf">table</span><span class="p">(</span><span class="n">tree.pred</span><span class="p">,</span> <span class="n">High.test</span><span class="p">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 0.77
@@ -2447,9 +2447,9 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">)</span><span class="p">)</span>
-<span class="nf">plot</span><span class="p">(</span><span class="n">cv.carseats</span><span class="o">$</span><span class="n">size</span><span class="p">,</span> <span class="n">cv.carseats</span><span class="o">$</span><span class="n">dev</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">b&#34;</span><span class="p">)</span>
-<span class="nf">plot</span><span class="p">(</span><span class="n">cv.carseats</span><span class="o">$</span><span class="n">k</span><span class="p">,</span> <span class="n">cv.carseats</span><span class="o">$</span><span class="n">dev</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">b&#34;</span><span class="p">)</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">))</span>
+<span class="nf">plot</span><span class="p">(</span><span class="n">cv.carseats</span><span class="o">$</span><span class="n">size</span><span class="p">,</span> <span class="n">cv.carseats</span><span class="o">$</span><span class="n">dev</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;b&#34;</span><span class="p">)</span>
+<span class="nf">plot</span><span class="p">(</span><span class="n">cv.carseats</span><span class="o">$</span><span class="n">k</span><span class="p">,</span> <span class="n">cv.carseats</span><span class="o">$</span><span class="n">dev</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;b&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/8.3.1-2.png" alt="" /><!-- --></p>
@@ -2475,8 +2475,8 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <span class="nf">plot</span><span class="p">(</span><span class="n">prune.carseats</span><span class="p">)</span>
 <span class="nf">text</span><span class="p">(</span><span class="n">prune.carseats</span><span class="p">,</span> <span class="n">pretty</span> <span class="o">=</span> <span class="m">0</span><span class="p">)</span>
 
-<span class="n">tree.pred</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">prune.carseats</span><span class="p">,</span> <span class="n">Carseats.test</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">class&#34;</span><span class="p">)</span>
-<span class="nf">sum</span><span class="p">(</span><span class="nf">diag</span><span class="p">(</span><span class="nf">table</span><span class="p">(</span><span class="n">tree.pred</span><span class="p">,</span> <span class="n">High.test</span><span class="p">)</span><span class="p">)</span><span class="p">)</span> <span class="o">/</span> <span class="nf">sum</span><span class="p">(</span><span class="nf">table</span><span class="p">(</span><span class="n">tree.pred</span><span class="p">,</span> <span class="n">High.test</span><span class="p">)</span><span class="p">)</span>
+<span class="n">tree.pred</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">prune.carseats</span><span class="p">,</span> <span class="n">Carseats.test</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;class&#34;</span><span class="p">)</span>
+<span class="nf">sum</span><span class="p">(</span><span class="nf">diag</span><span class="p">(</span><span class="nf">table</span><span class="p">(</span><span class="n">tree.pred</span><span class="p">,</span> <span class="n">High.test</span><span class="p">)))</span> <span class="o">/</span> <span class="nf">sum</span><span class="p">(</span><span class="nf">table</span><span class="p">(</span><span class="n">tree.pred</span><span class="p">,</span> <span class="n">High.test</span><span class="p">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 0.775
@@ -2504,7 +2504,7 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1">## fit a regreession tree</span>
 <span class="nf">library</span><span class="p">(</span><span class="n">MASS</span><span class="p">)</span>
 <span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
-<span class="n">train</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="nf">nrow</span><span class="p">(</span><span class="n">Boston</span><span class="p">)</span><span class="p">,</span> <span class="nf">nrow</span><span class="p">(</span><span class="n">Boston</span><span class="p">)</span> <span class="o">/</span> <span class="m">2</span><span class="p">)</span>
+<span class="n">train</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="nf">nrow</span><span class="p">(</span><span class="n">Boston</span><span class="p">),</span> <span class="nf">nrow</span><span class="p">(</span><span class="n">Boston</span><span class="p">)</span> <span class="o">/</span> <span class="m">2</span><span class="p">)</span>
 <span class="n">tree.boston</span> <span class="o">=</span> <span class="nf">tree</span><span class="p">(</span><span class="n">medv</span> <span class="o">~</span> <span class="n">.,</span> <span class="n">Boston</span><span class="p">,</span> <span class="n">subset</span> <span class="o">=</span> <span class="n">train</span><span class="p">)</span>
 
 <span class="nf">summary</span><span class="p">(</span><span class="n">tree.boston</span><span class="p">)</span>
@@ -2540,7 +2540,7 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1">## prune</span>
 <span class="n">cv.boston</span> <span class="o">=</span> <span class="nf">cv.tree</span><span class="p">(</span><span class="n">tree.boston</span><span class="p">)</span>
-<span class="nf">plot</span><span class="p">(</span><span class="n">cv.boston</span><span class="o">$</span><span class="n">size</span><span class="p">,</span> <span class="n">cv.boston</span><span class="o">$</span><span class="n">dev</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">b&#34;</span><span class="p">)</span>
+<span class="nf">plot</span><span class="p">(</span><span class="n">cv.boston</span><span class="o">$</span><span class="n">size</span><span class="p">,</span> <span class="n">cv.boston</span><span class="o">$</span><span class="n">dev</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;b&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/8.3.2-2.png" alt="" /><!-- --></p>
@@ -2583,8 +2583,8 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="n">yhat</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">tree.boston</span><span class="p">,</span> <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
-<span class="n">boston.test</span> <span class="o">=</span> <span class="n">Boston</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">medv&#34;</span><span class="n">]</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="n">yhat</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">tree.boston</span><span class="p">,</span> <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
+<span class="n">boston.test</span> <span class="o">=</span> <span class="n">Boston[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="s">&#34;medv&#34;</span><span class="n">]</span>
 <span class="nf">plot</span><span class="p">(</span><span class="n">yhat</span><span class="p">,</span> <span class="n">boston.test</span><span class="p">)</span>
 <span class="nf">abline</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -2595,7 +2595,7 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">mean</span><span class="p">(</span><span class="p">(</span><span class="n">yhat</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># MSE</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">mean</span><span class="p">((</span><span class="n">yhat</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># MSE</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 35.28688
@@ -2660,7 +2660,7 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1">## get test error rate</span>
-<span class="n">yhat.bag</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">bag.boston</span><span class="p">,</span> <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
+<span class="n">yhat.bag</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">bag.boston</span><span class="p">,</span> <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
 <span class="nf">plot</span><span class="p">(</span><span class="n">yhat.bag</span><span class="p">,</span> <span class="n">boston.test</span><span class="p">)</span>
 <span class="nf">abline</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -2671,7 +2671,7 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">mean</span><span class="p">(</span><span class="p">(</span><span class="n">yhat.bag</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> 
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">mean</span><span class="p">((</span><span class="n">yhat.bag</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> 
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 23.59273
@@ -2699,8 +2699,8 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
                           <span class="n">mtry</span> <span class="o">=</span> <span class="m">13</span><span class="p">,</span>
                           <span class="n">ntree</span> <span class="o">=</span> <span class="m">25</span><span class="p">)</span>
 <span class="n">yhat.bag</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">bag.boston</span><span class="p">,</span> 
-                   <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
-<span class="nf">mean</span><span class="p">(</span><span class="p">(</span><span class="n">yhat.bag</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> 
+                   <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
+<span class="nf">mean</span><span class="p">((</span><span class="n">yhat.bag</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> 
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 23.66716
@@ -2728,8 +2728,8 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
                          <span class="n">importance</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
 
 <span class="n">yhat.rf</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">rf.boston</span><span class="p">,</span>
-                  <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
-<span class="nf">mean</span><span class="p">(</span><span class="p">(</span><span class="n">yhat.rf</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span>
+                  <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
+<span class="nf">mean</span><span class="p">((</span><span class="n">yhat.rf</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 19.62021
@@ -2808,8 +2808,8 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
 <span class="n">boost.boston</span> <span class="o">=</span> <span class="nf">gbm</span><span class="p">(</span><span class="n">medv</span> <span class="o">~</span> <span class="n">.,</span> 
-                   <span class="n">data</span> <span class="o">=</span> <span class="n">Boston</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
-                   <span class="n">distribution</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">gaussian&#34;</span><span class="p">,</span> <span class="c1"># binary classification --&gt; &#34;bernoulli&#34;</span>
+                   <span class="n">data</span> <span class="o">=</span> <span class="n">Boston[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+                   <span class="n">distribution</span> <span class="o">=</span> <span class="s">&#34;gaussian&#34;</span><span class="p">,</span> <span class="c1"># binary classification --&gt; &#34;bernoulli&#34;</span>
                    <span class="n">n.trees</span> <span class="o">=</span> <span class="m">5000</span><span class="p">,</span> <span class="c1"># # of tree to grow</span>
                    <span class="n">interaction.depth</span> <span class="o">=</span> <span class="m">4</span><span class="p">)</span> <span class="c1"># depth (= # of node layer) of each tree</span>
 
@@ -2841,8 +2841,8 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># rel.inf: relative influence</span>
 
-<span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">)</span><span class="p">)</span>
-<span class="nf">plot</span><span class="p">(</span><span class="n">boost.boston</span><span class="p">,</span> <span class="n">i</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">rm&#34;</span><span class="p">)</span>
+<span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">))</span>
+<span class="nf">plot</span><span class="p">(</span><span class="n">boost.boston</span><span class="p">,</span> <span class="n">i</span> <span class="o">=</span> <span class="s">&#34;rm&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/8.3.4-2.png" alt="" /><!-- --></p>
@@ -2851,7 +2851,7 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">plot</span><span class="p">(</span><span class="n">boost.boston</span><span class="p">,</span> <span class="n">i</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">lstat&#34;</span><span class="p">)</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">plot</span><span class="p">(</span><span class="n">boost.boston</span><span class="p">,</span> <span class="n">i</span> <span class="o">=</span> <span class="s">&#34;lstat&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/8.3.4-3.png" alt="" /><!-- --></p>
@@ -2866,9 +2866,9 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1">## predict</span>
 <span class="n">yhat.boost</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">boost.boston</span><span class="p">,</span>
-                     <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+                     <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
                      <span class="n">n.trees</span> <span class="o">=</span> <span class="m">5000</span><span class="p">)</span>
-<span class="nf">mean</span><span class="p">(</span><span class="p">(</span><span class="n">yhat.boost</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span>
+<span class="nf">mean</span><span class="p">((</span><span class="n">yhat.boost</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 18.84709
@@ -2895,17 +2895,17 @@ Boosting에서 residual update는 왜 하지? 어떤 판정 기준으로 사용�
 
 <span class="c1">## manipulate shrinkage parameter</span>
 <span class="n">boost.boston</span> <span class="o">=</span> <span class="nf">gbm</span><span class="p">(</span><span class="n">medv</span> <span class="o">~</span> <span class="n">.,</span> 
-                   <span class="n">data</span> <span class="o">=</span> <span class="n">Boston</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
-                   <span class="n">distribution</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">gaussian&#34;</span><span class="p">,</span>
+                   <span class="n">data</span> <span class="o">=</span> <span class="n">Boston[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+                   <span class="n">distribution</span> <span class="o">=</span> <span class="s">&#34;gaussian&#34;</span><span class="p">,</span>
                    <span class="n">n.trees</span> <span class="o">=</span> <span class="m">5000</span><span class="p">,</span>
                    <span class="n">interaction.depth</span> <span class="o">=</span> <span class="m">4</span><span class="p">,</span>
                    <span class="n">shrinkage</span> <span class="o">=</span> <span class="m">0.2</span><span class="p">,</span> <span class="c1"># default = 0.001</span>
                    <span class="n">verbose</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
 
 <span class="n">yhat.boost</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">boost.boston</span><span class="p">,</span>
-                     <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+                     <span class="n">newdata</span> <span class="o">=</span> <span class="n">Boston[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
                      <span class="n">n.trees</span> <span class="o">=</span> <span class="m">5000</span><span class="p">)</span>
-<span class="nf">mean</span><span class="p">(</span><span class="p">(</span><span class="n">yhat.boost</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># vs 10.81479 (wih lambda = 0.001)</span>
+<span class="nf">mean</span><span class="p">((</span><span class="n">yhat.boost</span> <span class="o">-</span> <span class="n">boston.test</span><span class="p">)</span> <span class="n">^</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># vs 10.81479 (wih lambda = 0.001)</span>
 </code></pre></td></tr></table>
 </div>
 </div><pre><code>## [1] 18.33455
@@ -3204,11 +3204,11 @@ logistic regressioin에서는 loss가 0인 경우는 없다).</li>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># make a two-dimensional example data</span>
 <span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
-<span class="n">x</span> <span class="o">=</span> <span class="nf">matrix</span><span class="p">(</span><span class="nf">rnorm</span><span class="p">(</span><span class="m">20</span> <span class="o">*</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span> <span class="n">ncol</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
-<span class="n">y</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="nf">rep</span><span class="p">(</span><span class="m">-1</span><span class="p">,</span> <span class="m">10</span><span class="p">)</span><span class="p">,</span> <span class="nf">rep</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">10</span><span class="p">)</span><span class="p">)</span>
-<span class="n">x</span><span class="n">[y</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">x</span><span class="n">[y</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">+</span> <span class="m">1</span> <span class="c1"># add 1 for last 10 data</span>
+<span class="n">x</span> <span class="o">=</span> <span class="nf">matrix</span><span class="p">(</span><span class="nf">rnorm</span><span class="p">(</span><span class="m">20</span> <span class="o">*</span> <span class="m">2</span><span class="p">),</span> <span class="n">ncol</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="nf">rep</span><span class="p">(</span><span class="m">-1</span><span class="p">,</span> <span class="m">10</span><span class="p">),</span> <span class="nf">rep</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">10</span><span class="p">))</span>
+<span class="n">x[y</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">x[y</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">+</span> <span class="m">1</span> <span class="c1"># add 1 for last 10 data</span>
 <span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> 
-     <span class="n">col</span> <span class="o">=</span> <span class="p">(</span><span class="m">3</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span><span class="p">)</span> <span class="c1"># non-linear boundary </span>
+     <span class="n">col</span> <span class="o">=</span> <span class="p">(</span><span class="m">3</span> <span class="o">-</span> <span class="n">y</span><span class="p">))</span> <span class="c1"># non-linear boundary </span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/unnamed-chunk-1-1.png" alt="" /><!-- --></p>
@@ -3228,11 +3228,11 @@ class variable should be in <strong>factor type</strong>.</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">dat</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="p">,</span> 
-                 <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="p">)</span>
+                 <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
 <span class="nf">library</span><span class="p">(</span><span class="n">e1071</span><span class="p">)</span>
 <span class="n">svmfit</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span> 
              <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="p">,</span>
-             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">linear&#34;</span><span class="p">,</span>
+             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;linear&#34;</span><span class="p">,</span>
              <span class="n">cost</span> <span class="o">=</span> <span class="m">10</span><span class="p">,</span> 
              <span class="n">scale</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span> <span class="c1"># don&#39;t do normalization</span>
 <span class="nf">plot</span><span class="p">(</span><span class="n">svmfit</span><span class="p">,</span> <span class="n">dat</span><span class="p">)</span>
@@ -3308,7 +3308,7 @@ tolerance가 더 높아지고 margin이 넓어지고 support vector가 더 많�
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">svmfit</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
              <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="p">,</span>
-             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">linear&#34;</span><span class="p">,</span>
+             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;linear&#34;</span><span class="p">,</span>
              <span class="n">cost</span> <span class="o">=</span> <span class="m">0.1</span><span class="p">,</span>
              <span class="n">scale</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
 
@@ -3381,8 +3381,8 @@ tolerance가 더 높아지고 margin이 넓어지고 support vector가 더 많�
 <span class="n">tune.out</span> <span class="o">=</span> <span class="nf">tune</span><span class="p">(</span><span class="n">svm</span><span class="p">,</span> 
                 <span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
                 <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="p">,</span>
-                <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">linear&#34;</span><span class="p">,</span>
-                <span class="n">ranges</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">cost</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">0.001</span><span class="p">,</span> <span class="m">0.01</span><span class="p">,</span> <span class="m">0.1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">10</span><span class="p">,</span> <span class="m">100</span><span class="p">)</span><span class="p">)</span><span class="p">)</span>
+                <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;linear&#34;</span><span class="p">,</span>
+                <span class="n">ranges</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">cost</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">0.001</span><span class="p">,</span> <span class="m">0.01</span><span class="p">,</span> <span class="m">0.1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">10</span><span class="p">,</span> <span class="m">100</span><span class="p">)))</span>
 <span class="nf">summary</span><span class="p">(</span><span class="n">tune.out</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -3456,12 +3456,12 @@ tolerance가 더 높아지고 margin이 넓어지고 support vector가 더 많�
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
-<span class="n">xtest</span> <span class="o">=</span> <span class="nf">matrix</span><span class="p">(</span><span class="nf">rnorm</span><span class="p">(</span><span class="m">20</span> <span class="o">*</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span>
+<span class="n">xtest</span> <span class="o">=</span> <span class="nf">matrix</span><span class="p">(</span><span class="nf">rnorm</span><span class="p">(</span><span class="m">20</span> <span class="o">*</span> <span class="m">2</span><span class="p">),</span>
                <span class="n">ncol</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
-<span class="n">ytest</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">-1</span><span class="p">,</span> <span class="m">1</span><span class="p">)</span><span class="p">,</span> <span class="m">20</span><span class="p">,</span> <span class="n">rep</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
-<span class="n">xtest</span><span class="n">[ytest</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">xtest</span><span class="n">[ytest</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">+</span> <span class="m">1</span>
+<span class="n">ytest</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">-1</span><span class="p">,</span> <span class="m">1</span><span class="p">),</span> <span class="m">20</span><span class="p">,</span> <span class="n">rep</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
+<span class="n">xtest[ytest</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">xtest[ytest</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">+</span> <span class="m">1</span>
 <span class="n">testdat</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">xtest</span><span class="p">,</span>
-                     <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">ytest</span><span class="p">)</span><span class="p">)</span>
+                     <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">ytest</span><span class="p">))</span>
 
 <span class="n">ypred</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">bestmod</span><span class="p">,</span>
                 <span class="n">testdat</span><span class="p">)</span>
@@ -3491,7 +3491,7 @@ tolerance가 더 높아지고 margin이 넓어지고 support vector가 더 많�
 
 <span class="n">svmfit</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
              <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="p">,</span>
-             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">linear&#34;</span><span class="p">,</span>
+             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;linear&#34;</span><span class="p">,</span>
              <span class="n">cost</span> <span class="o">=</span> <span class="m">0.01</span><span class="p">,</span>
              <span class="n">scale</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
 <span class="n">ypred</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">svmfit</span><span class="p">,</span> <span class="n">testdat</span><span class="p">)</span>
@@ -3512,7 +3512,7 @@ tolerance가 더 높아지고 margin이 넓어지고 support vector가 더 많�
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-r" data-lang="r"><span class="n">x</span><span class="n">[y</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">x</span><span class="n">[y</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">+</span> <span class="m">0.5</span>
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="n">x[y</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">x[y</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="n">]</span> <span class="o">+</span> <span class="m">0.5</span>
 <span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> 
      <span class="n">col</span> <span class="o">=</span> <span class="p">(</span><span class="n">y</span> <span class="o">+</span> <span class="m">5</span><span class="p">)</span> <span class="o">/</span> <span class="m">2</span><span class="p">,</span>
      <span class="n">pch</span> <span class="o">=</span> <span class="m">19</span><span class="p">)</span>
@@ -3533,10 +3533,10 @@ cost를 높여서(= tolerance를 아주 낮춰서) 아주 철저하게 분류해
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">dat</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="p">,</span>
-                 <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="p">)</span>
+                 <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
 <span class="n">svmfit</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
              <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="p">,</span>
-             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">linear&#34;</span><span class="p">,</span>
+             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;linear&#34;</span><span class="p">,</span>
              <span class="n">cost</span> <span class="o">=</span> <span class="m">1e5</span><span class="p">)</span>
 <span class="nf">summary</span><span class="p">(</span><span class="n">svmfit</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -3584,7 +3584,7 @@ cost를 낮춰보자.</p>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">svmfit</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span> 
              <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="p">,</span>
-             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">linear&#34;</span><span class="p">,</span>
+             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;linear&#34;</span><span class="p">,</span>
              <span class="n">cost</span> <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
 <span class="nf">summary</span><span class="p">(</span><span class="n">svmfit</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -3645,12 +3645,12 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">library</span><span class="p">(</span><span class="n">e1071</span><span class="p">)</span>
 
 <span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
-<span class="n">x</span> <span class="o">=</span> <span class="nf">matrix</span><span class="p">(</span><span class="nf">rnorm</span><span class="p">(</span><span class="m">200</span> <span class="o">*</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span> <span class="n">ncol</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
-<span class="n">x</span><span class="n">[1</span><span class="o">:</span><span class="m">100</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">x</span><span class="n">[1</span><span class="o">:</span><span class="m">100</span><span class="p">,</span> <span class="n">]</span> <span class="o">+</span> <span class="m">2</span>
-<span class="n">x</span><span class="n">[101</span><span class="o">:</span><span class="m">150</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">x</span><span class="n">[101</span><span class="o">:</span><span class="m">150</span><span class="p">,</span> <span class="n">]</span> <span class="o">-</span> <span class="m">2</span>
-<span class="n">y</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="nf">rep</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">150</span><span class="p">)</span><span class="p">,</span> <span class="nf">rep</span><span class="p">(</span><span class="m">2</span><span class="p">,</span> <span class="m">50</span><span class="p">)</span><span class="p">)</span>
+<span class="n">x</span> <span class="o">=</span> <span class="nf">matrix</span><span class="p">(</span><span class="nf">rnorm</span><span class="p">(</span><span class="m">200</span> <span class="o">*</span> <span class="m">2</span><span class="p">),</span> <span class="n">ncol</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
+<span class="n">x[1</span><span class="o">:</span><span class="m">100</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">x[1</span><span class="o">:</span><span class="m">100</span><span class="p">,</span> <span class="n">]</span> <span class="o">+</span> <span class="m">2</span>
+<span class="n">x[101</span><span class="o">:</span><span class="m">150</span><span class="p">,</span> <span class="n">]</span> <span class="o">=</span> <span class="n">x[101</span><span class="o">:</span><span class="m">150</span><span class="p">,</span> <span class="n">]</span> <span class="o">-</span> <span class="m">2</span>
+<span class="n">y</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="nf">rep</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">150</span><span class="p">),</span> <span class="nf">rep</span><span class="p">(</span><span class="m">2</span><span class="p">,</span> <span class="m">50</span><span class="p">))</span>
 <span class="n">dat</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="p">,</span> 
-                 <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="p">)</span>
+                 <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
 <span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">col</span> <span class="o">=</span> <span class="n">y</span><span class="p">)</span> <span class="c1"># non-linear boundary</span>
 </code></pre></td></tr></table>
 </div>
@@ -3668,11 +3668,11 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">train</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="m">200</span><span class="p">,</span> <span class="m">100</span><span class="p">)</span>
 <span class="n">svmfit</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
-             <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
-             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">radial&#34;</span><span class="p">,</span>
+             <span class="n">data</span> <span class="o">=</span> <span class="n">dat[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;radial&#34;</span><span class="p">,</span>
              <span class="n">gamma</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span>
              <span class="n">cost</span> <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
-<span class="nf">plot</span><span class="p">(</span><span class="n">svmfit</span><span class="p">,</span> <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
+<span class="nf">plot</span><span class="p">(</span><span class="n">svmfit</span><span class="p">,</span> <span class="n">dat[train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/unnamed-chunk-9-2.png" alt="" /><!-- --></p>
@@ -3720,11 +3720,11 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">svmfit</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
-             <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
-             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">radial&#34;</span><span class="p">,</span>
+             <span class="n">data</span> <span class="o">=</span> <span class="n">dat[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;radial&#34;</span><span class="p">,</span>
              <span class="n">gamma</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span>
              <span class="n">cost</span> <span class="o">=</span> <span class="m">1e5</span><span class="p">)</span>
-<span class="nf">plot</span><span class="p">(</span><span class="n">svmfit</span><span class="p">,</span> <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
+<span class="nf">plot</span><span class="p">(</span><span class="n">svmfit</span><span class="p">,</span> <span class="n">dat[train</span><span class="p">,</span> <span class="n">]</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/unnamed-chunk-10-1.png" alt="" /><!-- --></p>
@@ -3747,10 +3747,10 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
 <span class="n">tune.out</span> <span class="o">=</span> <span class="nf">tune</span><span class="p">(</span><span class="n">svm</span><span class="p">,</span>
                 <span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
-                <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
-                <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">radial&#34;</span><span class="p">,</span>
-                <span class="n">ranges</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">cost</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">0.1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">10</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">1000</span><span class="p">)</span><span class="p">,</span>
-                              <span class="n">gamma</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">0.5</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">)</span><span class="p">)</span><span class="p">)</span>
+                <span class="n">data</span> <span class="o">=</span> <span class="n">dat[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+                <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;radial&#34;</span><span class="p">,</span>
+                <span class="n">ranges</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">cost</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">0.1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">10</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">1000</span><span class="p">),</span>
+                              <span class="n">gamma</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">0.5</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">)))</span>
 
 <span class="nf">help</span><span class="p">(</span><span class="n">tune</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -3821,9 +3821,9 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 
 <span class="c1"># numerical score (pred)와 class label (truth)를 입력받아</span>
 <span class="c1"># ROC 커브를 그리는 함수</span>
-<span class="n">rocplot</span> <span class="o">=</span> <span class="nf">function</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span> <span class="n">truth</span><span class="p">,</span> <span class="kc">...</span><span class="p">)</span><span class="p">{</span>
+<span class="n">rocplot</span> <span class="o">=</span> <span class="nf">function</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span> <span class="n">truth</span><span class="p">,</span> <span class="kc">...</span><span class="p">){</span>
   <span class="n">predob</span> <span class="o">=</span> <span class="nf">prediction</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span> <span class="n">truth</span><span class="p">)</span>
-  <span class="n">perf</span> <span class="o">=</span> <span class="nf">performance</span><span class="p">(</span><span class="n">predob</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">tpr&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">fpr&#34;</span><span class="p">)</span>
+  <span class="n">perf</span> <span class="o">=</span> <span class="nf">performance</span><span class="p">(</span><span class="n">predob</span><span class="p">,</span> <span class="s">&#34;tpr&#34;</span><span class="p">,</span> <span class="s">&#34;fpr&#34;</span><span class="p">)</span>
   <span class="nf">plot</span><span class="p">(</span><span class="n">perf</span><span class="p">,</span> <span class="kc">...</span><span class="p">)</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
@@ -3856,17 +3856,17 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">svmfit.opt</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
-                 <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
-                 <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">radial&#34;</span><span class="p">,</span>
+                 <span class="n">data</span> <span class="o">=</span> <span class="n">dat[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+                 <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;radial&#34;</span><span class="p">,</span>
                  <span class="n">gamma</span> <span class="o">=</span> <span class="m">2</span><span class="p">,</span>
                  <span class="n">cost</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span>
                  <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
 <span class="n">fitted</span> <span class="o">=</span> <span class="nf">attributes</span><span class="p">(</span><span class="nf">predict</span><span class="p">(</span><span class="n">svmfit.opt</span><span class="p">,</span> 
-                            <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span> 
-                            <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span><span class="p">)</span><span class="o">$</span><span class="n">decision.values</span>
+                            <span class="n">dat[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span> 
+                            <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">))</span><span class="o">$</span><span class="n">decision.values</span>
 
-<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted</span><span class="p">,</span> <span class="n">dat</span><span class="n">[train</span> <span class="p">,</span> <span class="s">&#34;</span><span class="s">y&#34;</span><span class="n">]</span><span class="p">,</span>
-        <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">Training Data&#34;</span><span class="p">)</span>
+<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted</span><span class="p">,</span> <span class="n">dat[train</span> <span class="p">,</span> <span class="s">&#34;y&#34;</span><span class="n">]</span><span class="p">,</span>
+        <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;Training Data&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/unnamed-chunk-13-1.png" alt="" /><!-- --></p>
@@ -3891,20 +3891,20 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">svmfit.flex</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
-                  <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
-                  <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">radial&#34;</span><span class="p">,</span>
+                  <span class="n">data</span> <span class="o">=</span> <span class="n">dat[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+                  <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;radial&#34;</span><span class="p">,</span>
                   <span class="n">gamma</span> <span class="o">=</span> <span class="m">50</span><span class="p">,</span>
                   <span class="n">cost</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span>
                   <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
 <span class="n">fitted.flex</span> <span class="o">=</span> <span class="nf">attributes</span><span class="p">(</span><span class="nf">predict</span><span class="p">(</span><span class="n">svmfit.flex</span><span class="p">,</span>
-                                 <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
-                                 <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span><span class="p">)</span><span class="o">$</span><span class="n">decision.values</span>
+                                 <span class="n">dat[train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+                                 <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">))</span><span class="o">$</span><span class="n">decision.values</span>
 
-<span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">)</span><span class="p">)</span>
-<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted</span><span class="p">,</span> <span class="n">dat</span><span class="n">[train</span> <span class="p">,</span> <span class="s">&#34;</span><span class="s">y&#34;</span><span class="n">]</span><span class="p">,</span>
-        <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">Training Data&#34;</span><span class="p">)</span>
-<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted.flex</span><span class="p">,</span> <span class="n">dat</span><span class="n">[train</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">y&#34;</span><span class="n">]</span><span class="p">,</span>
-        <span class="n">add</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">,</span> <span class="n">col</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">red&#34;</span><span class="p">)</span>
+<span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">))</span>
+<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted</span><span class="p">,</span> <span class="n">dat[train</span> <span class="p">,</span> <span class="s">&#34;y&#34;</span><span class="n">]</span><span class="p">,</span>
+        <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;Training Data&#34;</span><span class="p">)</span>
+<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted.flex</span><span class="p">,</span> <span class="n">dat[train</span><span class="p">,</span> <span class="s">&#34;y&#34;</span><span class="n">]</span><span class="p">,</span>
+        <span class="n">add</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">,</span> <span class="n">col</span> <span class="o">=</span> <span class="s">&#34;red&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/unnamed-chunk-14-1.png" alt="" /><!-- --></p>
@@ -3925,15 +3925,15 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">fitted.test</span> <span class="o">=</span> <span class="nf">attributes</span><span class="p">(</span><span class="nf">predict</span><span class="p">(</span><span class="n">svmfit.opt</span><span class="p">,</span>
-                                 <span class="n">dat</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
-                                 <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span><span class="p">)</span><span class="o">$</span><span class="n">decision.values</span>
+                                 <span class="n">dat[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span>
+                                 <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">))</span><span class="o">$</span><span class="n">decision.values</span>
 <span class="n">fitted.flex.test</span> <span class="o">=</span> <span class="nf">attributes</span><span class="p">(</span><span class="nf">predict</span><span class="p">(</span><span class="n">svmfit.flex</span><span class="p">,</span>
-                                      <span class="n">dat</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span> 
-                                      <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span><span class="p">)</span><span class="o">$</span><span class="n">decision.values</span>
-<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted.test</span><span class="p">,</span> <span class="n">dat</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">y&#34;</span><span class="n">]</span><span class="p">,</span>
-        <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">Test Data&#34;</span><span class="p">)</span>
-<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted.flex.test</span><span class="p">,</span> <span class="n">dat</span><span class="n">[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">y&#34;</span><span class="n">]</span><span class="p">,</span>
-        <span class="n">add</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">,</span> <span class="n">col</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">red&#34;</span><span class="p">)</span>
+                                      <span class="n">dat[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="n">]</span><span class="p">,</span> 
+                                      <span class="n">decision.values</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">))</span><span class="o">$</span><span class="n">decision.values</span>
+<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted.test</span><span class="p">,</span> <span class="n">dat[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="s">&#34;y&#34;</span><span class="n">]</span><span class="p">,</span>
+        <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;Test Data&#34;</span><span class="p">)</span>
+<span class="nf">rocplot</span><span class="p">(</span><span class="n">fitted.flex.test</span><span class="p">,</span> <span class="n">dat[</span><span class="o">-</span><span class="n">train</span><span class="p">,</span> <span class="s">&#34;y&#34;</span><span class="n">]</span><span class="p">,</span>
+        <span class="n">add</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">,</span> <span class="n">col</span> <span class="o">=</span> <span class="s">&#34;red&#34;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/unnamed-chunk-15-1.png" alt="" /><!-- --></p>
@@ -3953,12 +3953,12 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
 <span class="n">x</span> <span class="o">=</span> <span class="nf">rbind</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> 
-          <span class="nf">matrix</span><span class="p">(</span><span class="nf">rnorm</span><span class="p">(</span><span class="m">50</span> <span class="o">*</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span> <span class="n">ncol</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span><span class="p">)</span>
-<span class="n">y</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="nf">rep</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">50</span><span class="p">)</span><span class="p">)</span>
-<span class="n">x</span><span class="n">[y</span> <span class="o">==</span> <span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="n">]</span> <span class="o">=</span> <span class="n">x</span><span class="n">[y</span> <span class="o">==</span> <span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="n">]</span> <span class="o">+</span> <span class="m">2</span>
-<span class="n">dat</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="p">)</span>
-<span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">)</span><span class="p">)</span>
-<span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">col</span> <span class="o">=</span> <span class="p">(</span><span class="n">y</span> <span class="o">+</span> <span class="m">1</span><span class="p">)</span><span class="p">)</span>
+          <span class="nf">matrix</span><span class="p">(</span><span class="nf">rnorm</span><span class="p">(</span><span class="m">50</span> <span class="o">*</span> <span class="m">2</span><span class="p">),</span> <span class="n">ncol</span> <span class="o">=</span> <span class="m">2</span><span class="p">))</span>
+<span class="n">y</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="nf">rep</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">50</span><span class="p">))</span>
+<span class="n">x[y</span> <span class="o">==</span> <span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="n">]</span> <span class="o">=</span> <span class="n">x[y</span> <span class="o">==</span> <span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="n">]</span> <span class="o">+</span> <span class="m">2</span>
+<span class="n">dat</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+<span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">))</span>
+<span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">col</span> <span class="o">=</span> <span class="p">(</span><span class="n">y</span> <span class="o">+</span> <span class="m">1</span><span class="p">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="ISLR_files/figure-html/unnamed-chunk-16-1.png" alt="" /><!-- --></p>
@@ -3974,7 +3974,7 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">svmfit</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
              <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="p">,</span>
-             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">radial&#34;</span><span class="p">,</span>
+             <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;radial&#34;</span><span class="p">,</span>
              <span class="n">cost</span> <span class="o">=</span> <span class="m">10</span><span class="p">,</span>
              <span class="n">gamma</span> <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
 <span class="nf">plot</span><span class="p">(</span><span class="n">svmfit</span><span class="p">,</span> <span class="n">dat</span><span class="p">)</span>
@@ -4040,10 +4040,10 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">dat</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">Khan</span><span class="o">$</span><span class="n">xtrain</span><span class="p">,</span>
-                 <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">Khan</span><span class="o">$</span><span class="n">ytrain</span><span class="p">)</span><span class="p">)</span>
+                 <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">Khan</span><span class="o">$</span><span class="n">ytrain</span><span class="p">))</span>
 <span class="n">out</span> <span class="o">=</span> <span class="nf">svm</span><span class="p">(</span><span class="n">y</span> <span class="o">~</span> <span class="n">.,</span>
           <span class="n">data</span> <span class="o">=</span> <span class="n">dat</span><span class="p">,</span>
-          <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;</span><span class="s">linear&#34;</span><span class="p">,</span>
+          <span class="n">kernel</span> <span class="o">=</span> <span class="s">&#34;linear&#34;</span><span class="p">,</span>
           <span class="n">cost</span> <span class="o">=</span> <span class="m">10</span><span class="p">)</span>
 <span class="nf">summary</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -4090,7 +4090,7 @@ cost가 매우 높은 경우보다 test error는 더 낮을 것이다!</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">dat.te</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">Khan</span><span class="o">$</span><span class="n">xtest</span><span class="p">,</span>
-                    <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">Khan</span><span class="o">$</span><span class="n">ytest</span><span class="p">)</span><span class="p">)</span>
+                    <span class="n">y</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">Khan</span><span class="o">$</span><span class="n">ytest</span><span class="p">))</span>
 <span class="n">pred.te</span> <span class="o">=</span> <span class="nf">predict</span><span class="p">(</span><span class="n">out</span><span class="p">,</span> <span class="n">newdata</span> <span class="o">=</span> <span class="n">dat.te</span><span class="p">)</span>
 <span class="nf">table</span><span class="p">(</span><span class="n">pred.te</span><span class="p">,</span> <span class="n">dat.te</span><span class="o">$</span><span class="n">y</span><span class="p">)</span> <span class="c1"># test error: 20개 중 2개 틀렸다</span>
 </code></pre></td></tr></table>
@@ -5501,8 +5501,8 @@ document.addEventListener('DOMContentLoaded', function () {
       <ul>
         <li><a href="#21-what-is-statistical-learning">2.1. What Is Statistical Learning?</a>
           <ul>
-            <li><a href="#211-why-estimate-f">2.1.1. Why Estimate f?</a></li>
-            <li><a href="#212-how-do-we-estimate-f">2.1.2. How Do We Estimate f?</a></li>
+            <li><a href="#211-why-estimate-f">2.1.1. Why Estimate <em>f</em>?</a></li>
+            <li><a href="#212-how-do-we-estimate-f">2.1.2. How Do We Estimate <em>f</em>?</a></li>
             <li><a href="#213-the-trade-off-between-prediction-accuracy-and-model-interpretability">2.1.3. The Trade-Off Between Prediction Accuracy and Model Interpretability</a></li>
             <li><a href="#214-supervised-versus-unsupervised-learning">2.1.4. Supervised Versus Unsupervised Learning</a></li>
             <li><a href="#215-regression-versus-classification-problems">2.1.5. Regression Versus Classification Problems</a></li>
@@ -5555,8 +5555,8 @@ document.addEventListener('DOMContentLoaded', function () {
           <ul>
             <li><a href="#811-regression-trees">8.1.1. Regression Trees</a>
               <ul>
-                <li><a href="#recursive-binary-splitting">Recursive Binary Splitting</a></li>
-                <li><a href="#tree-pruning">Tree Pruning</a></li>
+                <li><a href="#recursive-binary-splitting"><strong>Recursive Binary Splitting</strong></a></li>
+                <li><a href="#tree-pruning"><strong>Tree Pruning</strong></a></li>
               </ul>
             </li>
             <li><a href="#812-classification-trees">8.1.2. Classification Trees</a></li>
@@ -5568,8 +5568,8 @@ document.addEventListener('DOMContentLoaded', function () {
           <ul>
             <li><a href="#821-bagging">8.2.1. Bagging</a>
               <ul>
-                <li><a href="#out-of-bag-error-estimation">Out-of-Bag Error Estimation</a></li>
-                <li><a href="#variable-importance-measures">Variable Importance Measures</a></li>
+                <li><a href="#out-of-bag-error-estimation"><strong>Out-of-Bag Error Estimation</strong></a></li>
+                <li><a href="#variable-importance-measures"><strong>Variable Importance Measures</strong></a></li>
               </ul>
             </li>
             <li><a href="#822-random-forests">8.2.2. Random Forests</a></li>
@@ -5620,7 +5620,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <ul>
             <li>
               <ul>
-                <li><a href="#support-vector-regression-vs-least-squares-regression">Support vector regression vs least squares regression</a></li>
+                <li><a href="#support-vector-regression-vs-least-squares-regression"><strong>Support vector regression vs least squares regression</strong></a></li>
               </ul>
             </li>
           </ul>
