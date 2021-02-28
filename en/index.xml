@@ -45,11 +45,11 @@
       
       <item>
         <title>Ubuntu에서 블로그 - 이미지 처리</title>
-        <link>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_image_process/</link>
+        <link>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_blog_imageprocess/</link>
         <pubDate>Sun, 28 Feb 2021 20:26:17 +0100</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sun, 28 Feb 2021 20:26:17 +0100</atom:modified>
-        <guid>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_image_process/</guid>
+        <guid>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_blog_imageprocess/</guid>
         <description>Ubuntu에서 블로그 - 이미지 처리 블로그에 글을 올리려면 이미지 관련 몇가지 작업을 해야 한다. 다운 받기, 이름 바꾸기, 크기 줄이기, 블로그 폴더에 옮기기&amp;</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
@@ -5401,12 +5401,12 @@ I anticipated that this paper explains how the results from forest-climate resea
       
       <item>
         <title></title>
-        <link>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_hugo_posting/</link>
+        <link>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_blog_git/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         
-        <guid>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_hugo_posting/</guid>
-        <description></description>
+        <guid>https://hoontaeklee.github.io/en/posts/20210228_ubuntu_blog_git/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 title:&amp;#34;Ubuntu에서 블로그 - git 관련&amp;#34;author:&amp;#34;Hoontaek Lee&amp;#34;date:2021-02-28T20:43:17+01:00description:draft:falsehideToc:falseenableToc:trueenableTocContent:falsetocPosition:outertocLevels:[&amp;#34;h2&amp;#34;,&amp;#34;h3&amp;#34;,&amp;#34;h4&amp;#34;]tags:- 2021- Blog Ubu</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
         
