@@ -1551,11 +1551,12 @@ dos2unix <span class="o">[</span>file<span class="o">]</span>
 <h1 id="git-계정-설정">git 계정 설정</h1>
 <p>새로운 노트북에서 내 git repository를 사용하기 위해서는</p>
 <p>내가 누구인지 다시 한 번 선언(?)해야 하나보다.</p>
-<pre><code class="language-git" data-lang="git">git ls
-</code></pre><p>rotate image &ndash;&gt; nautilus-image-converter</p>
-<ul>
-<li></li>
-</ul>
+<pre><code class="language-git" data-lang="git">git config --global user.email myGithubEmailAddress
+git config --global user.name myGithubUserName
+</code></pre><h1 id="error">Error</h1>
+<p>이렇게 하고 나서 <code>deploy.sh</code>를 실행하면 <strong>에러가 난다</strong>&hellip;</p>
+<p>근데 포스트는 업로드 된다. 웹에 반영될 때까지 좀 시간이 걸리지만.</p>
+<p>&hellip;</p>
 
     </article>
     <script>
@@ -1793,6 +1794,13 @@ dos2unix <span class="o">[</span>file<span class="o">]</span>
       </a>
     
     <div class="grow"></div>
+    
+      <a href="https://hoontaeklee.github.io/en/posts/20210228_jena_wk26/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">In Jena: Week 26</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
     
   
 </nav>
@@ -2979,6 +2987,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <li><a href="#ubuntu에서-블로그---git-관련">Ubuntu에서 블로그 - git 관련</a></li>
     <li><a href="#dos2unix">dos2unix</a></li>
     <li><a href="#git-계정-설정">git 계정 설정</a></li>
+    <li><a href="#error">Error</a></li>
   </ul>
 </nav>
         </div>

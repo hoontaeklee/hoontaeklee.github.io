@@ -1603,11 +1603,15 @@ bash resizeImgs.sh
 </span><span class="lnt">5
 </span><span class="lnt">6
 </span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">a</span><span class="o">=</span><span class="m">1</span>
+<span class="nb">echo</span> -n <span class="s2">&#34;enter # of week in Jena: &#34;</span>
+<span class="nb">read</span> wk
 <span class="k">for</span> i in *.jpg<span class="p">;</span> <span class="k">do</span>
-  <span class="c1"># date=$(date &#39;+%Y%m%d&#39;)  # use if you need the current date</span>
+  <span class="c1"># date=$(date &#39;+%Y%m%d&#39;)</span>
   <span class="nv">new</span><span class="o">=</span><span class="k">$(</span><span class="nb">printf</span> <span class="s2">&#34;Jena_wk%s_%03d.jpg&#34;</span> <span class="s2">&#34;</span><span class="nv">$wk</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="nv">$a</span><span class="s2">&#34;</span><span class="k">)</span>  <span class="c1">#04 pad to length of 4</span>
   mv -i -- <span class="s2">&#34;</span><span class="nv">$i</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="nv">$new</span><span class="s2">&#34;</span>
   <span class="nb">let</span> <span class="nv">a</span><span class="o">=</span>a+1
