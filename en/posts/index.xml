@@ -14,7 +14,7 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 01 Mar 2021 11:26:45 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 07 Mar 2021 18:21:17 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,13 +23,79 @@
 
       
       <item>
+        <title>In Jena: Week 27</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210307_jena_wk27/</link>
+        <pubDate>Sun, 07 Mar 2021 18:21:17 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 07 Mar 2021 18:21:17 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210307_jena_wk27/</guid>
+        <description>이번 주는&amp;hellip; 연구연구 사용 중인 GRACE 데이터에 이상치가 좀 있어서 어떻게 다룰지 고민했다.정상적인 이상치인 듯..? SINDBAD 데이터를 다루는 첫 단계에 실수</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk27_001.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Ahlstrom (2015). Semi-Arid_to_NBP_IAV. ecolmodel.P036_2015_ahlstrom_nature_semi-Arid_to_NBP_IAV</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p036_2015_ahlstrom_science_semi-arid_to_nbp_iav/</link>
+        <pubDate>Fri, 05 Mar 2021 13:57:12 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Fri, 05 Mar 2021 13:57:12 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p036_2015_ahlstrom_science_semi-arid_to_nbp_iav/</guid>
+        <description>05 March, 2021 (Ahlstrom, science, NBP IAV dominator) Ahlstrom A, Raupach MR, Schurgers G, Smith B, Arneth A, Jung M, et al. The dominant role of semi-arid ecosystems in the trend and variability of the land CO2 sink. Science. 2015 May 22;348(6237):895–9. https://doi.org/10.1126/science.aaa1668
+Prediction (x-axis) vs. Observation (y-axis) Martin added a comment to my proposal. He said that I should put prediction on the x-axis, referring to a paper:
+I have just look over the conclusion of the paper.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper review</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>In Jena: Week 26</title>
         <link>https://hoontaeklee.github.io/en/posts/20210228_jena_wk26/</link>
         <pubDate>Mon, 01 Mar 2021 11:26:45 +0100</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Mon, 01 Mar 2021 11:26:45 +0100</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20210228_jena_wk26/</guid>
-        <description>이번 주는&amp;hellip; IMPRS-retreat call for TWS-NEE discussion Good bye Qian hiking 2020. 2. 22~23. 월~화요일 IMPRS-retreat다. BGI-retreat처럼 서로 자기 주제를 조금씩 발표했</description>
+        <description>이번 주는&amp;hellip; IMPRS-retreat call for TWS-NEE discussion Good bye Qian hiking 2021. 2. 22~23. 월~화요일 IMPRS-retreat다. BGI-retreat처럼 서로 자기 주제를 조금씩 발표했</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
         <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk26_004.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -308,7 +374,7 @@ Robust: less affected by outliers A drawback of OLS is that the resulted regress
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sun, 24 Jan 2021 15:52:37 +0100</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20210124_jena_wk21/</guid>
-        <description>이번 주는&amp;hellip; 수업: Atmosphere-Ocean-Land 세미나: Randy Koster from NASA Reading club 재개 - Jake&amp;rsquo;s talk 수업 듣는 주는 뭔가 바쁘다&amp;hellip; 2020. 1. 18-22. 월~금요일 Atmosphere-Ocean-Land 수업. 지구 시스템 중 내가</description>
+        <description>이번 주는&amp;hellip; 수업: Atmosphere-Ocean-Land 세미나: Randy Koster from NASA Reading club 재개 - Jake&amp;rsquo;s talk 수업 듣는 주는 뭔가 바쁘다&amp;hellip; 2021. 1. 18-22. 월~금요일 Atmosphere-Ocean-Land 수업. 지구 시스템 중 내가</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
         <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk21%20%282%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -372,7 +438,7 @@ Robust: less affected by outliers A drawback of OLS is that the resulted regress
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sun, 10 Jan 2021 19:51:07 +0100</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20210110_jena_wk19/</guid>
-        <description>이번 주는&amp;hellip; PAC meeting 준비 PAC meeting 준비 연속. 프로포절과 논문은 많이 다르다. 2020. 1. 9. 토요일 집에 와이파이를 설치했다. 3일 걸렸다. 인터넷 보면 최소 한 달</description>
+        <description>이번 주는&amp;hellip; PAC meeting 준비 PAC meeting 준비 연속. 프로포절과 논문은 많이 다르다. 2021. 1. 9. 토요일 집에 와이파이를 설치했다. 3일 걸렸다. 인터넷 보면 최소 한 달</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
         <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk19%20%289%29.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
