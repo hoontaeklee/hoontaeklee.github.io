@@ -14,13 +14,46 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 07 Mar 2021 18:21:17 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 08 Mar 2021 21:41:12 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2021/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Ahlstrom (2015). Semi-Arid_to_NBP_IAV. Science.</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p036_2015_ahlstrom_science_semi-arid_to_nbp_iav/</link>
+        <pubDate>Mon, 08 Mar 2021 21:41:12 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Mon, 08 Mar 2021 21:41:12 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p036_2015_ahlstrom_science_semi-arid_to_nbp_iav/</guid>
+        <description>05 March, 2021 (Ahlstrom, science, NBP IAV dominator) Ahlstrom A, Raupach MR, Schurgers G, Smith B, Arneth A, Jung M, et al. The dominant role of semi-arid ecosystems in the trend and variability of the land CO2 sink. Science. 2015 May 22;348(6237):895–9. https://doi.org/10.1126/science.aaa1668
+Message: Semi-arid regions dominate the land-carbon-sink variability The take-home message was simple and strong. Semi-arid regions dominated the global variability of land carbon sink variability (both long-term trend and interannual variability).</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper review</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 27</title>
@@ -47,40 +80,6 @@
           
             
               <category>Jena</category>
-            
-          
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Paper Review: Ahlstrom (2015). Semi-Arid_to_NBP_IAV. ecolmodel.P036_2015_ahlstrom_nature_semi-Arid_to_NBP_IAV</title>
-        <link>https://hoontaeklee.github.io/en/posts/paper_review/p036_2015_ahlstrom_science_semi-arid_to_nbp_iav/</link>
-        <pubDate>Fri, 05 Mar 2021 13:57:12 +0100</pubDate>
-        <author>lht3718@gmail.com (Hoontaek Lee)</author>
-        <atom:modified>Fri, 05 Mar 2021 13:57:12 +0100</atom:modified>
-        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p036_2015_ahlstrom_science_semi-arid_to_nbp_iav/</guid>
-        <description>05 March, 2021 (Ahlstrom, science, NBP IAV dominator) Ahlstrom A, Raupach MR, Schurgers G, Smith B, Arneth A, Jung M, et al. The dominant role of semi-arid ecosystems in the trend and variability of the land CO2 sink. Science. 2015 May 22;348(6237):895–9. https://doi.org/10.1126/science.aaa1668
-Prediction (x-axis) vs. Observation (y-axis) Martin added a comment to my proposal. He said that I should put prediction on the x-axis, referring to a paper:
-I have just look over the conclusion of the paper.</description>
-        
-        <dc:creator>Hoontaek Lee</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>2021</category>
-            
-          
-            
-              <category>Research</category>
-            
-          
-            
-              <category>Paper review</category>
             
           
         

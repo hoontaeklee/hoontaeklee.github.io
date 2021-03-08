@@ -4,12 +4,47 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2021/</loc>
-    <lastmod>2021-03-07T18:21:17+01:00</lastmod>
+    <lastmod>2021-03-08T21:41:12+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2021-03-07T18:21:17+01:00</lastmod>
+    <lastmod>2021-03-08T21:41:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
+    <lastmod>2021-03-08T21:41:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/paper_review/p036_2015_ahlstrom_science_semi-arid_to_nbp_iav/</loc>
+    <lastmod>2021-03-08T21:41:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/r/</loc>
+    <lastmod>2021-03-08T21:41:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
+    <lastmod>2021-03-08T21:41:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/</loc>
+    <lastmod>2021-03-08T21:41:12+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hoontaeklee.github.io/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hoontaeklee.github.io/en/tags/"
+                />
   </url>
   
   <url>
@@ -25,41 +60,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/jena/</loc>
     <lastmod>2021-03-07T18:21:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2021-03-07T18:21:17+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hoontaeklee.github.io/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hoontaeklee.github.io/en/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/paper-review/</loc>
-    <lastmod>2021-03-05T13:57:12+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/posts/paper_review/p036_2015_ahlstrom_science_semi-arid_to_nbp_iav/</loc>
-    <lastmod>2021-03-05T13:57:12+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/r/</loc>
-    <lastmod>2021-03-05T13:57:12+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/research/</loc>
-    <lastmod>2021-03-05T13:57:12+01:00</lastmod>
   </url>
   
   <url>
