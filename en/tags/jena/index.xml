@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 05 Apr 2021 15:19:36 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Apr 2021 17:39:36 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 32</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210411_jena_wk32/</link>
+        <pubDate>Sun, 11 Apr 2021 17:39:36 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 11 Apr 2021 17:39:36 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210411_jena_wk32/</guid>
+        <description>이번 주는&amp;hellip; 분석 하나를 3주 째 붙잡고 있다. 치킨! 2021. 4. 9. 금요일 Rewe 앞에서 치킨 파는 걸 발견했다. 아빠가 좋아하는 종류. 내가 갔을 땐 거의 다 팔렸었</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk32_004.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 31</title>
