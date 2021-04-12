@@ -14,13 +14,46 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 11 Apr 2021 17:39:36 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Apr 2021 14:31:56 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Vishwakarma (2021). the_TVR_metric. erl.</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p038_2021_vishwakarma_erl_tvr_metric/</link>
+        <pubDate>Mon, 12 Apr 2021 14:31:56 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Mon, 12 Apr 2021 14:31:56 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p038_2021_vishwakarma_erl_tvr_metric/</guid>
+        <description>12 April, 2021 (Vishwakarma, erl, the_TVR_metric) Vishwakarma, B. D., Bates, P., Sneeuw, N., Westaway, R. M., &amp;amp; Bamber, J. L. (2021). Re-assessing global water storage trends from GRACE time series. Environmental Research Letters, 16(3), 034005. https://doi.org/10.1088/1748-9326/abd4a9
+Message: the variability should be considered together with trend. The authors suggested to use a new metric, named trend to variability ratio (TVR), when evaluating the severity of the change in the terrestrial water storage observations from GRACE satellite.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper review</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 32</title>
