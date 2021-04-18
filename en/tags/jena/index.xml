@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 11 Apr 2021 17:39:36 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 18 Apr 2021 15:52:43 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 33</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210418_jena_wk33/</link>
+        <pubDate>Sun, 18 Apr 2021 15:52:43 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 18 Apr 2021 15:52:43 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210418_jena_wk33/</guid>
+        <description>이번 주는&amp;hellip; 드디어 뭔가 끝이 보인다. 애초에 내가 알 수 없던 함정이 있었다&amp;hellip; 앞으론 좀 더 빨리 물어보자. SAB meeting Lobdeburg 하이킹 2021. 4. 12~13. 월~화</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk33_013.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 32</title>
