@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 02 May 2021 16:06:31 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 10 May 2021 10:08:54 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 36</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210509_jena_wk36/</link>
+        <pubDate>Mon, 10 May 2021 10:08:54 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Mon, 10 May 2021 10:08:54 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210509_jena_wk36/</guid>
+        <description>이번 주는&amp;hellip; 새 공책 Erfurt 2021. 5. 7. 금요일 새 연구 노트를 뜯었다. 까다로운 내 조건을 만족한 이 공책이 하필 독일 제품이어서 여기서도 쉽게 구할 수 있다. 필기</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk36_017.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 35</title>
