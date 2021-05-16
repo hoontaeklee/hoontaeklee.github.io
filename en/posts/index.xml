@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 10 May 2021 10:08:54 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 16 May 2021 18:02:34 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 37</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210516_jena_wk37/</link>
+        <pubDate>Sun, 16 May 2021 18:02:34 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 16 May 2021 18:02:34 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210516_jena_wk37/</guid>
+        <description>이번 주는&amp;hellip; 한국집 이사 2021. 5. 15. 토요일 가족들이 이사갔다. 전에 살던 아파트 단지로. 리모델링해서 들어가는 거라 공사 기간을 좀 거쳤다. 가구 가전이</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk37_016.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 36</title>
