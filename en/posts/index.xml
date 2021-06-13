@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 06 Jun 2021 17:40:09 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 13 Jun 2021 15:42:33 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 41</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210613_jena_wk41/</link>
+        <pubDate>Sun, 13 Jun 2021 15:42:33 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 13 Jun 2021 15:42:33 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210613_jena_wk41/</guid>
+        <description>이번 주는&amp;hellip; 아웃라인 첫 논문 아웃라인을 잡기 시작했다. 컨텐츠가 완전하지는 않지만, 이 작업도 꼭 필요하다. 하고 나면 나한테 뭐가 필요한 분석이 뭔</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 40</title>
