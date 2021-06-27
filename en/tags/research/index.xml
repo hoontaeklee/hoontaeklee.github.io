@@ -14,13 +14,47 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 12 Apr 2021 14:31:56 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jun 2021 19:18:55 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Syed (2008). GRACE_GLDAS. wr.</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p039_2008_syed_grace_gldas/</link>
+        <pubDate>Tue, 22 Jun 2021 19:18:55 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Tue, 22 Jun 2021 19:18:55 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p039_2008_syed_grace_gldas/</guid>
+        <description>21 June, 2021 (Syed, wr, GRACE_GLDAS) Syed, T. H., Famiglietti, J. S., Rodell, M., Chen, J., and Wilson, C. R. (2008), Analysis of terrestrial water storage changes from GRACE and GLDAS, Water Resour. Res., 44, W02433, doi:10.1029/2006WR005779.
+Introduction This paper seemed like one of early TWS studies using the GRACE observation. I felt it as a classical one, so decided to read through, focusing on figures and the conclusion.
+Message: latitudinal dominant TWS component     Dominant TWS pool Dominant TWS flux     High latitudes Snow water equivalent Snowmelt-derived runoff   Mid latitudes Soil moisture Evaporation   Low latitudes Soil moisture Precipitation    Their message can be summarized with this table.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper review</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>Paper Review: Vishwakarma (2021). the_TVR_metric. erl.</title>

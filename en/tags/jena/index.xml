@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 20 Jun 2021 18:01:17 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jun 2021 16:12:57 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 43</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210627_jena_wk43/</link>
+        <pubDate>Sun, 27 Jun 2021 16:12:57 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 27 Jun 2021 16:12:57 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210627_jena_wk43/</guid>
+        <description>이번 주는&amp;hellip; 아웃라인 - results: data and figure update 감기 - 병원에 갔더니 1주일 정도 더 있으면 나을 거란다. 약도 안 지어줌 ㅋ 불안하면 약국가서 사 먹어~ (옳은 판단</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk43_002.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 42</title>

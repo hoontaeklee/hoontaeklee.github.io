@@ -14,13 +14,79 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 20 Jun 2021 18:01:17 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jun 2021 16:12:57 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2021/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 43</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210627_jena_wk43/</link>
+        <pubDate>Sun, 27 Jun 2021 16:12:57 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 27 Jun 2021 16:12:57 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210627_jena_wk43/</guid>
+        <description>이번 주는&amp;hellip; 아웃라인 - results: data and figure update 감기 - 병원에 갔더니 1주일 정도 더 있으면 나을 거란다. 약도 안 지어줌 ㅋ 불안하면 약국가서 사 먹어~ (옳은 판단</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk43_002.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Paper Review: Syed (2008). GRACE_GLDAS. wr.</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p039_2008_syed_grace_gldas/</link>
+        <pubDate>Tue, 22 Jun 2021 19:18:55 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Tue, 22 Jun 2021 19:18:55 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p039_2008_syed_grace_gldas/</guid>
+        <description>21 June, 2021 (Syed, wr, GRACE_GLDAS) Syed, T. H., Famiglietti, J. S., Rodell, M., Chen, J., and Wilson, C. R. (2008), Analysis of terrestrial water storage changes from GRACE and GLDAS, Water Resour. Res., 44, W02433, doi:10.1029/2006WR005779.
+Introduction This paper seemed like one of early TWS studies using the GRACE observation. I felt it as a classical one, so decided to read through, focusing on figures and the conclusion.
+Message: latitudinal dominant TWS component     Dominant TWS pool Dominant TWS flux     High latitudes Snow water equivalent Snowmelt-derived runoff   Mid latitudes Soil moisture Evaporation   Low latitudes Soil moisture Precipitation    Their message can be summarized with this table.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper review</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 42</title>
