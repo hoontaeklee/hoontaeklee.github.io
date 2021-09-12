@@ -14,7 +14,7 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 29 Aug 2021 21:44:38 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 12 Sep 2021 13:28:46 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/daily-life/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,71 @@
 
       
       <item>
-        <title>In Jena: Week 52</title>
+        <title>In Jena: Week 54 (Wuwu, Axel)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210912_jena_wk54/</link>
+        <pubDate>Sun, 12 Sep 2021 13:28:46 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 12 Sep 2021 13:28:46 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210912_jena_wk54/</guid>
+        <description>이번 주는&amp;hellip; 연구연구 - discussion &amp;hellip; 연구실 이사 모델링 수업 - Axel Wuwu 리턴 MDI 그룹 저녁식사 on 금요일 사진이 없네&amp;hellip; 케밥 집에서 맥주 한 병 했다.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk54_029.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 53 (Wuwu)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20210905_jena_wk53/</link>
+        <pubDate>Sun, 12 Sep 2021 13:28:38 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 12 Sep 2021 13:28:38 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20210905_jena_wk53/</guid>
+        <description>이번 주는&amp;hellip; 연구연구 - discussion 모델링 수업 웨이지에 고양이 인계 Qian &amp;amp; Hui 이사 도와주기 이케아 2021. 8. 30. 월요일 피부 때문에 병원에 간 김에 그동안 못 가봤던 Mr</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk53_038.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 52 (이사)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210829_jena_wk52/</link>
         <pubDate>Sun, 29 Aug 2021 21:44:38 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -55,7 +119,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 51</title>
+        <title>In Jena: Week 51 (마틴 정원)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210829_jena_wk51/</link>
         <pubDate>Sun, 29 Aug 2021 21:44:29 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -151,7 +215,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 48</title>
+        <title>In Jena: Week 48 (드레스덴)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210801_jena_wk48/</link>
         <pubDate>Sun, 01 Aug 2021 15:30:30 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -215,7 +279,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 46</title>
+        <title>In Jena: Week 46 (예나 식물원)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210718_jena_wk46/</link>
         <pubDate>Sun, 18 Jul 2021 20:55:44 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -247,7 +311,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 45</title>
+        <title>In Jena: Week 45 (백신 세컨샷)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210711_jena_wk45/</link>
         <pubDate>Sun, 11 Jul 2021 16:53:23 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -311,7 +375,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 43</title>
+        <title>In Jena: Week 43 (김치전 레시피)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210627_jena_wk43/</link>
         <pubDate>Sun, 27 Jun 2021 16:12:57 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -407,7 +471,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 40</title>
+        <title>In Jena: Week 40 (라이프치히 동물원)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210606_jena_wk40/</link>
         <pubDate>Sun, 06 Jun 2021 17:40:09 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -439,7 +503,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 39</title>
+        <title>In Jena: Week 39 (윈젤라 바베큐)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210530_jena_wk39/</link>
         <pubDate>Sun, 30 May 2021 22:56:15 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -471,7 +535,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 38</title>
+        <title>In Jena: Week 38(CartoTrain, 노란 꽃밭)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210523_jena_wk38/</link>
         <pubDate>Sun, 23 May 2021 18:44:41 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -503,7 +567,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 37</title>
+        <title>In Jena: Week 37 (성남집 이사)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210516_jena_wk37/</link>
         <pubDate>Sun, 16 May 2021 18:02:34 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -535,7 +599,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 36</title>
+        <title>In Jena: Week 36 (에어푸르트)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210509_jena_wk36/</link>
         <pubDate>Mon, 10 May 2021 10:08:54 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -695,7 +759,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 31</title>
+        <title>In Jena: Week 31 (Yunpeng, 카흘라)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210404_jena_wk31/</link>
         <pubDate>Mon, 05 Apr 2021 15:19:36 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -919,7 +983,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 24</title>
+        <title>In Jena: Week 24 (설날)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210214_jena_wk24/</link>
         <pubDate>Sun, 14 Feb 2021 14:49:45 +0100</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -983,7 +1047,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 22</title>
+        <title>In Jena: Week 22 (새 노트북)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210201_jena_wk22/</link>
         <pubDate>Mon, 01 Feb 2021 21:42:36 +0100</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -1047,7 +1111,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 20</title>
+        <title>In Jena: Week 20 (BGI retreat)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210117_jena_wk20/</link>
         <pubDate>Sun, 17 Jan 2021 21:40:51 +0100</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -1111,7 +1175,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 18</title>
+        <title>In Jena: Week 18 (썰매)</title>
         <link>https://hoontaeklee.github.io/en/posts/20210103_jena_wk18/</link>
         <pubDate>Sun, 03 Jan 2021 20:27:54 +0100</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -1143,7 +1207,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 17</title>
+        <title>In Jena: Week 17 (이사, 크리스마스)</title>
         <link>https://hoontaeklee.github.io/en/posts/20201227_jena_wk17/</link>
         <pubDate>Sun, 27 Dec 2020 20:13:01 +0100</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -1175,7 +1239,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 16</title>
+        <title>In Jena: Week 16 (우분투 설치)</title>
         <link>https://hoontaeklee.github.io/en/posts/20201220_jena_wk16/</link>
         <pubDate>Sun, 20 Dec 2020 16:25:00 +0100</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
