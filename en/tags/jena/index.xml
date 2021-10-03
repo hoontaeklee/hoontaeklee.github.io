@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 26 Sep 2021 16:28:06 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 03 Oct 2021 17:52:52 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 57</title>
+        <link>https://hoontaeklee.github.io/en/posts/20211003_jena_wk57/</link>
+        <pubDate>Sun, 03 Oct 2021 17:52:52 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 03 Oct 2021 17:52:52 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20211003_jena_wk57/</guid>
+        <description>이번 주는&amp;hellip; 연구연구 - S-talk 이후&amp;hellip; 나는 한 문제를 풀 때 이것저것 새로운 가능성 살펴보려는 경향이 있는 것 같다. 필요한 과정인 동시에 문</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk57_133.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 56 (s-talk, Alex talk, 탕수육, summer party)</title>
