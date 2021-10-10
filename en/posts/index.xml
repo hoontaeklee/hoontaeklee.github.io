@@ -14,7 +14,7 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 03 Oct 2021 17:52:52 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 10 Oct 2021 14:29:00 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,39 @@
 
       
       <item>
-        <title>In Jena: Week 57</title>
+        <title>In Jena: Week 58 (레이싱, Sonia)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20211010_jena_wk58/</link>
+        <pubDate>Sun, 10 Oct 2021 14:29:00 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 10 Oct 2021 14:29:00 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20211010_jena_wk58/</guid>
+        <description>이번 주는&amp;hellip; 연구연구 - 데이터 준비 Symposium with Sonia at ETH 미니 레이싱 2021. 10. 07. 목요일 이번주 BGC 세미나는 특별히 외부 발표자 초대. Rene의 지도교수였던 So</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk58_009.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 57 (베를린)</title>
         <link>https://hoontaeklee.github.io/en/posts/20211003_jena_wk57/</link>
         <pubDate>Sun, 03 Oct 2021 17:52:52 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
