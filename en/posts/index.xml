@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 31 Oct 2021 14:27:21 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 07 Nov 2021 13:39:14 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 62 (생일)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20211107_jena_wk62/</link>
+        <pubDate>Sun, 07 Nov 2021 13:39:14 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 07 Nov 2021 13:39:14 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20211107_jena_wk62/</guid>
+        <description>이번 주는&amp;hellip; 연구연구 - wSurf 분석, 누노와 미팅, &amp;hellip; 내 생일 2021. 11. 02. 화요일 MDI 미팅. Hui의 발표. 회귀분석 검증하는 내용인 줄 알았는데, 검증 결과 이</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk62_005.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 61 (풋살, 팝쿤)</title>
