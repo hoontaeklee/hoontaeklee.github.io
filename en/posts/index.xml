@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 28 Nov 2021 21:43:03 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 05 Dec 2021 16:47:54 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 66</title>
+        <link>https://hoontaeklee.github.io/en/posts/20211205_jena_wk66/</link>
+        <pubDate>Sun, 05 Dec 2021 16:47:54 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 05 Dec 2021 16:47:54 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20211205_jena_wk66/</guid>
+        <description>이번 주는&amp;hellip; 연구연구 - results using new simulations 2021. 11. 30. 화요일 MDI 미팅 중 샤닝의 발표. 새 연구 시작 단계에서 할 수 있는 좋은 발표였다. 직전 연구와 연결, 질문, 방법</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/cover_image.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2021</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 65 (모찌와 우우)</title>
