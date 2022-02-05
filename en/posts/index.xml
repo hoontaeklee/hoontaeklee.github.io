@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 23 Jan 2022 17:25:20 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 05 Feb 2022 11:12:03 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 74 (설날1)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20220130_jena_wk74/</link>
+        <pubDate>Sat, 05 Feb 2022 11:12:03 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 05 Feb 2022 11:12:03 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20220130_jena_wk74/</guid>
+        <description>이번 주는&amp;hellip; 연구연구 - setting structure and writing introduction 설날 2022. 01. 26. 수요일 향수 도착 ㅎㅎ 조말론-카라 콜라보 2기. 마드리드랑 상하이를 기대해본다&amp;hellip;</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk74_029.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2022</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 73 (MDI retreat, 몸줄 산책)</title>
