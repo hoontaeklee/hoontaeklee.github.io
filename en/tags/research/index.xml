@@ -14,13 +14,47 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 22 Jun 2021 19:18:55 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 19 Feb 2022 14:46:17 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Stocker et al., (2019). Underestimated GPP by RS models under dry soils</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p040_2019_stocker_underestimated_drysoil_gpp/</link>
+        <pubDate>Sat, 19 Feb 2022 14:46:17 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sat, 19 Feb 2022 14:46:17 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p040_2019_stocker_underestimated_drysoil_gpp/</guid>
+        <description>19 February, 2022 (Stocker, ngeo, underestimated_drysoil_gpp) Stocker, B.D., Zscheischler, J., Keenan, T.F. et al. Drought impacts on terrestrial primary production underestimated by satellite monitoring. Nat. Geosci. 12, 264–270 (2019). https://doi.org/10.1038/s41561-019-0318-6Introduction
+Stocker et al. investigated the effect of dry soil on GPP across scales after isolating from the effect of VPD. I read this paper, wondering the global error distribution is associated with my global TWS IAV error map.
+Message: Soil moisture should be included as a GPP estimator as VPD alone cannot account for dry soil impact on GPP  Dry soil effect reduces the global annual GPP by 15% The effect of dry soil decreases with increasing spatial scale, due to compensation from different regions.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2022</category>
+            
+          
+            
+              <category>Research</category>
+            
+          
+            
+              <category>Paper review</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>Paper Review: Syed (2008). GRACE_GLDAS. wr.</title>
