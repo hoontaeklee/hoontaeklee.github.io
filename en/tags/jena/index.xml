@@ -14,13 +14,46 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 17 Apr 2022 15:39:29 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2022 21:56:26 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Paper Review: Green et al., (2022). LST/Tair, a remote sensing-based indicator of vegetation water stress</title>
+        <link>https://hoontaeklee.github.io/en/posts/paper_review/p041_2022_green_gcb_lst_over_tair/</link>
+        <pubDate>Wed, 20 Apr 2022 21:56:26 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 20 Apr 2022 21:56:26 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/paper_review/p041_2022_green_gcb_lst_over_tair/</guid>
+        <description>23 April, 2022 (Green, gcb, lst_over_tair) Green, J. K., Ballantyne, A., Abramoff, R., Gentine, P., Makowski, D., &amp;amp; Ciais, P. (2022). Surface temperatures reveal the patterns of vegetation water stress and their environmental drivers across the tropical Americas. Global Change Biology, 28(9), 2940–2955. https://doi.org/10.1111/gcb.16139
+Green et al. introduced the ratio of land surface temperature (LST; temperature of the top canopy) to air temperature as an indicator of vegetation water stress. I was particularly interested in their analysis using random forest and the Shapley value to quantify the effect (e.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>2022</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 85 (훈택 코로나)</title>
