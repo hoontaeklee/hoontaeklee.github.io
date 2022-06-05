@@ -1199,9 +1199,9 @@
 
 <meta name="description" content="The Zzo theme for Hugo example site." />
 <meta name="keywords" content="">
-<meta name="created" content="2022-05-15T16:57:52&#43;0200">
-<meta name="modified" content="2022-05-15T16:57:52&#43;0200">
-<meta property="article:published_time" content="2022-05-15T16:57:52&#43;0200">
+<meta name="created" content="2022-06-01T18:30:03&#43;0200">
+<meta name="modified" content="2022-06-01T18:30:03&#43;0200">
+<meta property="article:published_time" content="2022-06-01T18:30:03&#43;0200">
 
 <meta name="author" content="Hoontaek Lee">
 
@@ -1488,6 +1488,100 @@
 
         <div class="summary__container" data-display="block">
             
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" data-position="left">
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/20201129_jena_wk13/'> In Jena: Week 13</a> </h5>
+        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Nov 29, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 4 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            이번 주는&hellip; TWS-NEE discussion with Sujan, Martin, Nuno, and Markus 밥 &amp; 술 2020. 11. 26. 목요일 TWS-NEE discussion with Sujan, Martin, Nuno, and Markus 9월부터 11월까지 내 연구를 어떻게 진행해 왔고 어떻게 해나가면 좋을지 토의
+          
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="summary-classic__image-wrapper">
+      <a href="https://hoontaeklee.github.io/en/posts/20201129_jena_wk13/">
+        <img data-src="/images/posts/meta/Jena_wk13%20%287%29.jpg" alt="images/posts/meta/Jena_wk13 (7).jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true"/>
+      </a>
+    </div>
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" data-position="left">
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/20201122_isolation_forest/'> Isolation Forest</a> </h5>
+        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Nov 22, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 3 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE)References:
+ solitude: https://github.com/talegari/solitude isofor: https://campus.datacamp.com/courses/anomaly-detection-in-r/isolation-forest  # install.packages(&quot;mvoutlier&quot;))# install.packages(&quot;remotes&quot;))# remotes::install_github(&quot;Zelazny7/isofor&quot;)#import librarieslibrary(ggplot2)library(ggpubr)library(solitude) # hereafter, &quot;sol&quot;library(isofor) # hereafter, &quot;iso&quot;library(viridis)packageVersion(&quot;solitude&quot;)#create sample datadata(&quot;humus&quot;, package = &quot;mvoutlier&quot;)# 2-dimensionalcolumns_required &lt;- c(&quot;Bi&quot;, &quot;Cd&quot;)humus2 &lt;- humus[ , columns_required]# multi-dimensionalcolumns_required_mul &lt;- setdiff(colnames(humus), c(&quot;Cond&quot;, &quot;ID&quot;, &quot;XCOO&quot;, &quot;YCOO&quot;, &quot;LOI&quot;))humus_mul &lt;- humus[ , columns_required_mul]str(humus2)str(humus_mul)#plot dataggplot(humus2, aes(x = Bi, y = Cd)) + geom_point(shape = 1, alpha = 0.
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" data-position="left">
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/20201122_jena_wk12/'> In Jena: Week 12</a> </h5>
+        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Nov 22, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 3 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            이번 주는&hellip; 통계학 수업 2020. 11. 16. ~ 20. 월~금요일 Advanced statistics &amp; machine learning for data analysis (ASDA) 통계학 수업. 수업 방식이 대학원 수업에 잘 맞던 것 같다. 학생들은 익숙하지 않은
+          
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="summary-classic__image-wrapper">
+      <a href="https://hoontaeklee.github.io/en/posts/20201122_jena_wk12/">
+        <img data-src="/images/posts/meta/Jena_wk12%20%285%29.jpg" alt="images/posts/meta/Jena_wk12 (5).jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true"/>
+      </a>
+    </div>
+    
+    
+  </div>
+  <hr />
+</article>
+
             
                 
   <article class="summary-classic" data-ani="true">
@@ -1805,99 +1899,6 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
 </article>
 
             
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
-
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/20200927_jena_wk4/'> In Jena: Week 4</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Sep 27, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 4 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            이번 주는&hellip; German course 시작 SINDBAD 개발 회의 with Sujan, Nuno, Simon, Shanning, and Tina Sujan과 개인 미팅 2020. 09. 22. 화요일 : German Course A.1.3 독일어 수업 시작. 매주 화요일, 목요일 저녁 5시~
-          
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="summary-classic__image-wrapper">
-      <a href="https://hoontaeklee.github.io/en/posts/20200927_jena_wk4/">
-        <img data-src="/images/posts/meta/Jena_wk4%20%286%29.jpg" alt="images/posts/meta/Jena_wk4 (6).jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true"/>
-      </a>
-    </div>
-    
-    
-  </div>
-  <hr />
-</article>
-
-            
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
-
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/paper_review/p030_2020_bloom_bgd_legacy-iav/'> Paper Review: Bloom (2020). Legacy-(NBE IAV). bgd</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Sep 21, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 3 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            21 September, 2020 (Bloom, bgd, Legacy-(NBE IAV)) Bloom, A. A., Bowman, K. W., Liu, J., Konings, A. G., Worden, J. R., Parazoo, N. C., Meyer, V., Reager, J. T., Worden, H. M., Jiang, Z., Quetin, G. R., Smallman, T. L., Exbrayat, J.-F., Yin, Y., Saatchi, S. S., Williams, M., and Schimel, D. S.: Lagged effects dominate the inter-annual variability of the 2010–2015 tropical carbon balance, Biogeosciences Discuss., https://doi.org/10.5194/bg-2019-459, in review, 2020.
-          
-        </div>
-      </div>
-    </div>
-
-    
-    
-  </div>
-  <hr />
-</article>
-
-            
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
-
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='https://hoontaeklee.github.io/en/posts/20200920_jena_wk3/'> In Jena: Week 3</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Sep 20, 2020 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 4 min read </span>&middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Hoontaek Lee</span></h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            이번 주는&hellip; 수업: Advanced R &amp; Terrestrial Biosphere Part 2 German course 레벨 테스트 Panda Panda Asia Shop 구경 2020. 09. 14-16. 월-수요일 : Advanced R Advanced R course. Tidyverse, Package 만들기, Debuging, benchmarking &amp; profiling, ggplot2 등을 배웠다. map(), nest() functions m
-          
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="summary-classic__image-wrapper">
-      <a href="https://hoontaeklee.github.io/en/posts/20200920_jena_wk3/">
-        <img data-src="/images/posts/meta/Jena_wk3%20%283%29.jpg" alt="images/posts/meta/Jena_wk3 (3).jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true"/>
-      </a>
-    </div>
-    
-    
-  </div>
-  <hr />
-</article>
-
-            
             
 
 
@@ -2016,6 +2017,11 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
       <script>
       </script>
       
+    
+      
+      <script>
+      </script>
+      
         <li class="disabled"><a name="">&hellip;</a></li>
       
     
@@ -2024,7 +2030,7 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
       </script>
       
         <li
-        ><a href="/en/posts/page/19/">19</a></li>
+        ><a href="/en/posts/page/20/">20</a></li>
       
     
   </ul>
@@ -2074,23 +2080,23 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
     
         
         <li class="sidebar-recent">
+            <a href="/en/posts/20220522_jena_wk90/" class="sidebar-recent__title p1">In Jena: Week 90 (빈)</a>
+        </li>
+        
+        <li class="sidebar-recent">
+            <a href="/en/posts/20220605_jena_wk92/" class="sidebar-recent__title p1">In Jena: Week 92 (인스부르크, MPI-BGC 25th Anniversary)</a>
+        </li>
+        
+        <li class="sidebar-recent">
+            <a href="/en/posts/20220529_jena_wk91/" class="sidebar-recent__title p1">In Jena: Week 91 (EGU, 빈, 잘츠부르크, 인스부르크)</a>
+        </li>
+        
+        <li class="sidebar-recent">
             <a href="/en/posts/20220515_jena_wk89/" class="sidebar-recent__title p1">In Jena: Week 89</a>
         </li>
         
         <li class="sidebar-recent">
             <a href="/en/posts/20220508_jena_wk88/" class="sidebar-recent__title p1">In Jena: Week 88 (축구 관람, 고화네 저녁)</a>
-        </li>
-        
-        <li class="sidebar-recent">
-            <a href="/en/posts/20220501_jena_wk87/" class="sidebar-recent__title p1">In Jena: Week 87 (모찌 산책)</a>
-        </li>
-        
-        <li class="sidebar-recent">
-            <a href="/en/posts/paper_review/p042_2018_global_nee_timescale_and_regions/" class="sidebar-recent__title p1">Paper Review: Zhang et al., (2018). domimant_timescales_and_regions_of_global_NEE</a>
-        </li>
-        
-        <li class="sidebar-recent">
-            <a href="/en/posts/20220424_jena_wk86/" class="sidebar-recent__title p1">In Jena: Week 86 (모찌 산책)</a>
         </li>
         
         <hr class="hr-fade sidebar-hr" />
@@ -2191,7 +2197,7 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
                         2022
                     </span>
                     <span class="taxo__num" dir="auto">
-                        23
+                        26
                     </span>
                 </a>
             </span>
@@ -2243,7 +2249,7 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
                         Daily Life
                     </span>
                     <span class="taxo__num" dir="auto">
-                        106
+                        109
                     </span>
                 </a>
             </span>
@@ -2308,7 +2314,7 @@ Overview Here the authors confirm land-atmosphere feedbacks using satellite obse
                         Jena
                     </span>
                     <span class="taxo__num" dir="auto">
-                        89
+                        92
                     </span>
                 </a>
             </span>
