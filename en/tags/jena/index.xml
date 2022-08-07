@@ -14,7 +14,7 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 31 Jul 2022 15:36:28 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 07 Aug 2022 21:58:36 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,39 @@
 
       
       <item>
-        <title>In Jena: Week 99 (모찌 실)</title>
+        <title>In Jena: Week 100 (테니스, 락훈이현 가족 초대)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20220807_jena_wk100/</link>
+        <pubDate>Sun, 07 Aug 2022 21:58:36 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 07 Aug 2022 21:58:36 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20220807_jena_wk100/</guid>
+        <description>이번 주는&amp;hellip; Submit the first paper 테니스 락훈이 형 가족 초대 첫 논문은 HESS에 투고했다. 투고 다음 날, HESSD에 출판됐다. 이제 기다려보자. 2022. 08. 04. 목</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk100_011.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2022</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 99 (치실 삼킨 모찌)</title>
         <link>https://hoontaeklee.github.io/en/posts/20220731_jena_wk99/</link>
         <pubDate>Sun, 31 Jul 2022 15:36:28 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
