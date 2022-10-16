@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 09 Oct 2022 22:45:51 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 16 Oct 2022 16:10:54 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2022/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 110</title>
+        <link>https://hoontaeklee.github.io/en/posts/20221016_jena_wk110/</link>
+        <pubDate>Sun, 16 Oct 2022 16:10:54 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 16 Oct 2022 16:10:54 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20221016_jena_wk110/</guid>
+        <description>이번 주는&amp;hellip; SINDBAD VEGPP optimization debugging 춘휘@발렌시아 디버깅이 꽤 오래 걸리고 있다. 2022. 10. 15. 토요일 춘휘가 발렌시아에서 돌아왔다. 마지막날 시장 구경하다가 햄+달</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk110_006.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2022</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 109 (Dornburg)</title>
