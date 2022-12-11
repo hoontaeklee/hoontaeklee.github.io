@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 04 Dec 2022 14:46:23 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 11 Dec 2022 13:57:08 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 118 (월드컵)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20221211_jena_wk118/</link>
+        <pubDate>Sun, 11 Dec 2022 13:57:08 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 11 Dec 2022 13:57:08 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20221211_jena_wk118/</guid>
+        <description>이번 주는&amp;hellip; TWS_IAV_hotspots revision 월드컵 리비전은 거의 끝나간다. 다시 VEGPP 작업 개시&amp;hellip; 2022. 12. 05. 월요일 한국 vs. 브라질. 월드컵 16강. 주디랑 락훈이 형</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk118_003.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2022</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 117 (전동칫솔)</title>
