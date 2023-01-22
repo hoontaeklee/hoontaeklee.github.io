@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 15 Jan 2023 17:07:10 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jan 2023 16:49:26 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 124</title>
+        <link>https://hoontaeklee.github.io/en/posts/20230122_jena_wk124/</link>
+        <pubDate>Sun, 22 Jan 2023 16:49:26 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 22 Jan 2023 16:49:26 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20230122_jena_wk124/</guid>
+        <description>이번 주는&amp;hellip; SINDBAD VEGPP - NEE optimization 설날 디버깅 결과 수잔&amp;amp;마틴과 살펴보면서 뭔가 발견한 것 같기도 하다. 재시도 ㄱㄱ 테니스 종강했다. 다음 등록은 2</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk124_002.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2023</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 123 (모찌&amp;우우 합사, 암벽등반)</title>
