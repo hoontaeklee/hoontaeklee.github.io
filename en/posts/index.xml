@@ -14,7 +14,7 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 05 Mar 2023 19:19:27 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 12 Mar 2023 13:42:40 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,16 +23,48 @@
 
       
       <item>
-        <title>In Jena: Week 130 (예나 복귀, IMPRS retreat)</title>
+        <title>In Jena: Week 131 (예나 복귀, IMPRS retreat)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20230312_jena_wk131/</link>
+        <pubDate>Sun, 12 Mar 2023 13:42:40 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 12 Mar 2023 13:42:40 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20230312_jena_wk131/</guid>
+        <description></description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/cover_image.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2023</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 131</title>
         <link>https://hoontaeklee.github.io/en/posts/20230305_jena_wk130/</link>
         <pubDate>Sun, 05 Mar 2023 19:19:27 +0100</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
         <atom:modified>Sun, 05 Mar 2023 19:19:27 +0100</atom:modified>
         <guid>https://hoontaeklee.github.io/en/posts/20230305_jena_wk130/</guid>
-        <description>이번 주는&amp;hellip; SINDBAD VEGPP - NEE error diagnosis 3rd PAC report 예나 복귀 IMPRS retreat Phyletic Museum Jena 2023. 02. 27. 월요일 예나로 돌아가는 날. 첫 끼로 한 카페에서 브런치를 먹었다. 웨이터는 아주 비호감</description>
+        <description>이번 주는&amp;hellip; SINDBAD VEGPP - NEE error diagnosis 3rd PAC report LWP workshop 2023. 03. 06. 월요일 지난 크리스마스 파티 때 우연히 알게 된 콘스탄틴. 수분포텐셜 측정을 하는데, 연구소에 해본 사람</description>
         
         <dc:creator>Hoontaek Lee</dc:creator>
-        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk130_015.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk131_003.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
