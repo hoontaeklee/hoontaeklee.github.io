@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 12 Mar 2023 13:42:40 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 19 Mar 2023 14:28:18 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/daily-life/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 132 (3rd PAC)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20230319_jena_wk132/</link>
+        <pubDate>Sun, 19 Mar 2023 14:28:18 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 19 Mar 2023 14:28:18 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20230319_jena_wk132/</guid>
+        <description>이번 주는&amp;hellip; SINDBAD VEGPP - NEE error diagnosis 3rd PAC 2023. 03. 15. 수요일 새벽에 중요한 메일이 두 통 와있었다. 첫 번째 논문이 게재 확정 됐다는 소식과 JPL의 Anthony가</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk132_004.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2023</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 131</title>
