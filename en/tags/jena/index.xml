@@ -14,7 +14,7 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 07 May 2023 17:24:34 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 14 May 2023 20:10:04 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,39 @@
 
       
       <item>
-        <title>20230507_jena_wk139</title>
+        <title>In Jena: Week 140 (젤다 왕눈이)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20230514_jena_wk140/</link>
+        <pubDate>Sun, 14 May 2023 20:10:04 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 14 May 2023 20:10:04 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20230514_jena_wk140/</guid>
+        <description>이번 주는&amp;hellip; SINDBAD VEGPPcpool evaluation: structure and spin-up 젤다 왕눈이 2023. 05. 12. 금요일 큰 거 왔다. 젤다의 전설: 왕국의 눈물, 줄여서 젤다 왕눈이. 역시 기대를 저버리지 않는다. 차원</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk140_003.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2023</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 139</title>
         <link>https://hoontaeklee.github.io/en/posts/20230507_jena_wk139/</link>
         <pubDate>Sun, 07 May 2023 17:24:34 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
