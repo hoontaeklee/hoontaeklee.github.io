@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 10 Jul 2023 22:35:28 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jul 2023 20:11:50 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/daily-life/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 149</title>
+        <link>https://hoontaeklee.github.io/en/posts/20230716_jena_wk149/</link>
+        <pubDate>Sun, 16 Jul 2023 20:11:50 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 16 Jul 2023 20:11:50 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20230716_jena_wk149/</guid>
+        <description>이번 주는&amp;hellip; bugfixing of VEGPP2pool, producing figures, and writing draft 8월 여행 계획은 이탈리아 (시칠리아+로마+나폴리)에서 아이슬란드로 변경했다. 8월 이탈리아는 너무 덥고 사람</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk149_001.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2023</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 148 (모찌 진드기)</title>
