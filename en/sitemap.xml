@@ -4,32 +4,32 @@
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/2023/</loc>
-    <lastmod>2023-09-17T21:56:43-07:00</lastmod>
+    <lastmod>2023-09-24T11:57:40-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2023-09-17T21:56:43-07:00</lastmod>
+    <lastmod>2023-09-24T11:57:40-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
-    <lastmod>2023-09-17T21:56:43-07:00</lastmod>
+    <lastmod>2023-09-24T11:57:40-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/posts/20230917_jena_wk158/</loc>
-    <lastmod>2023-09-17T21:56:43-07:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/posts/20230924_jena_wk159/</loc>
+    <lastmod>2023-09-24T11:57:40-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/jena/</loc>
-    <lastmod>2023-09-17T21:56:43-07:00</lastmod>
+    <lastmod>2023-09-24T11:57:40-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2023-09-17T21:56:43-07:00</lastmod>
+    <lastmod>2023-09-24T11:57:40-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -40,6 +40,11 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20230917_jena_wk158/</loc>
+    <lastmod>2023-09-17T21:56:43-07:00</lastmod>
   </url>
   
   <url>
