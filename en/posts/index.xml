@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 26 Oct 2023 23:07:25 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Nov 2023 23:20:34 -0700</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 165 (Halloween, NBA: LAC@LAL)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20231101_jena_wk165/</link>
+        <pubDate>Wed, 01 Nov 2023 23:20:34 -0700</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Wed, 01 Nov 2023 23:20:34 -0700</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20231101_jena_wk165/</guid>
+        <description>이번 주는&amp;hellip; Write draft of the 2nd study - add TRENDY results NBA match: LAC@LAL 연구 vegpp eval discussion add Trendy results to the evaluation figures - done except for recalculating global MSC (grid2region2global, not grid2global) received global simulations at 4x5 resolution from Eren - will be used for the CARDAMOM-SINDBAD comparison 2023. 10. 31. 화요일 핼</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk165_003.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2023</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 164 (NBA: PHX@LAL)</title>
