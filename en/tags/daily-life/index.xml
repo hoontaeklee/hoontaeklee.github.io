@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 16 Jun 2024 11:34:11 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2024 19:48:14 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/daily-life/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 198 (EURO2024@라이프치히)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20240623_jena_wk198/</link>
+        <pubDate>Sun, 23 Jun 2024 19:48:14 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 23 Jun 2024 19:48:14 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20240623_jena_wk198/</guid>
+        <description>이번 주는&amp;hellip; developing tws_nee_in_model EURO2024 FRAvs.NED@Leipzig &amp;hellip; 혹시나 TWS NEE IAV correlation이 나아질 수 있으니 모델을 다시 한 번 돌려봤다. 화요일부터 몸살이 났다. 평소처럼 열</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk198_008.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2024</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 197 (EURO2024@쓰위완&amp;신, 저녁 훠궈@지아신)</title>
