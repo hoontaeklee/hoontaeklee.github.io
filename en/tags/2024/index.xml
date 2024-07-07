@@ -14,13 +14,77 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 23 Jun 2024 19:48:14 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jul 2024 17:36:37 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2024/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 200 (독일어 수업 저녁 파티)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20240707_jena_wk200/</link>
+        <pubDate>Sun, 07 Jul 2024 17:36:37 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 07 Jul 2024 17:36:37 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20240707_jena_wk200/</guid>
+        <description>이번 주는&amp;hellip; developing tws_nee_in_model 독일어 수업 저녁 파티 cost function 버그 발생 이유를 드디어 찾았다. 파이썬과 매트랩 간 reshape 함수 작동 방식이 서로 달랐다. 버그 수정 수 다시 모델</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk200_010.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2024</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 199 (웨이지에 프로포즈, 라이프치히)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20240707_jena_wk199/</link>
+        <pubDate>Sun, 07 Jul 2024 17:36:30 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 07 Jul 2024 17:36:30 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20240707_jena_wk199/</guid>
+        <description>이번 주는&amp;hellip; developing tws_nee_in_model 웨이지에 프로포즈 도와주기 뱃놀이&amp;amp;유로2024@라이프치히 2024. 06. 25. 화요일 새로 산 웍. 값싸고 맘에 든다. 2024. 06. 28. 금요</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk199_014.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2024</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 198 (EURO2024@라이프치히)</title>
