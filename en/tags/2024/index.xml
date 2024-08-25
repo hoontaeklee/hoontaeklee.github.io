@@ -14,7 +14,7 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 24 Aug 2024 09:28:45 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2024 14:52:32 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2024/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,39 @@
 
       
       <item>
-        <title>In Jena: Week 206 (모찌 3살, 보드게임카페, 저녁@조지)</title>
+        <title>In Jena: Week 207 (보드게임카페-Everdell)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20240825_jena_wk207/</link>
+        <pubDate>Sun, 25 Aug 2024 14:52:32 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 25 Aug 2024 14:52:32 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20240825_jena_wk207/</guid>
+        <description>이번 주는&amp;hellip; developing tws_nee_in_model tried a new opti. that Martin suggested: to calculate costNEEIAV using a global time series calculated from the 904 grid cells; this made a difference in the case of Zavud. the new opti. really made a difference: TWS IAV-NEE IAV correlation improved by 0.1 and, more importantly, the NEE IAV magnitude by SINDBAD became as similar</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk207_003.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2024</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 206 (모찌 3살, 보드게임카페-7 Wonders, 저녁@조지)</title>
         <link>https://hoontaeklee.github.io/en/posts/20240824_jena_wk206/</link>
         <pubDate>Sat, 24 Aug 2024 09:28:45 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
@@ -55,7 +87,7 @@
       </item>
       
       <item>
-        <title>In Jena: Week 205 (보드게임카페)</title>
+        <title>In Jena: Week 205 (보드게임카페-7 Wonders:Duel)</title>
         <link>https://hoontaeklee.github.io/en/posts/20240811_jena_wk205/</link>
         <pubDate>Sun, 11 Aug 2024 16:40:07 +0200</pubDate>
         <author>lht3718@gmail.com (Hoontaek Lee)</author>
