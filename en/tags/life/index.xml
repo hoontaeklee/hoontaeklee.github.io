@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Life on bloght</title>
+    <link>https://hoontaeklee.github.io/en/tags/life/</link>
+    <description>Recent content in Life on bloght</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
+    <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 01 Sep 2024 15:49:58 +0200</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>In Jena: Week 208 (크로아티아 여행 준비)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20240901_jena_wk208/</link>
+        <pubDate>Sun, 01 Sep 2024 15:49:58 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 01 Sep 2024 15:49:58 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20240901_jena_wk208/</guid>
+        <description>이번 주는&amp;hellip; developing tws_nee_in_model 여행 준비 그 외&amp;hellip; 마우스 구매를 완료했다. 일단 Razer Pro Click Mini. 가장 편한 건 아니지만 적응할 만할 것 같다. 커서 정확도가 높</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk208_004.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Daily</category>
+            
+          
+            
+              <category>Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

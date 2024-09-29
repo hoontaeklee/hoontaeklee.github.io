@@ -1,0 +1,3343 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>In Jena: Week 210 (크로아티아 여행) – bloght</title>
+    
+
+
+<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+
+<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
+
+<script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+
+<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+
+<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+
+<script defer src="/js/helper/closest.min.js"></script>
+  
+<script>
+  "use strict";
+
+  
+  
+  if (window.NodeList && !NodeList.prototype.forEach) {
+    NodeList.prototype.forEach = Array.prototype.forEach;
+  }
+
+  
+  if (!String.prototype.includes) {
+    String.prototype.includes = function (search, start) {
+      'use strict';
+
+      if (search instanceof RegExp) {
+        throw TypeError('first argument must not be a RegExp');
+      }
+      if (start === undefined) { start = 0; }
+      return this.indexOf(search, start) !== -1;
+    };
+  }
+
+  
+  Document.prototype.append = Element.prototype.append = function append() {
+    this.appendChild(_mutation(arguments));
+  };
+  function _mutation(nodes) {
+    if (!nodes.length) {
+      throw new Error('DOM Exception 8');
+    } else if (nodes.length === 1) {
+      return typeof nodes[0] === 'string' ? document.createTextNode(nodes[0]) : nodes[0];
+    } else {
+      var
+      fragment = document.createDocumentFragment(),
+      length = nodes.length,
+      index = -1,
+      node;
+
+      while (++index < length) {
+        node = nodes[index];
+
+        fragment.appendChild(typeof node === 'string' ? document.createTextNode(node) : node);
+      }
+
+      return fragment;
+    }
+  }
+
+  
+  if (!String.prototype.startsWith) {
+    String.prototype.startsWith = function (searchString, position) {
+      position = position || 0;
+      return this.indexOf(searchString, position) === position;
+    };
+  }
+  
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    
+    var navCollapseBtn = document.querySelector('.navbar__burger');
+    navCollapseBtn ? navCollapseBtn.addEventListener('click', function (e) {
+      var navCollapse = document.querySelector('.navbarm__collapse');
+
+      if (navCollapse) {
+        var dataOpen = navCollapse.getAttribute('data-open');
+
+        if (dataOpen === 'true') {
+          navCollapse.setAttribute('data-open', 'false');
+          navCollapse.style.maxHeight = 0;
+          navCollapseBtn.classList.remove('is-active');
+        } else {
+          navCollapse.setAttribute('data-open', 'true');
+          navCollapse.style.maxHeight = navCollapse.scrollHeight + "px";
+          navCollapseBtn.classList.add('is-active');
+        }
+      }
+    }) : null;
+    
+
+
+    
+    var summaryContainer = document.querySelector('.summary__container');
+    var searchResult = document.querySelector('.search-result');
+    var searchResultCloseBtn = document.querySelector('.search-result__close');
+    searchResultCloseBtn ? searchResultCloseBtn.addEventListener('click', function (e) {
+      searchResult.setAttribute('data-display', 'none');
+      summaryContainer.setAttribute('data-display', 'block');
+    }) : null;
+    
+
+
+    
+    document.querySelectorAll('.tab') ? 
+    document.querySelectorAll('.tab').forEach(function(elem, idx) {
+      var containerId = elem.getAttribute('id');
+      var containerElem = elem;
+      var tabLinks = elem.querySelectorAll('.tab__link');
+      var tabContents = elem.querySelectorAll('.tab__content');
+      var ids = [];
+
+      tabLinks && tabLinks.length > 0 ?
+      tabLinks.forEach(function(link, index, self) {
+        link.onclick = function(e) {
+          for (var i = 0; i < self.length; i++) {
+            if (index === parseInt(i, 10)) {
+              if (!self[i].classList.contains('active')) {
+                self[i].classList.add('active');
+                tabContents[i].style.display = 'block';
+              }
+            } else {
+              self[i].classList.remove('active');
+              tabContents[i].style.display = 'none';
+            }
+          }
+        }
+      }) : null;
+    }) : null;
+    
+
+
+    
+    document.querySelectorAll('.codetab') ? 
+    document.querySelectorAll('.codetab').forEach(function(elem, idx) {
+      var containerId = elem.getAttribute('id');
+      var containerElem = elem;
+      var codetabLinks = elem.querySelectorAll('.codetab__link');
+      var codetabContents = elem.querySelectorAll('.codetab__content');
+      var ids = [];
+
+      codetabLinks && codetabLinks.length > 0 ?
+      codetabLinks.forEach(function(link, index, self) {
+        link.onclick = function(e) {
+          for (var i = 0; i < self.length; i++) {
+            if (index === parseInt(i, 10)) {
+              if (!self[i].classList.contains('active')) {
+                self[i].classList.add('active');
+                codetabContents[i].style.display = 'block';
+              }
+            } else {
+              self[i].classList.remove('active');
+              codetabContents[i].style.display = 'none';
+            }
+          }
+        }
+      }) : null;
+    }) : null;
+    
+
+
+    
+    var gttBtn = document.getElementById("gtt");
+    gttBtn.style.display = "none";
+    gttBtn.addEventListener('click', function () {
+      if (window.document.documentMode) {
+        document.documentElement.scrollTop = 0;
+      } else {
+        scrollToTop(250);
+      }
+    });
+
+    function scrollToTop(scrollDuration) {
+      var scrollStep = -window.scrollY / (scrollDuration / 15);
+      var scrollInterval = setInterval(function () {
+        if (window.scrollY != 0) {
+          window.scrollBy(0, scrollStep);
+        }
+        else clearInterval(scrollInterval);
+      }, 15);
+    }
+
+    var scrollFunction = function () {
+      if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+        gttBtn.style.display = "block";
+      } else {
+        gttBtn.style.display = "none";
+      }
+    }
+    
+
+
+    
+    var expandBtn = document.querySelectorAll('.expand__button');
+
+    for (let i = 0; i < expandBtn.length; i++) {
+      expandBtn[i].addEventListener("click", function () {
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+          this.querySelector('svg').classList.add('expand-icon__right');
+          this.querySelector('svg').classList.remove('expand-icon__down');
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          this.querySelector('svg').classList.remove('expand-icon__right');
+          this.querySelector('svg').classList.add('expand-icon__down');
+        }
+      });
+    }
+    
+
+
+    
+    var lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    var tocElem = document.querySelector('.toc');
+    var tableOfContentsElem = tocElem ? tocElem.querySelector('#TableOfContents') : null;
+    var toggleTocElem = document.getElementById('toggle-toc');
+    var singleContentsElem = document.querySelector('.single__contents');
+    var navbar = document.querySelector('.navbar');
+    var tocFlexbox = document.querySelector('.toc__flexbox');
+    var tocFlexboxOuter = document.querySelector('.toc__flexbox--outer');
+    var expandContents = document.querySelectorAll('.expand__content');
+    var boxContents = document.querySelectorAll('.box');
+    var notAllowedTitleIds = null;
+
+    
+    var tocFolding = JSON.parse("true");
+    
+    var tocLevels = JSON.parse("[\"h2\",\"h3\",\"h4\"]");
+    
+    if (tocLevels) {
+      tocLevels = tocLevels.toString();
+    } else {
+      tocLevels = "h1, h2, h3, h4, h5, h6";
+    }
+
+    
+    singleContentsElem && singleContentsElem.querySelectorAll(".tab") ?
+    singleContentsElem.querySelectorAll(".tab").forEach(function (elem) {
+      elem.querySelectorAll(tocLevels).forEach(function (element) {
+        notAllowedTitleIds = Array.isArray(notAllowedTitleIds) ?
+          notAllowedTitleIds.concat(element.getAttribute('id')) :
+          [element.getAttribute('id')];
+      });
+    }) : null;
+
+    
+    expandContents ? expandContents.forEach(function(elem) {
+      elem.querySelectorAll(tocLevels).forEach(function (element) {
+        notAllowedTitleIds = Array.isArray(notAllowedTitleIds) ?
+          notAllowedTitleIds.concat(element.getAttribute('id')) :
+          [element.getAttribute('id')];
+      });
+    }) : null;
+
+    
+    boxContents ? boxContents.forEach(function(elem) {
+      elem.querySelectorAll(tocLevels).forEach(function (element) {
+        notAllowedTitleIds = Array.isArray(notAllowedTitleIds) ?
+          notAllowedTitleIds.concat(element.getAttribute('id')) :
+          [element.getAttribute('id')];
+      });
+    }) : null;
+
+    
+    window.onscroll = function () {
+      scrollFunction();
+      
+      var st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop) { 
+        if (st < 250) {
+          gttBtn.style.display = "none";
+        } else {
+          gttBtn.style.display = "block";
+        }
+
+        if (st < 45) {
+          return null;
+        }
+        
+        if (!navbar.classList.contains('navbar--hide')) {
+          navbar.classList.add('navbar--hide');
+        } else if (navbar.classList.contains('navbar--show')) {
+          navbar.classList.remove('navbar--show');
+        }
+
+        if (singleContentsElem) {
+          if (singleContentsElem.querySelectorAll(tocLevels).length > 0) {
+            singleContentsElem.querySelectorAll(tocLevels).forEach(function (elem) {
+              if (toggleTocElem && !toggleTocElem.checked) {
+                return null;
+              }
+
+              if (notAllowedTitleIds && notAllowedTitleIds.includes(elem.getAttribute('id'))) {
+                return null;
+              }
+              
+              if (document.documentElement.scrollTop >= elem.offsetTop) {
+                if (tableOfContentsElem) {
+                  var id = elem.getAttribute('id');
+                  tocElem.querySelectorAll('a').forEach(function (elem) {
+                    elem.classList.remove('active');
+                  });
+                  tocElem.querySelector('a[href="#' + id + '"]') ?
+                    tocElem.querySelector('a[href="#' + id + '"]').classList.add('active') : null;
+
+                  if (false === tocFolding) {
+                    
+                  } else {
+                    tableOfContentsElem.querySelectorAll('ul') ?
+                      tableOfContentsElem.querySelectorAll('ul').forEach(function (rootUl) {
+                        rootUl.querySelectorAll('li').forEach(function (liElem) {
+                          liElem.querySelectorAll('ul').forEach(function (ulElem) {
+                            ulElem.style.display = 'none';
+                          });
+                        });
+                      }) : null;
+                  }
+
+                  var curElem = tableOfContentsElem.querySelector("[href='#" + id + "']");
+                  if (curElem && curElem.nextElementSibling) {
+                    curElem.nextElementSibling.style.display = 'block';
+                  }
+                  getParents(curElem, 'ul') ?
+                    getParents(curElem, 'ul').forEach(function (elem) {
+                      elem.style.display = 'block';
+                    }) : null;
+                }
+              }
+            });
+          } else {
+            if (tocFlexbox) {
+              tocFlexbox.setAttribute('data-position', '');
+              if (!tocFlexbox.classList.contains('hide')) {
+                tocFlexbox.classList.add('hide');
+              }
+            }
+            if (tocFlexboxOuter) {
+              tocFlexboxOuter.setAttribute('data-position', '');
+              if (!tocFlexboxOuter.classList.contains('hide')) {
+                tocFlexboxOuter.classList.add('hide');
+              }
+            }
+          }
+        }
+      } else { 
+        if (st < 250) {
+          gttBtn.style.display = "none";
+        }
+
+        if (navbar.classList.contains('navbar--hide')) {
+          navbar.classList.remove('navbar--hide');
+        } else if (!navbar.classList.contains('navbar--show')) {
+          navbar.classList.add('navbar--show');
+        }
+
+        if (singleContentsElem) {
+          if (singleContentsElem.querySelectorAll(tocLevels).length > 0) {
+            singleContentsElem.querySelectorAll(tocLevels).forEach(function (elem) {
+              if (toggleTocElem && !toggleTocElem.checked) {
+                return null;
+              }
+              
+              if (notAllowedTitleIds && notAllowedTitleIds.includes(elem.getAttribute('id'))) {
+                return null;
+              }
+
+              if (document.documentElement.scrollTop >= elem.offsetTop) {
+                if (tableOfContentsElem) {
+                  var id = elem.getAttribute('id');
+                  tocElem.querySelectorAll('a').forEach(function (elem) {
+                    elem.classList.remove('active');
+                  });
+                  tocElem.querySelector('a[href="#' + id + '"]') ?
+                    tocElem.querySelector('a[href="#' + id + '"]').classList.add('active') : null;
+
+                  if (false === tocFolding) {
+                    
+                  } else {
+                    tableOfContentsElem.querySelectorAll('ul') ?
+                      tableOfContentsElem.querySelectorAll('ul').forEach(function (rootUl) {
+                        rootUl.querySelectorAll('li').forEach(function (liElem) {
+                          liElem.querySelectorAll('ul').forEach(function (ulElem) {
+                            ulElem.style.display = 'none';
+                          });
+                        });
+                      }) : null;
+                  }
+
+                  var curElem = tableOfContentsElem.querySelector("[href='#" + id + "']");
+                  if (curElem && curElem.nextElementSibling) {
+                    curElem.nextElementSibling.style.display = 'block';
+                  }
+                  getParents(curElem, 'ul') ?
+                    getParents(curElem, 'ul').forEach(function (elem) {
+                      elem.style.display = 'block';
+                    }) : null;
+                }
+              }
+            });
+          } else {
+            if (tocFlexbox && !tocFlexbox.classList.contains('hide')) {
+              tocFlexbox.classList.add('hide');
+            }
+            if (tocFlexboxOuter && !tocFlexboxOuter.classList.contains('hide')) {
+              tocFlexboxOuter.classList.add('hide');
+            }
+          }
+          
+        }
+
+        if (tableOfContentsElem && document.documentElement.scrollTop < 250) {
+          if (false === tocFolding) {
+
+          } else {
+            tableOfContentsElem.querySelector('ul') ?
+              tableOfContentsElem.querySelector('ul').querySelectorAll('li').forEach(function (liElem) {
+                liElem.querySelectorAll('ul').forEach(function (ulElem) {
+                  ulElem.style.display = 'none';
+                });
+              }) : null;
+          }
+        }
+      }
+      lastScrollTop = st <= 0 ? 0 : st;
+    };
+  
+
+
+  
+    var localTheme = localStorage.getItem('theme');
+    var rootEleme = document.getElementById('root');
+    var selectThemeElem = document.querySelectorAll('.select-theme');
+    var selectThemeItemElem = document.querySelectorAll('.select-theme__item');
+
+    var setMetaColor = function(themeColor) {
+      var metaMsapplicationTileColor = document.getElementsByName('msapplication-TileColor')[0];
+      var metaThemeColor = document.getElementsByName('theme-color')[0];
+      var metaMsapplicationNavbuttonColor = document.getElementsByName('msapplication-navbutton-color')[0];
+      var metaAppleMobileWebAappStatusBarStyle = document.getElementsByName('apple-mobile-web-app-status-bar-style')[0];
+
+      if (themeColor.includes('dark')) {
+        metaMsapplicationTileColor.setAttribute('content', '#fcfcfa');
+        metaThemeColor.setAttribute('content', '#403E41');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#403E41');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#403E41');
+      } else if (themeColor.includes('light')) {
+        metaMsapplicationTileColor.setAttribute('content', '#555');
+        metaThemeColor.setAttribute('content', '#eee');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#eee');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#eee');
+      } else if (themeColor.includes('hacker')) {
+        metaMsapplicationTileColor.setAttribute('content', '#e3cd26');
+        metaThemeColor.setAttribute('content', '#252526');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#252526');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#252526');
+      } else if (themeColor.includes('solarized')) {
+        metaMsapplicationTileColor.setAttribute('content', '#d3af86');
+        metaThemeColor.setAttribute('content', '#51412c');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#51412c');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#51412c');
+      } else if (themeColor.includes('kimbie')) {
+        metaMsapplicationTileColor.setAttribute('content', '#586e75');
+        metaThemeColor.setAttribute('content', '#eee8d5');
+        metaMsapplicationNavbuttonColor.setAttribute('content', '#eee8d5');
+        metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#eee8d5');
+      } 
+    }
+    
+    if (localTheme) {
+      selectThemeItemElem ? 
+      selectThemeItemElem.forEach(function (elem) {
+        if (elem.text.trim() === localTheme) {
+          elem.classList.add('is-active');
+        } else {
+          elem.classList.remove('is-active');
+        }
+      }) : null;
+
+      setMetaColor(localTheme);
+    } else {
+      setMetaColor(rootEleme.className);
+    }
+
+    selectThemeItemElem ? 
+    selectThemeItemElem.forEach(function (v, i) {
+      v.addEventListener('click', function (e) {
+        var selectedThemeVariant = e.target.text.trim();
+        localStorage.setItem('theme', selectedThemeVariant);
+        setMetaColor(selectedThemeVariant);
+
+        rootEleme.removeAttribute('class');
+        rootEleme.classList.add('theme__' + selectedThemeVariant);
+        selectThemeElem.forEach(function(rootElem) {
+          rootElem.querySelectorAll('a').forEach(function (elem) {
+            if (elem.classList) {
+              if (elem.text.trim() === selectedThemeVariant) {
+                if (!elem.classList.contains('is-active')) {
+                  elem.classList.add('is-active');
+                }
+              } else {
+                if (elem.classList.contains('is-active')) {
+                  elem.classList.remove('is-active');
+                }
+              }
+            }
+          });
+        });
+
+        if (window.mermaid) {
+          if (selectedThemeVariant === "dark" || selectedThemeVariant === "hacker") {
+            mermaid.initialize({ theme: 'dark' });
+            location.reload();
+          } else {
+            mermaid.initialize({ theme: 'default' });
+            location.reload();
+          }
+        }
+
+        var utterances = document.querySelector('iframe');
+        if (utterances) {
+          utterances.contentWindow.postMessage({
+            type: 'set-theme',
+            theme: selectedThemeVariant === "dark" || selectedThemeVariant === "hacker" ? 'photon-dark' : selectedThemeVariant === 'kimbie' ? 'github-dark-orange' : 'github-light',
+          }, 'https://utteranc.es');
+        }
+      });
+    }) : null;
+  
+
+
+  
+    
+    var permalink = JSON.parse("\"https://hoontaeklee.github.io/en/posts/20240922_jena_wk210/\"");
+    var searchResults = null;
+    var searchMenu = null;
+    var searchText = null;
+    
+    
+    var enableSearchHighlight = JSON.parse("true");
+    
+    var searchResultPosition = JSON.parse("\"main\"");
+    
+    var sectionType = JSON.parse("\"posts\"");
+
+    var fuse = null;
+
+    (function initFuse() {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', permalink + "index.json");
+      xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          fuse = new Fuse(JSON.parse(xhr.response.toString('utf-8')), {
+            keys: sectionType.includes('publication') ? ['title', 'abstract'] : ['title', 'description', 'content'],
+            includeMatches: enableSearchHighlight,
+            shouldSort: true,
+            threshold: 0.4,
+            location: 0,
+            distance: 100,
+            maxPatternLength: 32,
+            minMatchCharLength: 1,
+          });
+          window.fuse = fuse;
+        }
+        else {
+          console.error('[' + xhr.status + ']Error:', xhr.statusText);
+        }
+      };
+      xhr.send();
+    })();
+
+    function makeLi(ulElem, obj) {
+      var li = document.createElement('li');
+      li.className = 'search-result__item';
+      
+      var a = document.createElement('a');
+      a.innerHTML = obj.title;
+      a.setAttribute('class', 'search-result__item--title');
+      a.setAttribute('href', obj.permalink);
+
+      var descDiv = document.createElement('div');
+      descDiv.setAttribute('class', 'search-result__item--desc');
+      if (obj.description) {
+        descDiv.innerHTML = obj.description;
+      } else if (obj.content) {
+        descDiv.innerHTML = obj.content.substring(0, 225);
+      }
+      
+      li.appendChild(a);
+      li.appendChild(descDiv);
+      ulElem.appendChild(li);
+    }
+
+    function makeHighlightLi(ulElem, obj) {
+      var li = document.createElement('li');
+      li.className = 'search-result__item';
+      var descDiv = null;
+
+      var a = document.createElement('a');
+      a.innerHTML = obj.item.title;
+      a.setAttribute('class', 'search-result__item--title');
+      a.setAttribute('href', obj.item.uri);
+
+      if (obj.matches && obj.matches.length) {
+        for (var i = 0; i < obj.matches.length; i++) {
+          if ('title' === obj.matches[i].key) {
+            a = document.createElement('a');
+            a.innerHTML = generateHighlightedText(obj.matches[i].value, obj.matches[i].indices);
+            a.setAttribute('class', 'search-result__item--title');
+            a.setAttribute('href', obj.item.uri);
+          }
+          
+          if ('description' === obj.matches[i].key) {
+            descDiv = document.createElement('div');
+            descDiv.setAttribute('class', 'search-result__item--desc');
+            descDiv.innerHTML = generateHighlightedText(obj.item.description, obj.matches[i].indices);
+          } else if ('content' === obj.matches[i].key) {
+            if (!descDiv) {
+              descDiv = document.createElement('div');
+              descDiv.setAttribute('class', 'search-result__item--desc');
+              descDiv.innerHTML = generateHighlightedText(obj.item.content.substring(0, 150), obj.matches[i].indices);
+            }
+          } else {
+            if (obj.item.description) {
+              descDiv = document.createElement('div');
+              descDiv.setAttribute('class', 'search-result__item--desc');
+              descDiv.innerHTML = obj.item.description;
+            } else {
+              descDiv = document.createElement('div');
+              descDiv.setAttribute('class', 'search-result__item--desc');
+              descDiv.innerHTML = obj.item.content.substring(0, 150);
+            }
+          }
+        }
+
+        li.appendChild(a);
+        if (descDiv) {
+          li.appendChild(descDiv);
+        }
+        if (li) {
+          ulElem.appendChild(li);
+        }
+      }
+    }
+
+    function renderSearchResultsSide(searchText, results) {
+      searchResults = document.getElementById('search-results');
+      searchMenu = document.getElementById('search-menu');
+      searchResults.setAttribute('class', 'dropdown is-active');
+      
+      var ul = document.createElement('ul');
+      ul.setAttribute('class', 'dropdown-content search-content');
+
+      if (results.length) {
+        results.forEach(function (result) {
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          a.setAttribute('href', result.uri);
+          a.setAttribute('class', 'dropdown-item');
+          a.appendChild(li);
+
+          var titleDiv = document.createElement('div');
+          titleDiv.innerHTML = result.title;
+          titleDiv.setAttribute('class', 'menu-item__title');
+
+          var descDiv = document.createElement('div');
+          descDiv.setAttribute('class', 'menu-item__desc');
+          if (result.description) {
+            descDiv.innerHTML = result.description;
+          } else if (result.content) {
+            descDiv.innerHTML = result.content.substring(0, 150);
+          }
+
+          li.appendChild(titleDiv);
+          li.appendChild(descDiv);
+          ul.appendChild(a);
+        });
+      } else {
+        var li = document.createElement('li');
+        li.setAttribute('class', 'dropdown-item');
+        li.innerText = 'No results found';
+        ul.appendChild(li);
+      }
+
+      while (searchMenu.hasChildNodes()) {
+        searchMenu.removeChild(
+          searchMenu.lastChild
+        );
+      }
+      
+      searchMenu.appendChild(ul);
+    }
+
+    function renderSearchHighlightResultsSide(searchText, results) {
+      searchResults = document.getElementById('search-results');
+      searchMenu = document.getElementById('search-menu');
+      searchResults.setAttribute('class', 'dropdown is-active');
+
+      var ul = document.createElement('ul');
+      ul.setAttribute('class', 'dropdown-content search-content');
+
+      if (results.length) {
+        results.forEach(function (result) {
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          var descDiv = null;
+
+          a.setAttribute('href', result.item.uri);
+          a.setAttribute('class', 'dropdown-item');
+          a.appendChild(li);
+
+          var titleDiv = document.createElement('div');
+          titleDiv.innerHTML = result.item.title;
+          titleDiv.setAttribute('class', 'menu-item__title');
+          
+          if (result.matches && result.matches.length) {
+            for (var i = 0; i < result.matches.length; i++) {
+              if ('title' === result.matches[i].key) {
+                titleDiv.innerHTML = generateHighlightedText(result.matches[i].value, result.matches[i].indices);
+              }
+
+              if ('description' === result.matches[i].key) {
+                descDiv = document.createElement('div');
+                descDiv.setAttribute('class', 'menu-item__desc');
+                descDiv.innerHTML = generateHighlightedText(result.item.description, result.matches[i].indices);
+              } else if ('content' === result.matches[i].key) {
+                if (!descDiv) {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'menu-item__desc');
+                  descDiv.innerHTML = generateHighlightedText(result.item.content.substring(0, 150), result.matches[i].indices);
+                }
+              } else {
+                if (result.item.description) {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'menu-item__desc');
+                  descDiv.innerHTML = result.item.description;
+                } else {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'menu-item__desc');
+                  descDiv.innerHTML = result.item.content.substring(0, 150);
+                }
+              }
+            }
+            
+            li.appendChild(titleDiv);
+            if (descDiv) {
+              li.appendChild(descDiv);
+            }
+            ul.appendChild(a);
+          }
+        });
+      } else {
+        var li = document.createElement('li');
+        li.setAttribute('class', 'dropdown-item');
+        li.innerText = 'No results found';
+        ul.appendChild(li);
+      }
+
+      while (searchMenu.hasChildNodes()) {
+        searchMenu.removeChild(
+          searchMenu.lastChild
+        );
+      }
+      searchMenu.appendChild(ul);
+    }
+
+    function renderSearchResultsMobile(searchText, results) {
+      searchResults = document.getElementById('search-mobile-results');
+
+      var content = document.createElement('div');
+      content.setAttribute('class', 'mobile-search__content');
+
+      if (results.length > 0) {
+        results.forEach(function (result) {
+          var item = document.createElement('a');
+          item.setAttribute('href', result.uri);
+          item.innerHTML = '<div class="mobile-search__item"><div class="mobile-search__item--title">📄 ' + result.title + '</div><div class="mobile-search__item--desc">' + (result.description ? result.description : result.content) + '</div></div>';
+          content.appendChild(item);
+        });
+      } else {
+        var item = document.createElement('span');
+        content.appendChild(item);
+      }
+
+      let wrap = document.getElementById('search-mobile-results');
+      while (wrap.firstChild) {
+        wrap.removeChild(wrap.firstChild)
+      }
+      searchResults.appendChild(content);      
+    }
+
+    function renderSearchHighlightResultsMobile(searchText, results) {
+      searchResults = document.getElementById('search-mobile-results');
+
+      var ul = document.createElement('div');
+      ul.setAttribute('class', 'mobile-search__content');
+
+      if (results.length) {
+        results.forEach(function (result) {
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          var descDiv = null;
+
+          a.setAttribute('href', result.item.uri);
+          a.appendChild(li);
+          li.setAttribute('class', 'mobile-search__item');
+
+          var titleDiv = document.createElement('div');
+          titleDiv.innerHTML = result.item.title;
+          titleDiv.setAttribute('class', 'mobile-search__item--title');
+          
+          if (result.matches && result.matches.length) {
+            for (var i = 0; i < result.matches.length; i++) {
+              if ('title' === result.matches[i].key) {
+                titleDiv.innerHTML = generateHighlightedText(result.matches[i].value, result.matches[i].indices);
+              }
+
+              if ('description' === result.matches[i].key) {
+                descDiv = document.createElement('div');
+                descDiv.setAttribute('class', 'mobile-search__item--desc');
+                descDiv.innerHTML = generateHighlightedText(result.item.description, result.matches[i].indices);
+              } else if ('content' === result.matches[i].key) {
+                if (!descDiv) {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'mobile-search__item--desc');
+                  descDiv.innerHTML = generateHighlightedText(result.item.content.substring(0, 150), result.matches[i].indices);
+                }
+              } else {
+                if (result.item.description) {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'mobile-search__item--desc');
+                  descDiv.innerHTML = result.item.description;
+                } else {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'mobile-search__item--desc');
+                  descDiv.innerHTML = result.item.content.substring(0, 150);
+                }
+              }
+            }
+            
+            li.appendChild(titleDiv);
+            if (descDiv) {
+              li.appendChild(descDiv);
+            }
+            ul.appendChild(a);
+          }
+        });
+      } else {
+        var item = document.createElement('span');
+        ul.appendChild(item);
+      }
+
+      let wrap = document.getElementById('search-mobile-results');
+      while (wrap.firstChild) {
+        wrap.removeChild(wrap.firstChild)
+      }
+      searchResults.appendChild(ul);
+    }
+
+    function generateHighlightedText(text, regions) {
+      if (!regions) {
+        return text;
+      }
+
+      var content = '', nextUnhighlightedRegionStartingIndex = 0;
+
+      regions.forEach(function(region) {
+        if (region[0] === region[1]) {
+          return null;
+        }
+        
+        content += '' +
+          text.substring(nextUnhighlightedRegionStartingIndex, region[0]) +
+          '<span class="search__highlight">' +
+            text.substring(region[0], region[1] + 1) +
+          '</span>' +
+        '';
+        nextUnhighlightedRegionStartingIndex = region[1] + 1;
+      });
+
+      content += text.substring(nextUnhighlightedRegionStartingIndex);
+
+      return content;
+    };
+
+    var searchElem = document.getElementById('search');
+    var searchMobile = document.getElementById('search-mobile');
+    var searchResultsContainer = document.getElementById('search-results');
+
+    searchElem ?
+    searchElem.addEventListener('input', function(e) {
+      if (!e.target.value | window.innerWidth < 770) {
+        searchResultsContainer ? searchResultsContainer.setAttribute('class', 'dropdown') : null;
+        searchResult ? searchResult.setAttribute('data-display', 'none') : null;
+        summaryContainer ? summaryContainer.setAttribute('data-display', 'block') : null;
+        return null;
+      }
+
+      searchText = e.target.value;
+      var results = fuse.search(e.target.value);
+      
+      if (searchResultPosition === "main") {
+        if (enableSearchHighlight) {
+          renderSearchHighlightResultsMain(searchText, results);
+        } else {
+          renderSearchResultsMain(searchText, results);
+        }
+      } else {
+        if (enableSearchHighlight) {
+          renderSearchHighlightResultsSide(searchText, results);
+        } else {
+          renderSearchResultsSide(searchText, results);
+        }
+        
+        var dropdownItems = searchResultsContainer.querySelectorAll('.dropdown-item');
+        dropdownItems ? dropdownItems.forEach(function(item) {
+          item.addEventListener('mousedown', function(e) {
+            e.target.click();
+          });
+        }) : null;
+      }
+    }) : null;
+
+    searchElem ? 
+    searchElem.addEventListener('blur', function() {
+      if (window.innerWidth < 770) {
+        return null;
+      }
+      searchResultsContainer ? searchResultsContainer.setAttribute('class', 'dropdown') : null;
+    }) : null;
+
+    searchElem ? 
+    searchElem.addEventListener('click', function(e) {
+      if (window.innerWidth < 770) {
+        return null;
+      }
+      if (!e.target.value) {
+        searchResultsContainer ? searchResultsContainer.setAttribute('class', 'dropdown') : null;
+        return null;
+      }
+
+      searchText = e.target.value;
+      var results = fuse.search(e.target.value);
+
+      if (searchResultPosition === "main") {
+        if (enableSearchHighlight) {
+          renderSearchHighlightResultsMain(searchText, results);
+        } else {
+          renderSearchResultsMain(searchText, results);
+        }
+      } else{
+        if (enableSearchHighlight) {
+          renderSearchHighlightResultsSide(searchText, results);
+        } else {
+          renderSearchResultsSide(searchText, results);
+        }
+
+        var dropdownItems = searchResultsContainer.querySelectorAll('.dropdown-item');
+        dropdownItems ? dropdownItems.forEach(function (item) {
+          item.addEventListener('mousedown', function (e) {
+            e.target.click();
+          });
+        }) : null;
+      }
+    }) : null;
+
+    var searchMenuElem = document.getElementById("search-menu");
+    var activeItem = document.querySelector('#search-menu .dropdown-item.is-active');
+    var activeIndex = null;
+    var items = null;
+    var searchContainerMaxHeight = 350;
+
+    searchElem ? 
+    searchElem.addEventListener('keydown', function(e) {
+      if (window.innerWidth < 770) {
+        return null;
+      }
+
+      if (e.key === 'Escape') {
+        searchResult ? searchResult.setAttribute('data-display', 'none') : null;
+        summaryContainer ? summaryContainer.setAttribute('data-display', 'block') : null;
+      }
+
+      var items = document.querySelectorAll('#search-menu .dropdown-item');
+      var keyCode = e.which || e.keyCode;
+
+      if (!items || !items.length) {
+        return null;
+      }
+      
+      if (e.key === 'ArrowDown' || keyCode === 40) {
+        if (activeIndex === null) {
+          activeIndex = 0;
+          items[activeIndex].classList.remove('is-active');
+        } else {
+          items[activeIndex].classList.remove('is-active');
+          activeIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+        }
+        items[activeIndex].classList.add('is-active');
+
+        let overflowedPixel = items[activeIndex].offsetTop + items[activeIndex].clientHeight - searchContainerMaxHeight;
+        if (overflowedPixel > 0) {
+          document.querySelector(".search-content").scrollTop += items[activeIndex].getBoundingClientRect().height;
+        } else if (activeIndex === 0) {
+          document.querySelector(".search-content").scrollTop = 0;
+        }
+      } else if (e.key === 'ArrowUp' || keyCode === 38) {
+        if (activeIndex === null) {
+          activeIndex = items.length - 1;
+          items[activeIndex].classList.remove('is-active');
+        } else {
+          items[activeIndex].classList.remove('is-active');
+          activeIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+        }
+        items[activeIndex].classList.add('is-active');
+        
+        let overflowedPixel = items[activeIndex].offsetTop + items[activeIndex].clientHeight - searchContainerMaxHeight;
+        if (overflowedPixel < 0) {
+          document.querySelector(".search-content").scrollTop -= items[activeIndex].getBoundingClientRect().height;
+        } else {
+          document.querySelector(".search-content").scrollTop = overflowedPixel + items[activeIndex].getBoundingClientRect().height;
+        }
+      } else if (e.key === 'Enter' || keyCode === 13) {
+        if (items[activeIndex] && items[activeIndex].getAttribute('href')) {
+          location.href = items[activeIndex].getAttribute('href');
+        }
+      } else if (e.key === 'Escape' || keyCode === 27) {
+        e.target.value = null;
+        if (searchResults) {
+          searchResults.classList.remove('is-active');
+        }
+      }
+    }) : null;
+
+    searchMobile ? 
+    searchMobile.addEventListener('input', function(e) {
+      if (!e.target.value) {
+        let wrap = document.getElementById('search-mobile-results');
+        while (wrap.firstChild) {
+          wrap.removeChild(wrap.firstChild);
+        }
+        return null;
+      }
+
+      searchText = e.target.value;
+      var results = fuse.search(e.target.value);
+      renderSearchResultsMobile(searchText, results);
+      if (enableSearchHighlight) {
+        renderSearchHighlightResultsMobile(searchText, results);
+      } else {
+        renderSearchResultsMobile(searchText, results);
+      }
+    }) : null;
+  
+
+
+  
+    var mobileSearchInputElem = document.querySelector('#search-mobile');
+    var mobileSearchClassElem = document.querySelector('.mobile-search');
+    var mobileSearchBtnElem = document.querySelector('#mobileSearchBtn');
+    var mobileSearchCloseBtnElem = document.querySelector('#search-mobile-close');
+    var mobileSearchContainer = document.querySelector('#search-mobile-container');
+    var mobileSearchResultsElem = document.querySelector('#search-mobile-results');
+    var htmlElem = document.querySelector('html');
+
+    if (mobileSearchClassElem) {
+      mobileSearchClassElem.style.display = 'none';
+    }
+
+    mobileSearchBtnElem ? 
+    mobileSearchBtnElem.addEventListener('click', function () {
+      if (mobileSearchContainer) {
+        mobileSearchContainer.style.display = 'block';
+      }
+
+      if (mobileSearchInputElem) {
+        mobileSearchInputElem.focus();
+      }
+
+      if (htmlElem) {
+        htmlElem.style.overflowY = 'hidden';
+      }
+    }) : null;
+
+    mobileSearchCloseBtnElem ? 
+    mobileSearchCloseBtnElem.addEventListener('click', function() {
+      if (mobileSearchContainer) {
+        mobileSearchContainer.style.display = 'none';
+      }
+
+      if (mobileSearchInputElem) {
+        mobileSearchInputElem.value = '';
+      }
+      
+      if (mobileSearchResultsElem) {
+        while (mobileSearchResultsElem.firstChild) {
+          mobileSearchResultsElem.removeChild(mobileSearchResultsElem.firstChild);
+        }
+      }
+
+      if (htmlElem) {
+        htmlElem.style.overflowY = 'visible';
+      }
+    }) : null;
+
+    mobileSearchInputElem ?
+    mobileSearchInputElem.addEventListener('keydown', function(e) {
+      var keyCode = e.which || e.keyCode;
+      if (e.key === 'Escape' || keyCode === 27) {
+        if (mobileSearchContainer) {
+          mobileSearchContainer.style.display = 'none';
+        }
+        
+        if (mobileSearchInputElem) {
+          mobileSearchInputElem.value = '';
+        }
+
+        if (mobileSearchResultsElem) {
+          while (mobileSearchResultsElem.firstChild) {
+            mobileSearchResultsElem.removeChild(mobileSearchResultsElem.firstChild);
+          }
+        }
+        if (htmlElem) {
+          htmlElem.style.overflowY = 'visible';
+        }
+      }
+    }) : null;
+  
+
+
+  
+    function renderSearchResultsMain(searchText, results) {
+      var searchBody = document.querySelector('.search-result__body');
+      var originUl = searchBody.querySelector('ul');
+      var ul = document.createElement('ul');
+      
+      if (!searchText) {
+        searchResult ? searchResult.setAttribute('data-display', 'none') : null;
+        summaryContainer ? summaryContainer.setAttribute('data-display', 'block') : null;
+      } else if (results) {
+        if (results && results.length) {
+          results.forEach(function (result) {
+            makeLi(ul, result);
+          });
+
+          searchResult ? searchResult.setAttribute('data-display', 'block') : null;
+          summaryContainer ? summaryContainer.setAttribute('data-display', 'none') : null;
+        }
+      }
+
+      originUl.parentNode.replaceChild(ul, originUl);
+    }
+
+    function renderSearchHighlightResultsMain(searchText, results) {
+      var searchBody = document.querySelector('.search-result__body');
+      var originUl = searchBody.querySelector('ul');
+      var ul = document.createElement('ul');
+
+      if (!searchText) {
+        searchResult ? searchResult.setAttribute('data-display', 'none') : null;
+        summaryContainer ? summaryContainer.setAttribute('data-display', 'block') : null;
+      } else if (results) {
+        if (results && results.length) {
+          results.forEach(function (result) {
+            makeHighlightLi(ul, result);
+          });
+
+          searchResult ? searchResult.setAttribute('data-display', 'block') : null;
+          summaryContainer ? summaryContainer.setAttribute('data-display', 'none') : null;
+        }
+      }
+
+      originUl.parentNode.replaceChild(ul, originUl);
+    }
+  
+  });
+</script>    
+    
+
+
+<link rel="stylesheet" href="/css/main.min.css">
+
+
+    
+<meta name="description" content="" />
+<meta name="keywords" content="">
+<meta name="created" content="2024-09-22T10:58:24&#43;0200">
+<meta name="modified" content="2024-09-22T10:58:24&#43;0200">
+<meta property="article:published_time" content="2024-09-22T10:58:24&#43;0200">
+
+<meta name="author" content="Hoontaek Lee">
+<meta property="article:author" content="https://hoontaeklee.github.io/en/posts/20240922_jena_wk210/@Hoontaek Lee">
+
+
+<meta property="og:site_name" content="bloght">
+<meta property="og:title" content="In Jena: Week 210 (크로아티아 여행)">
+<meta property="og:url" content="https://hoontaeklee.github.io/en/posts/20240922_jena_wk210/">
+<meta property="og:type" content="article">
+<meta property="og:description" content="">
+
+<meta name="generator" content="Hugo 0.68.3" />
+<meta name="msapplication-TileColor" content="#fff">
+
+<meta name="theme-color" content="#fff">
+
+<meta name="msapplication-navbutton-color" content="#fff">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+<link rel="canonical" href="https://hoontaeklee.github.io/en/posts/20240922_jena_wk210/">
+<link rel="manifest" href="/manifest.json">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-512x512.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "In Jena: Week 210 (크로아티아 여행)",
+    "datePublished": "2024-09-22T10:58:24+02:00",
+    "dateModified": "2024-09-22T10:58:24+02:00",
+    "url" : "https://hoontaeklee.github.io/en/posts/20240922_jena_wk210/",
+    "description": "이번 주는\u0026hellip; 크로아티아 여행 여행 일정: 출발 전에 골자만 정해놓고, 날씨나 선호도에 따라 다음 날 일정을 확정했다. 덕분에 이번에도 춘휘는 차 안에서",
+    "keywords": ["2024","Daily Life","Jena"],
+    "image" : "https://hoontaeklee.github.io/images/posts/meta/Jena_wk210_018.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Hoontaek Lee"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://hoontaeklee.github.io"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "bloght",
+      "url": "https://hoontaeklee.github.io"
+    }
+  }
+</script>
+
+    
+  
+  
+
+
+
+
+
+
+
+    
+</head>
+
+<body id="root" class="theme__dark">
+    <script>
+        var localTheme = localStorage.getItem('theme');
+        if (localTheme) {
+            document.getElementById('root').className = 'theme__' + localTheme;
+        }
+    </script>
+    <div id="container">
+        
+        <div class="wrapper" data-type="posts" data-kind="page">
+            <nav class="navbar" role="navigation" aria-label="main navigation" data-dir="ltr">
+  <div class="navbar__brand">
+    
+    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
+      <img src="/logo.png" alt="Home" class="navbar__logo">
+    </a>
+    
+    
+      <a href="/en/" title="Home" rel="home" class="navbar__title-link">
+        <h6 class="navbar__title">bloght</h6>
+      </a>
+    
+  </div>
+
+  
+<div class="theme theme-mobile" data-ani="true">
+  <div class="dropdown">
+    <button class="dropdown-trigger navbar__slide-down" aria-label="Select Theme Button" style="" data-ani="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M24 0H0v24h24V0z"/><path fill="currentColor" d="M6.34 7.93c-3.12 3.12-3.12 8.19 0 11.31C7.9 20.8 9.95 21.58 12 21.58s4.1-.78 5.66-2.34c3.12-3.12 3.12-8.19 0-11.31l-4.95-4.95c-.39-.39-1.02-.39-1.41 0L6.34 7.93zM12 19.59c-1.6 0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z"/></svg>      
+    </button>
+    <div class="dropdown-content select-theme">
+      
+        
+        <a href="#" class="dropdown-item select-theme__item is-active">
+          dark
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
+          light
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
+          hacker
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
+          solarized
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
+          kimbie
+        </a>
+        
+      
+    </div>
+  </div>
+</div>
+
+
+<div id="mobileSearchBtn" class="mobile-search__btn" data-ani="true">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+</div>
+
+<div id="search-mobile-container" class="mobile-search hide" data-dir="ltr">
+  <div class="mobile-search__top">
+    <input id="search-mobile" type="text" aria-label="Mobile Search" placeholder="Search" class="mobile-search__top--input"/>
+    <div id="search-mobile-close" class="mobile-search__top--icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path opacity=".87" fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"/></svg>
+    </div>
+  </div>
+  <div id="search-mobile-results" class="mobile-search__body">
+    
+  </div>
+</div>
+
+
+<a role="button" class="navbar__burger" aria-label="menu" aria-expanded="false"
+  data-ani="true">
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+</a>
+<div class="navbarm__collapse" data-open="false">
+  <ul>
+    
+    
+      
+      
+      
+      
+      <li class="navbarm__menu--item ">
+        <a href="/en/about">About</a>
+      </li>
+    
+      
+      
+      
+      
+      <li class="navbarm__menu--item ">
+        <a href="/en/archive">Archive</a>
+      </li>
+    
+      
+      
+      
+      
+      <li class="navbarm__menu--item ">
+        <a href="/en/tags">Tags</a>
+      </li>
+    
+
+    
+  </ul>
+</div>
+  <div class="navbar__menu">
+  
+<div class="theme" data-ani="true">
+  <div class="dropdown">
+    <button class="dropdown-trigger navbar__slide-down" aria-label="Select Theme Button" data-ani="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M24 0H0v24h24V0z"/><path fill="currentColor" d="M6.34 7.93c-3.12 3.12-3.12 8.19 0 11.31C7.9 20.8 9.95 21.58 12 21.58s4.1-.78 5.66-2.34c3.12-3.12 3.12-8.19 0-11.31l-4.95-4.95c-.39-.39-1.02-.39-1.41 0L6.34 7.93zM12 19.59c-1.6 0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z"/></svg>      
+    </button>
+    <div class="dropdown-content select-theme">
+      
+        
+        <a href="#" class="dropdown-item select-theme__item is-active">
+          dark
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
+          light
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
+          hacker
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
+          solarized
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
+          kimbie
+        </a>
+        
+      
+    </div>
+  </div>
+</div>
+
+  
+  
+  
+  
+  
+  
+  
+  <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">About</a>
+  
+  
+  
+  
+  
+  
+  
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Archive</a>
+  
+  
+  
+  
+  
+  
+  
+  <a href="/en/tags" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Tags</a>
+  
+  
+</div>
+</nav>
+            
+            
+
+<main class="single__main main">
+  
+    <nav class="breadcrumb hide" aria-label="breadcrumbs">
+  <script>document.querySelector('.breadcrumb').classList.remove('hide')</script>
+  <ol>
+    
+  
+  
+  
+  
+  
+  <li >
+    
+      <a href="https://hoontaeklee.github.io/en/" class="capitalize">Home</a>
+    
+  </li>
+  
+  
+  <li >
+    
+      <a href="https://hoontaeklee.github.io/en/posts/" class="capitalize">Blog</a>
+    
+  </li>
+  
+  
+  <li  class="is-active" >
+    
+      <span>In Jena: Week 210 (크로아티아 여행)</span>
+    
+  </li>
+  
+  </ol>
+  
+</nav>
+  
+  <noscript>
+    Please enable Javascript to view the contents
+  </noscript>
+  <div class="single hide">
+    <script>document.querySelector('.single').classList.remove('hide')</script>
+    <h2 class="single__title" data-ani="true">In Jena: Week 210 (크로아티아 여행)</h2>
+    <div class="single__meta">
+      
+<div class="single__infos">
+  <time class="single__info" title="Written At">📅&nbsp;Sep 22, 2024 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 11 min read </span>&middot; <span class="single__info" title="WRITTEN BY">✍️&nbsp;Hoontaek Lee</span>
+  <span class="single__info">
+    
+  </span>
+</div>
+      
+<div class="single__tags caption">
+
+  
+    🏷️
+  
+  
+    <li><a href="https://hoontaeklee.github.io/en/tags/2024/" class="single__tag" title="2024">#2024</a></li>
+  
+
+  
+  
+    <li><a href="https://hoontaeklee.github.io/en/tags/daily-life/" class="single__tag" title="Daily Life">#Daily Life</a></li>
+  
+
+  
+  
+    <li><a href="https://hoontaeklee.github.io/en/tags/jena/" class="single__tag" title="Jena">#Jena</a></li>
+  
+
+</div>
+    </div>
+    <article class="single__contents" data-dir="ltr" data-ani="true">
+      
+      <h2 id="이번-주는">이번 주는&hellip;</h2>
+<ul>
+<li>크로아티아 여행</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk209_077.jpg" style="zoom:100%;" /></th>
+</tr>
+</thead>
+</table>
+<p>여행 일정: 출발 전에 골자만 정해놓고, 날씨나 선호도에 따라 다음 날 일정을 확정했다. 덕분에 이번에도 춘휘는 차 안에서 신나게 검색을 해야 했다.</p>
+<p>09월 05일: 모찌 혜인 씨 집에 맡겨놓기</p>
+<p>09월 06일: 출국, 자다르 구경, 호수공원 근처 호텔에서 숙박</p>
+<p>09월 07일: <a href="https://maps.app.goo.gl/vbspYsSxYUsQGiqv6">플리트비체 호수공원</a> 구경, <a href="https://maps.app.goo.gl/qFSVDcHYPwXNQucC6">브로다리카</a>에서 캠핑</p>
+<p>09월 08일: 오전 스플리트 올드타운 구경, 오후에 브라크 섬 북쪽으로 배타고 이동. 브라크섬 남쪽으로 운전해서 이동. <a href="https://maps.app.goo.gl/SdDfobHtN7mfuse98">경치 구경</a>, <a href="https://maps.app.goo.gl/TjLYrBGvzVrKKEaa6">수영</a>, <a href="https://maps.app.goo.gl/NecRRTqC5TnHGgZU8">캠핑</a></p>
+<p><strong>09월 09일: 브라크섬 올리브 오일 박물관 구경, 크로아티아 본토로 배타고 이동, <a href="https://maps.app.goo.gl/iqQDfiBX2CARKTVC9">해질녘 풍경 구경</a>, 마카스카 호텔에서 숙박</strong></p>
+<p><strong>09월 10일: <a href="https://maps.app.goo.gl/BjCko7Rm7DCddJa5A">마카스카 뒷산 하이킹</a>, <a href="https://maps.app.goo.gl/JtVxQpGgmSPAmsCW8">누갈 해변</a>, <a href="https://maps.app.goo.gl/AG4by7B2iKCQY6y4A">프라프라트노</a>에서 캠핑</strong></p>
+<p><strong>09월 11일: <a href="https://maps.app.goo.gl/k2HvRRbddCmnsJN46">밀젯 호수 공원</a> 구경, 프라프라트노 캠핑장으로 복귀</strong></p>
+<p><strong>09월 12일: 두브로브니크 구경, 프라프라트노 근처 호텔에서 숙박</strong></p>
+<p><strong>09월 13일: <a href="https://maps.app.goo.gl/aKMXGZNG2KaVm8nB7">코쿨라 섬 올드타운</a> 구경, 자다르 근처 <a href="https://maps.app.goo.gl/MBYWqcZpezdWTJkC8">비오그라드</a>에서 숙박</strong></p>
+<p><strong>09월 14일: 뉘렘베르크로 날아온 후 점심 식사, 예나로 복귀</strong></p>
+<p><strong>09월 15일: 모찌 데려오기</strong></p>
+<p>길냥이, 와인&amp;올리브&amp;무화과, 지중해 바다&amp;호수, 상아색 돌벽+붉은 지붕, 깎아지른 돌산&amp;협곡. 이런 것들이 기억에 남는다.</p>
+<h2 id="올리브-오일-박물관-해질녘-풍경-구경-마카스카">올리브 오일 박물관, 해질녘 풍경 구경, 마카스카</h2>
+<table>
+<thead>
+<tr>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_001.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_002.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_003.jpg" style="zoom:100%;" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_004.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_005.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_006.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_007.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_008.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_009.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_010.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_011.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_012.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_013.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_014.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_015.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_016.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_017.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_018.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_019.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_020.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_021.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_022.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_023.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_024.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_028.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_029.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_030.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_027.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_025.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_026.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_031.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_032.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_033.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_034.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_035.jpg" style="zoom:100%;" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>캠핑장에서 아침을 먹고 북쪽으로 출발했다. 오늘은 비바람이 부는 날씨라서 수영은 관두고, 대신 올리브 오일 박물관 구경 후 본토로 넘어가기로 했다.</p>
+<p>올리브 오일 박물관은 한 민가에서 운영하는 작은 곳이다. 전대부터 올리브 오일을 생산하던 곳인데, 손님들에게 생산 과정을 짧게 소개해주는 프로그램을 운영하고 있다. 우리는 영어로 진행되는 그룹 프로그램에 참여했다. 선별한 올리브를 먼저 빻고, 돼지가죽? 염소가죽?으로 만든 주머니에 넣은 후 가장 힘 쎈 두명이 같이 기구를 돌려서 기름? 즙?을 짜내는 과정을 거친다고 한다. 나무기둥이 파인 것을 보면 아주 힘든 과정일 것 같았다. 한 가지 꿀팁을 얻었다. 좋은 올리브 오일은 공기와 같이 삼켰을 때 목 깊숙한 곳에서 매운 맛이 난다고 한다. 프로그램 마친 후, 바게뜨, 올리브 오일, 과일 잼으로 간단히 점심을 해결했다. 기념품으로 올리브 오일 작은 병 두 병, 무화과 잼 작은 병 한 병을 샀다. 올리브 오일 한 병은 예나에서 좋은 올리브 오일을 찾아 해매던 그리스 친구 조지에게 줄 거고, 나머지는 혜인 씨에게 줄 예정.</p>
+<p>날씨가 안 좋아서 배편 하나가 취소된 듯하다. 다음 배편까지 한 시간 정도 근처 해변에서 쉬었다.</p>
+<p>본토로 이동 후, 해변을 따라 동남쪽으로 이동했다. 가는 길에 본 <a href="https://maps.app.goo.gl/gt62kxmcGbcg61JK7">오미스</a>라는 동네가 하이킹하기 좋아 보였다. 원래 <a href="https://maps.app.goo.gl/Vo7nkRPSLHVHtzQR8">브렐다</a>에서 해질녘을 볼 생각이었지만, 시간이 조금 늦어서 근처 적당한 해변을 찾았다. 근처 적당한 해변에서 찍어도 사진이 아주 잘 나온다.</p>
+<p>그리고 마카스카의 한 호텔에 도착했다. 짐을 풀고 시내에서 저녁을 먹고 구경 조금하고 돌아왔다. 마카스카는 시내 뷰도 좋고 주변에 할 것도 있어 보이면서, 상대적으로 사람이 적어서 그리 불편하지도 않았다. 들렀던 도시 중에서는 만족도가 높은 편. 저녁으로는 타이 음식을 먹었다. 파인애플 볶음밥이랑 똠냥꿍. 오랜만의 아시아 음식이라 그런지 더 맛있었다.</p>
+<h2 id="마카스카-하이킹-누갈-해변">마카스카 하이킹, 누갈 해변</h2>
+<table>
+<thead>
+<tr>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_036.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_037.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_038.jpg" style="zoom:100%;" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_039.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_040.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_041.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_042.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_043.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_047.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_044.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_045.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_046.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_048.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_049.jpg" style="zoom:100%;" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>마카스카를 떠나기 전에 뒷산에 들러 하이킹을 했다. 바위산이고, 경사가 대체로 30도 정도로 아주 급하다. 저 위에 보이는 절벽 위 소나무까지 가본 후 내려왔다.</p>
+<p>오후에는 마카스카에서 남동쪽으로 조금 떨어져 있는 누갈 해변에 가서 수영을 했다. 해변까지 약 20분 정도 걸어가야 한다. 그럼에도 사람이 아주 많았다. 수긍이 된다. 크로아티아에서 들렀던 해변 중 가장 좋았다. 나는 체온이 금방 떨어져서 실외에서 오래 수영하기 힘들지만, 그래도 할 만큼 하고 해변에서 쉬었다.</p>
+<p>프라프라트노의 대형 캠핑장에서 캠핑했다. 다음날 갈 밀젯 섬으로 차를 타고 갈 수 있는 유일한 배편이 있는 곳이다. 대형 캠핑장이지만, 다른 크로아티아 캠핑장처럼 캠핑카 고객 위주라서 취사 공간이 따로 없었다. 가로등 아래에서 버섯+소세지를 넣은 토마토소스 파스타를 만들어 먹었다. 아기 고양이가 근처에서 사냥을 했다.</p>
+<h2 id="밀젯">밀젯</h2>
+<table>
+<thead>
+<tr>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_050.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_051.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_052.jpg" style="zoom:100%;" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_053.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_054.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_055.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_056.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_057.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_058.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_059.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_060.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_061.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_062.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_063.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_064.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_065.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_066.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_067.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_068.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_069.jpg" style="zoom:100%;" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>내 일정 기획이 너무 완벽해서 조금(?) 고생한 날이다.</p>
+<p>아침 일찍 프라프라트노 항구에서 배를 타고 밀젯 섬으로 갔다. 섬 서쪽에 있는 국립공원에 가려 했는데, 전날 버스가 있는 것을 확인하고 배는 캠핑장에 두고 왔다. 하지만 버스가 없었다. 실제 노선이 다르게 운행되고 있었다. 차선책으로 스쿠터를 빌려서 타고 가기로 했다. 렌트카 사무실 영업 시간이 9시라서 좀 기다려야 했다. 기다리는 동안 항구에 있는 카페에서 좀 쉬고, 렌트카 사무실 근처를 맴도는 고양이 두 마리를 구경했다. 그 중 한 마리의 엉덩이를 너무 토닥거려서 손목을 공격당했다. 손톱이 꽤 날카로웠다. &hellip;마침내 렌트카 직원이 출근했다. 결제까지 마치고 스쿠터를 인계 받으려는 차, 직원이 타 본 적 있냐며 자연스레 물었다. 나는 당당하게 이번이 처음이라고 대답했다. 직원은 난색을 표하며 빌려주기를 거절했다. 섬 도로가 언덕이 많아서 운전하기 위험하고, 보험 처리도 안 된다고 한다. 나랑 춘휘는 당황했다. 나는 친구에게 자전거랑 별 다를 거 없다고 들어서 경험이 없다고 해도 그냥 그 자리에서 바로 배울 수 있을 줄 알았다. 춘휘는 몇 번 경험이 있었지만 오래 전이었고, 경험이 있다면 직접 시동 걸어서 타보라고 직원이 요구했지만 이곳 스쿠터가 춘휘가 타봤던 거랑 조금 달라서 시동도 걸지 못했다. 결국 스쿠터 빌리는 건 포기하고, 국립공원과 가까운 섬 서쪽의 작은 마을 <a href="https://maps.app.goo.gl/3H3mJDa7V4PBJxJr9">폴라체</a>로 가는 배편을 기다렸다. 폴라체에서 전기자전거 타고 국립공원에 갈 수 있다. 이 모든 일이 우리가 차를 두고오지 않았다면 없었을 문제였지만, 그래도 덕분에 전기자전거 타고 다닐 수 있게 됐으니 그걸로 됐다.</p>
+<p>폴라체에서 전기자전거를 빌려서 국립공원까지 달렸다. 국립공원에는 큰 호수 몇 개가 있고, 그 주위로 걷거나 자전거를 타며 시간을 보낼 수 있었다. 호수 가운데 작은 섬이 하나 있는데, 거기로 가는 보트도 있었다. 국립공원 도착해서 일단 점심을 먹고, 보트 타고 그 섬에 들렀다 온 후, 마저 한 바퀴 돌고 폴라체로 돌아오기로 했다.</p>
+<p>시간이 많지 않아 전기자전거로만 휙 돌아보고 왔다. 느긋게 쉬는 여행을 원하면 하루정도 머물러도 괜찮을 법했다. 하이킹 코스도 조금 있었고, 호수에서 수영하는 것도 가능했다. 물론 아직 우리의 여행은 그렇게 느긋하지 못하다. 공원 서쪽에 있는 포메나라는 마을을 잠깐 스치며 구경하고, 폴라체로 돌아가서 미리 예약한 택시를 기다렸다. 택시 타고 소브라 항구로 갈 예정. 택시 기사는 밀젯이 고향인 여자친구를 따라 섬에 들어와 산 지 6년 된 남자였다. 택시기사는 길에 야생 동물이 많다고 했다. 낮에는 주로 사슴이나 염소가 출현하고, 멧돼지는 늦은 밤이나 새벽에나 볼 수 있다고 한다. 실제로 가는 길에 염소 몇 마리를 봤다. 그러면서도 택시기사 혹은 현지인이라 그런지 야생동물이 나올 법한 꼬불꼬불한 언덕 길을 수동 기어 자동차로 빠르게 달리면서도 쉴 새 없이 말을 했다. 자기 이야기도 했고, 섬 생태 이야기도 하고. 남자는 낚시나 농사를 짓지만 택시 운전도 하고&hellip; 삶이 다채로웠다. 섬 생태 이야기는 특히 흥미로웠다. 어류와 관련된 지구 온난화 이야기를 해줬다. 칼라마리 (오징어 종류?)는 꽤 많아서 아무 할아버지도 눈 감고 잡을 정도라고 한다. 다만 수온이 따뜻해지면서 홍합 개체수가 많이 줄어들었다고 한다. 문어는 잡기가 더 더욱 어려워졌고.</p>
+<p>&hellip;그렇게 30분이 슉 지났고, 항구에 도착했다. 캠핑장에서 저녁을 만들어먹고 쉬었다. 메뉴는 라면+버섯 볶음.</p>
+<h2 id="두브로브니크">두브로브니크</h2>
+<table>
+<thead>
+<tr>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_070.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_071.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_072.jpg" style="zoom:100%;" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_073.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_091.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_092.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_093.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_094.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_095.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_098.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_074.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_075.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_076.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_077.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_078.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_079.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_080.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_081.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_082.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_083.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_084.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_085.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_086.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_087.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_088.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_099.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_100.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_101.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_102.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_103.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_104.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_105.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_109.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_110.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_089.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_090.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_096.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_097.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_106.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_107.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_108.jpg" style="zoom:100%;" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>두브로브니크를 구경했다. 크로아티아 식 상아색 돌+붉은 지붕의 건물이 다닥다닥 해안 마을을 이루고, 마을을 둘러싸는 성벽이 있다. 성벽을 따라 걸으면서 마을을 높은 곳에서 구경할 수 있고, 성벽 둘레길 중간에는 작은 박물관도 몇 개 있다. 생긴 걸 보니 그 전부터 관광지로 유명했을 것 같지만, 왕좌의 게임 킹스랜드 촬영지로도 더욱 유명한 것 같다. 보이는 관광 가이드마다 해당 장소가 왕좌의 게임에 나온 장면을 찍어 모은 책을 펼쳐보이며 설명을 하는 게 자주 보였다. 예쁜 장소인 만큼 찾는 사람도 많다. 춘휘 피셜 중국 관광지 만큼 사람이 많다고 한다. 하지만 내 생각에 두브로브니크에는 아직 이 많은 관광객을 수용할 인프라가 잘 갖춰지지 않았다. 특히 교통. 길이 좁고 장소가 널직하지 않아서 그런지 마을 주변에 주차할 곳이 거의 없다. 우리도 멀찍이 차를 대고, 버스 10분 정도 타고 올드타운에 도착했다. 이런 불쾌함이 있지만 그래도 한 번은 와볼만한 곳이다.</p>
+<p>올드타운에 도착해서 일단 조금 걸으며 구경을 하고, 맛있어 보이는 빵으로 살짝 배를 채웠다. 세르세이가 벌칙으로 걸었던 길은 이미 유명 관광지가 돼 있었다. 오후에 카누(?)를 타고 근처로 나가서 스노클링하고 돌아오는 3시간 정도 프로그램을 예약해뒀다. 하지만 점점 날씨가 흐려졌다. 바람이 준 태풍 정도로 강하게 불고, 비도 가끔씩 왔다. 긴가민가하면서도 취소 소식을 듣지 못한 우리는 일단 배 빌리는 곳에 갔지만, 사람이 없었다. 다시 연락해보니, 이 날씨에 카누를 탈 수는 없다고 한다 (역시). 깔끔하게 환불 받고, 우리는 오후 동안 시내를 더 구경하기로 했다. 성벽길을 따라 돌면서 경치 구경하고, 작은 미술 박물관과 해양역사 박물관도 들렀다. 둘레길을 끝내려는 즈음 갑자기 비바람이 강하게 불어서, 한 성루 안에 들어가서 비를 피하기도 했다.</p>
+<p>구경을 마치고 차를 댄 곳 근처의 레스토랑에서 저녁을 먹었다. 이곳 뇨끼는 이상하게 덜 기름지고 맛있다. 디저트로 시킨 라바 케잌을 갖고 놀면서 먹기도 했다. 위 아래로 구멍을 뚫으니 초콜릿이 흐르는 길을 볼 수 있었다.</p>
+<p>이제 남은 일정 동안은 공항을 향해 북쪽으로 간다. 시간이 늦었고 날씨도 안 좋아서 캠핑 대신 호텔이나 민박집을 알아봤다. 전에 묵었던 프라프라트노 캠핑장 근처 조용한 민박집에서 묵었다. 가격이 아주 저렴했던 것으로 기억하는데, 그에 비하면 거실까지 있는 꽤 좋은 방이었다. 우리가 묵은 곳은 별채의 2층인 듯했는데, 1층에서는 와인을 생산하는 곳이었다. 주인장은 우리에게 직접 생산한 와인 한 병을 무료로 제공해줬다. 맛이 꽤 깔끔했다.</p>
+<h2 id="코쿨라">코쿨라</h2>
+<table>
+<thead>
+<tr>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_111.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_112.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_113.jpg" style="zoom:100%;" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_114.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_115.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_116.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_122.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_125.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_129.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_123.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_117.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_118.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_119.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_120.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_121.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_124.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_126.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_127.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_128.jpg" style="zoom:100%;" /></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>자다르 공항에 돌아가기 전 마지막으로 들른 곳은 코쿨라 섬. 섬을 돌아볼 시간은 없었고, 항구가 있는 올드타운만 둘러보고 본토로 돌아왔다.</p>
+<p>날씨가 우중충하고 가끔 비가 왔지만, 다행히 전날처럼 거세지는 않았다. 코쿨라 올드타운은 계획 하에 설계된 거북이 등딱지 모양의 작은 마을이다. 마르코 폴로가 이곳 출생이라고 홍보를 하며 박물관까지 지어 놨지만, 이탈리아 출생이라는 주장도 있기 때문에 굳이 관심 두지는 않았다. 마을 역사를 소개하는 작은 박물관이 있어서 둘러봤다. 알게된 사실 중 하나는 코쿨라 섬의 주인이 많이 바뀌었다는 것이다. 그리스, 로마, 베네치아, 세르비아, 유고슬라비아, 슬로베니아, 크로아티아. 그런 것 치고는 전쟁이 일어났었다는 느낌은 받지 못했다. 다른 신기한 사실은 화장실이 주방에(도?) 있다는 것. 푸세식 오물처리 구멍이 주방에 있다. 여기에 음식물 쓰레기도 버리고, 볼 일도 봤다고 한다. 오물은 모두 바다로 버리는 시스템.</p>
+<p>구경 후 본토로 돌아왔다. 자다르 공항에서 30분정도 떨어진 곳의 민박집을 예약했다. 가는 길에 들른 휴게소에서 길냥이 무리를 만났다.</p>
+<p>민박집 주인 아저씨는 우리를 맞이하며 레드 와인을 권하는 듯했다. 아저씨 영어가 짧아서 확실치 않았다. 나는 굳이 요청하지 않았다. 민박집에도 어김없이 고양이가 있었다. 4마리를 키운다고 했는데, 그 중 두 마리만 밖에 돌아다녔다. 그 중 검은 놈은 내가 본 고양이 중 가장 컸다. 모찌 살 빠지기 전보다 10%는 크고 20%는 무거워보였다. 이 검은 놈은 집에 안 들어가고 우리가 묵을 방에서 어슬렁대더니, 결국 주인 아저씨는 문을 닫아버렸다. 우리는 고양이 화장실 없이 방에 묵게 할 수 없어서 역시 문을 닫았다. (&hellip;)</p>
+<p>짐을 풀고나서 밥도 먹을 겸 비오그라드 시내를 잠깐 구경했다. 조용한 해안 마을이었다. 식당 종업원은 일한 지 얼마 안 된 듯했다. 서빙할 때 우리 식탁에 나이프(?)를 안 놓는 실수를 했는데, 덕분에 선임한테 꾸중을 들었다. 상관 없는데 괜히 미안해졌다. 아무튼 맛있게 잘 먹고 나왔다. 춘휘가 시킨 문어 샐러드는 고봉으로 쌓여 있길래 아래는 뭔가 다른 것으로 채웠을 것 같았지만, 전부 문어였다. 가성비 갑.</p>
+<h2 id="뉘렘베르크">뉘렘베르크</h2>
+<table>
+<thead>
+<tr>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_130.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_131.jpg" style="zoom:100%;" /></th>
+</tr>
+</thead>
+</table>
+<p>점심 비행기를 타기 위해 아침에 출발했다. 공항 가는 길에 춘휘가 자기 여권이 없는 걸 알아챈 덕분에 내가 전날 춘휘 여권을 식탁 위 종이 밑에 숨겨(?)둔 것을 기억해냈다. 나름 누가 못 훔쳐가게 숨겨놨던 거다. 부랴부랴 돌아가서 춘휘 여권 챙겨왔다. 이래서 비행기 타는 날은 여유롭게 출발해야 한다.</p>
+<p>독일 뉘렘베르크로 날아왔다. 우리가 출발했을 때보다 거의 10도 가량 기온이 떨어져있었다. 나는 겉옷을 챙기지 않았기 때문에, 급한대로 수건을 두르고 다녔다. 춘휘는 노숙자 같다며 종일 놀렸다. 우리는 살짝 늦은 점심을 여기서 해결하고 예나로 돌아가기로 했다.</p>
+<p>뉘렘베르크 온 건 세 번째지만 시내를 둘러보는 건 처음이었다. 처음은 독일 남부여행 후 복귀 중에 식당에 들렀었고, 두 번째는 크로아티아 갈 때. 인상이 꽤 좋았다. 라이프치히만큼 큰 도시고, 건물이나 거리가 깔끔하고, 인프라가 잘 돼있고, 갈만한 식당도 꽤 있다. 이번에도 역시 중국 식당. 국수집에 갔다. 맛있게 먹고, 기차역 가는 길에 밀크티 한 잔 마셨다.</p>
+<p>예나 돌아와서 바로 모찌를 데려오지는 않았다. 일단 청소를 좀 하고, 다음 날 모찌를 데려왔다.</p>
+<h2 id="모찌">모찌</h2>
+<table>
+<thead>
+<tr>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_132.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_133.jpg" style="zoom:100%;" /></th>
+<th><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_134.jpg" style="zoom:100%;" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_135.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_136.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_137.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_138.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_139.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_140.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_141.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_142.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_143.jpg" style="zoom:100%;" /></td>
+</tr>
+<tr>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_144.jpg" style="zoom:100%;" /></td>
+<td><img src="/en/posts/weekly_log_in_Jena/wk210/Jena_wk210_145.jpg" style="zoom:100%;" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>믿음직한 혜인 씨가 이번에도 모찌를 잘 돌봐줬다. 모찌는 매번 거기서 잘 지내는 것 같다. 굳. 혜인 씨가 찍어주는 모찌 사진 역시 언제나 좋다.</p>
+<h2 id="다음-주는">다음 주는&hellip;</h2>
+<ul>
+<li>일상 복귀, 보드게임</li>
+</ul>
+
+    </article>
+    <script>
+  'use strict';
+  
+  function wrap(el, wrapper) {
+    el.parentNode.insertBefore(wrapper, el);
+    wrapper.appendChild(el);
+  }
+
+  (function () {
+    var singleContentsElem = document.querySelector('.single__contents');
+    singleContentsElem ? 
+    singleContentsElem.querySelectorAll('pre > code').forEach(function(elem) {
+      var dataLang = elem.getAttribute('data-lang');
+      var dataLangWrapper = document.createElement('div');
+      var code = null;
+      var codeTitle = null;
+
+      if (dataLang && dataLang.includes(':')) {
+        code = dataLang.split(':')[0];
+        codeTitle = dataLang.split(':')[1];
+
+        dataLangWrapper.className = 'language-' + code;
+        dataLangWrapper.setAttribute('data-lang', codeTitle);
+
+        elem.className = 'language-' + code;
+        elem.setAttribute('data-lang', codeTitle);
+        elem.setAttribute('id', codeTitle);
+      } else if (!dataLang) {
+        dataLangWrapper.setAttribute('data-lang', 'Code');
+        dataLangWrapper.className = 'language-code';
+      }
+
+      if (!dataLang || codeTitle) {
+        wrap(elem.parentNode, dataLangWrapper);
+      }
+
+    }) : null;
+  })();
+
+  var langCodeElem = document.querySelectorAll('.language-code');
+  langCodeElem ? langCodeElem.forEach(function (elem) {
+    var newElem = document.createElement('span');
+    newElem.className = 'copy-to-clipboard';
+    newElem.setAttribute('title', 'Copy to clipboard');
+    elem.append(newElem);
+  }) : null;
+  
+</script>
+    
+<div class="donation">
+  <div class="donation__message">
+    Share on
+  </div>
+  <div class="donation__icons">
+    
+    
+    
+      
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhoontaeklee.github.io%2fen%2fposts%2f20240922_jena_wk210%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
+        </a>
+      
+    
+      
+        <a href="https://twitter.com/intent/tweet?text=In%20Jena%3a%20Week%20210%20%28%ed%81%ac%eb%a1%9c%ec%95%84%ed%8b%b0%ec%95%84%20%ec%97%ac%ed%96%89%29&url=https%3a%2f%2fhoontaeklee.github.io%2fen%2fposts%2f20240922_jena_wk210%2f&hashtags=2024%2cDaily%20Life%2cJena&via=Hoontaek%20Lee" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
+        </a>
+      
+    
+  </div>
+</div>
+
+    
+    
+<div class="whoami__gutter"></div>
+<hr class="hr-slash whoami-hr"/>
+<section class="whoami">
+  <div class="whoami__image-wrapper">
+    
+    
+      
+        <img data-src="/images/whoami/avatar.jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" alt="Hoontaek Lee" class="lazyload whoami__image"/>
+      
+    
+  </div>
+  <div class="whoami__contents">
+    <div class="whoami__written-by">
+      WRITTEN BY
+    </div>
+    <div class="whoami__title">
+      
+        Hoontaek Lee
+      
+    </div>
+    <div class="whoami__desc">
+      
+        Tree-Forest-Climate Researcher
+      
+    </div>
+    <div class="whoami__social">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="mailto:lht3718@email.com" title="email" aria-label="email">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z"/></svg>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://github.com/hoontaeklee" title="github" aria-label="github">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 24 24" version="1.1">
+<g id="surface3680">
+<path fill="currentColor" d="M 10.898438 2.101562 C 6.300781 2.601562 2.601562 6.300781 2.101562 10.800781 C 1.601562 15.5 4.300781 19.699219 8.398438 21.300781 C 8.699219 21.398438 9 21.199219 9 20.800781 L 9 19.199219 C 9 19.199219 8.601562 19.300781 8.101562 19.300781 C 6.699219 19.300781 6.101562 18.101562 6 17.398438 C 5.898438 17 5.699219 16.699219 5.398438 16.398438 C 5.101562 16.300781 5 16.300781 5 16.199219 C 5 16 5.300781 16 5.398438 16 C 6 16 6.5 16.699219 6.699219 17 C 7.199219 17.800781 7.800781 18 8.101562 18 C 8.5 18 8.800781 17.898438 9 17.800781 C 9.101562 17.101562 9.398438 16.398438 10 16 C 7.699219 15.5 6 14.199219 6 12 C 6 10.898438 6.5 9.800781 7.199219 9 C 7.101562 8.800781 7 8.300781 7 7.601562 C 7 7.199219 7 6.601562 7.300781 6 C 7.300781 6 8.699219 6 10.101562 7.300781 C 10.601562 7.101562 11.300781 7 12 7 C 12.699219 7 13.398438 7.101562 14 7.300781 C 15.300781 6 16.800781 6 16.800781 6 C 17 6.601562 17 7.199219 17 7.601562 C 17 8.398438 16.898438 8.800781 16.800781 9 C 17.5 9.800781 18 10.800781 18 12 C 18 14.199219 16.300781 15.5 14 16 C 14.601562 16.5 15 17.398438 15 18.300781 L 15 20.898438 C 15 21.199219 15.300781 21.5 15.699219 21.398438 C 19.398438 19.898438 22 16.300781 22 12.101562 C 22 6.101562 16.898438 1.398438 10.898438 2.101562 Z M 10.898438 2.101562 "/>
+</g>
+</svg>
+
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://scholar.google.co.kr/" title="google-scholar" aria-label="google-scholar">
+        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25" height="25"><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 21 11 L 11 20 L 17.78125 20 C 17.80125 22.847 19.967531 25.730469 23.769531 25.730469 C 24.129531 25.730469 24.529688 25.690391 24.929688 25.650391 C 24.749688 26.100391 24.560547 26.470078 24.560547 27.080078 C 24.560547 28.230078 25.140391 28.920078 25.650391 29.580078 C 24.020391 29.690078 20.989766 29.879531 18.759766 31.269531 C 16.629766 32.559531 15.980469 34.43 15.980469 35.75 C 15.980469 38.47 18.500469 41 23.730469 41 C 29.930469 41 33.220703 37.510547 33.220703 34.060547 C 33.220703 31.530547 31.779453 30.279922 30.189453 28.919922 L 28.900391 27.890625 C 28.500391 27.570625 27.949219 27.120312 27.949219 26.320312 C 27.949219 25.510313 28.500703 24.989766 28.970703 24.509766 C 30.480703 23.309766 32 21.960234 32 19.240234 C 32 18.197234 31.756203 17.348391 31.408203 16.650391 L 35 13.570312 L 35 17.277344 C 34.405 17.623344 34 18.261 34 19 L 34 25 C 34 26.104 34.896 27 36 27 C 37.104 27 38 26.104 38 25 L 38 19 C 38 18.262 37.595 17.624344 37 17.277344 L 37 12 C 37 11.957 36.980609 11.920906 36.974609 11.878906 L 38 11 L 21 11 z M 24.269531 14.240234 C 27.269531 14.240234 28.820312 18.35 28.820312 21 C 28.820312 21.65 28.739922 22.819922 27.919922 23.669922 C 27.339922 24.259922 26.370938 24.699219 25.460938 24.699219 C 22.370938 24.699219 20.949219 20.620156 20.949219 18.160156 C 20.949219 17.210156 21.14 16.220938 21.75 15.460938 C 22.33 14.710938 23.339531 14.240234 24.269531 14.240234 z M 26.039062 30.609375 C 26.409063 30.609375 26.590859 30.610391 26.880859 30.650391 C 29.620859 32.630391 30.800781 33.620234 30.800781 35.490234 C 30.800781 37.760234 28.97 39.460938 25.5 39.460938 C 21.64 39.460938 19.160156 37.590469 19.160156 34.980469 C 19.160156 32.370469 21.459766 31.499219 22.259766 31.199219 C 23.769766 30.679219 25.719062 30.609375 26.039062 30.609375 z"/></svg>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://stackoverflow.com/users/7578494/hoontaek" title="stack-overflow" aria-label="stack-overflow">
+        <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="25" height="25"><path fill="currentColor" d="M 9.914063 0.71875 L 9.085938 1.28125 L 11.894531 5.367188 L 12.71875 4.800781 Z M 7.695313 2.453125 L 7.039063 3.207031 L 10.917969 6.582031 L 11.574219 5.828125 Z M 6.226563 4.804688 L 5.773438 5.695313 L 10.210938 7.953125 L 10.664063 7.0625 Z M 5.363281 7.140625 L 5.136719 8.109375 L 9.976563 9.242188 L 10.203125 8.265625 Z M 3 9 L 3 14 L 12 14 L 12 9 L 11 9 L 11 13 L 4 13 L 4 9 Z M 5.03125 9.25 L 4.96875 10.25 L 9.972656 10.566406 L 10.035156 9.570313 Z M 5 11 L 5 12 L 10 12 L 10 11 Z"/></svg>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</section>
+<hr class="hr-slash whoami-hr" />
+
+
+    <section class="related">
+    
+    
+    <h1 class="related__title">
+      <hr class="hr-dots"/>
+      <div>
+        See Also
+      </div>
+      <hr class="hr-dots"/>
+    </h1>
+    <ul class="related-ul">
+        
+        <li>
+          <a href="/en/posts/20240922_jena_wk209/" class="related__link">In Jena: Week 209 (크로아티아 여행)</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/20240825_jena_wk207/" class="related__link">In Jena: Week 207 (보드게임카페-Everdell)</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/20240824_jena_wk206/" class="related__link">In Jena: Week 206 (모찌 3살, 보드게임카페-7 Wonders, 저녁@조지)</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/20240811_jena_wk205/" class="related__link">In Jena: Week 205 (보드게임카페-7 Wonders:Duel)</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/20240804_jena_wk204/" class="related__link">In Jena: Week 204 (새 마우스 고르기, 중고 프로젝터 스크린)</a>
+        </li>
+        
+    </ul>
+    
+  </section>
+    <div class="grow"></div>
+<nav class="pagination-single">
+  
+    
+      <a href="https://hoontaeklee.github.io/en/posts/20240922_jena_wk209/" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__left-title">In Jena: Week 209 (크로아티아 여행)</div>      
+      </a>
+    
+    <div class="grow"></div>
+    
+      <a href="https://hoontaeklee.github.io/en/posts/20240922_jena_wk211/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">In Jena: Week 211 (사그라다 5-6인 확장, 보드게임 카페, 에버델 잉린&amp;디)</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
+    
+  
+</nav>
+    
+  
+    <div id="utterances"></div>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    try {
+      
+      var owner = JSON.parse("\"hoontaeklee\"");
+      
+      var repo = JSON.parse("\"bloght-hugo-comments\"");
+      var localTheme = localStorage.getItem('theme');
+      var utterTheme = localTheme === "dark" || localTheme === "hacker" ? 'photon-dark' : localTheme === 'kimbie' ? 'github-dark-orange' : 'github-light'
+
+      var myScript = document.createElement('script');
+      myScript.setAttribute('src', 'https://utteranc.es/client.js');
+      myScript.setAttribute('repo', `${owner}/${repo}`);
+      myScript.setAttribute('issue-term', 'pathname');
+      myScript.setAttribute('theme', utterTheme);
+      myScript.setAttribute('crossorigin', 'anonymous');
+      myScript.setAttribute('async', '');
+
+      myScript.onload = function() {
+      }
+
+      document.getElementById('utterances').appendChild(myScript);
+    } catch (err) {
+      console.log(err);
+    }
+  });
+</script>
+
+  
+
+    <div class="modal micromodal-slide" id="modal" aria-hidden="true">
+  <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+    <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      
+      <div class="modal__content" id="modal-content">
+        <div id="mySwipe" class="swipe">
+          <div class="swipe-wrap">
+          </div>
+        </div>
+      </div>
+
+      <span class="modal__items">
+        
+        <span class="modal__header">
+          <div class="modal__paging" title="Page Info" aria-label="Current Page">
+          </div>
+          <div class="modal__icon modal__toolbar modal__toolbar--close" title="Close" aria-label="Close Button" data-micromodal-close>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="25" height="25"><path fill="currentColor" d="M 21.734375 19.640625 L 19.636719 21.734375 C 19.253906 22.121094 18.628906 22.121094 18.242188 21.734375 L 13 16.496094 L 7.761719 21.734375 C 7.375 22.121094 6.746094 22.121094 6.363281 21.734375 L 4.265625 19.640625 C 3.878906 19.253906 3.878906 18.628906 4.265625 18.242188 L 9.503906 13 L 4.265625 7.761719 C 3.882813 7.371094 3.882813 6.742188 4.265625 6.363281 L 6.363281 4.265625 C 6.746094 3.878906 7.375 3.878906 7.761719 4.265625 L 13 9.507813 L 18.242188 4.265625 C 18.628906 3.878906 19.257813 3.878906 19.636719 4.265625 L 21.734375 6.359375 C 22.121094 6.746094 22.121094 7.375 21.738281 7.761719 L 16.496094 13 L 21.734375 18.242188 C 22.121094 18.628906 22.121094 19.253906 21.734375 19.640625 Z"/></svg>
+          </div>
+          <div class="modal__icon modal__toolbar modal__toolbar--full" title="Full Screen" aria-label="Full Screen Button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25"><path fill="currentColor" d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 8 A 1.0001 1.0001 0 1 0 5 8 L 5 5 L 8 5 A 1.0001 1.0001 0 1 0 8 3 L 5 3 z M 16 3 A 1.0001 1.0001 0 1 0 16 5 L 19 5 L 19 8 A 1.0001 1.0001 0 1 0 21 8 L 21 5 C 21 3.9069372 20.093063 3 19 3 L 16 3 z M 3.984375 14.986328 A 1.0001 1.0001 0 0 0 3 16 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 8 21 A 1.0001 1.0001 0 1 0 8 19 L 5 19 L 5 16 A 1.0001 1.0001 0 0 0 3.984375 14.986328 z M 19.984375 14.986328 A 1.0001 1.0001 0 0 0 19 16 L 19 19 L 16 19 A 1.0001 1.0001 0 1 0 16 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 16 A 1.0001 1.0001 0 0 0 19.984375 14.986328 z"/></svg>
+          </div>
+          <div class="modal__icon modal__toolbar modal__toolbar--normal" title="Normal Screen" aria-label="Normal Screen Button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25" height="25"><path fill="currentColor" d="M 16.96875 4.972656 C 15.867188 4.988281 14.984375 5.894531 15 7 L 15 15 L 7 15 C 6.277344 14.988281 5.609375 15.367188 5.246094 15.992188 C 4.878906 16.613281 4.878906 17.386719 5.246094 18.007813 C 5.609375 18.632813 6.277344 19.011719 7 19 L 19 19 L 19 7 C 19.007813 6.460938 18.796875 5.941406 18.414063 5.558594 C 18.03125 5.175781 17.511719 4.964844 16.96875 4.972656 Z M 32.96875 4.972656 C 31.921875 4.988281 31.0625 5.8125 31.003906 6.859375 C 31 6.90625 31 6.953125 31 7 L 31 19 L 43 19 C 43.066406 19 43.132813 19 43.199219 18.992188 C 44.269531 18.894531 45.070313 17.972656 45.015625 16.902344 C 44.964844 15.828125 44.074219 14.988281 43 15 L 35 15 L 35 7 C 35.007813 6.460938 34.796875 5.941406 34.414063 5.558594 C 34.03125 5.175781 33.511719 4.964844 32.96875 4.972656 Z M 7 31 C 6.277344 30.988281 5.609375 31.367188 5.246094 31.992188 C 4.878906 32.613281 4.878906 33.386719 5.246094 34.007813 C 5.609375 34.632813 6.277344 35.011719 7 35 L 15 35 L 15 43 C 14.988281 43.722656 15.367188 44.390625 15.992188 44.753906 C 16.613281 45.121094 17.386719 45.121094 18.007813 44.753906 C 18.632813 44.390625 19.011719 43.722656 19 43 L 19 31 Z M 31 31 L 31 43 C 30.988281 43.722656 31.367188 44.390625 31.992188 44.753906 C 32.613281 45.121094 33.386719 45.121094 34.007813 44.753906 C 34.632813 44.390625 35.011719 43.722656 35 43 L 35 35 L 43 35 C 43.722656 35.011719 44.390625 34.632813 44.753906 34.007813 C 45.121094 33.386719 45.121094 32.613281 44.753906 31.992188 C 44.390625 31.367188 43.722656 30.988281 43 31 Z"/></svg>
+          </div>
+        </span>
+        
+        <div class="modal__icon modal__arrow modal__arrow--left" title="Arrow Left" aria-label="Arrow Left Button">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="28" height="28"><path fill="currentColor" d="M 23.28125 11 L 10 10 L 10 6.851563 C 10 6.523438 9.839844 6.277344 9.519531 6.03125 C 9.199219 5.949219 8.878906 5.949219 8.640625 6.113281 C 5.359375 8.410156 2.238281 12.257813 2.160156 12.421875 C 2.082031 12.578125 2.007813 12.8125 2.003906 12.976563 C 2.003906 12.980469 2 12.988281 2 12.992188 C 2 13.15625 2.078125 13.402344 2.160156 13.484375 C 2.238281 13.648438 5.28125 17.507813 8.640625 19.804688 C 8.960938 19.96875 9.28125 20.050781 9.519531 19.886719 C 9.839844 19.722656 10 19.476563 10 19.148438 L 10 16 L 23.28125 15 C 23.679688 14.679688 24 13.875 24 12.992188 C 24 12.195313 23.761719 11.320313 23.28125 11 Z"/></svg>
+        </div>
+        
+        <div class="modal__icon modal__arrow modal__arrow--right" title="Arrow Right" aria-label="Arrow Right Button">
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="28" height="28"><path fill="currentColor" d="M 2.71875 11.023438 L 16 10.023438 L 16 6.875 C 16 6.546875 16.160156 6.300781 16.480469 6.054688 C 16.800781 5.972656 17.121094 5.972656 17.359375 6.136719 C 20.640625 8.433594 23.761719 12.28125 23.839844 12.445313 C 23.917969 12.601563 23.992188 12.835938 23.996094 13 C 23.996094 13.003906 24 13.011719 24 13.015625 C 24 13.179688 23.921875 13.425781 23.839844 13.507813 C 23.761719 13.671875 20.71875 17.53125 17.359375 19.828125 C 17.039063 19.992188 16.71875 20.074219 16.480469 19.910156 C 16.160156 19.746094 16 19.5 16 19.171875 L 16 16.023438 L 2.71875 15.023438 C 2.320313 14.703125 2 13.898438 2 13.015625 C 2 12.21875 2.238281 11.34375 2.71875 11.023438 Z"/></svg>
+        </div>
+
+        <div class="modal__caption">
+          <div class="modal__caption--text">
+          </div>
+        </div>
+
+      </span>
+    </div>
+  </div>
+</div>
+
+
+<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+
+<script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
+
+<script defer src="/js/helper/fadeinout.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  
+   
+  var docElem = document.documentElement;
+
+   
+  function openFullscreen() {
+    if (docElem.requestFullscreen) {
+      docElem.requestFullscreen();
+    } else if (docElem.mozRequestFullScreen) {  
+      docElem.mozRequestFullScreen();
+    } else if (docElem.webkitRequestFullscreen) {  
+      docElem.webkitRequestFullscreen();
+    } else if (docElem.msRequestFullscreen) {  
+      docElem.msRequestFullscreen();
+    }
+  }
+
+   
+  function closeFullscreen() {
+    if (document.fullscreenElement ||
+      document.webkitFullscreenElement ||
+      document.mozFullScreenElement) {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.mozCancelFullScreen) {  
+        document.mozCancelFullScreen();
+      } else if (document.webkitExitFullscreen) {  
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) {  
+        document.msExitFullscreen();
+      }
+    }
+  }
+
+  var modal = document.getElementById('modal');
+  var galleryContainerElem = document.querySelector('.gallery__container');
+  var swipeWrapElem = document.querySelector('.swipe-wrap');
+  var mySwipeElem = document.getElementById('mySwipe');
+  var arrowLeftElem = document.querySelector('.modal__arrow--left');
+  var arrowRightElem = document.querySelector('.modal__arrow--right');
+  var closeElem = document.querySelector('.modal__toolbar--close');
+  var fullElem = document.querySelector('.modal__toolbar--full');
+  var normalElem = document.querySelector('.modal__toolbar--normal');
+  var captionElem = document.querySelector('.modal__caption');
+  var pagingElem = document.querySelector('.modal__paging');
+  var itemsElem = document.querySelector('.modal__items');
+  var imgTotalNum = null;
+  var myFadeTimeout = null;
+  var mySwipe = null;
+  var keydownFunction = function (e) {
+    if (e.key === 'ArrowRight') {
+      if (modal && modal.classList.contains('is-open')) {
+        mySwipe.next();
+      }
+    } else if (e.key === 'ArrowLeft') {
+      if (modal && modal.classList.contains('is-open')) {
+        mySwipe.prev();
+      }
+    }
+  }
+
+  if (galleryContainerElem) {
+    imgTotalNum = galleryContainerElem.querySelectorAll('img').length;
+  } else {
+    galleryContainerElem = document.querySelector('.single__contents');
+    imgTotalNum = galleryContainerElem.querySelectorAll('img').length;
+  }
+
+  MicroModal.init({
+    onClose: function () {
+      if (mySwipe) {
+        mySwipe.kill();
+        mySwipe = null;
+        closeFullscreen();
+      }
+      window.removeEventListener('keydown', keydownFunction);
+    },
+    disableScroll: true,
+    disableFocus: true,
+    awaitOpenAnimation: false,
+    awaitCloseAnimation: false,
+    debugMode: false,
+  });
+
+  var imageLoad = function(src) {
+    return new Promise(function(resolve, reject) {
+      var newImg = new Image;
+      newImg.onload = function() {
+        resolve(newImg);
+      }
+      newImg.onerror = reject;
+      newImg.src = src;
+    });
+  }
+
+  galleryContainerElem.querySelectorAll('img').forEach(function (elem, idx) {
+    elem.style.cursor = 'pointer';
+
+    var clonedElem = elem.cloneNode(true);
+    clonedElem.style.maxHeight = '100%';
+    clonedElem.style.maxWidth = '100%';
+    clonedElem.onclick = function (e) {
+      e.stopPropagation();
+    }
+
+    var wrapper = document.createElement('div');
+    wrapper.style.width = '100%';
+    wrapper.style.height = '100vh';
+    wrapper.setAttribute('data-micromodal-close', '');
+    wrapper.onclick = function () {
+      if (mySwipe) {
+        mySwipe.kill();
+        mySwipe = null;
+      }
+    }
+    wrapper.onmouseenter = function () {
+      clearTimeout(myFadeTimeout);
+      fadeIn(itemsElem, 200);
+    };
+    wrapper.onmouseleave = function () {
+      myFadeTimeout = setTimeout(function () {
+        fadeOut(itemsElem, 200);
+      }, 2500);
+    }
+    wrapper.ontouchstart = function() {
+      fadeIn(itemsElem, 200);
+    }
+    wrapper.append(clonedElem);
+    swipeWrapElem.append(wrapper);
+
+    elem.addEventListener('click', async function (e) {
+      MicroModal.show('modal');
+      if (mySwipe) {
+        mySwipe.kill();
+        mySwipe = null;
+      }
+
+      var imgSrc = e.target.getAttribute('data-src') || e.target.getAttribute('src');
+      var img = await imageLoad(imgSrc);
+      clonedElem.style.width = img.width + 'px';
+      clonedElem.style.height = img.height + 'px';
+      
+      
+      mySwipe = new Swipe(mySwipeElem, {
+        startSlide: idx,
+        draggable: true,
+        autoRestart: false,
+        continuous: false,
+        disableScroll: true,
+        stopPropagation: true,
+        callback: async function (index, element) {
+          
+          var imgElem = element.querySelector('img');
+          var imgSrc = imgElem.getAttribute('data-src') || imgElem.getAttribute('src');
+          var img = await imageLoad(imgSrc);
+          imgElem.style.width = img.width + 'px';
+          imgElem.style.height = img.height + 'px';
+
+          
+          if (captionElem && imgElem) {
+            var caption = null;
+            if (imgElem.getAttribute('data-caption')) {
+              caption = imgElem.getAttribute('data-caption');
+            } else if (imgElem.getAttribute('title')) {
+              caption = imgElem.getAttribute('title');
+            } else if (imgElem.getAttribute('alt')) {
+              caption = imgElem.getAttribute('alt');
+            } else {
+              caption = imgElem.getAttribute('src');
+            }
+
+            captionElem.querySelector('.modal__caption--text').innerText = caption;
+            pagingElem.innerText = (index + 1) + ' / ' + imgTotalNum;
+
+            clearTimeout(myFadeTimeout);
+            fadeIn(itemsElem, 200);
+          }
+        },
+      });
+
+      fadeIn(itemsElem);
+
+      
+      if (captionElem) {
+        var caption = null;
+        if (e.target.getAttribute('data-caption')) {
+          caption = e.target.getAttribute('data-caption');
+        } else if (e.target.getAttribute('title')) {
+          caption = e.target.getAttribute('title');
+        } else if (e.target.getAttribute('alt')) {
+          caption = e.target.getAttribute('alt');
+        } else {
+          caption = e.target.getAttribute('src');
+        }
+
+        captionElem.querySelector('.modal__caption--text').innerText = caption;
+        pagingElem.innerText = (idx + 1) + ' / ' + imgTotalNum;
+      }
+
+      if (normalElem && fullElem) {
+        normalElem.style.zIndex = -1;
+        normalElem.style.opacity = 0;
+        fullElem.style.zIndex = 25;
+        fullElem.style.opacity = 1;
+      }
+    });
+
+    window.addEventListener('keydown', keydownFunction);
+  });
+
+  arrowLeftElem ?
+    arrowLeftElem.addEventListener('click', function (e) {
+      if (mySwipe) {
+        mySwipe.prev();
+      }
+    }) : null;
+  arrowRightElem ?
+    arrowRightElem.addEventListener('click', function (e) {
+      if (mySwipe) {
+        mySwipe.next();
+      }
+    }) : null;
+
+  closeElem ?
+    closeElem.addEventListener('click', function () {
+      if (mySwipe) {
+        mySwipe.kill();
+        mySwipe = null;
+      }
+      closeFullscreen();
+      MicroModal.close('modal');
+    }) : null;
+
+  fullElem ?
+    fullElem.addEventListener('click', function (e) {
+      openFullscreen();
+      if (normalElem) {
+        normalElem.style.zIndex = 25;
+        normalElem.style.opacity = 1;
+        fullElem.style.zIndex = -1;
+        fullElem.style.opacity = 0;
+      }
+    }) : null;
+
+  normalElem ?
+    normalElem.addEventListener('click', function (e) {
+      closeFullscreen();
+      if (fullElem) {
+        fullElem.style.zIndex = 25;
+        fullElem.style.opacity = 1;
+        normalElem.style.zIndex = -1;
+        normalElem.style.opacity = 0;
+      }
+    }) : null;
+  
+});
+</script>
+
+    <div class="hide">
+      
+
+<div class="search">
+  <span class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+  </span>
+  <input id="search" aria-label="Site Search" class="input" type="text" placeholder="Search" autocomplete="off">
+  <div id="search-results" class="dropdown">
+    <div id="search-menu" class="dropdown-menu" role="menu">
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</main>
+
+
+<script>
+  
+  
+  
+
+  var enableToc = JSON.parse("true");
+  var toc = JSON.parse("null");
+  var tocPosition = JSON.parse("\"outer\"");
+  
+  var singleMainElem = document.querySelector('.single__main');
+  var singleSideElem = document.querySelector('.single__side');
+
+  enquire.register("screen and (max-width: 769px)", {
+    match: function () {
+      if ((enableToc || toc) && tocPosition !== "outer") {
+        if (singleMainElem && singleSideElem) {
+          singleMainElem.classList.remove('main-main');
+          singleMainElem.classList.add('main');
+          singleSideElem.classList.remove('main-side');
+          singleSideElem.classList.add('hide');
+        }
+      } else if (tocPosition === "outer") {
+        if (singleMainElem && !singleMainElem.classList.contains('main-main')) {
+          singleMainElem.classList.remove('main-main');
+          singleMainElem.classList.add('main');
+        }
+        if (singleSideElem && !singleSideElem.classList.contains('hide')) {
+          singleSideElem.classList.add('hide');
+        }
+      }
+    },
+    unmatch: function () {
+      if ((enableToc || toc) && tocPosition !== "outer") {
+        singleMainElem.classList.remove('main');
+        singleMainElem.classList.add('main-main');
+        singleSideElem.classList.remove('hide');
+        singleSideElem.classList.add('main-side');
+      } else if (tocPosition === "outer") {
+        if (singleMainElem && !singleMainElem.classList.contains('main-main')) {
+          singleMainElem.classList.remove('main-main');
+          singleMainElem.classList.add('main');
+        }
+        if (singleSideElem && !singleSideElem.classList.contains('hide')) {
+          singleSideElem.classList.add('hide');
+        }
+      }
+
+      var navCollapseBtn = document.querySelector('.navbar__burger');
+      var navCollapse = document.getElementsByClassName('navbarm__collapse')[0];
+      if (navCollapse) {
+        navCollapse.setAttribute('data-open', false);
+        navCollapse.style.maxHeight = 0;
+        navCollapseBtn.classList.remove('is-active');
+      }
+      document.getElementsByClassName('navbar__menu')[0].classList.remove('is-active');
+      document.getElementsByClassName('mobile-search')[0].classList.add('hide');
+    },
+    setup: function () { },
+    deferSetup: true,
+    destroy: function () { },
+  });
+</script>
+
+
+
+
+<script defer src="/js/clipboard.min.c168d3a04c45a631be76437054619a4a3b30107960cb9730be96012fef5762b0.js"></script>
+
+<script defer src="/js/helper/getParents.min.js"></script>
+
+<script defer src="/js/helper/closest.min.js"></script>
+
+<script defer src="/js/helper/prev.min.js"></script>
+
+<script defer src="/js/helper/prop.min.js"></script>
+
+<script defer src="/js/helper/fadeinout.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  'use strict';
+
+  window.onload = function() {
+    var navbar = document.querySelector('.navbar');
+    var singleContentsElem = document.querySelector('.single__contents');
+
+    
+    
+    
+    var enableBusuanzi = JSON.parse("false");
+    var busuanziPagePV = JSON.parse("true");
+    
+    if (enableBusuanzi && busuanziPagePV) {
+      var pagePvElem = document.querySelector('#busuanzi_value_page_pv');
+      pagePvElem.textContent = pagePvElem.textContent.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+    }    
+    
+
+
+    
+    
+    
+    
+    
+    
+    var enableToc = JSON.parse("true");
+    var toc = JSON.parse("null");
+    var hideToc = JSON.parse("false");
+    var tocFlexbox = document.querySelector('.toc__flexbox');
+    var tocFlexboxOuter = document.querySelector('.toc__flexbox--outer');
+    var tocFolding = JSON.parse("true");
+    
+    if ((enableToc || toc) && document.querySelector('.toc')) {
+      var tableOfContentsElem = document.querySelector('.toc').querySelector('#TableOfContents');
+
+      if (false === tocFolding) {
+
+      } else {
+        tableOfContentsElem.querySelectorAll('ul') ?
+          tableOfContentsElem.querySelectorAll('ul').forEach(function (rootUl) {
+            rootUl.querySelectorAll('li').forEach(function (liElem) {
+              liElem.querySelectorAll('ul').forEach(function (ulElem) {
+                ulElem.style.display = 'none';
+              });
+            });
+          }) : null;
+      }
+
+      if (tableOfContentsElem) {
+        if (tableOfContentsElem.querySelectorAll('a').length > 0) {
+          tableOfContentsElem.querySelectorAll('a').forEach(function (elem) {
+            elem.addEventListener('click', function () {
+              var id = elem.getAttribute('id');
+              navbar.classList.remove('navbar--show');
+              navbar.classList.remove('navbar--hide');
+              navbar.classList.add('navbar--hide');
+
+              document.querySelector('.toc').querySelectorAll('a').forEach(function (elem) {
+                elem.classList.remove('active');
+              });
+              elem.classList.add('active');
+
+              var curElem = tableOfContentsElem.querySelector('[href="#' + id + '"]');
+              if (curElem && curElem.nextElementSibling) {
+                curElem.nextElementSibling.style.display = 'block';
+              }
+              if (curElem) {
+                getParents(curElem, 'ul') ?
+                  getParents(curElem, 'ul').forEach(function (elem) {
+                    elem.style.display = 'block';
+                  }) : null;
+              }
+            });
+          });
+        } else {
+          if (tocFlexbox) {
+            tocFlexbox.setAttribute('data-position', '');
+            if (!tocFlexbox.classList.contains('hide')) {
+              tocFlexbox.classList.add('hide');
+            }
+          }
+          if (tocFlexboxOuter) {
+            tocFlexboxOuter.setAttribute('data-position', '');
+            if (!tocFlexboxOuter.classList.contains('hide')) {
+              tocFlexboxOuter.classList.add('hide');
+            }
+          }
+        }
+      }
+
+      
+      var toggleTocElem = document.getElementById("toggle-toc");
+      var visibleTocElem = document.getElementById('visible-toc');
+      var tocElem = document.querySelector('.toc');
+      var mainElem = document.querySelector('main');
+      var sideElem = document.querySelector('side');
+      var tocFlexboxElem = document.querySelector('.toc__flexbox');
+
+      toggleTocElem ? 
+      toggleTocElem.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          if (tocElem) {
+            fadeIn(tocElem, 200);
+          }
+          if (tocFlexboxElem) {
+            tocFlexboxElem.setAttribute('data-position', 'fixed');
+          }
+
+          if (mainElem) {
+            mainElem.classList.remove('main-main');
+            mainElem.classList.remove('main');
+            mainElem.classList.add('main-main');
+          }
+          if (sideElem) {
+            sideElem.classList.remove('main-side');
+          }
+        } else {
+          if (tocElem) {
+            fadeOut(tocElem, 200);
+          }
+          if (tocFlexboxElem) {
+            tocFlexboxElem.setAttribute('data-position', 'absolute');
+          }
+
+          if (mainElem) {
+            mainElem.classList.remove('main-main');
+            mainElem.classList.remove('main');
+            mainElem.classList.add('main');
+          }
+          if (sideElem) {
+            sideElem.classList.remove('main-side');
+          }
+        }
+      }) : null;
+
+      visibleTocElem ?
+      visibleTocElem.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          if (tocElem) {
+            fadeIn(tocElem, 200);
+          }
+        } else {
+          if (tocElem) {
+            fadeOut(tocElem, 200);
+          }
+        }
+      }) : null;
+    }
+    
+
+
+    
+    var tables = document.querySelectorAll('.single__contents > table');
+    for (let i = 0; i < tables.length; i++) {
+      var table = tables[i];
+      var wrapper = document.createElement('div');
+      wrapper.className = 'table-wrapper';
+      table.parentElement.replaceChild(wrapper, table);
+      wrapper.appendChild(table);
+    }
+    
+
+
+    
+    var text, clip = new ClipboardJS('.anchor');
+    var headers = singleContentsElem.querySelectorAll("h1, h2, h3, h4");
+
+    
+    var languagedir = JSON.parse("\"ltr\"");
+
+    headers ? 
+    headers.forEach(function (elem) {
+      var url = encodeURI(document.location.origin + document.location.pathname);
+      var link = url + "#" + elem.getAttribute('id');
+      var newElemOuter = document.createElement('span');
+      newElemOuter.classList.add('anchor');
+      newElemOuter.classList.add('hide');
+      newElemOuter.setAttribute('data-clipboard-text', link);
+      newElemOuter.style.position = 'relative';
+
+      var newElemInner = document.createElement('span');
+      newElemInner.style.fontSize = '1rem';
+      newElemInner.style.position = 'absolute';
+      newElemInner.style.top = '50%';
+      newElemInner.style.transform = 'translateY(-50%)';
+      newElemInner.innerText = "🔗";
+
+      if (languagedir === "rtl") {
+        newElemInner.style.left = '-2rem';
+      } else {
+        newElemInner.style.right = '-2rem';
+      }
+
+      newElemOuter.append(newElemInner);
+      elem.append(newElemOuter);
+
+      elem.addEventListener('mouseenter', function() {
+        this.querySelector('.anchor').classList.remove('hide');
+      });
+      elem.addEventListener('mouseleave', function () {
+        this.querySelector('.anchor').classList.add('hide');
+      });
+    }) : null;
+
+    document.querySelectorAll('.anchor').forEach(function(elem) {
+      elem.addEventListener('mouseleave', function() {
+        elem.setAttribute('aria-label', null);
+        elem.classList.remove('tooltipped');
+        elem.classList.remove('tooltipped-s');
+        elem.classList.remove('tooltipped-w');
+      });
+    });
+
+    clip.on('success', function (e) {
+      e.clearSelection();
+      e.trigger.setAttribute('aria-label', 'Link copied to clipboard!');
+      e.trigger.classList.add('tooltipped');
+      e.trigger.classList.add('tooltipped-s');
+    });
+    
+
+
+    
+    var clipInit = false;
+    var preChromaElem = document.querySelectorAll('pre.chroma');
+    var langCodeElem = document.querySelectorAll('.language-code');
+    var dolorCodeElem = document.querySelectorAll('div.language-\\$');
+    var gtCodeElem = document.querySelectorAll('div.language-\\>');
+
+    var makeClipboard = function(elem) {
+      var code = elem,
+        text = elem.textContent;
+        
+      if (text.length > 15) {
+        if (!clipInit) {
+          var text, clip = new ClipboardJS('.copy-to-clipboard', {
+            text: function (trigger) {
+              var codeElem = prev(trigger).querySelectorAll('code');
+              if (codeElem.length > 1) {
+                text = prev(trigger).querySelector('code[class^="language-"]').textContent;
+              } else {
+                text = prev(trigger).querySelector('code').textContent;
+              }
+
+              return text.replace(/^\$\s/gm, '');
+            }
+          });
+
+          var inPre;
+          clip.on('success', function (e) {
+            e.clearSelection();
+            inPre = prop(e.trigger.parentNode, 'tagName') == 'PRE';
+            e.trigger.setAttribute('aria-label', 'Copied to clipboard!');
+            e.trigger.classList.add('tooltipped');
+            e.trigger.classList.add('tooltipped-w');
+          });
+
+          clip.on('error', function (e) {
+            inPre = prop(e.trigger.parentNode, 'tagName') == 'PRE';
+            e.trigger.setAttribute('aria-label', e.action.toString());
+            e.trigger.classList.add('tooltipped');
+            e.trigger.classList.add('tooltipped-w');
+          });
+
+          clipInit = true;
+        }
+
+        var notAllowedClass = ['language-mermaid', 'language-viz', 'language-wave', 'language-chart', 'language-msc', 'language-flowchart'];
+        var isNotAllowedIncluded = false;
+        var curClassName = code.getAttribute('class');
+
+        for (var i = 0; i < notAllowedClass.length; i++) {
+          if (curClassName && curClassName.startsWith(notAllowedClass[i])) {
+            isNotAllowedIncluded = true;
+            break;
+          }
+        }
+
+        if (!isNotAllowedIncluded) {
+          if (curClassName) {
+            var newClipboardElem = document.createElement('span');
+            newClipboardElem.setAttribute('class', 'copy-to-clipboard');
+            newClipboardElem.setAttribute('title', 'Copy to clipboard');
+            closest(code, 'div.chroma').append(newClipboardElem);
+          }
+        }
+      }
+    }
+
+    var makeSymbolClipboard = function(elem) {
+      var clipboardSpan = document.createElement('span');
+      clipboardSpan.setAttribute('class', 'copy-to-clipboard');
+      clipboardSpan.setAttribute('title', 'Copy to clipboard');
+      elem.parentNode.parentNode.insertBefore(clipboardSpan, elem.parentNode.nextElementSibling);
+    }
+
+    preChromaElem ? 
+    preChromaElem.forEach(function(elem) {
+      elem.querySelectorAll('code').forEach(function(codeElem) {
+        makeClipboard(codeElem);
+      });
+    }) : null;
+    
+    langCodeElem ? 
+    langCodeElem.forEach(function(elem) {
+      elem.querySelectorAll('code').forEach(function (codeElem) {
+        makeClipboard(codeElem);
+      });
+    }) : null;
+
+    dolorCodeElem ? 
+    dolorCodeElem.forEach(function(elem) {
+      elem.querySelectorAll('code').forEach(function (codeElem) {
+        makeSymbolClipboard(codeElem);
+      });
+    }) : null;
+
+    gtCodeElem ?
+    gtCodeElem.forEach(function(elem) {
+      elem.querySelectorAll('code').forEach(function (codeElem) {
+        makeSymbolClipboard(codeElem);
+      });
+    }) : null;
+    
+
+
+    
+    dolorCodeElem ?
+    dolorCodeElem.forEach(function(elem) {
+      var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
+      lnts ? 
+      lnts.forEach(function(lnt) {
+        lnt.innerHTML = '$<br/>';
+      }) : null;
+    }) : null;
+
+    gtCodeElem ?
+    gtCodeElem.forEach(function(elem) {
+      var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
+      lnts ? 
+      lnts.forEach(function(lnt) {
+        lnt.innerHTML = '><br/>';
+      }) : null;
+    }) : null;
+    
+
+
+    
+    
+    var lib = JSON.parse("null");
+
+    if (lib && lib.includes('mermaid')) {
+      
+      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"dark\"");
+
+      if (themeVariant === "dark" || themeVariant === "hacker") {
+        mermaid.initialize({ theme: 'dark' });
+      } else {
+        mermaid.initialize({ theme: 'default' });
+      }
+      
+      var mermaids = [];
+      [].push.apply(mermaids, document.getElementsByClassName('language-mermaid'));
+      mermaids.forEach(function(elem) {
+        var elemParentNode = elem.parentNode;
+
+        if (elemParentNode !== document.body) {
+          elemParentNode.parentNode.insertBefore(elem, elemParentNode);
+          elemParentNode.parentNode.removeChild(elemParentNode);
+        }
+
+        var newElemWrapper = document.createElement('div');
+        newElemWrapper.classList.add('mermaid');
+        newElemWrapper.style.padding = '34px 4px 6px';
+        newElemWrapper.innerHTML = elem.innerHTML;
+        elem.replaceWith(newElemWrapper);
+      });
+    }
+    
+    
+
+    
+    if (lib && lib.includes('katex')) {
+      var mathElements = document.getElementsByClassName('math');
+      var options = {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false }
+        ],
+      };
+
+      renderMathInElement(document.querySelector('.single__contents'), options);
+    }
+    
+
+
+    
+    if (lib && lib.includes('flowchartjs')) {
+      
+      var options = JSON.parse("{\"arrow-end\":\"block\",\"element-color\":\"black\",\"fill\":\"white\",\"flowstate\":{\"approved\":{\"fill\":\"#58C4A3\",\"font-size\":12,\"no-text\":\"n/a\",\"yes-text\":\"APPROVED\"},\"current\":{\"fill\":\"yellow\",\"font-color\":\"red\",\"font-weight\":\"bold\"},\"future\":{\"fill\":\"#FFFF99\"},\"invalid\":{\"fill\":\"#444444\"},\"past\":{\"fill\":\"#CCCCCC\",\"font-size\":12},\"rejected\":{\"fill\":\"#C45879\",\"font-size\":12,\"no-text\":\"REJECTED\",\"yes-text\":\"n/a\"},\"request\":{\"fill\":\"blue\"}},\"font-color\":\"black\",\"font-size\":14,\"line-color\":\"black\",\"line-length\":50,\"line-width\":3,\"no-text\":\"no\",\"scale\":1,\"symbols\":{\"end\":{\"class\":\"end-element\"},\"start\":{\"element-color\":\"green\",\"fill\":\"yellow\",\"font-color\":\"red\"}},\"text-margin\":10,\"x\":0,\"y\":0,\"yes-text\":\"yes\"}");
+      var jsonContent = null;
+
+      var flowchartPrefix = "language-flowchart";
+      var index = 0;
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + flowchartPrefix + "]"), function(x){
+          x.style.display = 'none'
+          x.parentNode.style.backgroundColor = "transparent"
+          jsonContent = x.innerText;
+
+          var node0 = document.createElement('div');
+          node0.id = 'flowchart' + index;
+          x.parentNode.insertBefore(node0, x);
+
+          var diagram = flowchart.parse(jsonContent);
+          diagram.drawSVG("flowchart"+index, options);
+
+          index +=1;
+      });      
+    }
+    
+
+
+    
+    
+
+
+    
+    if (lib && lib.includes('msc')) {
+      
+      var options = JSON.parse("{\"theme\":\"hand\"}");
+      var jsonContent = null;
+
+      var index = 0;
+      var chartPrefix = "language-msc";
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + chartPrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        jsonContent = x.innerText;
+        var node0 = document.createElement('div');
+        node0.id = 'msc' + index;
+        x.parentNode.insertBefore(node0, x);
+        var diagram = Diagram.parse(jsonContent);
+        diagram.drawSVG("msc" + index, options);
+        index += 1;
+      });
+    }
+    
+
+
+    
+    if (lib && lib.includes('chart')) {
+      var borderColor = "#666";
+      var bgColor = "#ddd";
+      var borderWidth = 2;
+
+      Chart.defaults.global.elements.rectangle.borderWidth = borderWidth;
+      Chart.defaults.global.elements.rectangle.borderColor = borderColor;
+      Chart.defaults.global.elements.rectangle.backgroundColor = bgColor;
+
+      Chart.defaults.global.elements.line.borderWidth = borderWidth;
+      Chart.defaults.global.elements.line.borderColor = borderColor;
+      Chart.defaults.global.elements.line.backgroundColor = bgColor;
+
+      Chart.defaults.global.elements.point.borderWidth = borderWidth;
+      Chart.defaults.global.elements.point.borderColor = borderColor;
+      Chart.defaults.global.elements.point.backgroundColor = bgColor;
+
+      var chartPrefix = "language-chart";
+      var index = 0;
+      var jsonContent = null;
+
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + chartPrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        jsonContent = x.innerText;
+        var node0 = document.createElement('canvas');
+        var source = null;
+        node0.height = 200;
+        node0.style.height = 200;
+        node0.id = 'myChart' + index;
+        source = JSON.parse(jsonContent);
+        x.parentNode.insertBefore(node0, x);
+        var ctx = document.getElementById('myChart' + index).getContext('2d');
+        var myChart = new Chart(ctx, source);
+        index += 1;
+      });            
+    }
+    
+
+
+    
+    if (lib && lib.includes('wavedrom')) {
+      var wavePrefix = "language-wave";
+      var index = 0;
+      var jsonContent = null;
+      
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + wavePrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        jsonContent = x.innerText;
+        var node0 = document.createElement('div');
+        var source = null;
+        node0.id = 'WaveDrom_Display_' + index;
+        source = JSON.parse(jsonContent);
+        x.parentNode.insertBefore(node0, x);
+        WaveDrom.RenderWaveForm(index, source, "WaveDrom_Display_");
+        index += 1;
+      });
+    }
+    
+
+
+    
+    if (lib && lib.includes('viz')) {
+      var vizPrefix = "language-viz-";
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + vizPrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        var engine;
+        x.getAttribute("class").split(" ").forEach(function (cls) {
+          if (cls.startsWith(vizPrefix)) {
+            engine = cls.substr(vizPrefix.length);
+          }
+        });
+        var viz = new Viz();
+        viz.renderSVGElement(x.innerText, { engine: engine })
+          .then(function (element) {
+            element.style.width = "100%";
+            x.parentNode.insertBefore(element, x);
+          })
+      });
+    }
+    
+    
+  }
+</script>
+
+
+            
+            <footer class="footer">
+    
+<div class="dropdown">
+  <button class="dropdown-trigger" aria-label="Select Theme Button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M12.65 15.67c.14-.36.05-.77-.23-1.05l-2.09-2.06.03-.03c1.74-1.94 2.98-4.17 3.71-6.53h1.94c.54 0 .99-.45.99-.99v-.02c0-.54-.45-.99-.99-.99H10V3c0-.55-.45-1-1-1s-1 .45-1 1v1H1.99c-.54 0-.99.45-.99.99 0 .55.45.99.99.99h10.18C11.5 7.92 10.44 9.75 9 11.35c-.81-.89-1.49-1.86-2.06-2.88-.16-.29-.45-.47-.78-.47-.69 0-1.13.75-.79 1.35.63 1.13 1.4 2.21 2.3 3.21L3.3 16.87c-.4.39-.4 1.03 0 1.42.39.39 1.02.39 1.42 0L9 14l2.02 2.02c.51.51 1.38.32 1.63-.35zM17.5 10c-.6 0-1.14.37-1.35.94l-3.67 9.8c-.24.61.22 1.26.87 1.26.39 0 .74-.24.88-.61l.89-2.39h4.75l.9 2.39c.14.36.49.61.88.61.65 0 1.11-.65.88-1.26l-3.67-9.8c-.22-.57-.76-.94-1.36-.94zm-1.62 7l1.62-4.33L19.12 17h-3.24z"/></svg>
+  </button>
+  <div class="dropdown-content">
+    
+    
+    
+      
+      
+        
+        
+          
+            
+              <a href="https://hoontaeklee.github.io/en/posts/20240922_jena_wk210/" data-lang="en" class="dropdown-item is-active">English</a>
+            
+          
+        
+      
+        
+      
+    
+  </div>
+</div>
+
+    
+<div class="footer__social">
+  <div class="social">
+    
+            
+    
+            
+    
+            
+    
+      
+      <a href="mailto:lht3718@email.com" title="email" aria-label="email">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z"/></svg>
+      </a>
+            
+    
+            
+    
+            
+    
+      
+      <a href="https://github.com/hoontaeklee" title="github" aria-label="github">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 24 24" version="1.1">
+<g id="surface3680">
+<path fill="currentColor" d="M 10.898438 2.101562 C 6.300781 2.601562 2.601562 6.300781 2.101562 10.800781 C 1.601562 15.5 4.300781 19.699219 8.398438 21.300781 C 8.699219 21.398438 9 21.199219 9 20.800781 L 9 19.199219 C 9 19.199219 8.601562 19.300781 8.101562 19.300781 C 6.699219 19.300781 6.101562 18.101562 6 17.398438 C 5.898438 17 5.699219 16.699219 5.398438 16.398438 C 5.101562 16.300781 5 16.300781 5 16.199219 C 5 16 5.300781 16 5.398438 16 C 6 16 6.5 16.699219 6.699219 17 C 7.199219 17.800781 7.800781 18 8.101562 18 C 8.5 18 8.800781 17.898438 9 17.800781 C 9.101562 17.101562 9.398438 16.398438 10 16 C 7.699219 15.5 6 14.199219 6 12 C 6 10.898438 6.5 9.800781 7.199219 9 C 7.101562 8.800781 7 8.300781 7 7.601562 C 7 7.199219 7 6.601562 7.300781 6 C 7.300781 6 8.699219 6 10.101562 7.300781 C 10.601562 7.101562 11.300781 7 12 7 C 12.699219 7 13.398438 7.101562 14 7.300781 C 15.300781 6 16.800781 6 16.800781 6 C 17 6.601562 17 7.199219 17 7.601562 C 17 8.398438 16.898438 8.800781 16.800781 9 C 17.5 9.800781 18 10.800781 18 12 C 18 14.199219 16.300781 15.5 14 16 C 14.601562 16.5 15 17.398438 15 18.300781 L 15 20.898438 C 15 21.199219 15.300781 21.5 15.699219 21.398438 C 19.398438 19.898438 22 16.300781 22 12.101562 C 22 6.101562 16.898438 1.398438 10.898438 2.101562 Z M 10.898438 2.101562 "/>
+</g>
+</svg>
+
+      </a>
+            
+    
+            
+    
+            
+    
+      
+      <a href="https://scholar.google.co.kr/" title="google-scholar" aria-label="google-scholar">
+        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="32" height="32"><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 21 11 L 11 20 L 17.78125 20 C 17.80125 22.847 19.967531 25.730469 23.769531 25.730469 C 24.129531 25.730469 24.529688 25.690391 24.929688 25.650391 C 24.749688 26.100391 24.560547 26.470078 24.560547 27.080078 C 24.560547 28.230078 25.140391 28.920078 25.650391 29.580078 C 24.020391 29.690078 20.989766 29.879531 18.759766 31.269531 C 16.629766 32.559531 15.980469 34.43 15.980469 35.75 C 15.980469 38.47 18.500469 41 23.730469 41 C 29.930469 41 33.220703 37.510547 33.220703 34.060547 C 33.220703 31.530547 31.779453 30.279922 30.189453 28.919922 L 28.900391 27.890625 C 28.500391 27.570625 27.949219 27.120312 27.949219 26.320312 C 27.949219 25.510313 28.500703 24.989766 28.970703 24.509766 C 30.480703 23.309766 32 21.960234 32 19.240234 C 32 18.197234 31.756203 17.348391 31.408203 16.650391 L 35 13.570312 L 35 17.277344 C 34.405 17.623344 34 18.261 34 19 L 34 25 C 34 26.104 34.896 27 36 27 C 37.104 27 38 26.104 38 25 L 38 19 C 38 18.262 37.595 17.624344 37 17.277344 L 37 12 C 37 11.957 36.980609 11.920906 36.974609 11.878906 L 38 11 L 21 11 z M 24.269531 14.240234 C 27.269531 14.240234 28.820312 18.35 28.820312 21 C 28.820312 21.65 28.739922 22.819922 27.919922 23.669922 C 27.339922 24.259922 26.370938 24.699219 25.460938 24.699219 C 22.370938 24.699219 20.949219 20.620156 20.949219 18.160156 C 20.949219 17.210156 21.14 16.220938 21.75 15.460938 C 22.33 14.710938 23.339531 14.240234 24.269531 14.240234 z M 26.039062 30.609375 C 26.409063 30.609375 26.590859 30.610391 26.880859 30.650391 C 29.620859 32.630391 30.800781 33.620234 30.800781 35.490234 C 30.800781 37.760234 28.97 39.460938 25.5 39.460938 C 21.64 39.460938 19.160156 37.590469 19.160156 34.980469 C 19.160156 32.370469 21.459766 31.499219 22.259766 31.199219 C 23.769766 30.679219 25.719062 30.609375 26.039062 30.609375 z"/></svg>
+      </a>
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+      
+      <a href="https://stackoverflow.com/users/7578494/hoontaek" title="stack-overflow" aria-label="stack-overflow">
+        <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="32" height="32"><path fill="currentColor" d="M 9.914063 0.71875 L 9.085938 1.28125 L 11.894531 5.367188 L 12.71875 4.800781 Z M 7.695313 2.453125 L 7.039063 3.207031 L 10.917969 6.582031 L 11.574219 5.828125 Z M 6.226563 4.804688 L 5.773438 5.695313 L 10.210938 7.953125 L 10.664063 7.0625 Z M 5.363281 7.140625 L 5.136719 8.109375 L 9.976563 9.242188 L 10.203125 8.265625 Z M 3 9 L 3 14 L 12 14 L 12 9 L 11 9 L 11 13 L 4 13 L 4 9 Z M 5.03125 9.25 L 4.96875 10.25 L 9.972656 10.566406 L 10.035156 9.570313 Z M 5 11 L 5 12 L 10 12 L 10 11 Z"/></svg>
+      </a>
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+    
+  
+  
+    
+      <a href="https://hoontaeklee.github.io/en/posts//index.xml" type="application/rss+xml" title="RSS" aria-label="RSS Feed Link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle fill="currentColor" cx="6.18" cy="17.82" r="2.18"/><path fill="currentColor" d="M5.59 10.23c-.84-.14-1.59.55-1.59 1.4 0 .71.53 1.28 1.23 1.4 2.92.51 5.22 2.82 5.74 5.74.12.7.69 1.23 1.4 1.23.85 0 1.54-.75 1.41-1.59-.68-4.2-3.99-7.51-8.19-8.18zm-.03-5.71C4.73 4.43 4 5.1 4 5.93c0 .73.55 1.33 1.27 1.4 6.01.6 10.79 5.38 11.39 11.39.07.73.67 1.28 1.4 1.28.84 0 1.5-.73 1.42-1.56-.73-7.34-6.57-13.19-13.92-13.92z"/></svg>
+      </a>
+    
+  
+
+  </div>
+</div>
+
+    
+<div id="gtt">
+  <div class="gtt">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M8.12 14.71L12 10.83l3.88 3.88c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L12.7 8.71c-.39-.39-1.02-.39-1.41 0L6.7 13.3c-.39.39-.39 1.02 0 1.41.39.38 1.03.39 1.42 0z"/></svg>
+  </div>
+</div>
+
+    <hr />
+
+    <div class="basicflex">
+        
+            <a href="" class="footer__link" target="_blank" rel="noreferrer"></a>
+        
+            <a href="" class="footer__link" target="_blank" rel="noreferrer"></a>
+        
+    </div>
+
+    <div class="footer__poweredby">
+        
+                
+            <p class="caption">
+                
+                    ©2024, All Rights Reserved
+                
+            </p>
+        
+
+        
+            <p class="caption">Powered by <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zzo" target="_blank" rel="noreferrer">Zzo theme</a></p>
+        
+        
+    </div> 
+</footer>
+        </div>
+        
+<div class="wrapper__right hide" dir="ltr">
+  <script>document.querySelector('.wrapper__right').classList.remove('hide')</script>
+  
+    
+      
+        <div class="toc__flexbox--outer" data-position="fixed" data-dir="ltr" data-ani="true">
+          <h6 class="toc__title toc__title--outer" data-ani="true">What&#39;s on this Page</h6>
+          
+          <label class="switch" data-ani="true">
+            <input id="visible-toc" aria-label="Visible TOC" type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          
+        </div>
+        <div class="toc toc__outer " data-dir="ltr" data-folding="true" data-ani="true">
+          <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#이번-주는">이번 주는&hellip;</a></li>
+        <li><a href="#올리브-오일-박물관-해질녘-풍경-구경-마카스카">올리브 오일 박물관, 해질녘 풍경 구경, 마카스카</a></li>
+        <li><a href="#마카스카-하이킹-누갈-해변">마카스카 하이킹, 누갈 해변</a></li>
+        <li><a href="#밀젯">밀젯</a></li>
+        <li><a href="#두브로브니크">두브로브니크</a></li>
+        <li><a href="#코쿨라">코쿨라</a></li>
+        <li><a href="#뉘렘베르크">뉘렘베르크</a></li>
+        <li><a href="#모찌">모찌</a></li>
+        <li><a href="#다음-주는">다음 주는&hellip;</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+      
+    
+  
+</div>
+
+    </div>
+</body>
+
+</html>
