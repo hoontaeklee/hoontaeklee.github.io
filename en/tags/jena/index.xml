@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 19 Oct 2024 20:20:52 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2024 22:18:35 +0200</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 215</title>
+        <link>https://hoontaeklee.github.io/en/posts/20241020_jena_wk215/</link>
+        <pubDate>Sun, 20 Oct 2024 22:18:35 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 20 Oct 2024 22:18:35 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20241020_jena_wk215/</guid>
+        <description>이번 주는&amp;hellip; developing tws_nee_in_model (running the code&amp;hellip;) 2024. 10. 14. 월요일 춘휘는 화요일 점심 먹고 내려갈 예정. 김치찌개와 함께 먹고 싶다던 것 중 하나인 부대찌개를 끓여줬다. 2024. 10. 18. 금</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk215_009.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2024</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 214 (춘휘@예나)</title>
