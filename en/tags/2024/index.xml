@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 20 Oct 2024 22:18:35 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Oct 2024 10:29:55 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/2024/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 216</title>
+        <link>https://hoontaeklee.github.io/en/posts/20241027_jena_wk216/</link>
+        <pubDate>Sun, 27 Oct 2024 10:29:55 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 27 Oct 2024 10:29:55 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20241027_jena_wk216/</guid>
+        <description>이번 주는&amp;hellip; developing tws_nee_in_model 2024. 10. 18. 금요일 마틴과 미팅. 세 번째 챕터의 스토리라인이 어느 정도 정해지는 것 같다. 두세 가지 정도 더 보고 싶다. stronger sensitivity to Tair of GPP than of</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk216_003.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2024</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 215</title>
