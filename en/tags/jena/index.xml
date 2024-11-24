@@ -14,13 +14,77 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 10 Nov 2024 20:52:22 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 13:00:18 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 220</title>
+        <link>https://hoontaeklee.github.io/en/posts/20241124_jena_wk220/</link>
+        <pubDate>Sun, 24 Nov 2024 13:00:18 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 24 Nov 2024 13:00:18 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20241124_jena_wk220/</guid>
+        <description>이번 주는&amp;hellip; developing tws_nee_in_model vegpp_eval revision 두 번째 논문 리비전을 대략 끝냈어야 했는데, 뭔가 집중이 잘 되지 않았다. 리프레시. 2024. 11. 20. 수요일 오랜만에 MDI 미팅에서 발표를</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk220_012.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2024</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>In Jena: Week 219 (예나로 복귀)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20241124_jena_wk219/</link>
+        <pubDate>Sun, 24 Nov 2024 13:00:14 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 24 Nov 2024 13:00:14 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20241124_jena_wk219/</guid>
+        <description>이번 주는&amp;hellip; developing tws_nee_in_model 누나 생일 두 번째 논문 리뷰어들이 마이너 리비전을 요청했다. 나쁘지 않다. 2024. 11. 11. 월요일 예나로 돌아가기 전날. 춘휘가 저녁을 만들</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk219_009.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2024</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 218 (유로파 파크, 콜마르, Ravennaschlucht&amp;Titisee)</title>
