@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 22 Dec 2024 14:30:27 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2024 17:28:15 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/jena/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 225</title>
+        <link>https://hoontaeklee.github.io/en/posts/20241229_jena_wk225/</link>
+        <pubDate>Sun, 29 Dec 2024 17:28:15 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 29 Dec 2024 17:28:15 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20241229_jena_wk225/</guid>
+        <description>이번 주는&amp;hellip; vegpp_eval revision 크리스마스 2024. 12. 23. 월요일 크리스마스 때 갖고 놀 에버델 확장판, Spirecrest. 전에 춘휘 예나에 왔을 때 보드게임 카페에서 같이 해봤었고, 둘 다 마</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk225_002.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2024</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 224</title>
