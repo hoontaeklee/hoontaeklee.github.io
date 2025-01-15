@@ -14,13 +14,45 @@
     <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
     <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 05 Jan 2025 15:19:54 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 22:52:45 +0100</lastBuildDate>
     
         <atom:link href="https://hoontaeklee.github.io/en/tags/daily-life/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>In Jena: Week 227 (춘휘@예나)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20250113_jena_wk227/</link>
+        <pubDate>Mon, 13 Jan 2025 22:52:45 +0100</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Mon, 13 Jan 2025 22:52:45 +0100</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20250113_jena_wk227/</guid>
+        <description>이번 주는&amp;hellip; vegpp_eval revision tws_nee_in_model 춘휘@예나 I tried to run SINDBAD with LUE GPP formulation, not the TWUE one. There were significant variation among three repititions; the uncertain parameters include ones related to respiration, but need to check further. It would take some time to get this configuration ready for the next study. 2024. 01. 10.</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Jena_wk227_012.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>2025</category>
+            
+          
+            
+              <category>Daily Life</category>
+            
+          
+            
+              <category>Jena</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>In Jena: Week 226 (2025 새해)</title>
