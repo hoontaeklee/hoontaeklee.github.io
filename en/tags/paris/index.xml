@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Paris on bloght</title>
+    <link>https://hoontaeklee.github.io/en/tags/paris/</link>
+    <description>Recent content in Paris on bloght</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lht3718@gmail.com (Hoontaek Lee)</managingEditor>
+    <webMaster>lht3718@gmail.com (Hoontaek Lee)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 13 Jul 2025 20:05:19 +0200</lastBuildDate>
+    
+        <atom:link href="https://hoontaeklee.github.io/en/tags/paris/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>In Paris: Week 001 (파리로 이사)</title>
+        <link>https://hoontaeklee.github.io/en/posts/20250713_paris_wk001/</link>
+        <pubDate>Sun, 13 Jul 2025 20:05:19 +0200</pubDate>
+        <author>lht3718@gmail.com (Hoontaek Lee)</author>
+        <atom:modified>Sun, 13 Jul 2025 20:05:19 +0200</atom:modified>
+        <guid>https://hoontaeklee.github.io/en/posts/20250713_paris_wk001/</guid>
+        <description>이번 주는&amp;hellip; 파리로 이사 파리 연구소 출근 집 정리 주변 탐색 2025. 07. 07 월요일 이사가는 날. 아침에 차를 픽업해왔다. 먼저 모찌 캣타워랑 가방, 터널 장난감</description>
+        
+        <dc:creator>Hoontaek Lee</dc:creator>
+        <media:content url="https://hoontaeklee.github.ioimages/posts/meta/Paris_wk001_042.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Daily</category>
+            
+          
+            
+              <category>Life</category>
+            
+          
+            
+              <category>Paris</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
