@@ -3,33 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hoontaeklee.github.io/en/tags/2025/</loc>
+    <lastmod>2025-08-03T14:07:08+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hoontaeklee.github.io/en/posts/</loc>
-    <lastmod>2025-07-27T15:04:22+02:00</lastmod>
+    <lastmod>2025-08-03T14:07:08+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/daily/</loc>
-    <lastmod>2025-07-27T15:04:22+02:00</lastmod>
+    <lastmod>2025-08-03T14:07:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/posts/20250727_paris_wk003/</loc>
-    <lastmod>2025-07-27T15:04:22+02:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
+    <lastmod>2025-08-03T14:07:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hoontaeklee.github.io/en/tags/life/</loc>
-    <lastmod>2025-07-27T15:04:22+02:00</lastmod>
+    <loc>https://hoontaeklee.github.io/en/posts/20250803_paris_wk004/</loc>
+    <lastmod>2025-08-03T14:07:08+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/paris/</loc>
-    <lastmod>2025-07-27T15:04:22+02:00</lastmod>
+    <lastmod>2025-08-03T14:07:08+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://hoontaeklee.github.io/en/tags/</loc>
-    <lastmod>2025-07-27T15:04:22+02:00</lastmod>
+    <lastmod>2025-08-03T14:07:08+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -40,6 +45,16 @@
                 hreflang="en"
                 href="https://hoontaeklee.github.io/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/posts/20250727_paris_wk004/</loc>
+    <lastmod>2025-07-27T15:04:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoontaeklee.github.io/en/tags/life/</loc>
+    <lastmod>2025-07-27T15:04:22+02:00</lastmod>
   </url>
   
   <url>
@@ -150,16 +165,6 @@
   <url>
     <loc>https://hoontaeklee.github.io/en/posts/20250302_jena_wk234/</loc>
     <lastmod>2025-03-02T21:33:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/2025/</loc>
-    <lastmod>2025-02-23T19:57:27+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hoontaeklee.github.io/en/tags/daily-life/</loc>
-    <lastmod>2025-02-23T19:57:27+01:00</lastmod>
   </url>
   
   <url>
